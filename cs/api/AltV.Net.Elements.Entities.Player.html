@@ -117,7 +117,6 @@
     <div class="level2"><a class="xref" href="AltV.Net.Elements.Entities.WorldObject.html">WorldObject</a></div>
     <div class="level3"><a class="xref" href="AltV.Net.Elements.Entities.Entity.html">Entity</a></div>
     <div class="level4"><span class="xref">Player</span></div>
-      <div class="level5"><a class="xref" href="AltV.Net.Example.MyPlayer.html">MyPlayer</a></div>
   </div>
   <div classs="implements">
     <h5>Implements</h5>
@@ -2429,10 +2428,7 @@
   </div>
   <h3 id="extensionmethods">Extension Methods</h3>
   <div>
-      <a class="xref" href="AltV.Net.Resources.Chat.PlayerChat.html#AltV_Net_Resources_Chat_PlayerChat_SendChatMessage_AltV_Net_Elements_Entities_IPlayer_System_String_">PlayerChat.SendChatMessage(IPlayer, String)</a>
-  </div>
-  <div>
-      <a class="xref" href="AltV.Net.EntitySync.ServerEvent.PlayerClientExtensions.html#AltV_Net_EntitySync_ServerEvent_PlayerClientExtensions_TryGetEntitySyncClient_AltV_Net_Elements_Entities_IPlayer_AltV_Net_EntitySync_ServerEvent_PlayerClient__">PlayerClientExtensions.TryGetEntitySyncClient(IPlayer, out PlayerClient)</a>
+      <a class="xref" href="AltV.Net.NetworkingEntity.PlayerClientExtension.html#AltV_Net_NetworkingEntity_PlayerClientExtension_TryGetNetworkingClient_AltV_Net_Elements_Entities_IPlayer_AltV_Net_NetworkingEntity_Elements_Entities_INetworkingClient__">PlayerClientExtension.TryGetNetworkingClient(IPlayer, out INetworkingClient)</a>
   </div>
   <div>
       <a class="xref" href="AltV.Net.Async.AltAsync.html#AltV_Net_Async_AltAsync_ExistsAsync_AltV_Net_Elements_Entities_IBaseObject_">AltAsync.ExistsAsync(IBaseObject)</a>
@@ -2609,6 +2605,42 @@
       <a class="xref" href="AltV.Net.Async.AltAsync.html#AltV_Net_Async_AltAsync_EmitLocked_AltV_Net_Elements_Entities_IPlayer_System_String_System_Object___">AltAsync.EmitLocked(IPlayer, String, Object[])</a>
   </div>
   <div>
+      <a class="xref" href="AltV.Net.Resources.Chat.PlayerChat.html#AltV_Net_Resources_Chat_PlayerChat_SendChatMessage_AltV_Net_Elements_Entities_IPlayer_System_String_">PlayerChat.SendChatMessage(IPlayer, String)</a>
+  </div>
+  <div>
+      <a class="xref" href="AltV.Net.EntitySync.ServerEvent.PlayerClientExtensions.html#AltV_Net_EntitySync_ServerEvent_PlayerClientExtensions_TryGetEntitySyncClient_AltV_Net_Elements_Entities_IPlayer_AltV_Net_EntitySync_ServerEvent_PlayerClient__">PlayerClientExtensions.TryGetEntitySyncClient(IPlayer, out PlayerClient)</a>
+  </div>
+  <div>
+      <a class="xref" href="AltV.Net.Mock.MockClientEvents.html#AltV_Net_Mock_MockClientEvents_DequeueEvent_AltV_Net_Elements_Entities_IPlayer_">MockClientEvents.DequeueEvent(IPlayer)</a>
+  </div>
+  <div>
+      <a class="xref" href="AltV.Net.Mock.MockClientEvents.html#AltV_Net_Mock_MockClientEvents_On_AltV_Net_Elements_Entities_IPlayer_System_String_AltV_Net_Mock_MockClientEvents_ClientEventMockDelegate_">MockClientEvents.On(IPlayer, String, MockClientEvents.ClientEventMockDelegate)</a>
+  </div>
+  <div>
+      <a class="xref" href="AltV.Net.Mock.MockClientEvents.html#AltV_Net_Mock_MockClientEvents_On_AltV_Net_Elements_Entities_IPlayer_AltV_Net_Mock_MockClientEvents_ClientAnyEventMockDelegate_">MockClientEvents.On(IPlayer, MockClientEvents.ClientAnyEventMockDelegate)</a>
+  </div>
+  <div>
+      <a class="xref" href="AltV.Net.Mock.MockClientEvents.html#AltV_Net_Mock_MockClientEvents_CancelEvents_AltV_Net_Elements_Entities_IPlayer_">MockClientEvents.CancelEvents(IPlayer)</a>
+  </div>
+  <div>
+      <a class="xref" href="AltV.Net.Mock.MockPlayerEvents.html#AltV_Net_Mock_MockPlayerEvents_Disconnect_AltV_Net_Elements_Entities_IPlayer_System_String_">MockPlayerEvents.Disconnect(IPlayer, String)</a>
+  </div>
+  <div>
+      <a class="xref" href="AltV.Net.Mock.MockPlayerEvents.html#AltV_Net_Mock_MockPlayerEvents_Damage_AltV_Net_Elements_Entities_IPlayer_AltV_Net_Elements_Entities_IEntity_System_UInt32_System_Byte_">MockPlayerEvents.Damage(IPlayer, IEntity, UInt32, Byte)</a>
+  </div>
+  <div>
+      <a class="xref" href="AltV.Net.Mock.MockPlayerEvents.html#AltV_Net_Mock_MockPlayerEvents_Death_AltV_Net_Elements_Entities_IPlayer_AltV_Net_Elements_Entities_IEntity_System_UInt32_">MockPlayerEvents.Death(IPlayer, IEntity, UInt32)</a>
+  </div>
+  <div>
+      <a class="xref" href="AltV.Net.Mock.MockPlayerEvents.html#AltV_Net_Mock_MockPlayerEvents_EnterVehicle_AltV_Net_Elements_Entities_IPlayer_AltV_Net_Elements_Entities_IVehicle_System_Byte_">MockPlayerEvents.EnterVehicle(IPlayer, IVehicle, Byte)</a>
+  </div>
+  <div>
+      <a class="xref" href="AltV.Net.Mock.MockPlayerEvents.html#AltV_Net_Mock_MockPlayerEvents_LeaveVehicle_AltV_Net_Elements_Entities_IPlayer_AltV_Net_Elements_Entities_IVehicle_System_Byte_">MockPlayerEvents.LeaveVehicle(IPlayer, IVehicle, Byte)</a>
+  </div>
+  <div>
+      <a class="xref" href="AltV.Net.Mock.MockPlayerEvents.html#AltV_Net_Mock_MockPlayerEvents_ChangeSeat_AltV_Net_Elements_Entities_IPlayer_AltV_Net_Elements_Entities_IVehicle_System_Byte_">MockPlayerEvents.ChangeSeat(IPlayer, IVehicle, Byte)</a>
+  </div>
+  <div>
       <a class="xref" href="AltV.Net.Elements.Entities.BaseObjectExtensions.html#AltV_Net_Elements_Entities_BaseObjectExtensions_GetMetaData_AltV_Net_Elements_Entities_IBaseObject_System_String_System_Int32__">BaseObjectExtensions.GetMetaData(IBaseObject, String, out Int32)</a>
   </div>
   <div>
@@ -2649,39 +2681,6 @@
   </div>
   <div>
       <a class="xref" href="AltV.Net.Resources.Chat.Api.PlayerChatExtensions.html#AltV_Net_Resources_Chat_Api_PlayerChatExtensions_SendChatMessage_AltV_Net_Elements_Entities_IPlayer_System_String_">PlayerChatExtensions.SendChatMessage(IPlayer, String)</a>
-  </div>
-  <div>
-      <a class="xref" href="AltV.Net.Mock.MockClientEvents.html#AltV_Net_Mock_MockClientEvents_DequeueEvent_AltV_Net_Elements_Entities_IPlayer_">MockClientEvents.DequeueEvent(IPlayer)</a>
-  </div>
-  <div>
-      <a class="xref" href="AltV.Net.Mock.MockClientEvents.html#AltV_Net_Mock_MockClientEvents_On_AltV_Net_Elements_Entities_IPlayer_System_String_AltV_Net_Mock_MockClientEvents_ClientEventMockDelegate_">MockClientEvents.On(IPlayer, String, MockClientEvents.ClientEventMockDelegate)</a>
-  </div>
-  <div>
-      <a class="xref" href="AltV.Net.Mock.MockClientEvents.html#AltV_Net_Mock_MockClientEvents_On_AltV_Net_Elements_Entities_IPlayer_AltV_Net_Mock_MockClientEvents_ClientAnyEventMockDelegate_">MockClientEvents.On(IPlayer, MockClientEvents.ClientAnyEventMockDelegate)</a>
-  </div>
-  <div>
-      <a class="xref" href="AltV.Net.Mock.MockClientEvents.html#AltV_Net_Mock_MockClientEvents_CancelEvents_AltV_Net_Elements_Entities_IPlayer_">MockClientEvents.CancelEvents(IPlayer)</a>
-  </div>
-  <div>
-      <a class="xref" href="AltV.Net.Mock.MockPlayerEvents.html#AltV_Net_Mock_MockPlayerEvents_Disconnect_AltV_Net_Elements_Entities_IPlayer_System_String_">MockPlayerEvents.Disconnect(IPlayer, String)</a>
-  </div>
-  <div>
-      <a class="xref" href="AltV.Net.Mock.MockPlayerEvents.html#AltV_Net_Mock_MockPlayerEvents_Damage_AltV_Net_Elements_Entities_IPlayer_AltV_Net_Elements_Entities_IEntity_System_UInt32_System_Byte_">MockPlayerEvents.Damage(IPlayer, IEntity, UInt32, Byte)</a>
-  </div>
-  <div>
-      <a class="xref" href="AltV.Net.Mock.MockPlayerEvents.html#AltV_Net_Mock_MockPlayerEvents_Death_AltV_Net_Elements_Entities_IPlayer_AltV_Net_Elements_Entities_IEntity_System_UInt32_">MockPlayerEvents.Death(IPlayer, IEntity, UInt32)</a>
-  </div>
-  <div>
-      <a class="xref" href="AltV.Net.Mock.MockPlayerEvents.html#AltV_Net_Mock_MockPlayerEvents_EnterVehicle_AltV_Net_Elements_Entities_IPlayer_AltV_Net_Elements_Entities_IVehicle_System_Byte_">MockPlayerEvents.EnterVehicle(IPlayer, IVehicle, Byte)</a>
-  </div>
-  <div>
-      <a class="xref" href="AltV.Net.Mock.MockPlayerEvents.html#AltV_Net_Mock_MockPlayerEvents_LeaveVehicle_AltV_Net_Elements_Entities_IPlayer_AltV_Net_Elements_Entities_IVehicle_System_Byte_">MockPlayerEvents.LeaveVehicle(IPlayer, IVehicle, Byte)</a>
-  </div>
-  <div>
-      <a class="xref" href="AltV.Net.Mock.MockPlayerEvents.html#AltV_Net_Mock_MockPlayerEvents_ChangeSeat_AltV_Net_Elements_Entities_IPlayer_AltV_Net_Elements_Entities_IVehicle_System_Byte_">MockPlayerEvents.ChangeSeat(IPlayer, IVehicle, Byte)</a>
-  </div>
-  <div>
-      <a class="xref" href="AltV.Net.NetworkingEntity.PlayerClientExtension.html#AltV_Net_NetworkingEntity_PlayerClientExtension_TryGetNetworkingClient_AltV_Net_Elements_Entities_IPlayer_AltV_Net_NetworkingEntity_Elements_Entities_INetworkingClient__">PlayerClientExtension.TryGetNetworkingClient(IPlayer, out INetworkingClient)</a>
   </div>
 </article>
               
