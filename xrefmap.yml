@@ -58952,6 +58952,46 @@ references:
   commentId: T:AltV.Net.VehicleData.VehicleData
   fullName: AltV.Net.VehicleData.VehicleData
   nameWithType: VehicleData
+- uid: AltV.Net.VehicleData.VehicleData.ModKit
+  name: VehicleData.ModKit
+  href: cs/api/AltV.Net.VehicleData.VehicleData.ModKit.html
+  commentId: T:AltV.Net.VehicleData.VehicleData.ModKit
+  fullName: AltV.Net.VehicleData.VehicleData.ModKit
+  nameWithType: VehicleData.ModKit
+- uid: AltV.Net.VehicleData.VehicleData.ModKit.#ctor(System.UInt16,System.String,System.Collections.Generic.Dictionary{System.Byte,System.Byte[]})
+  name: ModKit(UInt16, String, Dictionary<Byte, Byte[]>)
+  href: cs/api/AltV.Net.VehicleData.VehicleData.ModKit.html#AltV_Net_VehicleData_VehicleData_ModKit__ctor_System_UInt16_System_String_System_Collections_Generic_Dictionary_System_Byte_System_Byte____
+  commentId: M:AltV.Net.VehicleData.VehicleData.ModKit.#ctor(System.UInt16,System.String,System.Collections.Generic.Dictionary{System.Byte,System.Byte[]})
+  name.vb: ModKit(UInt16, String, Dictionary(Of Byte, Byte()))
+  fullName: AltV.Net.VehicleData.VehicleData.ModKit.ModKit(System.UInt16, System.String, System.Collections.Generic.Dictionary<System.Byte, System.Byte[]>)
+  fullName.vb: AltV.Net.VehicleData.VehicleData.ModKit.ModKit(System.UInt16, System.String, System.Collections.Generic.Dictionary(Of System.Byte, System.Byte()))
+  nameWithType: VehicleData.ModKit.ModKit(UInt16, String, Dictionary<Byte, Byte[]>)
+  nameWithType.vb: VehicleData.ModKit.ModKit(UInt16, String, Dictionary(Of Byte, Byte()))
+- uid: AltV.Net.VehicleData.VehicleData.ModKit.#ctor*
+  name: ModKit
+  href: cs/api/AltV.Net.VehicleData.VehicleData.ModKit.html#AltV_Net_VehicleData_VehicleData_ModKit__ctor_
+  commentId: Overload:AltV.Net.VehicleData.VehicleData.ModKit.#ctor
+  isSpec: "True"
+  fullName: AltV.Net.VehicleData.VehicleData.ModKit.ModKit
+  nameWithType: VehicleData.ModKit.ModKit
+- uid: AltV.Net.VehicleData.VehicleData.ModKit.Id
+  name: Id
+  href: cs/api/AltV.Net.VehicleData.VehicleData.ModKit.html#AltV_Net_VehicleData_VehicleData_ModKit_Id
+  commentId: F:AltV.Net.VehicleData.VehicleData.ModKit.Id
+  fullName: AltV.Net.VehicleData.VehicleData.ModKit.Id
+  nameWithType: VehicleData.ModKit.Id
+- uid: AltV.Net.VehicleData.VehicleData.ModKit.Mods
+  name: Mods
+  href: cs/api/AltV.Net.VehicleData.VehicleData.ModKit.html#AltV_Net_VehicleData_VehicleData_ModKit_Mods
+  commentId: F:AltV.Net.VehicleData.VehicleData.ModKit.Mods
+  fullName: AltV.Net.VehicleData.VehicleData.ModKit.Mods
+  nameWithType: VehicleData.ModKit.Mods
+- uid: AltV.Net.VehicleData.VehicleData.ModKit.Name
+  name: Name
+  href: cs/api/AltV.Net.VehicleData.VehicleData.ModKit.html#AltV_Net_VehicleData_VehicleData_ModKit_Name
+  commentId: F:AltV.Net.VehicleData.VehicleData.ModKit.Name
+  fullName: AltV.Net.VehicleData.VehicleData.ModKit.Name
+  nameWithType: VehicleData.ModKit.Name
 - uid: AltV.Net.VehicleData.VehicleData.Parse(System.String)
   name: Parse(String)
   href: cs/api/AltV.Net.VehicleData.VehicleData.html#AltV_Net_VehicleData_VehicleData_Parse_System_String_
@@ -58965,22 +59005,6 @@ references:
   isSpec: "True"
   fullName: AltV.Net.VehicleData.VehicleData.Parse
   nameWithType: VehicleData.Parse
-- uid: AltV.Net.VehicleData.VehicleData.ProcessHeaderSequence(System.Buffers.ReadOnlySequence{System.Byte})
-  name: ProcessHeaderSequence(ReadOnlySequence<Byte>)
-  href: cs/api/AltV.Net.VehicleData.VehicleData.html#AltV_Net_VehicleData_VehicleData_ProcessHeaderSequence_System_Buffers_ReadOnlySequence_System_Byte__
-  commentId: M:AltV.Net.VehicleData.VehicleData.ProcessHeaderSequence(System.Buffers.ReadOnlySequence{System.Byte})
-  name.vb: ProcessHeaderSequence(ReadOnlySequence(Of Byte))
-  fullName: AltV.Net.VehicleData.VehicleData.ProcessHeaderSequence(System.Buffers.ReadOnlySequence<System.Byte>)
-  fullName.vb: AltV.Net.VehicleData.VehicleData.ProcessHeaderSequence(System.Buffers.ReadOnlySequence(Of System.Byte))
-  nameWithType: VehicleData.ProcessHeaderSequence(ReadOnlySequence<Byte>)
-  nameWithType.vb: VehicleData.ProcessHeaderSequence(ReadOnlySequence(Of Byte))
-- uid: AltV.Net.VehicleData.VehicleData.ProcessHeaderSequence*
-  name: ProcessHeaderSequence
-  href: cs/api/AltV.Net.VehicleData.VehicleData.html#AltV_Net_VehicleData_VehicleData_ProcessHeaderSequence_
-  commentId: Overload:AltV.Net.VehicleData.VehicleData.ProcessHeaderSequence
-  isSpec: "True"
-  fullName: AltV.Net.VehicleData.VehicleData.ProcessHeaderSequence
-  nameWithType: VehicleData.ProcessHeaderSequence
 - uid: AltV.Net.VehicleData.VehicleData.VehicleModel
   name: VehicleData.VehicleModel
   href: cs/api/AltV.Net.VehicleData.VehicleData.VehicleModel.html

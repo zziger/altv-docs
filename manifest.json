@@ -6676,11 +6676,23 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "coreclr-module/docs/api/AltV.Net.VehicleData.VehicleData.ModKit.yml",
+      "output": {
+        ".html": {
+          "relative_path": "cs/api/AltV.Net.VehicleData.VehicleData.ModKit.html",
+          "hash": "bRAISndn/TGYYhRjPxBgyg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "coreclr-module/docs/api/AltV.Net.VehicleData.VehicleData.VehicleModel.yml",
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.VehicleData.VehicleData.VehicleModel.html",
-          "hash": "D3ji4GHPwihkXHfEtmizQw=="
+          "hash": "CALsNX/z432+GwqGhe5MXQ=="
         }
       },
       "is_incremental": false,
@@ -6692,7 +6704,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.VehicleData.VehicleData.html",
-          "hash": "pG7RCxw0eGjJ8G1qo+qHsg=="
+          "hash": "u0nSkUMS6hp9yfmzdt3wpQ=="
         }
       },
       "is_incremental": false,
@@ -6704,7 +6716,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.VehicleData.html",
-          "hash": "SUxufBICEeC5eoS+I7+Fng=="
+          "hash": "uaRVJ/Y6Tb3fwsf5r8HnSw=="
         }
       },
       "is_incremental": false,
@@ -6740,7 +6752,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/toc.html",
-          "hash": "X+r7pKYtgM2tsthLqkqHzA=="
+          "hash": "qVZc/MrchUnLdj5sztlQEw=="
         }
       },
       "is_incremental": false,
@@ -7221,7 +7233,7 @@
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 484,
+          "total_file_count": 485,
           "skipped_file_count": 0
         },
         "ResourceDocumentProcessor": {

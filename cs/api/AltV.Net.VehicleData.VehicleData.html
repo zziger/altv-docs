@@ -97,7 +97,7 @@
                                 <a href="https://github.com/FabianTerhorst/coreclr-module/new/master/docs/apidoc/new?filename=AltV_Net_VehicleData_VehicleData.md&amp;value=---%0Auid%3A%20AltV.Net.VehicleData.VehicleData%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
                               </li>
                               <li>
-                                <a href="https://github.com/FabianTerhorst/coreclr-module/blob/master/api/AltV.Net.VehicleData/VehicleData.cs/#L12" class="contribution-link">View Source</a>
+                                <a href="https://github.com/FabianTerhorst/coreclr-module/blob/master/api/AltV.Net.VehicleData/VehicleData.cs/#L7" class="contribution-link">View Source</a>
                               </li>
                             </ul>
                           </div>
@@ -152,7 +152,7 @@
     <a href="https://github.com/FabianTerhorst/coreclr-module/new/master/docs/apidoc/new?filename=AltV_Net_VehicleData_VehicleData_Parse_System_String_.md&amp;value=---%0Auid%3A%20AltV.Net.VehicleData.VehicleData.Parse(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/FabianTerhorst/coreclr-module/blob/master/api/AltV.Net.VehicleData/VehicleData.cs/#L18">View Source</a>
+    <a href="https://github.com/FabianTerhorst/coreclr-module/blob/master/api/AltV.Net.VehicleData/VehicleData.cs/#L27">View Source</a>
   </span>
   <a id="AltV_Net_VehicleData_VehicleData_Parse_" data-uid="AltV.Net.VehicleData.VehicleData.Parse*"></a>
   <h4 id="AltV_Net_VehicleData_VehicleData_Parse_System_String_" data-uid="AltV.Net.VehicleData.VehicleData.Parse(System.String)">Parse(String)</h4>
@@ -160,7 +160,7 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Task&lt;List&lt;VehicleData.VehicleModel&gt;&gt; Parse(string path)</code></pre>
+    <pre><code class="lang-csharp hljs">public List&lt;VehicleData.ModKit&gt; Parse(string fileName)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -174,7 +174,7 @@
     <tbody>
       <tr>
         <td><span class="xref">System.String</span></td>
-        <td><span class="parametername">path</span></td>
+        <td><span class="parametername">fileName</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -189,54 +189,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Threading.Tasks.Task</span>&lt;<span class="xref">System.Collections.Generic.List</span>&lt;<a class="xref" href="AltV.Net.VehicleData.VehicleData.VehicleModel.html">VehicleData.VehicleModel</a>&gt;&gt;</td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/FabianTerhorst/coreclr-module/new/master/docs/apidoc/new?filename=AltV_Net_VehicleData_VehicleData_ProcessHeaderSequence_System_Buffers_ReadOnlySequence_System_Byte__.md&amp;value=---%0Auid%3A%20AltV.Net.VehicleData.VehicleData.ProcessHeaderSequence(System.Buffers.ReadOnlySequence%7BSystem.Byte%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/FabianTerhorst/coreclr-module/blob/master/api/AltV.Net.VehicleData/VehicleData.cs/#L96">View Source</a>
-  </span>
-  <a id="AltV_Net_VehicleData_VehicleData_ProcessHeaderSequence_" data-uid="AltV.Net.VehicleData.VehicleData.ProcessHeaderSequence*"></a>
-  <h4 id="AltV_Net_VehicleData_VehicleData_ProcessHeaderSequence_System_Buffers_ReadOnlySequence_System_Byte__" data-uid="AltV.Net.VehicleData.VehicleData.ProcessHeaderSequence(System.Buffers.ReadOnlySequence{System.Byte})">ProcessHeaderSequence(ReadOnlySequence&lt;Byte&gt;)</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public bool ProcessHeaderSequence(ReadOnlySequence&lt;byte&gt; sequence)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Buffers.ReadOnlySequence</span>&lt;<span class="xref">System.Byte</span>&gt;</td>
-        <td><span class="parametername">sequence</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="xref">System.Collections.Generic.List</span>&lt;<a class="xref" href="AltV.Net.VehicleData.VehicleData.ModKit.html">VehicleData.ModKit</a>&gt;</td>
         <td></td>
       </tr>
     </tbody>
