@@ -1363,6 +1363,9 @@ references:
 - uid: '@altmp/altv-types.alt-client.setMsPerGameMinute'
   name: setMsPerGameMinute(number)
   href: js/api/alt-client.html#_altmp_altv_types_alt_client_setMsPerGameMinute
+- uid: '@altmp/altv-types.alt-client.setRotationVelocity'
+  name: setRotationVelocity(number, number, number, number)
+  href: js/api/alt-client.html#_altmp_altv_types_alt_client_setRotationVelocity
 - uid: '@altmp/altv-types.alt-client.setStat'
   name: setStat(StatName, number)
   href: js/api/alt-client.html#_altmp_altv_types_alt_client_setStat
