@@ -414,6 +414,9 @@ references:
 - uid: '@altmp/altv-types.alt-client.HandlingData.getForHandlingName'
   name: getForHandlingName(number)
   href: js/api/alt-client.HandlingData.html#_altmp_altv_types_alt_client_HandlingData_getForHandlingName
+- uid: '@altmp/altv-types.alt-client.HandlingData.getForModelName'
+  name: getForModelName(number)
+  href: js/api/alt-client.HandlingData.html#_altmp_altv_types_alt_client_HandlingData_getForModelName
 - uid: '@altmp/altv-types.alt-client.HandlingData.handBrakeForce'
   name: handBrakeForce
   href: js/api/alt-client.HandlingData.html#_altmp_altv_types_alt_client_HandlingData_handBrakeForce
@@ -1257,7 +1260,7 @@ references:
   name: on<K extends keyof IClientEvent>(K, IClientEvent[K])
   href: js/api/alt-client.html#_altmp_altv_types_alt_client_on
 - uid: '@altmp/altv-types.alt-client.on_1'
-  name: 'on<S extends string>(Exclude<S, keyof IClientEvent>, (...args: any[]) => void)'
+  name: 'on<S extends string>(Exclude<S, keyof IClientEvent>, (...args: any[]) => void | Promise<void>)'
   href: js/api/alt-client.html#_altmp_altv_types_alt_client_on_1
 - uid: '@altmp/altv-types.alt-client.onServer'
   name: 'onServer(string, (...args: any[]) => void)'
@@ -2464,7 +2467,7 @@ references:
   name: on<K extends keyof IServerEvent>(K, IServerEvent[K])
   href: js/api/alt-server.html#_altmp_altv_types_alt_server_on
 - uid: '@altmp/altv-types.alt-server.on_1'
-  name: 'on<S extends string>(Exclude<S, keyof IServerEvent>, (...args: any[]) => boolean | void)'
+  name: 'on<S extends string>(Exclude<S, keyof IServerEvent>, (...args: any[]) => boolean | void | Promise<boolean | void>)'
   href: js/api/alt-server.html#_altmp_altv_types_alt_server_on_1
 - uid: '@altmp/altv-types.alt-server.onClient'
   name: 'onClient(string, (player: Player, ...args: any[]) => void)'
