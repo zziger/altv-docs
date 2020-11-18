@@ -3505,6 +3505,19 @@ references:
   isSpec: "True"
   fullName: AltV.Net.Alt.Assemblies
   nameWithType: Alt.Assemblies
+- uid: AltV.Net.Alt.AssemblyLoadContext
+  name: AssemblyLoadContext
+  href: cs/api/AltV.Net.Alt.html#AltV_Net_Alt_AssemblyLoadContext
+  commentId: P:AltV.Net.Alt.AssemblyLoadContext
+  fullName: AltV.Net.Alt.AssemblyLoadContext
+  nameWithType: Alt.AssemblyLoadContext
+- uid: AltV.Net.Alt.AssemblyLoadContext*
+  name: AssemblyLoadContext
+  href: cs/api/AltV.Net.Alt.html#AltV_Net_Alt_AssemblyLoadContext_
+  commentId: Overload:AltV.Net.Alt.AssemblyLoadContext
+  isSpec: "True"
+  fullName: AltV.Net.Alt.AssemblyLoadContext
+  nameWithType: Alt.AssemblyLoadContext
 - uid: AltV.Net.Alt.Core
   name: Core
   href: cs/api/AltV.Net.Alt.html#AltV_Net_Alt_Core
@@ -52533,6 +52546,19 @@ references:
   isSpec: "True"
   fullName: AltV.Net.Module.Dispose
   nameWithType: Module.Dispose
+- uid: AltV.Net.Module.GetAssemblyLoadContext
+  name: GetAssemblyLoadContext()
+  href: cs/api/AltV.Net.Module.html#AltV_Net_Module_GetAssemblyLoadContext
+  commentId: M:AltV.Net.Module.GetAssemblyLoadContext
+  fullName: AltV.Net.Module.GetAssemblyLoadContext()
+  nameWithType: Module.GetAssemblyLoadContext()
+- uid: AltV.Net.Module.GetAssemblyLoadContext*
+  name: GetAssemblyLoadContext
+  href: cs/api/AltV.Net.Module.html#AltV_Net_Module_GetAssemblyLoadContext_
+  commentId: Overload:AltV.Net.Module.GetAssemblyLoadContext
+  isSpec: "True"
+  fullName: AltV.Net.Module.GetAssemblyLoadContext
+  nameWithType: Module.GetAssemblyLoadContext
 - uid: AltV.Net.Module.HasRefForCurrentThread(AltV.Net.Elements.Entities.IBaseObject)
   name: HasRefForCurrentThread(IBaseObject)
   href: cs/api/AltV.Net.Module.html#AltV_Net_Module_HasRefForCurrentThread_AltV_Net_Elements_Entities_IBaseObject_
