@@ -34,9 +34,8 @@
     --sidebar-item-3rd-color: hsla(0,0%,100%,.25);
 
     /* Scrollbar */
-    --scrollbar-bg-color: transparent;
-    --scrollbar-thumb-bg-color: rgba(0,0,0,.4);
-    --scrollbar-thumb-border-color: transparent;
+    --scrollbar-track-color: #2e3338;
+    --scrollbar-thumb-color: #202225;
 
     /* Alerts and Blocks */
     --alert-info-border-color: rgba(114,137,218,.5);
@@ -71,4 +70,6 @@
     --code-number-color: #b5cea8;
     --code-params-color: #9a9a9a;
     --code-breakpoint-color: #8c2f2f;
+
+    --elevation-low: rgba(4, 4, 5, 0.2) 0px 1px 0px 0px, rgba(6, 6, 7, 0.05) 0px 1.5px 0px 0px, rgba(4, 4, 5, 0.05) 0px 2px 0px 0px;
 }

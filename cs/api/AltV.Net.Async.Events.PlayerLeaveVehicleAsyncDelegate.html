@@ -14,8 +14,8 @@
     <meta name="generator" content="docfx 2.56.5.0">
     
     <link rel="shortcut icon" href="../../favicon.ico">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.1.1/styles/night-owl.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.1.1/styles/night-owl.min.css" integrity="sha512-xYwrX34LRktCfb+3WW0FtJf6qEc2tcJet152No8epFPBoM4qNaaVk5xdfCYI0Ns0H2jD0Isc3VoShSMv6zzpPA==" crossorigin="anonymous">
     <link rel="stylesheet" href="../../styles/colors.css">
     <link rel="stylesheet" href="../../styles/discord.css">
     <link rel="stylesheet" href="../../styles/main.css">
@@ -27,22 +27,8 @@
   </head>
 
   <body>
-        <div class="top-navbar">
-
-            <a href="javascript:void(0);" class="burger-icon" onclick="toggleMenu()">
-                <svg name="Hamburger" style="vertical-align: middle;" width="24" height="24" viewbox="0 0 24 24"><path fill="currentColor" fill-rule="evenodd" clip-rule="evenodd" d="M20 6H4V9H20V6ZM4 10.999H20V13.999H4V10.999ZM4 15.999H20V18.999H4V15.999Z"></path></svg>
-            </a>
-
-            
-            <a class="brand" href="../../index.html">
-              <img src="../../logo.svg" alt="alt:V" class="logomark">
-              <span class="brand-title">alt:V</span>
-            </a>
-        </div>
 
         <div class="body-content">
-
-            <div id="blackout" class="blackout" onclick="toggleMenu()"></div>
 
             <nav id="sidebar" role="navigation">
 
@@ -81,39 +67,47 @@
 
             <main class="main-panel">
 
-                <div>
-                  
-                  <div id="search-results">
-                    <div class="search-list"> <span></span></div>
-                    <div class="sr-items">
-                      <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
+                <div id="blackout" class="blackout" onclick="toggleMenu()"></div>
+
+                    
+                    <div class="subnav navbar navbar-default">
+                      <div class="navbar-toggler" onclick="toggleMenu()"></div>
+                      <div class="container" id="breadcrumb">
+                        <ul class="breadcrumb">
+                          <li></li>
+                        </ul>
+                      </div>
+                      <!--<div class="contribution">
+                        <ul class="level1 breadcrumb">
+                          <li>
+                            <a href="https://github.com/FabianTerhorst/coreclr-module/new/master/docs/apidoc/new?filename=AltV_Net_Async_Events_PlayerLeaveVehicleAsyncDelegate.md&amp;value=---%0Auid%3A%20AltV.Net.Async.Events.PlayerLeaveVehicleAsyncDelegate%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                          </li>
+                          <li>
+                            <a href="https://github.com/FabianTerhorst/coreclr-module/blob/master/api/AltV.Net.Async/Events/Events.cs/#L31" class="contribution-link">View Source</a>
+                          </li>
+                        </ul>
+                      </div>-->
+                      <div class="toolbar">
+                          <form class="search-bar" role="search" id="search">
+                            <span class="glyphicon glyphicon-remove clear-icon" id="toc_filter_clear"></span>
+                            <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                          </form>
+                      </div>
                     </div>
-                    <ul id="pagination" data-first="data-prev=" data-next="data-last="></ul>
-                  </div>
-                </div>
 
-                <div role="main" class="hide-when-search">
+                <div class="content-region" role="main">
 
-                        
-                        <div class="subnav navbar navbar-default">
-                          <div class="container hide-when-search" id="breadcrumb">
-                            <ul class="breadcrumb">
-                              <li></li>
-                            </ul>
-                          </div>
-                          <div class="contribution mobile-hide">
-                            <ul class="level1 breadcrumb">
-                              <li>
-                                <a href="https://github.com/FabianTerhorst/coreclr-module/new/master/docs/apidoc/new?filename=AltV_Net_Async_Events_PlayerLeaveVehicleAsyncDelegate.md&amp;value=---%0Auid%3A%20AltV.Net.Async.Events.PlayerLeaveVehicleAsyncDelegate%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
-                              </li>
-                              <li>
-                                <a href="https://github.com/FabianTerhorst/coreclr-module/blob/master/api/AltV.Net.Async/Events/Events.cs/#L31" class="contribution-link">View Source</a>
-                              </li>
-                            </ul>
-                          </div>
-                        </div>
+                    <div class="content-column">
+                            
+                            <div id="search-results">
+                              <div class="search-list"> <span></span></div>
+                              <div class="sr-items">
+                                <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
+                              </div>
+                              <ul id="pagination" data-first="" data-prev="❮" data-next="❯" data-last=""></ul>
+                            </div>
 
-                    <article class="content wrap" id="_content" data-uid="AltV.Net.Async.Events.PlayerLeaveVehicleAsyncDelegate">
+                        <article class="content wrap hide-when-search" id="_content" data-uid="AltV.Net.Async.Events.PlayerLeaveVehicleAsyncDelegate">
   
   
   <h1 id="AltV_Net_Async_Events_PlayerLeaveVehicleAsyncDelegate" data-uid="AltV.Net.Async.Events.PlayerLeaveVehicleAsyncDelegate" class="text-break">Delegate PlayerLeaveVehicleAsyncDelegate
@@ -169,7 +163,8 @@
     </tbody>
   </table>
 </article>
-              
+                    </div>
+
                 </div>
             </main>
         </div>
@@ -177,10 +172,11 @@
         
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/twbs-pagination/1.4.2/jquery.twbsPagination.min.js" integrity="sha512-frFP3ZxLshB4CErXkPVEXnd5ingvYYtYhE5qllGdZmcOlRKNEPbufyupfdSTNmoF5ICaQNO6SenXzOZvoGkiIA==" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.5.4/umd/popper.min.js" integrity="sha512-7yA/d79yIhHPvcrSiB8S/7TyX0OxlccU8F/kuB8mHYjLlF1MInPbEohpoqfz0AILoq5hoD7lELZAYYHbyeEjag==" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/jquery.mark.min.js" integrity="sha512-mhbv5DqBMgrWL+32MmsDOt/OAvqr/cHimk6B8y/bx/xS88MVkYGPiVv2ixKVrkywF2qHplNRUvFsAHUdxZ3Krg==" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js" integrity="sha512-ubuT8Z88WxezgSqf3RLuNi5lmjstiJcyezx34yIU2gAHonIi27Na7atqzUZCOoY4CExaoFumzOsFQ2Ch+I/HCw==" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.3.2/highlight.min.js" integrity="sha512-8DnqlIcZT5O7kn55WxWs0PnFyhwCqVEnsDpyHqcadSNtP0eqae406JmIoo2cXT5A42jnlcCw013sdkmK3mEJcQ==" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/js-url/2.5.3/url.min.js" integrity="sha512-YlfjbwbVZGikywbRiBmrMZh4gkigfbNHBLi8ZVQUMCGn/5Fnc700QDiZ3OC4WY2peX1nrqUbCcHyOyvKR8hwNA==" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/js-url/1.8.8/url.min.js" integrity="sha512-r7Z8tYN1iMr6CTQ7pNJa2q+3owm4Tc6dLkVzGV68AFGiI0muMh5eLVQlas5kb9qwPY168HsTBctUwn3k0FVqyw==" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/4.3.0/anchor.min.js" integrity="sha512-G2OGlm41XXw+fcgDcRPjVYEn7qCY6qiKWNqDGT37SnKh0qtRXTuKZ5/UQR0kDN0PZRNWcGExd3lAeqEH0I36bQ==" crossorigin="anonymous"></script>
 <script type="text/javascript" src="../../styles/docfx.js"></script>
 <script type="text/javascript" src="../../styles/main.js"></script>

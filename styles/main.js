@@ -1,19 +1,18 @@
 // Copyright (c) Microsoft. All rights reserved. Licensed under the MIT license. See LICENSE file in the project root for full license information.
 
 function toggleMenu() {
-               
-    var x = document.getElementById("sidebar");
-    var b = document.getElementById("blackout");
+    const x = document.getElementsByClassName("main-panel")[0];
+    const b = document.getElementById("blackout");
 
-    if (x.style.left === "0px") 
+    if (x.classList.contains("expand"))
     {
-        x.style.left = "-350px";
+        x.classList.remove("expand");
         b.classList.remove("showThat");
         b.classList.add("hideThat");
     } 
     else 
     {
-        x.style.left = "0px";
+        x.classList.add("expand");
         b.classList.remove("hideThat");
         b.classList.add("showThat");
     }
