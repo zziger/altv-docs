@@ -169,6 +169,10 @@ references:
   name: routeColor
   href: js/api/alt-client.Blip.html#_altmp_altv_types_alt_client_Blip_routeColor
   fullName: routeColor
+- uid: '@altmp/altv-types.alt-client.Blip.routeColor_1'
+  name: routeColor
+  href: js/api/alt-client.Blip.html#_altmp_altv_types_alt_client_Blip_routeColor_1
+  fullName: routeColor
 - uid: '@altmp/altv-types.alt-client.Blip.scale'
   name: scale
   href: js/api/alt-client.Blip.html#_altmp_altv_types_alt_client_Blip_scale
@@ -197,10 +201,248 @@ references:
   name: tickVisible
   href: js/api/alt-client.Blip.html#_altmp_altv_types_alt_client_Blip_tickVisible
   fullName: tickVisible
-- uid: '@altmp/altv-types.alt-client.Branch'
-  name: Branch
-  href: js/api/alt-client.html#_altmp_altv_types_alt_client_Branch
-  fullName: Branch
+- uid: '@altmp/altv-types.alt-client.branch'
+  name: branch
+  href: js/api/alt-client.html#_altmp_altv_types_alt_client_branch
+  fullName: branch
+- uid: '@altmp/altv-types.alt-client.Checkpoint'
+  name: Checkpoint
+  href: js/api/alt-client.Checkpoint.html#_altmp_altv_types_alt_client_Checkpoint
+  fullName: Checkpoint
+- uid: '@altmp/altv-types.alt-client.Checkpoint.checkpointType'
+  name: checkpointType
+  href: js/api/alt-client.Checkpoint.html#_altmp_altv_types_alt_client_Checkpoint_checkpointType
+  fullName: checkpointType
+- uid: '@altmp/altv-types.alt-client.Checkpoint.color'
+  name: color
+  href: js/api/alt-client.Checkpoint.html#_altmp_altv_types_alt_client_Checkpoint_color
+  fullName: color
+- uid: '@altmp/altv-types.alt-client.Checkpoint.constructor'
+  name: Checkpoint(CheckpointType, Vector3, Vector3, number, number, RGBA)
+  href: js/api/alt-client.Checkpoint.html#_altmp_altv_types_alt_client_Checkpoint_constructor
+- uid: '@altmp/altv-types.alt-client.Checkpoint.height'
+  name: height
+  href: js/api/alt-client.Checkpoint.html#_altmp_altv_types_alt_client_Checkpoint_height
+  fullName: height
+- uid: '@altmp/altv-types.alt-client.Checkpoint.isEntityIn'
+  name: isEntityIn(Entity)
+  href: js/api/alt-client.Checkpoint.html#_altmp_altv_types_alt_client_Checkpoint_isEntityIn
+- uid: '@altmp/altv-types.alt-client.Checkpoint.isPointIn'
+  name: isPointIn(Vector3)
+  href: js/api/alt-client.Checkpoint.html#_altmp_altv_types_alt_client_Checkpoint_isPointIn
+- uid: '@altmp/altv-types.alt-client.Checkpoint.nextPos'
+  name: nextPos
+  href: js/api/alt-client.Checkpoint.html#_altmp_altv_types_alt_client_Checkpoint_nextPos
+  fullName: nextPos
+- uid: '@altmp/altv-types.alt-client.Checkpoint.radius'
+  name: radius
+  href: js/api/alt-client.Checkpoint.html#_altmp_altv_types_alt_client_Checkpoint_radius
+  fullName: radius
+- uid: '@altmp/altv-types.alt-client.CheckpointType'
+  name: CheckpointType
+  href: js/api/alt-client.CheckpointType.html#_altmp_altv_types_alt_client_CheckpointType
+  fullName: CheckpointType
+- uid: '@altmp/altv-types.alt-client.CheckpointType.Checkerboard'
+  name: Checkerboard
+  href: js/api/alt-client.CheckpointType.html#_altmp_altv_types_alt_client_CheckpointType_Checkerboard
+- uid: '@altmp/altv-types.alt-client.CheckpointType.CycleArrow'
+  name: CycleArrow
+  href: js/api/alt-client.CheckpointType.html#_altmp_altv_types_alt_client_CheckpointType_CycleArrow
+- uid: '@altmp/altv-types.alt-client.CheckpointType.Cylinder'
+  name: Cylinder
+  href: js/api/alt-client.CheckpointType.html#_altmp_altv_types_alt_client_CheckpointType_Cylinder
+- uid: '@altmp/altv-types.alt-client.CheckpointType.Cylinder1'
+  name: Cylinder1
+  href: js/api/alt-client.CheckpointType.html#_altmp_altv_types_alt_client_CheckpointType_Cylinder1
+- uid: '@altmp/altv-types.alt-client.CheckpointType.Cylinder2'
+  name: Cylinder2
+  href: js/api/alt-client.CheckpointType.html#_altmp_altv_types_alt_client_CheckpointType_Cylinder2
+- uid: '@altmp/altv-types.alt-client.CheckpointType.Cylinder3'
+  name: Cylinder3
+  href: js/api/alt-client.CheckpointType.html#_altmp_altv_types_alt_client_CheckpointType_Cylinder3
+- uid: '@altmp/altv-types.alt-client.CheckpointType.Cylinder4'
+  name: Cylinder4
+  href: js/api/alt-client.CheckpointType.html#_altmp_altv_types_alt_client_CheckpointType_Cylinder4
+- uid: '@altmp/altv-types.alt-client.CheckpointType.Cylinder5'
+  name: Cylinder5
+  href: js/api/alt-client.CheckpointType.html#_altmp_altv_types_alt_client_CheckpointType_Cylinder5
+- uid: '@altmp/altv-types.alt-client.CheckpointType.CylinderCheckerboard'
+  name: CylinderCheckerboard
+  href: js/api/alt-client.CheckpointType.html#_altmp_altv_types_alt_client_CheckpointType_CylinderCheckerboard
+- uid: '@altmp/altv-types.alt-client.CheckpointType.CylinderCheckerboard2'
+  name: CylinderCheckerboard2
+  href: js/api/alt-client.CheckpointType.html#_altmp_altv_types_alt_client_CheckpointType_CylinderCheckerboard2
+- uid: '@altmp/altv-types.alt-client.CheckpointType.CylinderCheckerboard3'
+  name: CylinderCheckerboard3
+  href: js/api/alt-client.CheckpointType.html#_altmp_altv_types_alt_client_CheckpointType_CylinderCheckerboard3
+- uid: '@altmp/altv-types.alt-client.CheckpointType.CylinderCheckerboard4'
+  name: CylinderCheckerboard4
+  href: js/api/alt-client.CheckpointType.html#_altmp_altv_types_alt_client_CheckpointType_CylinderCheckerboard4
+- uid: '@altmp/altv-types.alt-client.CheckpointType.CylinderCheckerboard5'
+  name: CylinderCheckerboard5
+  href: js/api/alt-client.CheckpointType.html#_altmp_altv_types_alt_client_CheckpointType_CylinderCheckerboard5
+- uid: '@altmp/altv-types.alt-client.CheckpointType.CylinderCycleArrow'
+  name: CylinderCycleArrow
+  href: js/api/alt-client.CheckpointType.html#_altmp_altv_types_alt_client_CheckpointType_CylinderCycleArrow
+- uid: '@altmp/altv-types.alt-client.CheckpointType.CylinderCycleArrow2'
+  name: CylinderCycleArrow2
+  href: js/api/alt-client.CheckpointType.html#_altmp_altv_types_alt_client_CheckpointType_CylinderCycleArrow2
+- uid: '@altmp/altv-types.alt-client.CheckpointType.CylinderCycleArrow3'
+  name: CylinderCycleArrow3
+  href: js/api/alt-client.CheckpointType.html#_altmp_altv_types_alt_client_CheckpointType_CylinderCycleArrow3
+- uid: '@altmp/altv-types.alt-client.CheckpointType.CylinderCycleArrow4'
+  name: CylinderCycleArrow4
+  href: js/api/alt-client.CheckpointType.html#_altmp_altv_types_alt_client_CheckpointType_CylinderCycleArrow4
+- uid: '@altmp/altv-types.alt-client.CheckpointType.CylinderCycleArrow5'
+  name: CylinderCycleArrow5
+  href: js/api/alt-client.CheckpointType.html#_altmp_altv_types_alt_client_CheckpointType_CylinderCycleArrow5
+- uid: '@altmp/altv-types.alt-client.CheckpointType.CylinderDoubleArrow'
+  name: CylinderDoubleArrow
+  href: js/api/alt-client.CheckpointType.html#_altmp_altv_types_alt_client_CheckpointType_CylinderDoubleArrow
+- uid: '@altmp/altv-types.alt-client.CheckpointType.CylinderDoubleArrow2'
+  name: CylinderDoubleArrow2
+  href: js/api/alt-client.CheckpointType.html#_altmp_altv_types_alt_client_CheckpointType_CylinderDoubleArrow2
+- uid: '@altmp/altv-types.alt-client.CheckpointType.CylinderDoubleArrow3'
+  name: CylinderDoubleArrow3
+  href: js/api/alt-client.CheckpointType.html#_altmp_altv_types_alt_client_CheckpointType_CylinderDoubleArrow3
+- uid: '@altmp/altv-types.alt-client.CheckpointType.CylinderDoubleArrow4'
+  name: CylinderDoubleArrow4
+  href: js/api/alt-client.CheckpointType.html#_altmp_altv_types_alt_client_CheckpointType_CylinderDoubleArrow4
+- uid: '@altmp/altv-types.alt-client.CheckpointType.CylinderDoubleArrow5'
+  name: CylinderDoubleArrow5
+  href: js/api/alt-client.CheckpointType.html#_altmp_altv_types_alt_client_CheckpointType_CylinderDoubleArrow5
+- uid: '@altmp/altv-types.alt-client.CheckpointType.CylinderSingleArrow'
+  name: CylinderSingleArrow
+  href: js/api/alt-client.CheckpointType.html#_altmp_altv_types_alt_client_CheckpointType_CylinderSingleArrow
+- uid: '@altmp/altv-types.alt-client.CheckpointType.CylinderSingleArrow2'
+  name: CylinderSingleArrow2
+  href: js/api/alt-client.CheckpointType.html#_altmp_altv_types_alt_client_CheckpointType_CylinderSingleArrow2
+- uid: '@altmp/altv-types.alt-client.CheckpointType.CylinderSingleArrow3'
+  name: CylinderSingleArrow3
+  href: js/api/alt-client.CheckpointType.html#_altmp_altv_types_alt_client_CheckpointType_CylinderSingleArrow3
+- uid: '@altmp/altv-types.alt-client.CheckpointType.CylinderSingleArrow4'
+  name: CylinderSingleArrow4
+  href: js/api/alt-client.CheckpointType.html#_altmp_altv_types_alt_client_CheckpointType_CylinderSingleArrow4
+- uid: '@altmp/altv-types.alt-client.CheckpointType.CylinderSingleArrow5'
+  name: CylinderSingleArrow5
+  href: js/api/alt-client.CheckpointType.html#_altmp_altv_types_alt_client_CheckpointType_CylinderSingleArrow5
+- uid: '@altmp/altv-types.alt-client.CheckpointType.CylinderTripleArrow'
+  name: CylinderTripleArrow
+  href: js/api/alt-client.CheckpointType.html#_altmp_altv_types_alt_client_CheckpointType_CylinderTripleArrow
+- uid: '@altmp/altv-types.alt-client.CheckpointType.CylinderTripleArrow2'
+  name: CylinderTripleArrow2
+  href: js/api/alt-client.CheckpointType.html#_altmp_altv_types_alt_client_CheckpointType_CylinderTripleArrow2
+- uid: '@altmp/altv-types.alt-client.CheckpointType.CylinderTripleArrow3'
+  name: CylinderTripleArrow3
+  href: js/api/alt-client.CheckpointType.html#_altmp_altv_types_alt_client_CheckpointType_CylinderTripleArrow3
+- uid: '@altmp/altv-types.alt-client.CheckpointType.CylinderTripleArrow4'
+  name: CylinderTripleArrow4
+  href: js/api/alt-client.CheckpointType.html#_altmp_altv_types_alt_client_CheckpointType_CylinderTripleArrow4
+- uid: '@altmp/altv-types.alt-client.CheckpointType.CylinderTripleArrow5'
+  name: CylinderTripleArrow5
+  href: js/api/alt-client.CheckpointType.html#_altmp_altv_types_alt_client_CheckpointType_CylinderTripleArrow5
+- uid: '@altmp/altv-types.alt-client.CheckpointType.CylinderWrench'
+  name: CylinderWrench
+  href: js/api/alt-client.CheckpointType.html#_altmp_altv_types_alt_client_CheckpointType_CylinderWrench
+- uid: '@altmp/altv-types.alt-client.CheckpointType.CylinderWrench2'
+  name: CylinderWrench2
+  href: js/api/alt-client.CheckpointType.html#_altmp_altv_types_alt_client_CheckpointType_CylinderWrench2
+- uid: '@altmp/altv-types.alt-client.CheckpointType.DoubleArrow'
+  name: DoubleArrow
+  href: js/api/alt-client.CheckpointType.html#_altmp_altv_types_alt_client_CheckpointType_DoubleArrow
+- uid: '@altmp/altv-types.alt-client.CheckpointType.Empty'
+  name: Empty
+  href: js/api/alt-client.CheckpointType.html#_altmp_altv_types_alt_client_CheckpointType_Empty
+- uid: '@altmp/altv-types.alt-client.CheckpointType.Empty2'
+  name: Empty2
+  href: js/api/alt-client.CheckpointType.html#_altmp_altv_types_alt_client_CheckpointType_Empty2
+- uid: '@altmp/altv-types.alt-client.CheckpointType.Empty3'
+  name: Empty3
+  href: js/api/alt-client.CheckpointType.html#_altmp_altv_types_alt_client_CheckpointType_Empty3
+- uid: '@altmp/altv-types.alt-client.CheckpointType.Empty4'
+  name: Empty4
+  href: js/api/alt-client.CheckpointType.html#_altmp_altv_types_alt_client_CheckpointType_Empty4
+- uid: '@altmp/altv-types.alt-client.CheckpointType.Empty5'
+  name: Empty5
+  href: js/api/alt-client.CheckpointType.html#_altmp_altv_types_alt_client_CheckpointType_Empty5
+- uid: '@altmp/altv-types.alt-client.CheckpointType.Empty6'
+  name: Empty6
+  href: js/api/alt-client.CheckpointType.html#_altmp_altv_types_alt_client_CheckpointType_Empty6
+- uid: '@altmp/altv-types.alt-client.CheckpointType.Ring'
+  name: Ring
+  href: js/api/alt-client.CheckpointType.html#_altmp_altv_types_alt_client_CheckpointType_Ring
+- uid: '@altmp/altv-types.alt-client.CheckpointType.RingBicycle'
+  name: RingBicycle
+  href: js/api/alt-client.CheckpointType.html#_altmp_altv_types_alt_client_CheckpointType_RingBicycle
+- uid: '@altmp/altv-types.alt-client.CheckpointType.RingBike'
+  name: RingBike
+  href: js/api/alt-client.CheckpointType.html#_altmp_altv_types_alt_client_CheckpointType_RingBike
+- uid: '@altmp/altv-types.alt-client.CheckpointType.RingBoat'
+  name: RingBoat
+  href: js/api/alt-client.CheckpointType.html#_altmp_altv_types_alt_client_CheckpointType_RingBoat
+- uid: '@altmp/altv-types.alt-client.CheckpointType.RingCar'
+  name: RingCar
+  href: js/api/alt-client.CheckpointType.html#_altmp_altv_types_alt_client_CheckpointType_RingCar
+- uid: '@altmp/altv-types.alt-client.CheckpointType.RingCheckerboard'
+  name: RingCheckerboard
+  href: js/api/alt-client.CheckpointType.html#_altmp_altv_types_alt_client_CheckpointType_RingCheckerboard
+- uid: '@altmp/altv-types.alt-client.CheckpointType.RingChopper'
+  name: RingChopper
+  href: js/api/alt-client.CheckpointType.html#_altmp_altv_types_alt_client_CheckpointType_RingChopper
+- uid: '@altmp/altv-types.alt-client.CheckpointType.RingCycleArrow'
+  name: RingCycleArrow
+  href: js/api/alt-client.CheckpointType.html#_altmp_altv_types_alt_client_CheckpointType_RingCycleArrow
+- uid: '@altmp/altv-types.alt-client.CheckpointType.RingDollar'
+  name: RingDollar
+  href: js/api/alt-client.CheckpointType.html#_altmp_altv_types_alt_client_CheckpointType_RingDollar
+- uid: '@altmp/altv-types.alt-client.CheckpointType.RingDoubleArrow'
+  name: RingDoubleArrow
+  href: js/api/alt-client.CheckpointType.html#_altmp_altv_types_alt_client_CheckpointType_RingDoubleArrow
+- uid: '@altmp/altv-types.alt-client.CheckpointType.RingJetpack'
+  name: RingJetpack
+  href: js/api/alt-client.CheckpointType.html#_altmp_altv_types_alt_client_CheckpointType_RingJetpack
+- uid: '@altmp/altv-types.alt-client.CheckpointType.RingParachute'
+  name: RingParachute
+  href: js/api/alt-client.CheckpointType.html#_altmp_altv_types_alt_client_CheckpointType_RingParachute
+- uid: '@altmp/altv-types.alt-client.CheckpointType.RingPlane'
+  name: RingPlane
+  href: js/api/alt-client.CheckpointType.html#_altmp_altv_types_alt_client_CheckpointType_RingPlane
+- uid: '@altmp/altv-types.alt-client.CheckpointType.RingPlaneDown'
+  name: RingPlaneDown
+  href: js/api/alt-client.CheckpointType.html#_altmp_altv_types_alt_client_CheckpointType_RingPlaneDown
+- uid: '@altmp/altv-types.alt-client.CheckpointType.RingPlaneLeft'
+  name: RingPlaneLeft
+  href: js/api/alt-client.CheckpointType.html#_altmp_altv_types_alt_client_CheckpointType_RingPlaneLeft
+- uid: '@altmp/altv-types.alt-client.CheckpointType.RingPlaneRight'
+  name: RingPlaneRight
+  href: js/api/alt-client.CheckpointType.html#_altmp_altv_types_alt_client_CheckpointType_RingPlaneRight
+- uid: '@altmp/altv-types.alt-client.CheckpointType.RingPlaneUp'
+  name: RingPlaneUp
+  href: js/api/alt-client.CheckpointType.html#_altmp_altv_types_alt_client_CheckpointType_RingPlaneUp
+- uid: '@altmp/altv-types.alt-client.CheckpointType.RingQuestionMark'
+  name: RingQuestionMark
+  href: js/api/alt-client.CheckpointType.html#_altmp_altv_types_alt_client_CheckpointType_RingQuestionMark
+- uid: '@altmp/altv-types.alt-client.CheckpointType.RingSingleArrow'
+  name: RingSingleArrow
+  href: js/api/alt-client.CheckpointType.html#_altmp_altv_types_alt_client_CheckpointType_RingSingleArrow
+- uid: '@altmp/altv-types.alt-client.CheckpointType.RingTripleArrow'
+  name: RingTripleArrow
+  href: js/api/alt-client.CheckpointType.html#_altmp_altv_types_alt_client_CheckpointType_RingTripleArrow
+- uid: '@altmp/altv-types.alt-client.CheckpointType.RingTruck'
+  name: RingTruck
+  href: js/api/alt-client.CheckpointType.html#_altmp_altv_types_alt_client_CheckpointType_RingTruck
+- uid: '@altmp/altv-types.alt-client.CheckpointType.RingWhirl'
+  name: RingWhirl
+  href: js/api/alt-client.CheckpointType.html#_altmp_altv_types_alt_client_CheckpointType_RingWhirl
+- uid: '@altmp/altv-types.alt-client.CheckpointType.RingWolf'
+  name: RingWolf
+  href: js/api/alt-client.CheckpointType.html#_altmp_altv_types_alt_client_CheckpointType_RingWolf
+- uid: '@altmp/altv-types.alt-client.CheckpointType.SingleArrow'
+  name: SingleArrow
+  href: js/api/alt-client.CheckpointType.html#_altmp_altv_types_alt_client_CheckpointType_SingleArrow
+- uid: '@altmp/altv-types.alt-client.CheckpointType.TripleArrow'
+  name: TripleArrow
+  href: js/api/alt-client.CheckpointType.html#_altmp_altv_types_alt_client_CheckpointType_TripleArrow
 - uid: '@altmp/altv-types.alt-client.clearEveryTick'
   name: clearEveryTick(number)
   href: js/api/alt-client.html#_altmp_altv_types_alt_client_clearEveryTick
@@ -237,6 +479,10 @@ references:
   name: Entity
   href: js/api/alt-client.Entity.html#_altmp_altv_types_alt_client_Entity
   fullName: Entity
+- uid: '@altmp/altv-types.alt-client.Entity.all'
+  name: all
+  href: js/api/alt-client.Entity.html#_altmp_altv_types_alt_client_Entity_all
+  fullName: all
 - uid: '@altmp/altv-types.alt-client.Entity.getByID'
   name: getByID(number)
   href: js/api/alt-client.Entity.html#_altmp_altv_types_alt_client_Entity_getByID
@@ -275,6 +521,10 @@ references:
   name: scriptID
   href: js/api/alt-client.Entity.html#_altmp_altv_types_alt_client_Entity_scriptID
   fullName: scriptID
+- uid: '@altmp/altv-types.alt-client.Entity.visible'
+  name: visible
+  href: js/api/alt-client.Entity.html#_altmp_altv_types_alt_client_Entity_visible
+  fullName: visible
 - uid: '@altmp/altv-types.alt-client.everyTick'
   name: everyTick(() => void)
   href: js/api/alt-client.html#_altmp_altv_types_alt_client_everyTick
@@ -325,6 +575,9 @@ references:
 - uid: '@altmp/altv-types.alt-client.getMsPerGameMinute'
   name: getMsPerGameMinute()
   href: js/api/alt-client.html#_altmp_altv_types_alt_client_getMsPerGameMinute
+- uid: '@altmp/altv-types.alt-client.getPermissionState'
+  name: getPermissionState(Permission)
+  href: js/api/alt-client.html#_altmp_altv_types_alt_client_getPermissionState
 - uid: '@altmp/altv-types.alt-client.getStat'
   name: getStat(StatName)
   href: js/api/alt-client.html#_altmp_altv_types_alt_client_getStat
@@ -630,6 +883,10 @@ references:
   name: anyResourceStop
   href: js/api/alt-client.IClientEvent.html#_altmp_altv_types_alt_client_IClientEvent_anyResourceStop
   fullName: anyResourceStop
+- uid: '@altmp/altv-types.alt-client.IClientEvent.changedVehicleSeat'
+  name: changedVehicleSeat
+  href: js/api/alt-client.IClientEvent.html#_altmp_altv_types_alt_client_IClientEvent_changedVehicleSeat
+  fullName: changedVehicleSeat
 - uid: '@altmp/altv-types.alt-client.IClientEvent.connectionComplete'
   name: connectionComplete
   href: js/api/alt-client.IClientEvent.html#_altmp_altv_types_alt_client_IClientEvent_connectionComplete
@@ -642,6 +899,10 @@ references:
   name: disconnect
   href: js/api/alt-client.IClientEvent.html#_altmp_altv_types_alt_client_IClientEvent_disconnect
   fullName: disconnect
+- uid: '@altmp/altv-types.alt-client.IClientEvent.enteredVehicle'
+  name: enteredVehicle
+  href: js/api/alt-client.IClientEvent.html#_altmp_altv_types_alt_client_IClientEvent_enteredVehicle
+  fullName: enteredVehicle
 - uid: '@altmp/altv-types.alt-client.IClientEvent.gameEntityCreate'
   name: gameEntityCreate
   href: js/api/alt-client.IClientEvent.html#_altmp_altv_types_alt_client_IClientEvent_gameEntityCreate
@@ -666,6 +927,10 @@ references:
   name: keyup
   href: js/api/alt-client.IClientEvent.html#_altmp_altv_types_alt_client_IClientEvent_keyup
   fullName: keyup
+- uid: '@altmp/altv-types.alt-client.IClientEvent.leftVehicle'
+  name: leftVehicle
+  href: js/api/alt-client.IClientEvent.html#_altmp_altv_types_alt_client_IClientEvent_leftVehicle
+  fullName: leftVehicle
 - uid: '@altmp/altv-types.alt-client.IClientEvent.removeEntity'
   name: removeEntity
   href: js/api/alt-client.IClientEvent.html#_altmp_altv_types_alt_client_IClientEvent_removeEntity
@@ -729,6 +994,9 @@ references:
 - uid: '@altmp/altv-types.alt-client.isConsoleOpen'
   name: isConsoleOpen()
   href: js/api/alt-client.html#_altmp_altv_types_alt_client_isConsoleOpen
+- uid: '@altmp/altv-types.alt-client.isGameFocused'
+  name: isGameFocused()
+  href: js/api/alt-client.html#_altmp_altv_types_alt_client_isGameFocused
 - uid: '@altmp/altv-types.alt-client.isInSandbox'
   name: isInSandbox()
   href: js/api/alt-client.html#_altmp_altv_types_alt_client_isInSandbox
@@ -1176,6 +1444,9 @@ references:
 - uid: '@altmp/altv-types.alt-client.LocalStorage.get'
   name: get(string)
   href: js/api/alt-client.LocalStorage.html#_altmp_altv_types_alt_client_LocalStorage_get
+- uid: '@altmp/altv-types.alt-client.LocalStorage.get_1'
+  name: get()
+  href: js/api/alt-client.LocalStorage.html#_altmp_altv_types_alt_client_LocalStorage_get_1
 - uid: '@altmp/altv-types.alt-client.LocalStorage.save'
   name: save()
   href: js/api/alt-client.LocalStorage.html#_altmp_altv_types_alt_client_LocalStorage_save
@@ -1282,9 +1553,50 @@ references:
 - uid: '@altmp/altv-types.alt-client.on_1'
   name: 'on<S extends string>(Exclude<S, keyof IClientEvent>, (...args: any[]) => void | Promise<void>)'
   href: js/api/alt-client.html#_altmp_altv_types_alt_client_on_1
+- uid: '@altmp/altv-types.alt-client.once'
+  name: once<K extends keyof IClientEvent>(K, IClientEvent[K])
+  href: js/api/alt-client.html#_altmp_altv_types_alt_client_once
+- uid: '@altmp/altv-types.alt-client.once_1'
+  name: 'once<S extends string>(Exclude<S, keyof IClientEvent>, (...args: any[]) => void | Promise<void>)'
+  href: js/api/alt-client.html#_altmp_altv_types_alt_client_once_1
+- uid: '@altmp/altv-types.alt-client.onceServer'
+  name: 'onceServer(string, (...args: any[]) => void)'
+  href: js/api/alt-client.html#_altmp_altv_types_alt_client_onceServer
 - uid: '@altmp/altv-types.alt-client.onServer'
   name: 'onServer(string, (...args: any[]) => void)'
   href: js/api/alt-client.html#_altmp_altv_types_alt_client_onServer
+- uid: '@altmp/altv-types.alt-client.Permission'
+  name: Permission
+  href: js/api/alt-client.Permission.html#_altmp_altv_types_alt_client_Permission
+  fullName: Permission
+- uid: '@altmp/altv-types.alt-client.Permission.All'
+  name: All
+  href: js/api/alt-client.Permission.html#_altmp_altv_types_alt_client_Permission_All
+- uid: '@altmp/altv-types.alt-client.Permission.None'
+  name: None
+  href: js/api/alt-client.Permission.html#_altmp_altv_types_alt_client_Permission_None
+- uid: '@altmp/altv-types.alt-client.Permission.ScreenCapture'
+  name: ScreenCapture
+  href: js/api/alt-client.Permission.html#_altmp_altv_types_alt_client_Permission_ScreenCapture
+- uid: '@altmp/altv-types.alt-client.Permission.WebRTC'
+  name: WebRTC
+  href: js/api/alt-client.Permission.html#_altmp_altv_types_alt_client_Permission_WebRTC
+- uid: '@altmp/altv-types.alt-client.PermissionState'
+  name: PermissionState
+  href: js/api/alt-client.PermissionState.html#_altmp_altv_types_alt_client_PermissionState
+  fullName: PermissionState
+- uid: '@altmp/altv-types.alt-client.PermissionState.Allowed'
+  name: Allowed
+  href: js/api/alt-client.PermissionState.html#_altmp_altv_types_alt_client_PermissionState_Allowed
+- uid: '@altmp/altv-types.alt-client.PermissionState.Denied'
+  name: Denied
+  href: js/api/alt-client.PermissionState.html#_altmp_altv_types_alt_client_PermissionState_Denied
+- uid: '@altmp/altv-types.alt-client.PermissionState.Failed'
+  name: Failed
+  href: js/api/alt-client.PermissionState.html#_altmp_altv_types_alt_client_PermissionState_Failed
+- uid: '@altmp/altv-types.alt-client.PermissionState.Unspecified'
+  name: Unspecified
+  href: js/api/alt-client.PermissionState.html#_altmp_altv_types_alt_client_PermissionState_Unspecified
 - uid: '@altmp/altv-types.alt-client.Player'
   name: Player
   href: js/api/alt-client.Player.html#_altmp_altv_types_alt_client_Player
@@ -1421,6 +1733,10 @@ references:
 - uid: '@altmp/altv-types.alt-client.resetStat'
   name: resetStat(StatName)
   href: js/api/alt-client.html#_altmp_altv_types_alt_client_resetStat
+- uid: '@altmp/altv-types.alt-client.resourceName'
+  name: resourceName
+  href: js/api/alt-client.html#_altmp_altv_types_alt_client_resourceName
+  fullName: resourceName
 - uid: '@altmp/altv-types.alt-client.RGBA'
   name: RGBA
   href: js/api/alt-client.RGBA.html#_altmp_altv_types_alt_client_RGBA
@@ -1444,6 +1760,10 @@ references:
   name: r
   href: js/api/alt-client.RGBA.html#_altmp_altv_types_alt_client_RGBA_r
   fullName: r
+- uid: '@altmp/altv-types.alt-client.sdkVersion'
+  name: sdkVersion
+  href: js/api/alt-client.html#_altmp_altv_types_alt_client_sdkVersion
+  fullName: sdkVersion
 - uid: '@altmp/altv-types.alt-client.setCamFrozen'
   name: setCamFrozen(boolean)
   href: js/api/alt-client.html#_altmp_altv_types_alt_client_setCamFrozen
@@ -1831,10 +2151,18 @@ references:
   name: windowTint
   href: js/api/alt-client.Vehicle.html#_altmp_altv_types_alt_client_Vehicle_windowTint
   fullName: windowTint
-- uid: '@altmp/altv-types.alt-client.Version'
-  name: Version
-  href: js/api/alt-client.html#_altmp_altv_types_alt_client_Version
-  fullName: Version
+- uid: '@altmp/altv-types.alt-client.version'
+  name: version
+  href: js/api/alt-client.html#_altmp_altv_types_alt_client_version
+  fullName: version
+- uid: '@altmp/altv-types.alt-client.Voice'
+  name: Voice
+  href: js/api/alt-client.Voice.html#_altmp_altv_types_alt_client_Voice
+  fullName: Voice
+- uid: '@altmp/altv-types.alt-client.Voice.muteInput'
+  name: muteInput
+  href: js/api/alt-client.Voice.html#_altmp_altv_types_alt_client_Voice_muteInput
+  fullName: muteInput
 - uid: '@altmp/altv-types.alt-client.WebView'
   name: WebView
   href: js/api/alt-client.WebView.html#_altmp_altv_types_alt_client_WebView
@@ -2049,6 +2377,10 @@ references:
 - uid: '@altmp/altv-types.alt-server.BodyPart.UpperTorso'
   name: UpperTorso
   href: js/api/alt-server.BodyPart.html#_altmp_altv_types_alt_server_BodyPart_UpperTorso
+- uid: '@altmp/altv-types.alt-server.branch'
+  name: branch
+  href: js/api/alt-server.html#_altmp_altv_types_alt_server_branch
+  fullName: branch
 - uid: '@altmp/altv-types.alt-server.Checkpoint'
   name: Checkpoint
   href: js/api/alt-server.Checkpoint.html#_altmp_altv_types_alt_server_Checkpoint
@@ -2368,6 +2700,10 @@ references:
   name: DateTimeSecond
   href: js/api/alt-server.html#_altmp_altv_types_alt_server_DateTimeSecond
   fullName: DateTimeSecond
+- uid: '@altmp/altv-types.alt-server.defaultDimension'
+  name: defaultDimension
+  href: js/api/alt-server.html#_altmp_altv_types_alt_server_defaultDimension
+  fullName: defaultDimension
 - uid: '@altmp/altv-types.alt-server.DefaultDimension'
   name: DefaultDimension
   href: js/api/alt-server.html#_altmp_altv_types_alt_server_DefaultDimension
@@ -2391,6 +2727,10 @@ references:
   name: Entity
   href: js/api/alt-server.Entity.html#_altmp_altv_types_alt_server_Entity
   fullName: Entity
+- uid: '@altmp/altv-types.alt-server.Entity.all'
+  name: all
+  href: js/api/alt-server.Entity.html#_altmp_altv_types_alt_server_Entity_all
+  fullName: all
 - uid: '@altmp/altv-types.alt-server.Entity.deleteStreamSyncedMeta'
   name: deleteStreamSyncedMeta(string)
   href: js/api/alt-server.Entity.html#_altmp_altv_types_alt_server_Entity_deleteStreamSyncedMeta
@@ -2440,6 +2780,10 @@ references:
 - uid: '@altmp/altv-types.alt-server.Entity.setSyncedMeta'
   name: setSyncedMeta(string, any)
   href: js/api/alt-server.Entity.html#_altmp_altv_types_alt_server_Entity_setSyncedMeta
+- uid: '@altmp/altv-types.alt-server.Entity.visible'
+  name: visible
+  href: js/api/alt-server.Entity.html#_altmp_altv_types_alt_server_Entity_visible
+  fullName: visible
 - uid: '@altmp/altv-types.alt-server.everyTick'
   name: everyTick(() => void)
   href: js/api/alt-server.html#_altmp_altv_types_alt_server_everyTick
@@ -2598,6 +2942,10 @@ references:
 - uid: '@altmp/altv-types.alt-server.getSyncedMeta'
   name: getSyncedMeta(string)
   href: js/api/alt-server.html#_altmp_altv_types_alt_server_getSyncedMeta
+- uid: '@altmp/altv-types.alt-server.globalDimension'
+  name: globalDimension
+  href: js/api/alt-server.html#_altmp_altv_types_alt_server_globalDimension
+  fullName: globalDimension
 - uid: '@altmp/altv-types.alt-server.GlobalDimension'
   name: GlobalDimension
   href: js/api/alt-server.html#_altmp_altv_types_alt_server_GlobalDimension
@@ -2666,10 +3014,14 @@ references:
   name: globalSyncedMetaChange
   href: js/api/alt-server.IServerEvent.html#_altmp_altv_types_alt_server_IServerEvent_globalSyncedMetaChange
   fullName: globalSyncedMetaChange
-- uid: '@altmp/altv-types.alt-server.IServerEvent.playerChangeVehicleSeat'
-  name: playerChangeVehicleSeat
-  href: js/api/alt-server.IServerEvent.html#_altmp_altv_types_alt_server_IServerEvent_playerChangeVehicleSeat
-  fullName: playerChangeVehicleSeat
+- uid: '@altmp/altv-types.alt-server.IServerEvent.netOwnerChange'
+  name: netOwnerChange
+  href: js/api/alt-server.IServerEvent.html#_altmp_altv_types_alt_server_IServerEvent_netOwnerChange
+  fullName: netOwnerChange
+- uid: '@altmp/altv-types.alt-server.IServerEvent.playerChangedVehicleSeat'
+  name: playerChangedVehicleSeat
+  href: js/api/alt-server.IServerEvent.html#_altmp_altv_types_alt_server_IServerEvent_playerChangedVehicleSeat
+  fullName: playerChangedVehicleSeat
 - uid: '@altmp/altv-types.alt-server.IServerEvent.playerConnect'
   name: playerConnect
   href: js/api/alt-server.IServerEvent.html#_altmp_altv_types_alt_server_IServerEvent_playerConnect
@@ -2690,6 +3042,10 @@ references:
   name: playerEnteredVehicle
   href: js/api/alt-server.IServerEvent.html#_altmp_altv_types_alt_server_IServerEvent_playerEnteredVehicle
   fullName: playerEnteredVehicle
+- uid: '@altmp/altv-types.alt-server.IServerEvent.playerEnteringVehicle'
+  name: playerEnteringVehicle
+  href: js/api/alt-server.IServerEvent.html#_altmp_altv_types_alt_server_IServerEvent_playerEnteringVehicle
+  fullName: playerEnteringVehicle
 - uid: '@altmp/altv-types.alt-server.IServerEvent.playerLeftVehicle'
   name: playerLeftVehicle
   href: js/api/alt-server.IServerEvent.html#_altmp_altv_types_alt_server_IServerEvent_playerLeftVehicle
@@ -2726,10 +3082,18 @@ references:
   name: syncedMetaChange
   href: js/api/alt-server.IServerEvent.html#_altmp_altv_types_alt_server_IServerEvent_syncedMetaChange
   fullName: syncedMetaChange
+- uid: '@altmp/altv-types.alt-server.IServerEvent.vehicleAttach'
+  name: vehicleAttach
+  href: js/api/alt-server.IServerEvent.html#_altmp_altv_types_alt_server_IServerEvent_vehicleAttach
+  fullName: vehicleAttach
 - uid: '@altmp/altv-types.alt-server.IServerEvent.vehicleDestroy'
   name: vehicleDestroy
   href: js/api/alt-server.IServerEvent.html#_altmp_altv_types_alt_server_IServerEvent_vehicleDestroy
   fullName: vehicleDestroy
+- uid: '@altmp/altv-types.alt-server.IServerEvent.vehicleDetach'
+  name: vehicleDetach
+  href: js/api/alt-server.IServerEvent.html#_altmp_altv_types_alt_server_IServerEvent_vehicleDetach
+  fullName: vehicleDetach
 - uid: '@altmp/altv-types.alt-server.IServerEvent.weaponDamage'
   name: weaponDamage
   href: js/api/alt-server.IServerEvent.html#_altmp_altv_types_alt_server_IServerEvent_weaponDamage
@@ -2816,6 +3180,12 @@ references:
 - uid: '@altmp/altv-types.alt-server.on_1'
   name: 'on<S extends string>(Exclude<S, keyof IServerEvent>, (...args: any[]) => boolean | void | Promise<boolean | void>)'
   href: js/api/alt-server.html#_altmp_altv_types_alt_server_on_1
+- uid: '@altmp/altv-types.alt-server.once'
+  name: once<K extends keyof IServerEvent>(K, IServerEvent[K])
+  href: js/api/alt-server.html#_altmp_altv_types_alt_server_once
+- uid: '@altmp/altv-types.alt-server.once_1'
+  name: 'once<S extends string>(Exclude<S, keyof IServerEvent>, (...args: any[]) => boolean | void | Promise<boolean | void>)'
+  href: js/api/alt-server.html#_altmp_altv_types_alt_server_once_1
 - uid: '@altmp/altv-types.alt-server.onClient'
   name: 'onClient(string, (player: Player, ...args: any[]) => void)'
   href: js/api/alt-server.html#_altmp_altv_types_alt_server_onClient
@@ -2838,6 +3208,9 @@ references:
   name: authToken
   href: js/api/alt-server.Player.html#_altmp_altv_types_alt_server_Player_authToken
   fullName: authToken
+- uid: '@altmp/altv-types.alt-server.Player.clearBloodDamage'
+  name: clearBloodDamage()
+  href: js/api/alt-server.Player.html#_altmp_altv_types_alt_server_Player_clearBloodDamage
 - uid: '@altmp/altv-types.alt-server.Player.currentWeapon'
   name: currentWeapon
   href: js/api/alt-server.Player.html#_altmp_altv_types_alt_server_Player_currentWeapon
@@ -3041,6 +3414,10 @@ references:
   name: rootDir
   href: js/api/alt-server.html#_altmp_altv_types_alt_server_rootDir
   fullName: rootDir
+- uid: '@altmp/altv-types.alt-server.sdkVersion'
+  name: sdkVersion
+  href: js/api/alt-server.html#_altmp_altv_types_alt_server_sdkVersion
+  fullName: sdkVersion
 - uid: '@altmp/altv-types.alt-server.setInterval'
   name: setInterval(() => void, number)
   href: js/api/alt-server.html#_altmp_altv_types_alt_server_setInterval
@@ -3250,6 +3627,12 @@ references:
 - uid: '@altmp/altv-types.alt-server.Vehicle.getArmoredWindowShootCount'
   name: getArmoredWindowShootCount(number)
   href: js/api/alt-server.Vehicle.html#_altmp_altv_types_alt_server_Vehicle_getArmoredWindowShootCount
+- uid: '@altmp/altv-types.alt-server.Vehicle.getAttached'
+  name: getAttached()
+  href: js/api/alt-server.Vehicle.html#_altmp_altv_types_alt_server_Vehicle_getAttached
+- uid: '@altmp/altv-types.alt-server.Vehicle.getAttachedTo'
+  name: getAttachedTo()
+  href: js/api/alt-server.Vehicle.html#_altmp_altv_types_alt_server_Vehicle_getAttachedTo
 - uid: '@altmp/altv-types.alt-server.Vehicle.getBumperDamageLevel'
   name: getBumperDamageLevel(VehicleBumper)
   href: js/api/alt-server.Vehicle.html#_altmp_altv_types_alt_server_Vehicle_getBumperDamageLevel
@@ -3390,6 +3773,9 @@ references:
   name: rearWheels
   href: js/api/alt-server.Vehicle.html#_altmp_altv_types_alt_server_Vehicle_rearWheels
   fullName: rearWheels
+- uid: '@altmp/altv-types.alt-server.Vehicle.repair'
+  name: repair()
+  href: js/api/alt-server.Vehicle.html#_altmp_altv_types_alt_server_Vehicle_repair
 - uid: '@altmp/altv-types.alt-server.Vehicle.repairsCount'
   name: repairsCount
   href: js/api/alt-server.Vehicle.html#_altmp_altv_types_alt_server_Vehicle_repairsCount
@@ -3795,6 +4181,10 @@ references:
 - uid: '@altmp/altv-types.alt-server.VehiclePartDamage.NotDamaged'
   name: NotDamaged
   href: js/api/alt-server.VehiclePartDamage.html#_altmp_altv_types_alt_server_VehiclePartDamage_NotDamaged
+- uid: '@altmp/altv-types.alt-server.version'
+  name: version
+  href: js/api/alt-server.html#_altmp_altv_types_alt_server_version
+  fullName: version
 - uid: '@altmp/altv-types.alt-server.VoiceChannel'
   name: VoiceChannel
   href: js/api/alt-server.VoiceChannel.html#_altmp_altv_types_alt_server_VoiceChannel
