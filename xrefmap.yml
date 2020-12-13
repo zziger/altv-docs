@@ -98,6 +98,10 @@ references:
   name: crewIndicatorVisible
   href: js/api/alt-client.Blip.html#_altmp_altv_types_alt_client_Blip_crewIndicatorVisible
   fullName: crewIndicatorVisible
+- uid: '@altmp/altv-types.alt-client.Blip.display'
+  name: display
+  href: js/api/alt-client.Blip.html#_altmp_altv_types_alt_client_Blip_display
+  fullName: display
 - uid: '@altmp/altv-types.alt-client.Blip.fade'
   name: fade(number, number)
   href: js/api/alt-client.Blip.html#_altmp_altv_types_alt_client_Blip_fade
@@ -193,6 +197,10 @@ references:
   name: shrinked
   href: js/api/alt-client.Blip.html#_altmp_altv_types_alt_client_Blip_shrinked
   fullName: shrinked
+- uid: '@altmp/altv-types.alt-client.Blip.size'
+  name: size
+  href: js/api/alt-client.Blip.html#_altmp_altv_types_alt_client_Blip_size
+  fullName: size
 - uid: '@altmp/altv-types.alt-client.Blip.sprite'
   name: sprite
   href: js/api/alt-client.Blip.html#_altmp_altv_types_alt_client_Blip_sprite
