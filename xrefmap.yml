@@ -3186,6 +3186,9 @@ references:
 - uid: '@altmp/altv-types.alt-server.once_1'
   name: 'once<S extends string>(Exclude<S, keyof IServerEvent>, (...args: any[]) => boolean | void | Promise<boolean | void>)'
   href: js/api/alt-server.html#_altmp_altv_types_alt_server_once_1
+- uid: '@altmp/altv-types.alt-server.onceClient'
+  name: 'onceClient(string, (player: Player, ...args: any[]) => void)'
+  href: js/api/alt-server.html#_altmp_altv_types_alt_server_onceClient
 - uid: '@altmp/altv-types.alt-server.onClient'
   name: 'onClient(string, (player: Player, ...args: any[]) => void)'
   href: js/api/alt-server.html#_altmp_altv_types_alt_server_onClient
