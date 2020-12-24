@@ -20476,6 +20476,19 @@ references:
   isSpec: "True"
   fullName: AltV.Net.Elements.Entities.IVehicle.Remove
   nameWithType: IVehicle.Remove
+- uid: AltV.Net.Elements.Entities.IVehicle.Repair
+  name: Repair()
+  href: cs/api/AltV.Net.Elements.Entities.IVehicle.html#AltV_Net_Elements_Entities_IVehicle_Repair
+  commentId: M:AltV.Net.Elements.Entities.IVehicle.Repair
+  fullName: AltV.Net.Elements.Entities.IVehicle.Repair()
+  nameWithType: IVehicle.Repair()
+- uid: AltV.Net.Elements.Entities.IVehicle.Repair*
+  name: Repair
+  href: cs/api/AltV.Net.Elements.Entities.IVehicle.html#AltV_Net_Elements_Entities_IVehicle_Repair_
+  commentId: Overload:AltV.Net.Elements.Entities.IVehicle.Repair
+  isSpec: "True"
+  fullName: AltV.Net.Elements.Entities.IVehicle.Repair
+  nameWithType: IVehicle.Repair
 - uid: AltV.Net.Elements.Entities.IVehicle.RepairsCount
   name: RepairsCount
   href: cs/api/AltV.Net.Elements.Entities.IVehicle.html#AltV_Net_Elements_Entities_IVehicle_RepairsCount
@@ -23265,6 +23278,19 @@ references:
   isSpec: "True"
   fullName: AltV.Net.Elements.Entities.Vehicle.Remove
   nameWithType: Vehicle.Remove
+- uid: AltV.Net.Elements.Entities.Vehicle.Repair
+  name: Repair()
+  href: cs/api/AltV.Net.Elements.Entities.Vehicle.html#AltV_Net_Elements_Entities_Vehicle_Repair
+  commentId: M:AltV.Net.Elements.Entities.Vehicle.Repair
+  fullName: AltV.Net.Elements.Entities.Vehicle.Repair()
+  nameWithType: Vehicle.Repair()
+- uid: AltV.Net.Elements.Entities.Vehicle.Repair*
+  name: Repair
+  href: cs/api/AltV.Net.Elements.Entities.Vehicle.html#AltV_Net_Elements_Entities_Vehicle_Repair_
+  commentId: Overload:AltV.Net.Elements.Entities.Vehicle.Repair
+  isSpec: "True"
+  fullName: AltV.Net.Elements.Entities.Vehicle.Repair
+  nameWithType: Vehicle.Repair
 - uid: AltV.Net.Elements.Entities.Vehicle.RepairsCount
   name: RepairsCount
   href: cs/api/AltV.Net.Elements.Entities.Vehicle.html#AltV_Net_Elements_Entities_Vehicle_RepairsCount
