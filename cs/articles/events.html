@@ -320,6 +320,24 @@ namespace AltV.Net
             add =&gt; Module.PlayerWeaponChangeEventHandler.Add(value);
             remove =&gt; Module.PlayerWeaponChangeEventHandler.Remove(value);
         }
+        
+        public static event NetOwnerChangeDelegate OnNetworkOwnerChange
+        {
+            add =&gt; Module.NetOwnerChangeEventHandler.Add(value);
+            remove =&gt; Module.NetOwnerChangeEventHandler.Remove(value);
+        }
+        
+        public static event VehicleAttachDelegate OnVehicleAttach
+        {
+            add =&gt; Module.VehicleAttachEventHandler.Add(value);
+            remove =&gt; Module.VehicleAttachEventHandler.Remove(value);
+        }
+        
+        public static event VehicleDetachDelegate OnVehicleDetach
+        {
+            add =&gt; Module.VehicleDetachEventHandler.Add(value);
+            remove =&gt; Module.VehicleDetachEventHandler.Remove(value);
+        }
     }
 }
 </code></pre>
@@ -384,6 +402,12 @@ namespace AltV.Net.Events
     public delegate bool StartProjectileDelegate(IPlayer player, Position startPosition, Position direction, uint ammoHash, uint weaponHash);
     
     public delegate bool PlayerWeaponChangeDelegate(IPlayer player, uint oldWeapon, uint newWeapon);
+    
+    public delegate void NetOwnerChangeDelegate(IEntity target, IPlayer oldNetOwner, IPlayer newNetOwner);
+    
+    public delegate void VehicleAttachDelegate(IVehicle target, IVehicle attachedVehicle);
+    
+    public delegate void VehicleDetachDelegate(IVehicle target, IVehicle detachedVehicle);
 }
 </code></pre>
 <p>The player event handler looks like this.</p>
