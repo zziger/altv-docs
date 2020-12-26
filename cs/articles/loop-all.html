@@ -108,8 +108,18 @@
 <p>This article will describe how to loop players, vehicles, ect. fast and secure.</p>
 <p>You first have to create a custom class that implements the callback interface.</p>
 <p>There are two callback interfaces to implement.</p>
-<p><code>IAsyncBaseObjectCallback</code> which is for calling async code in it and <code>IBaseObjectCallback</code> for none async code.</p>
-<p>Both callbacks, no mather the interface can be called in async code. <code>IAsyncBaseObjectCallback</code> will just result in returning a Task.</p>
+<ol>
+<li><p><code>IAsyncBaseObjectCallback</code> which is for calling async code in it.
+The callback gets executed inside of an own task and therefore is awaitable.
+Use this callback class either when you have to execute asynchronous code inside the loop or when the loop call itself gets executed asynchronously (not in main thread).
+The entity object parameter by using this callback class is validated and it is safe to be used outside of the main thread without need of using lock statements.</p>
+</li>
+<li><p><code>IBaseObjectCallback</code> is used for none async code.
+The loop execution also blocks the execution on the main thread.
+You should also not use async code within the callback (or at least lock usage of entities).</p>
+</li>
+</ol>
+<p>Technically both callbacks, no mather the interface can be called in async code. <code>IAsyncBaseObjectCallback</code> will result in returning a Task and uses async safe entity references (like <code>AsyncPlayerRef</code> instead of <code>PlayerRef</code> when iterating over players).</p>
 <p>This example is for IPlayer's but can be used for <code>IVehicle</code>, <code>IBlip</code>, <code>ICheckpoint</code>, <code>IColShape</code> and <code>IVoiceChannel</code> as well.</p>
 <pre><code class="lang-csharp">class MyPlayerCallback: IBaseObjectCallback&lt;IPlayer&gt;
 {
@@ -139,6 +149,59 @@ Alt.ForEachPlayers(myPlayerCallback);
 They are currently called sequently.</p>
 <p>Its allowed to reuse the created class instances for as many calls as you want.</p>
 <p>Exceptions inside a callback will result into the method to fail and forward the exception to the caller.</p>
+<h3 id="function--lambda-callbacks">Function / lambda callbacks</h3>
+<p>Since writing multiple classes for each iteration purpose can be exhausting, you can also use these two generic callback implementations.
+With them you can use lambda expressions to define the loop code.
+Just keep in mind that using classes is better in performance than using lambda functions (which is probably negligible).</p>
+<pre><code class="lang-csharp">public class FunctionCallback&lt;T&gt;
+	: IBaseObjectCallback&lt;T&gt;
+	where T : IBaseObject
+{
+	private readonly Action&lt;T&gt; _callback;
+
+	public FunctionCallback(Action&lt;T&gt; callback)
+	{
+		_callback = callback;
+	}
+
+	public void OnBaseObject(T baseObject)
+	{
+		_callback(baseObject);
+	}
+}
+
+public class AsyncFunctionCallback&lt;T&gt;
+	: IAsyncBaseObjectCallback&lt;T&gt;
+	where T : IBaseObject
+{
+	private readonly Func&lt;T, Task&gt; _callback;
+
+	public AsyncFunctionCallback(Func&lt;T, Task&gt; callback)
+	{
+		_callback = callback;
+	}
+
+	public Task OnBaseObject(T baseObject)
+	{
+		return _callback(baseObject);
+	}
+}
+</code></pre>
+<p>Usage:</p>
+<pre><code class="lang-csharp">var callback = new FunctionCallback&lt;IPlayer&gt;(player =&gt; {
+    // do something
+    Alt.Log(player.Name);
+});
+
+Alt.ForEachPlayers(callback);
+</code></pre>
+<pre><code class="lang-csharp">var asyncCallback = new AsyncFunctionCallback&lt;IPlayer&gt;(async (player) =&gt; {
+    // do something
+    Alt.Log(player.Name);
+});
+
+Alt.ForEachPlayers(asyncCallback);
+</code></pre>
 </article>
                     </div>
 
