@@ -109,28 +109,35 @@
 <p>You first have to create a custom class that implements the callback interface.</p>
 <p>There are two callback interfaces to implement.</p>
 <ol>
-<li><p><code>IAsyncBaseObjectCallback</code> which is for calling async code in it.
-The callback gets executed inside of an own task and therefore is awaitable.
-Use this callback class either when you have to execute asynchronous code inside the loop or when the loop call itself gets executed asynchronously (not in main thread).
-The entity object parameter by using this callback class is validated and it is safe to be used outside of the main thread without need of using lock statements.</p>
-</li>
 <li><p><code>IBaseObjectCallback</code> is used for none async code.
 The loop execution also blocks the execution on the main thread.
 You should also not use async code within the callback (or at least lock usage of entities).</p>
 </li>
+<li><p><code>IAsyncBaseObjectCallback</code> which is for calling async code in it.
+The callback gets executed inside of an own task and therefore is awaitable.
+Use this callback class either when you have to execute asynchronous code inside the loop or when the loop call itself gets executed asynchronously (not in main thread).
+The entity object parameter by using this callback class is validated and it is safe to be used outside of the main thread without need of using lock statements.
+Remember that you have to inherit your resource class from <code>AsyncResource</code> (AltAsync package) instead of <code>Resource</code>, otherwise you don't have entity validation.</p>
+</li>
 </ol>
 <p>Technically both callbacks, no mather the interface can be called in async code. <code>IAsyncBaseObjectCallback</code> will result in returning a Task and uses async safe entity references (like <code>AsyncPlayerRef</code> instead of <code>PlayerRef</code> when iterating over players).</p>
 <p>This example is for IPlayer's but can be used for <code>IVehicle</code>, <code>IBlip</code>, <code>ICheckpoint</code>, <code>IColShape</code> and <code>IVoiceChannel</code> as well.</p>
-<pre><code class="lang-csharp">class MyPlayerCallback: IBaseObjectCallback&lt;IPlayer&gt;
+<pre><code class="lang-csharp">class MyPlayerCallback
+    : IBaseObjectCallback&lt;IPlayer&gt;
 {
-    public void OnBaseObject(IPlayer player) {
+    public void OnBaseObject(IPlayer player)
+    {
+        // do something
         CheckPlayerPosition(player.Position);
     }
 }
 
-class MyPlayerSaveToDBCallback: IAsyncBaseObjectCallback&lt;IPlayer&gt;
+class MyPlayerSaveToDBCallback
+    : IAsyncBaseObjectCallback&lt;IPlayer&gt;
 {
-    public async Task OnBaseObject(IPlayer player) {
+    public async Task OnBaseObject(IPlayer player)
+    {
+        // do something
         var dbPlayer = await LoadPlayerFromDb(player.Id);
         await SavePlayer(dbPlayer);
     }
@@ -154,50 +161,60 @@ They are currently called sequently.</p>
 With them you can use lambda expressions to define the loop code.
 Just keep in mind that using classes is better in performance than using lambda functions (which is probably negligible).</p>
 <pre><code class="lang-csharp">public class FunctionCallback&lt;T&gt;
-	: IBaseObjectCallback&lt;T&gt;
-	where T : IBaseObject
+    : IBaseObjectCallback&lt;T&gt;
+    where T : IBaseObject
 {
-	private readonly Action&lt;T&gt; _callback;
+    private readonly Action&lt;T&gt; _callback;
 
-	public FunctionCallback(Action&lt;T&gt; callback)
-	{
-		_callback = callback;
-	}
+    public FunctionCallback(Action&lt;T&gt; callback)
+    {
+        _callback = callback;
+    }
 
-	public void OnBaseObject(T baseObject)
-	{
-		_callback(baseObject);
-	}
+    public void OnBaseObject(T baseObject)
+    {
+        _callback(baseObject);
+    }
 }
 
 public class AsyncFunctionCallback&lt;T&gt;
-	: IAsyncBaseObjectCallback&lt;T&gt;
-	where T : IBaseObject
+    : IAsyncBaseObjectCallback&lt;T&gt;
+    where T : IBaseObject
 {
-	private readonly Func&lt;T, Task&gt; _callback;
+    private readonly Func&lt;T, Task&gt; _callback;
 
-	public AsyncFunctionCallback(Func&lt;T, Task&gt; callback)
-	{
-		_callback = callback;
-	}
+    public AsyncFunctionCallback(Func&lt;T, Task&gt; callback)
+    {
+        _callback = callback;
+    }
 
-	public Task OnBaseObject(T baseObject)
-	{
-		return _callback(baseObject);
-	}
+    public Task OnBaseObject(T baseObject)
+    {
+        return _callback(baseObject);
+    }
 }
 </code></pre>
 <p>Usage:</p>
 <pre><code class="lang-csharp">var callback = new FunctionCallback&lt;IPlayer&gt;(player =&gt; {
     // do something
-    Alt.Log(player.Name);
+    CheckPlayerPosition(player.Position);
 });
 
 Alt.ForEachPlayers(callback);
 </code></pre>
 <pre><code class="lang-csharp">var asyncCallback = new AsyncFunctionCallback&lt;IPlayer&gt;(async (player) =&gt; {
     // do something
+    var dbPlayer = await LoadPlayerFromDb(player.Id);
+    await SavePlayer(dbPlayer);
+});
+
+Alt.ForEachPlayers(asyncCallback);
+</code></pre>
+<p>If you need entity validation without having the need for using await statement you can do this:</p>
+<pre><code class="lang-csharp">var asyncCallback = new AsyncFunctionCallback&lt;IPlayer&gt;(async (player) =&gt; {
+    // do something
     Alt.Log(player.Name);
+    await Task.CompletedTask; // you need at least one await statement in async methods
 });
 
 Alt.ForEachPlayers(asyncCallback);
