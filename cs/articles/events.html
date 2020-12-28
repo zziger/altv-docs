@@ -234,6 +234,12 @@ namespace AltV.Net
             add =&gt; Module.PlayerEnterVehicleEventHandler.Add(value);
             remove =&gt; Module.PlayerEnterVehicleEventHandler.Remove(value);
         }
+        
+        public static event PlayerEnteringVehicleDelegate OnPlayerEnteringVehicle
+        {
+            add =&gt; Module.PlayerEnteringVehicleEventHandler.Add(value);
+            remove =&gt; Module.PlayerEnteringVehicleEventHandler.Remove(value);
+        }
 
         public static event PlayerLeaveVehicleDelegate OnPlayerLeaveVehicle
         {
@@ -376,6 +382,8 @@ namespace AltV.Net.Events
     public delegate void PlayerChangeVehicleSeatDelegate(IVehicle vehicle, IPlayer player, byte oldSeat, byte newSeat);
 
     public delegate void PlayerEnterVehicleDelegate(IVehicle vehicle, IPlayer player, byte seat);
+
+    public delegate void PlayerEnteringVehicleDelegate(IVehicle vehicle, IPlayer player, byte seat);
 
     public delegate void PlayerLeaveVehicleDelegate(IVehicle vehicle, IPlayer player, byte seat);
 

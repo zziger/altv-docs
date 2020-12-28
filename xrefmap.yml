@@ -5230,6 +5230,12 @@ references:
   commentId: E:AltV.Net.Alt.OnPlayerDisconnect
   fullName: AltV.Net.Alt.OnPlayerDisconnect
   nameWithType: Alt.OnPlayerDisconnect
+- uid: AltV.Net.Alt.OnPlayerEnteringVehicle
+  name: OnPlayerEnteringVehicle
+  href: cs/api/AltV.Net.Alt.html#AltV_Net_Alt_OnPlayerEnteringVehicle
+  commentId: E:AltV.Net.Alt.OnPlayerEnteringVehicle
+  fullName: AltV.Net.Alt.OnPlayerEnteringVehicle
+  nameWithType: Alt.OnPlayerEnteringVehicle
 - uid: AltV.Net.Alt.OnPlayerEnterVehicle
   name: OnPlayerEnterVehicle
   href: cs/api/AltV.Net.Alt.html#AltV_Net_Alt_OnPlayerEnterVehicle
@@ -8075,6 +8081,12 @@ references:
   commentId: E:AltV.Net.Async.AltAsync.OnPlayerDisconnect
   fullName: AltV.Net.Async.AltAsync.OnPlayerDisconnect
   nameWithType: AltAsync.OnPlayerDisconnect
+- uid: AltV.Net.Async.AltAsync.OnPlayerEnteringVehicle
+  name: OnPlayerEnteringVehicle
+  href: cs/api/AltV.Net.Async.AltAsync.html#AltV_Net_Async_AltAsync_OnPlayerEnteringVehicle
+  commentId: E:AltV.Net.Async.AltAsync.OnPlayerEnteringVehicle
+  fullName: AltV.Net.Async.AltAsync.OnPlayerEnteringVehicle
+  nameWithType: AltAsync.OnPlayerEnteringVehicle
 - uid: AltV.Net.Async.AltAsync.OnPlayerEnterVehicle
   name: OnPlayerEnterVehicle
   href: cs/api/AltV.Net.Async.AltAsync.html#AltV_Net_Async_AltAsync_OnPlayerEnterVehicle
@@ -10208,6 +10220,19 @@ references:
   isSpec: "True"
   fullName: AltV.Net.Async.AsyncModule.OnPlayerDisconnectEvent
   nameWithType: AsyncModule.OnPlayerDisconnectEvent
+- uid: AltV.Net.Async.AsyncModule.OnPlayerEnteringVehicleEvent(AltV.Net.Elements.Entities.IVehicle,AltV.Net.Elements.Entities.IPlayer,System.Byte)
+  name: OnPlayerEnteringVehicleEvent(IVehicle, IPlayer, Byte)
+  href: cs/api/AltV.Net.Async.AsyncModule.html#AltV_Net_Async_AsyncModule_OnPlayerEnteringVehicleEvent_AltV_Net_Elements_Entities_IVehicle_AltV_Net_Elements_Entities_IPlayer_System_Byte_
+  commentId: M:AltV.Net.Async.AsyncModule.OnPlayerEnteringVehicleEvent(AltV.Net.Elements.Entities.IVehicle,AltV.Net.Elements.Entities.IPlayer,System.Byte)
+  fullName: AltV.Net.Async.AsyncModule.OnPlayerEnteringVehicleEvent(AltV.Net.Elements.Entities.IVehicle, AltV.Net.Elements.Entities.IPlayer, System.Byte)
+  nameWithType: AsyncModule.OnPlayerEnteringVehicleEvent(IVehicle, IPlayer, Byte)
+- uid: AltV.Net.Async.AsyncModule.OnPlayerEnteringVehicleEvent*
+  name: OnPlayerEnteringVehicleEvent
+  href: cs/api/AltV.Net.Async.AsyncModule.html#AltV_Net_Async_AsyncModule_OnPlayerEnteringVehicleEvent_
+  commentId: Overload:AltV.Net.Async.AsyncModule.OnPlayerEnteringVehicleEvent
+  isSpec: "True"
+  fullName: AltV.Net.Async.AsyncModule.OnPlayerEnteringVehicleEvent
+  nameWithType: AsyncModule.OnPlayerEnteringVehicleEvent
 - uid: AltV.Net.Async.AsyncModule.OnPlayerEnterVehicleEvent(AltV.Net.Elements.Entities.IVehicle,AltV.Net.Elements.Entities.IPlayer,System.Byte)
   name: OnPlayerEnterVehicleEvent(IVehicle, IPlayer, Byte)
   href: cs/api/AltV.Net.Async.AsyncModule.html#AltV_Net_Async_AsyncModule_OnPlayerEnterVehicleEvent_AltV_Net_Elements_Entities_IVehicle_AltV_Net_Elements_Entities_IPlayer_System_Byte_
@@ -12022,6 +12047,12 @@ references:
   commentId: T:AltV.Net.Async.Events.PlayerDisconnectAsyncDelegate
   fullName: AltV.Net.Async.Events.PlayerDisconnectAsyncDelegate
   nameWithType: PlayerDisconnectAsyncDelegate
+- uid: AltV.Net.Async.Events.PlayerEnteringVehicleAsyncDelegate
+  name: PlayerEnteringVehicleAsyncDelegate
+  href: cs/api/AltV.Net.Async.Events.PlayerEnteringVehicleAsyncDelegate.html
+  commentId: T:AltV.Net.Async.Events.PlayerEnteringVehicleAsyncDelegate
+  fullName: AltV.Net.Async.Events.PlayerEnteringVehicleAsyncDelegate
+  nameWithType: PlayerEnteringVehicleAsyncDelegate
 - uid: AltV.Net.Async.Events.PlayerEnterVehicleAsyncDelegate
   name: PlayerEnterVehicleAsyncDelegate
   href: cs/api/AltV.Net.Async.Events.PlayerEnterVehicleAsyncDelegate.html
@@ -42856,6 +42887,12 @@ references:
   commentId: T:AltV.Net.Events.PlayerDisconnectDelegate
   fullName: AltV.Net.Events.PlayerDisconnectDelegate
   nameWithType: PlayerDisconnectDelegate
+- uid: AltV.Net.Events.PlayerEnteringVehicleDelegate
+  name: PlayerEnteringVehicleDelegate
+  href: cs/api/AltV.Net.Events.PlayerEnteringVehicleDelegate.html
+  commentId: T:AltV.Net.Events.PlayerEnteringVehicleDelegate
+  fullName: AltV.Net.Events.PlayerEnteringVehicleDelegate
+  nameWithType: PlayerEnteringVehicleDelegate
 - uid: AltV.Net.Events.PlayerEnterVehicleDelegate
   name: PlayerEnterVehicleDelegate
   href: cs/api/AltV.Net.Events.PlayerEnterVehicleDelegate.html
@@ -52570,6 +52607,32 @@ references:
   isSpec: "True"
   fullName: AltV.Net.Module.OnPlayerDisconnectEvent
   nameWithType: Module.OnPlayerDisconnectEvent
+- uid: AltV.Net.Module.OnPlayerEnteringVehicle(System.IntPtr,System.IntPtr,System.Byte)
+  name: OnPlayerEnteringVehicle(IntPtr, IntPtr, Byte)
+  href: cs/api/AltV.Net.Module.html#AltV_Net_Module_OnPlayerEnteringVehicle_System_IntPtr_System_IntPtr_System_Byte_
+  commentId: M:AltV.Net.Module.OnPlayerEnteringVehicle(System.IntPtr,System.IntPtr,System.Byte)
+  fullName: AltV.Net.Module.OnPlayerEnteringVehicle(System.IntPtr, System.IntPtr, System.Byte)
+  nameWithType: Module.OnPlayerEnteringVehicle(IntPtr, IntPtr, Byte)
+- uid: AltV.Net.Module.OnPlayerEnteringVehicle*
+  name: OnPlayerEnteringVehicle
+  href: cs/api/AltV.Net.Module.html#AltV_Net_Module_OnPlayerEnteringVehicle_
+  commentId: Overload:AltV.Net.Module.OnPlayerEnteringVehicle
+  isSpec: "True"
+  fullName: AltV.Net.Module.OnPlayerEnteringVehicle
+  nameWithType: Module.OnPlayerEnteringVehicle
+- uid: AltV.Net.Module.OnPlayerEnteringVehicleEvent(AltV.Net.Elements.Entities.IVehicle,AltV.Net.Elements.Entities.IPlayer,System.Byte)
+  name: OnPlayerEnteringVehicleEvent(IVehicle, IPlayer, Byte)
+  href: cs/api/AltV.Net.Module.html#AltV_Net_Module_OnPlayerEnteringVehicleEvent_AltV_Net_Elements_Entities_IVehicle_AltV_Net_Elements_Entities_IPlayer_System_Byte_
+  commentId: M:AltV.Net.Module.OnPlayerEnteringVehicleEvent(AltV.Net.Elements.Entities.IVehicle,AltV.Net.Elements.Entities.IPlayer,System.Byte)
+  fullName: AltV.Net.Module.OnPlayerEnteringVehicleEvent(AltV.Net.Elements.Entities.IVehicle, AltV.Net.Elements.Entities.IPlayer, System.Byte)
+  nameWithType: Module.OnPlayerEnteringVehicleEvent(IVehicle, IPlayer, Byte)
+- uid: AltV.Net.Module.OnPlayerEnteringVehicleEvent*
+  name: OnPlayerEnteringVehicleEvent
+  href: cs/api/AltV.Net.Module.html#AltV_Net_Module_OnPlayerEnteringVehicleEvent_
+  commentId: Overload:AltV.Net.Module.OnPlayerEnteringVehicleEvent
+  isSpec: "True"
+  fullName: AltV.Net.Module.OnPlayerEnteringVehicleEvent
+  nameWithType: Module.OnPlayerEnteringVehicleEvent
 - uid: AltV.Net.Module.OnPlayerEnterVehicle(System.IntPtr,System.IntPtr,System.Byte)
   name: OnPlayerEnterVehicle(IntPtr, IntPtr, Byte)
   href: cs/api/AltV.Net.Module.html#AltV_Net_Module_OnPlayerEnterVehicle_System_IntPtr_System_IntPtr_System_Byte_
@@ -57246,6 +57309,12 @@ references:
   commentId: F:AltV.Net.ScriptEventType.PlayerDisconnect
   fullName: AltV.Net.ScriptEventType.PlayerDisconnect
   nameWithType: ScriptEventType.PlayerDisconnect
+- uid: AltV.Net.ScriptEventType.PlayerEnteringVehicle
+  name: PlayerEnteringVehicle
+  href: cs/api/AltV.Net.ScriptEventType.html#AltV_Net_ScriptEventType_PlayerEnteringVehicle
+  commentId: F:AltV.Net.ScriptEventType.PlayerEnteringVehicle
+  fullName: AltV.Net.ScriptEventType.PlayerEnteringVehicle
+  nameWithType: ScriptEventType.PlayerEnteringVehicle
 - uid: AltV.Net.ScriptEventType.PlayerEnterVehicle
   name: PlayerEnterVehicle
   href: cs/api/AltV.Net.ScriptEventType.html#AltV_Net_ScriptEventType_PlayerEnterVehicle
