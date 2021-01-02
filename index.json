@@ -1,4 +1,9 @@
 {
+  "articles/index.html": {
+    "href": "articles/index.html",
+    "title": "This page isn't ready yet",
+    "keywords": "This page isn't ready yet"
+  },
   "cs/api/AltV.Net.Alt.html": {
     "href": "cs/api/AltV.Net.Alt.html",
     "title": "Class Alt",
