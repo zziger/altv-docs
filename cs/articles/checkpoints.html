@@ -6,9 +6,9 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Getting Started </title>
+    <title>Introduction </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Getting Started ">
+    <meta name="title" content="Introduction ">
     <meta name="generator" content="docfx 2.56.6.0">
     
     <link rel="shortcut icon" href="../../favicon.ico">
@@ -78,7 +78,7 @@
                       <!--<div class="contribution">
                         <ul class="level1 breadcrumb">
                           <li>
-                            <a href="https://github.com/FabianTerhorst/coreclr-module/blob/master/docs/articles/index.md/#L1" class="contribution-link">Improve this Doc</a>
+                            <a href="https://github.com/FabianTerhorst/coreclr-module/blob/master/docs/articles/checkpoints.md/#L1" class="contribution-link">Improve this Doc</a>
                           </li>
                         </ul>
                       </div>-->
@@ -103,16 +103,86 @@
                             </div>
 
                         <article class="content wrap hide-when-search" id="_content" data-uid="">
-<h1 id="getting-started">Getting Started</h1>
+<h1 id="introduction">Introduction</h1>
 
-<p>This is the documentation for getting started developing c# resources.</p>
-<p>Read <a href="setup.html">Setup</a> for setting up the basics and getting ready for work.</p>
-<p>Read <a href="create-resource.html">Create Resource</a> for creating a c# resource.</p>
-<p>Read <a href="create-script.html">Create Script</a> to learn the first steps about how to write code for your own resource.</p>
-<p>Read <a href="events.html">Events</a> for an introduction about handling alt:V standard events.</p>
-<p>Read <a href="custom-events.html">Custom Events</a> to understand how custom events are emitted and handled.</p>
-<p>Read <a href="entity-factories.html">Entity factories</a> to get an understanding about how to handle meta-like data more efficient.</p>
-<p>Read <a href="checkpoints.html">Checkpoints</a> to learn about checkpoints.</p>
+<p>Checkpoints are very similiar to Colshapes. The main difference is that Colshapes are only available on clientside.
+With checkpoints you are able to detect appearing or disappearing entities of an area, specified by position, radius and height.
+The specified checkpoint type defines the shape of the checkpoint (there are 3 shapes available: Cylinder, Rings, Arrows). Typically checkpoints are used for by parkour racings or driving/flying tutorials.</p>
+<p>alt:V offers full API support for creating Checkpoints on serverside.</p>
+<h1 id="api">API</h1>
+<h2 id="methods">Methods</h2>
+<table>
+<thead>
+<tr>
+<th>Method</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Alt.CreateCheckpoint</td>
+<td>Creates a new checkpoint</td>
+</tr>
+<tr>
+<td>Alt.ForEachCheckpoint</td>
+<td>Iterates through all created checkpoints</td>
+</tr>
+<tr>
+<td>Alt.GetAllCheckpoints</td>
+<td>Returns all created checkpoints as <code>ICollection&lt;ICheckpoint&gt;</code></td>
+</tr>
+<tr>
+<td>Alt.GetCheckpointsArray</td>
+<td>Returns all created checkpoints as <code>KeyValuePair&lt;IntPtr,ICheckpoint&gt;[]</code></td>
+</tr>
+<tr>
+<td>Alt.RemoveCheckpoint</td>
+<td>Destroys the specified checkpoint</td>
+</tr>
+</tbody>
+</table>
+<h2 id="events">Events</h2>
+<p><code>Alt.OnCheckpoint</code> is raised whenever any checkpoint is entered by any player.
+Inside of the event handler you need to check which one of your checkpoints got triggered by comparing the object instances with the first parameter.
+The entity which raised the event is specified by the second parameter.
+At last <code>state</code> defines if the entity entered (<code>true</code>) or left (<code>false</code>) the checkpoint area.</p>
+<h2 id="full-example">Full example</h2>
+<pre><code class="lang-cs">using AltV.Net;
+using AltV.Net.Elements.Entities;
+using System.Drawing;
+
+public class CheckpointTest
+    : IScript
+{
+    private ICheckpoint _demoCheckpoint;
+
+    public CheckpointTest()
+    {
+        // register event handler
+        Alt.OnCheckpoint += Alt_OnCheckpoint;
+        
+        // create a new checkpoint
+        _demoCheckpoint = Alt.CreateCheckpoint(CheckpointType.Cyclinder, new Position(), 1.5f, 2f, Color.Yellow);
+    }
+
+    private void Alt_OnCheckpoint(ICheckpoint checkpoint, IEntity entity, bool state)
+    {
+        if (checkpoint != _demoCheckpoint)
+        {
+            return;
+        }
+
+        if (state)
+        {
+            // entity entered the checkpoint
+        }
+        else
+        {
+            // entity left the checkpoint
+        }
+    }
+}
+</code></pre>
 </article>
                     </div>
 
