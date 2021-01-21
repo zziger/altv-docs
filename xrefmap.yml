@@ -477,6 +477,9 @@ references:
 - uid: '@altmp/altv-types.alt-client.Discord.requestOAuth2Token'
   name: requestOAuth2Token()
   href: js/api/alt-client.Discord.html#_altmp_altv_types_alt_client_Discord_requestOAuth2Token
+- uid: '@altmp/altv-types.alt-client.doesConfigFlagExist'
+  name: doesConfigFlagExist(string)
+  href: js/api/alt-client.html#_altmp_altv_types_alt_client_doesConfigFlagExist
 - uid: '@altmp/altv-types.alt-client.emit'
   name: emit(string, any[])
   href: js/api/alt-client.html#_altmp_altv_types_alt_client_emit
@@ -565,6 +568,9 @@ references:
 - uid: '@altmp/altv-types.alt-client.gameControlsEnabled'
   name: gameControlsEnabled()
   href: js/api/alt-client.html#_altmp_altv_types_alt_client_gameControlsEnabled
+- uid: '@altmp/altv-types.alt-client.getConfigFlag'
+  name: getConfigFlag(string)
+  href: js/api/alt-client.html#_altmp_altv_types_alt_client_getConfigFlag
 - uid: '@altmp/altv-types.alt-client.getCursorPos'
   name: getCursorPos()
   href: js/api/alt-client.html#_altmp_altv_types_alt_client_getCursorPos
@@ -1005,18 +1011,30 @@ references:
 - uid: '@altmp/altv-types.alt-client.isGameFocused'
   name: isGameFocused()
   href: js/api/alt-client.html#_altmp_altv_types_alt_client_isGameFocused
+- uid: '@altmp/altv-types.alt-client.isInDebug'
+  name: isInDebug()
+  href: js/api/alt-client.html#_altmp_altv_types_alt_client_isInDebug
 - uid: '@altmp/altv-types.alt-client.isInSandbox'
   name: isInSandbox()
   href: js/api/alt-client.html#_altmp_altv_types_alt_client_isInSandbox
 - uid: '@altmp/altv-types.alt-client.isInStreamerMode'
   name: isInStreamerMode()
   href: js/api/alt-client.html#_altmp_altv_types_alt_client_isInStreamerMode
+- uid: '@altmp/altv-types.alt-client.isKeyDown'
+  name: isKeyDown(number)
+  href: js/api/alt-client.html#_altmp_altv_types_alt_client_isKeyDown
+- uid: '@altmp/altv-types.alt-client.isKeyToggled'
+  name: isKeyToggled(number)
+  href: js/api/alt-client.html#_altmp_altv_types_alt_client_isKeyToggled
 - uid: '@altmp/altv-types.alt-client.isMenuOpen'
   name: isMenuOpen()
   href: js/api/alt-client.html#_altmp_altv_types_alt_client_isMenuOpen
 - uid: '@altmp/altv-types.alt-client.isTextureExistInArchetype'
   name: isTextureExistInArchetype(number, string)
   href: js/api/alt-client.html#_altmp_altv_types_alt_client_isTextureExistInArchetype
+- uid: '@altmp/altv-types.alt-client.isVoiceActivityInputEnabled'
+  name: isVoiceActivityInputEnabled()
+  href: js/api/alt-client.html#_altmp_altv_types_alt_client_isVoiceActivityInputEnabled
 - uid: '@altmp/altv-types.alt-client.IVector2'
   name: IVector2
   href: js/api/alt-client.IVector2.html#_altmp_altv_types_alt_client_IVector2
@@ -1443,6 +1461,9 @@ references:
   name: LocalStorage
   href: js/api/alt-client.LocalStorage.html#_altmp_altv_types_alt_client_LocalStorage
   fullName: LocalStorage
+- uid: '@altmp/altv-types.alt-client.LocalStorage.clear'
+  name: clear()
+  href: js/api/alt-client.LocalStorage.html#_altmp_altv_types_alt_client_LocalStorage_clear
 - uid: '@altmp/altv-types.alt-client.LocalStorage.delete'
   name: delete(string)
   href: js/api/alt-client.LocalStorage.html#_altmp_altv_types_alt_client_LocalStorage_delete
@@ -1507,6 +1528,9 @@ references:
   name: MemoryBuffer
   href: js/api/alt-client.MemoryBuffer.html#_altmp_altv_types_alt_client_MemoryBuffer
   fullName: MemoryBuffer
+- uid: '@altmp/altv-types.alt-client.MemoryBuffer.address'
+  name: address(number)
+  href: js/api/alt-client.MemoryBuffer.html#_altmp_altv_types_alt_client_MemoryBuffer_address
 - uid: '@altmp/altv-types.alt-client.MemoryBuffer.byte'
   name: byte(number)
   href: js/api/alt-client.MemoryBuffer.html#_altmp_altv_types_alt_client_MemoryBuffer_byte
@@ -1775,6 +1799,9 @@ references:
 - uid: '@altmp/altv-types.alt-client.setCamFrozen'
   name: setCamFrozen(boolean)
   href: js/api/alt-client.html#_altmp_altv_types_alt_client_setCamFrozen
+- uid: '@altmp/altv-types.alt-client.setConfigFlag'
+  name: setConfigFlag(string, boolean)
+  href: js/api/alt-client.html#_altmp_altv_types_alt_client_setConfigFlag
 - uid: '@altmp/altv-types.alt-client.setCursorPos'
   name: setCursorPos(IVector2)
   href: js/api/alt-client.html#_altmp_altv_types_alt_client_setCursorPos
@@ -2171,6 +2198,82 @@ references:
   name: muteInput
   href: js/api/alt-client.Voice.html#_altmp_altv_types_alt_client_Voice_muteInput
   fullName: muteInput
+- uid: '@altmp/altv-types.alt-client.WebSocketClient'
+  name: WebSocketClient
+  href: js/api/alt-client.WebSocketClient.html#_altmp_altv_types_alt_client_WebSocketClient
+  fullName: WebSocketClient
+- uid: '@altmp/altv-types.alt-client.WebSocketClient.addSubProtocol'
+  name: addSubProtocol(string)
+  href: js/api/alt-client.WebSocketClient.html#_altmp_altv_types_alt_client_WebSocketClient_addSubProtocol
+- uid: '@altmp/altv-types.alt-client.WebSocketClient.autoReconnect'
+  name: autoReconnect
+  href: js/api/alt-client.WebSocketClient.html#_altmp_altv_types_alt_client_WebSocketClient_autoReconnect
+  fullName: autoReconnect
+- uid: '@altmp/altv-types.alt-client.WebSocketClient.constructor'
+  name: WebSocketClient(string)
+  href: js/api/alt-client.WebSocketClient.html#_altmp_altv_types_alt_client_WebSocketClient_constructor
+- uid: '@altmp/altv-types.alt-client.WebSocketClient.getSubProtocols'
+  name: getSubProtocols()
+  href: js/api/alt-client.WebSocketClient.html#_altmp_altv_types_alt_client_WebSocketClient_getSubProtocols
+- uid: '@altmp/altv-types.alt-client.WebSocketClient.off'
+  name: 'off(string, (...args: any[]) => void)'
+  href: js/api/alt-client.WebSocketClient.html#_altmp_altv_types_alt_client_WebSocketClient_off
+- uid: '@altmp/altv-types.alt-client.WebSocketClient.on'
+  name: on("open", () => void)
+  href: js/api/alt-client.WebSocketClient.html#_altmp_altv_types_alt_client_WebSocketClient_on
+- uid: '@altmp/altv-types.alt-client.WebSocketClient.on_1'
+  name: 'on("close", (code: number, reason: string) => void)'
+  href: js/api/alt-client.WebSocketClient.html#_altmp_altv_types_alt_client_WebSocketClient_on_1
+- uid: '@altmp/altv-types.alt-client.WebSocketClient.on_2'
+  name: 'on("message", (message: string) => void)'
+  href: js/api/alt-client.WebSocketClient.html#_altmp_altv_types_alt_client_WebSocketClient_on_2
+- uid: '@altmp/altv-types.alt-client.WebSocketClient.on_3'
+  name: 'on("error", (error: string) => void)'
+  href: js/api/alt-client.WebSocketClient.html#_altmp_altv_types_alt_client_WebSocketClient_on_3
+- uid: '@altmp/altv-types.alt-client.WebSocketClient.perMessageDeflate'
+  name: perMessageDeflate
+  href: js/api/alt-client.WebSocketClient.html#_altmp_altv_types_alt_client_WebSocketClient_perMessageDeflate
+  fullName: perMessageDeflate
+- uid: '@altmp/altv-types.alt-client.WebSocketClient.pingInterval'
+  name: pingInterval
+  href: js/api/alt-client.WebSocketClient.html#_altmp_altv_types_alt_client_WebSocketClient_pingInterval
+  fullName: pingInterval
+- uid: '@altmp/altv-types.alt-client.WebSocketClient.readyState'
+  name: readyState
+  href: js/api/alt-client.WebSocketClient.html#_altmp_altv_types_alt_client_WebSocketClient_readyState
+  fullName: readyState
+- uid: '@altmp/altv-types.alt-client.WebSocketClient.send'
+  name: send(string | ArrayBuffer | ArrayBufferView)
+  href: js/api/alt-client.WebSocketClient.html#_altmp_altv_types_alt_client_WebSocketClient_send
+- uid: '@altmp/altv-types.alt-client.WebSocketClient.setExtraHeader'
+  name: setExtraHeader(string, string)
+  href: js/api/alt-client.WebSocketClient.html#_altmp_altv_types_alt_client_WebSocketClient_setExtraHeader
+- uid: '@altmp/altv-types.alt-client.WebSocketClient.start'
+  name: start()
+  href: js/api/alt-client.WebSocketClient.html#_altmp_altv_types_alt_client_WebSocketClient_start
+- uid: '@altmp/altv-types.alt-client.WebSocketClient.stop'
+  name: stop()
+  href: js/api/alt-client.WebSocketClient.html#_altmp_altv_types_alt_client_WebSocketClient_stop
+- uid: '@altmp/altv-types.alt-client.WebSocketClient.url'
+  name: url
+  href: js/api/alt-client.WebSocketClient.html#_altmp_altv_types_alt_client_WebSocketClient_url
+  fullName: url
+- uid: '@altmp/altv-types.alt-client.WebSocketReadyState'
+  name: WebSocketReadyState
+  href: js/api/alt-client.WebSocketReadyState.html#_altmp_altv_types_alt_client_WebSocketReadyState
+  fullName: WebSocketReadyState
+- uid: '@altmp/altv-types.alt-client.WebSocketReadyState.Closed'
+  name: Closed
+  href: js/api/alt-client.WebSocketReadyState.html#_altmp_altv_types_alt_client_WebSocketReadyState_Closed
+- uid: '@altmp/altv-types.alt-client.WebSocketReadyState.Closing'
+  name: Closing
+  href: js/api/alt-client.WebSocketReadyState.html#_altmp_altv_types_alt_client_WebSocketReadyState_Closing
+- uid: '@altmp/altv-types.alt-client.WebSocketReadyState.Connecting'
+  name: Connecting
+  href: js/api/alt-client.WebSocketReadyState.html#_altmp_altv_types_alt_client_WebSocketReadyState_Connecting
+- uid: '@altmp/altv-types.alt-client.WebSocketReadyState.Open'
+  name: Open
+  href: js/api/alt-client.WebSocketReadyState.html#_altmp_altv_types_alt_client_WebSocketReadyState_Open
 - uid: '@altmp/altv-types.alt-client.WebView'
   name: WebView
   href: js/api/alt-client.WebView.html#_altmp_altv_types_alt_client_WebView
@@ -2970,6 +3073,22 @@ references:
 - uid: '@altmp/altv-types.alt-server.hasSyncedMeta'
   name: hasSyncedMeta(string)
   href: js/api/alt-server.html#_altmp_altv_types_alt_server_hasSyncedMeta
+- uid: '@altmp/altv-types.alt-server.ICloth'
+  name: ICloth
+  href: js/api/alt-server.ICloth.html#_altmp_altv_types_alt_server_ICloth
+  fullName: ICloth
+- uid: '@altmp/altv-types.alt-server.ICloth.drawable'
+  name: drawable
+  href: js/api/alt-server.ICloth.html#_altmp_altv_types_alt_server_ICloth_drawable
+  fullName: drawable
+- uid: '@altmp/altv-types.alt-server.ICloth.palette'
+  name: palette
+  href: js/api/alt-server.ICloth.html#_altmp_altv_types_alt_server_ICloth_palette
+  fullName: palette
+- uid: '@altmp/altv-types.alt-server.ICloth.texture'
+  name: texture
+  href: js/api/alt-server.ICloth.html#_altmp_altv_types_alt_server_ICloth_texture
+  fullName: texture
 - uid: '@altmp/altv-types.alt-server.IFireInfo'
   name: IFireInfo
   href: js/api/alt-server.IFireInfo.html#_altmp_altv_types_alt_server_IFireInfo
@@ -3249,6 +3368,9 @@ references:
 - uid: '@altmp/altv-types.alt-server.Player.getByID'
   name: getByID(number)
   href: js/api/alt-server.Player.html#_altmp_altv_types_alt_server_Player_getByID
+- uid: '@altmp/altv-types.alt-server.Player.getClothes'
+  name: getClothes(number)
+  href: js/api/alt-server.Player.html#_altmp_altv_types_alt_server_Player_getClothes
 - uid: '@altmp/altv-types.alt-server.Player.giveWeapon'
   name: giveWeapon(number, number, boolean)
   href: js/api/alt-server.Player.html#_altmp_altv_types_alt_server_Player_giveWeapon
@@ -3268,6 +3390,9 @@ references:
   name: ip
   href: js/api/alt-server.Player.html#_altmp_altv_types_alt_server_Player_ip
   fullName: ip
+- uid: '@altmp/altv-types.alt-server.Player.isEntityInStreamRange'
+  name: isEntityInStreamRange(Entity)
+  href: js/api/alt-server.Player.html#_altmp_altv_types_alt_server_Player_isEntityInStreamRange
 - uid: '@altmp/altv-types.alt-server.Player.kick'
   name: kick(string)
   href: js/api/alt-server.Player.html#_altmp_altv_types_alt_server_Player_kick
@@ -3300,6 +3425,9 @@ references:
   name: seat
   href: js/api/alt-server.Player.html#_altmp_altv_types_alt_server_Player_seat
   fullName: seat
+- uid: '@altmp/altv-types.alt-server.Player.setClothes'
+  name: setClothes(number, number, number, number)
+  href: js/api/alt-server.Player.html#_altmp_altv_types_alt_server_Player_setClothes
 - uid: '@altmp/altv-types.alt-server.Player.setDateTime'
   name: setDateTime(DateTimeDay, DateTimeMonth, number, DateTimeHour, DateTimeMinute, DateTimeSecond)
   href: js/api/alt-server.Player.html#_altmp_altv_types_alt_server_Player_setDateTime
@@ -3435,6 +3563,9 @@ references:
 - uid: '@altmp/altv-types.alt-server.setMeta'
   name: setMeta(string, any)
   href: js/api/alt-server.html#_altmp_altv_types_alt_server_setMeta
+- uid: '@altmp/altv-types.alt-server.setPassword'
+  name: setPassword(string)
+  href: js/api/alt-server.html#_altmp_altv_types_alt_server_setPassword
 - uid: '@altmp/altv-types.alt-server.setSyncedMeta'
   name: setSyncedMeta(string, any)
   href: js/api/alt-server.html#_altmp_altv_types_alt_server_setSyncedMeta
