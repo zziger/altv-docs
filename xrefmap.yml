@@ -1357,6 +1357,9 @@ references:
   name: right
   href: js/api/alt-client.IVehicleNeon.html#_altmp_altv_types_alt_client_IVehicleNeon_right
   fullName: right
+- uid: '@altmp/altv-types.alt-client.loadYtyp'
+  name: loadYtyp(string)
+  href: js/api/alt-client.html#_altmp_altv_types_alt_client_loadYtyp
 - uid: '@altmp/altv-types.alt-client.Locale'
   name: Locale
   href: js/api/alt-client.Locale.html#_altmp_altv_types_alt_client_Locale
@@ -1495,6 +1498,9 @@ references:
   name: MapZoomData
   href: js/api/alt-client.MapZoomData.html#_altmp_altv_types_alt_client_MapZoomData
   fullName: MapZoomData
+- uid: '@altmp/altv-types.alt-client.MapZoomData.constructor'
+  name: MapZoomData(number)
+  href: js/api/alt-client.MapZoomData.html#_altmp_altv_types_alt_client_MapZoomData_constructor
 - uid: '@altmp/altv-types.alt-client.MapZoomData.fScrollSpeed'
   name: fScrollSpeed
   href: js/api/alt-client.MapZoomData.html#_altmp_altv_types_alt_client_MapZoomData_fScrollSpeed
@@ -1653,10 +1659,6 @@ references:
   name: currentWeaponComponents
   href: js/api/alt-client.Player.html#_altmp_altv_types_alt_client_Player_currentWeaponComponents
   fullName: currentWeaponComponents
-- uid: '@altmp/altv-types.alt-client.Player.currentWeaponTintIndex'
-  name: currentWeaponTintIndex
-  href: js/api/alt-client.Player.html#_altmp_altv_types_alt_client_Player_currentWeaponTintIndex
-  fullName: currentWeaponTintIndex
 - uid: '@altmp/altv-types.alt-client.Player.entityAimingAt'
   name: entityAimingAt
   href: js/api/alt-client.Player.html#_altmp_altv_types_alt_client_Player_entityAimingAt
@@ -1691,18 +1693,6 @@ references:
   name: isInRagdoll
   href: js/api/alt-client.Player.html#_altmp_altv_types_alt_client_Player_isInRagdoll
   fullName: isInRagdoll
-- uid: '@altmp/altv-types.alt-client.Player.isJumping'
-  name: isJumping
-  href: js/api/alt-client.Player.html#_altmp_altv_types_alt_client_Player_isJumping
-  fullName: isJumping
-- uid: '@altmp/altv-types.alt-client.Player.isReloading'
-  name: isReloading
-  href: js/api/alt-client.Player.html#_altmp_altv_types_alt_client_Player_isReloading
-  fullName: isReloading
-- uid: '@altmp/altv-types.alt-client.Player.isShooting'
-  name: isShooting
-  href: js/api/alt-client.Player.html#_altmp_altv_types_alt_client_Player_isShooting
-  fullName: isShooting
 - uid: '@altmp/altv-types.alt-client.Player.isTalking'
   name: isTalking
   href: js/api/alt-client.Player.html#_altmp_altv_types_alt_client_Player_isTalking
@@ -1872,6 +1862,9 @@ references:
 - uid: '@altmp/altv-types.alt-client.toggleVoiceControls'
   name: toggleVoiceControls(boolean)
   href: js/api/alt-client.html#_altmp_altv_types_alt_client_toggleVoiceControls
+- uid: '@altmp/altv-types.alt-client.unloadYtyp'
+  name: unloadYtyp(string)
+  href: js/api/alt-client.html#_altmp_altv_types_alt_client_unloadYtyp
 - uid: '@altmp/altv-types.alt-client.Vector3'
   name: Vector3
   href: js/api/alt-client.Vector3.html#_altmp_altv_types_alt_client_Vector3
@@ -1980,70 +1973,10 @@ references:
   name: Vehicle
   href: js/api/alt-client.Vehicle.html#_altmp_altv_types_alt_client_Vehicle
   fullName: Vehicle
-- uid: '@altmp/altv-types.alt-client.Vehicle.activeRadioStation'
-  name: activeRadioStation
-  href: js/api/alt-client.Vehicle.html#_altmp_altv_types_alt_client_Vehicle_activeRadioStation
-  fullName: activeRadioStation
 - uid: '@altmp/altv-types.alt-client.Vehicle.all'
   name: all
   href: js/api/alt-client.Vehicle.html#_altmp_altv_types_alt_client_Vehicle_all
   fullName: all
-- uid: '@altmp/altv-types.alt-client.Vehicle.bodyAdditionalHealth'
-  name: bodyAdditionalHealth
-  href: js/api/alt-client.Vehicle.html#_altmp_altv_types_alt_client_Vehicle_bodyAdditionalHealth
-  fullName: bodyAdditionalHealth
-- uid: '@altmp/altv-types.alt-client.Vehicle.bodyHealth'
-  name: bodyHealth
-  href: js/api/alt-client.Vehicle.html#_altmp_altv_types_alt_client_Vehicle_bodyHealth
-  fullName: bodyHealth
-- uid: '@altmp/altv-types.alt-client.Vehicle.customPrimaryColor'
-  name: customPrimaryColor
-  href: js/api/alt-client.Vehicle.html#_altmp_altv_types_alt_client_Vehicle_customPrimaryColor
-  fullName: customPrimaryColor
-- uid: '@altmp/altv-types.alt-client.Vehicle.customSecondaryColor'
-  name: customSecondaryColor
-  href: js/api/alt-client.Vehicle.html#_altmp_altv_types_alt_client_Vehicle_customSecondaryColor
-  fullName: customSecondaryColor
-- uid: '@altmp/altv-types.alt-client.Vehicle.customTires'
-  name: customTires
-  href: js/api/alt-client.Vehicle.html#_altmp_altv_types_alt_client_Vehicle_customTires
-  fullName: customTires
-- uid: '@altmp/altv-types.alt-client.Vehicle.darkness'
-  name: darkness
-  href: js/api/alt-client.Vehicle.html#_altmp_altv_types_alt_client_Vehicle_darkness
-  fullName: darkness
-- uid: '@altmp/altv-types.alt-client.Vehicle.dashboardColor'
-  name: dashboardColor
-  href: js/api/alt-client.Vehicle.html#_altmp_altv_types_alt_client_Vehicle_dashboardColor
-  fullName: dashboardColor
-- uid: '@altmp/altv-types.alt-client.Vehicle.daylightOn'
-  name: daylightOn
-  href: js/api/alt-client.Vehicle.html#_altmp_altv_types_alt_client_Vehicle_daylightOn
-  fullName: daylightOn
-- uid: '@altmp/altv-types.alt-client.Vehicle.destroyed'
-  name: destroyed
-  href: js/api/alt-client.Vehicle.html#_altmp_altv_types_alt_client_Vehicle_destroyed
-  fullName: destroyed
-- uid: '@altmp/altv-types.alt-client.Vehicle.dirtLevel'
-  name: dirtLevel
-  href: js/api/alt-client.Vehicle.html#_altmp_altv_types_alt_client_Vehicle_dirtLevel
-  fullName: dirtLevel
-- uid: '@altmp/altv-types.alt-client.Vehicle.engineHealth'
-  name: engineHealth
-  href: js/api/alt-client.Vehicle.html#_altmp_altv_types_alt_client_Vehicle_engineHealth
-  fullName: engineHealth
-- uid: '@altmp/altv-types.alt-client.Vehicle.engineOn'
-  name: engineOn
-  href: js/api/alt-client.Vehicle.html#_altmp_altv_types_alt_client_Vehicle_engineOn
-  fullName: engineOn
-- uid: '@altmp/altv-types.alt-client.Vehicle.flamethrowerActive'
-  name: flamethrowerActive
-  href: js/api/alt-client.Vehicle.html#_altmp_altv_types_alt_client_Vehicle_flamethrowerActive
-  fullName: flamethrowerActive
-- uid: '@altmp/altv-types.alt-client.Vehicle.frontWheels'
-  name: frontWheels
-  href: js/api/alt-client.Vehicle.html#_altmp_altv_types_alt_client_Vehicle_frontWheels
-  fullName: frontWheels
 - uid: '@altmp/altv-types.alt-client.Vehicle.gear'
   name: gear
   href: js/api/alt-client.Vehicle.html#_altmp_altv_types_alt_client_Vehicle_gear
@@ -2054,110 +1987,14 @@ references:
 - uid: '@altmp/altv-types.alt-client.Vehicle.getByScriptID'
   name: getByScriptID(number)
   href: js/api/alt-client.Vehicle.html#_altmp_altv_types_alt_client_Vehicle_getByScriptID
-- uid: '@altmp/altv-types.alt-client.Vehicle.handbrakeActive'
-  name: handbrakeActive
-  href: js/api/alt-client.Vehicle.html#_altmp_altv_types_alt_client_Vehicle_handbrakeActive
-  fullName: handbrakeActive
 - uid: '@altmp/altv-types.alt-client.Vehicle.handling'
   name: handling
   href: js/api/alt-client.Vehicle.html#_altmp_altv_types_alt_client_Vehicle_handling
   fullName: handling
-- uid: '@altmp/altv-types.alt-client.Vehicle.hasArmoredWindows'
-  name: hasArmoredWindows
-  href: js/api/alt-client.Vehicle.html#_altmp_altv_types_alt_client_Vehicle_hasArmoredWindows
-  fullName: hasArmoredWindows
-- uid: '@altmp/altv-types.alt-client.Vehicle.headlightColor'
-  name: headlightColor
-  href: js/api/alt-client.Vehicle.html#_altmp_altv_types_alt_client_Vehicle_headlightColor
-  fullName: headlightColor
-- uid: '@altmp/altv-types.alt-client.Vehicle.interiorColor'
-  name: interiorColor
-  href: js/api/alt-client.Vehicle.html#_altmp_altv_types_alt_client_Vehicle_interiorColor
-  fullName: interiorColor
-- uid: '@altmp/altv-types.alt-client.Vehicle.lightsMultiplier'
-  name: lightsMultiplier
-  href: js/api/alt-client.Vehicle.html#_altmp_altv_types_alt_client_Vehicle_lightsMultiplier
-  fullName: lightsMultiplier
-- uid: '@altmp/altv-types.alt-client.Vehicle.livery'
-  name: livery
-  href: js/api/alt-client.Vehicle.html#_altmp_altv_types_alt_client_Vehicle_livery
-  fullName: livery
-- uid: '@altmp/altv-types.alt-client.Vehicle.lockState'
-  name: lockState
-  href: js/api/alt-client.Vehicle.html#_altmp_altv_types_alt_client_Vehicle_lockState
-  fullName: lockState
-- uid: '@altmp/altv-types.alt-client.Vehicle.manualEngineControl'
-  name: manualEngineControl
-  href: js/api/alt-client.Vehicle.html#_altmp_altv_types_alt_client_Vehicle_manualEngineControl
-  fullName: manualEngineControl
-- uid: '@altmp/altv-types.alt-client.Vehicle.modKit'
-  name: modKit
-  href: js/api/alt-client.Vehicle.html#_altmp_altv_types_alt_client_Vehicle_modKit
-  fullName: modKit
-- uid: '@altmp/altv-types.alt-client.Vehicle.modKitsCount'
-  name: modKitsCount
-  href: js/api/alt-client.Vehicle.html#_altmp_altv_types_alt_client_Vehicle_modKitsCount
-  fullName: modKitsCount
-- uid: '@altmp/altv-types.alt-client.Vehicle.neon'
-  name: neon
-  href: js/api/alt-client.Vehicle.html#_altmp_altv_types_alt_client_Vehicle_neon
-  fullName: neon
-- uid: '@altmp/altv-types.alt-client.Vehicle.neonColor'
-  name: neonColor
-  href: js/api/alt-client.Vehicle.html#_altmp_altv_types_alt_client_Vehicle_neonColor
-  fullName: neonColor
-- uid: '@altmp/altv-types.alt-client.Vehicle.nightlightOn'
-  name: nightlightOn
-  href: js/api/alt-client.Vehicle.html#_altmp_altv_types_alt_client_Vehicle_nightlightOn
-  fullName: nightlightOn
-- uid: '@altmp/altv-types.alt-client.Vehicle.numberPlateIndex'
-  name: numberPlateIndex
-  href: js/api/alt-client.Vehicle.html#_altmp_altv_types_alt_client_Vehicle_numberPlateIndex
-  fullName: numberPlateIndex
-- uid: '@altmp/altv-types.alt-client.Vehicle.numberPlateText'
-  name: numberPlateText
-  href: js/api/alt-client.Vehicle.html#_altmp_altv_types_alt_client_Vehicle_numberPlateText
-  fullName: numberPlateText
-- uid: '@altmp/altv-types.alt-client.Vehicle.pearlColor'
-  name: pearlColor
-  href: js/api/alt-client.Vehicle.html#_altmp_altv_types_alt_client_Vehicle_pearlColor
-  fullName: pearlColor
-- uid: '@altmp/altv-types.alt-client.Vehicle.petrolTankHealth'
-  name: petrolTankHealth
-  href: js/api/alt-client.Vehicle.html#_altmp_altv_types_alt_client_Vehicle_petrolTankHealth
-  fullName: petrolTankHealth
-- uid: '@altmp/altv-types.alt-client.Vehicle.primaryColor'
-  name: primaryColor
-  href: js/api/alt-client.Vehicle.html#_altmp_altv_types_alt_client_Vehicle_primaryColor
-  fullName: primaryColor
-- uid: '@altmp/altv-types.alt-client.Vehicle.rearWheels'
-  name: rearWheels
-  href: js/api/alt-client.Vehicle.html#_altmp_altv_types_alt_client_Vehicle_rearWheels
-  fullName: rearWheels
-- uid: '@altmp/altv-types.alt-client.Vehicle.repairsCount'
-  name: repairsCount
-  href: js/api/alt-client.Vehicle.html#_altmp_altv_types_alt_client_Vehicle_repairsCount
-  fullName: repairsCount
-- uid: '@altmp/altv-types.alt-client.Vehicle.roofLivery'
-  name: roofLivery
-  href: js/api/alt-client.Vehicle.html#_altmp_altv_types_alt_client_Vehicle_roofLivery
-  fullName: roofLivery
-- uid: '@altmp/altv-types.alt-client.Vehicle.roofState'
-  name: roofState
-  href: js/api/alt-client.Vehicle.html#_altmp_altv_types_alt_client_Vehicle_roofState
-  fullName: roofState
 - uid: '@altmp/altv-types.alt-client.Vehicle.rpm'
   name: rpm
   href: js/api/alt-client.Vehicle.html#_altmp_altv_types_alt_client_Vehicle_rpm
   fullName: rpm
-- uid: '@altmp/altv-types.alt-client.Vehicle.secondaryColor'
-  name: secondaryColor
-  href: js/api/alt-client.Vehicle.html#_altmp_altv_types_alt_client_Vehicle_secondaryColor
-  fullName: secondaryColor
-- uid: '@altmp/altv-types.alt-client.Vehicle.sirenActive'
-  name: sirenActive
-  href: js/api/alt-client.Vehicle.html#_altmp_altv_types_alt_client_Vehicle_sirenActive
-  fullName: sirenActive
 - uid: '@altmp/altv-types.alt-client.Vehicle.speed'
   name: speed
   href: js/api/alt-client.Vehicle.html#_altmp_altv_types_alt_client_Vehicle_speed
@@ -2166,26 +2003,10 @@ references:
   name: speedVector
   href: js/api/alt-client.Vehicle.html#_altmp_altv_types_alt_client_Vehicle_speedVector
   fullName: speedVector
-- uid: '@altmp/altv-types.alt-client.Vehicle.tireSmokeColor'
-  name: tireSmokeColor
-  href: js/api/alt-client.Vehicle.html#_altmp_altv_types_alt_client_Vehicle_tireSmokeColor
-  fullName: tireSmokeColor
-- uid: '@altmp/altv-types.alt-client.Vehicle.wheelColor'
-  name: wheelColor
-  href: js/api/alt-client.Vehicle.html#_altmp_altv_types_alt_client_Vehicle_wheelColor
-  fullName: wheelColor
 - uid: '@altmp/altv-types.alt-client.Vehicle.wheelsCount'
   name: wheelsCount
   href: js/api/alt-client.Vehicle.html#_altmp_altv_types_alt_client_Vehicle_wheelsCount
   fullName: wheelsCount
-- uid: '@altmp/altv-types.alt-client.Vehicle.wheelType'
-  name: wheelType
-  href: js/api/alt-client.Vehicle.html#_altmp_altv_types_alt_client_Vehicle_wheelType
-  fullName: wheelType
-- uid: '@altmp/altv-types.alt-client.Vehicle.windowTint'
-  name: windowTint
-  href: js/api/alt-client.Vehicle.html#_altmp_altv_types_alt_client_Vehicle_windowTint
-  fullName: windowTint
 - uid: '@altmp/altv-types.alt-client.version'
   name: version
   href: js/api/alt-client.html#_altmp_altv_types_alt_client_version
@@ -2194,6 +2015,14 @@ references:
   name: Voice
   href: js/api/alt-client.Voice.html#_altmp_altv_types_alt_client_Voice
   fullName: Voice
+- uid: '@altmp/altv-types.alt-client.Voice.activationKey'
+  name: activationKey
+  href: js/api/alt-client.Voice.html#_altmp_altv_types_alt_client_Voice_activationKey
+  fullName: activationKey
+- uid: '@altmp/altv-types.alt-client.Voice.activityInputEnabled'
+  name: activityInputEnabled
+  href: js/api/alt-client.Voice.html#_altmp_altv_types_alt_client_Voice_activityInputEnabled
+  fullName: activityInputEnabled
 - uid: '@altmp/altv-types.alt-client.Voice.muteInput'
   name: muteInput
   href: js/api/alt-client.Voice.html#_altmp_altv_types_alt_client_Voice_muteInput
@@ -2282,8 +2111,17 @@ references:
   name: WebView(string, boolean)
   href: js/api/alt-client.WebView.html#_altmp_altv_types_alt_client_WebView_constructor
 - uid: '@altmp/altv-types.alt-client.WebView.constructor_1'
-  name: WebView(string, number, string)
+  name: WebView(string, IVector2)
   href: js/api/alt-client.WebView.html#_altmp_altv_types_alt_client_WebView_constructor_1
+- uid: '@altmp/altv-types.alt-client.WebView.constructor_2'
+  name: WebView(string, IVector2, IVector2)
+  href: js/api/alt-client.WebView.html#_altmp_altv_types_alt_client_WebView_constructor_2
+- uid: '@altmp/altv-types.alt-client.WebView.constructor_3'
+  name: WebView(string, boolean, IVector2, IVector2)
+  href: js/api/alt-client.WebView.html#_altmp_altv_types_alt_client_WebView_constructor_3
+- uid: '@altmp/altv-types.alt-client.WebView.constructor_4'
+  name: WebView(string, number, string)
+  href: js/api/alt-client.WebView.html#_altmp_altv_types_alt_client_WebView_constructor_4
 - uid: '@altmp/altv-types.alt-client.WebView.emit'
   name: emit(string, any[])
   href: js/api/alt-client.WebView.html#_altmp_altv_types_alt_client_WebView_emit
@@ -2815,10 +2653,6 @@ references:
   name: defaultDimension
   href: js/api/alt-server.html#_altmp_altv_types_alt_server_defaultDimension
   fullName: defaultDimension
-- uid: '@altmp/altv-types.alt-server.DefaultDimension'
-  name: DefaultDimension
-  href: js/api/alt-server.html#_altmp_altv_types_alt_server_DefaultDimension
-  fullName: DefaultDimension
 - uid: '@altmp/altv-types.alt-server.deleteMeta'
   name: deleteMeta(string)
   href: js/api/alt-server.html#_altmp_altv_types_alt_server_deleteMeta
@@ -3057,10 +2891,6 @@ references:
   name: globalDimension
   href: js/api/alt-server.html#_altmp_altv_types_alt_server_globalDimension
   fullName: globalDimension
-- uid: '@altmp/altv-types.alt-server.GlobalDimension'
-  name: GlobalDimension
-  href: js/api/alt-server.html#_altmp_altv_types_alt_server_GlobalDimension
-  fullName: GlobalDimension
 - uid: '@altmp/altv-types.alt-server.hash'
   name: hash(string)
   href: js/api/alt-server.html#_altmp_altv_types_alt_server_hash
@@ -3225,6 +3055,18 @@ references:
   name: weaponDamage
   href: js/api/alt-server.IServerEvent.html#_altmp_altv_types_alt_server_IServerEvent_weaponDamage
   fullName: weaponDamage
+- uid: '@altmp/altv-types.alt-server.IVector2'
+  name: IVector2
+  href: js/api/alt-server.IVector2.html#_altmp_altv_types_alt_server_IVector2
+  fullName: IVector2
+- uid: '@altmp/altv-types.alt-server.IVector2.x'
+  name: x
+  href: js/api/alt-server.IVector2.html#_altmp_altv_types_alt_server_IVector2_x
+  fullName: x
+- uid: '@altmp/altv-types.alt-server.IVector2.y'
+  name: y
+  href: js/api/alt-server.IVector2.html#_altmp_altv_types_alt_server_IVector2_y
+  fullName: y
 - uid: '@altmp/altv-types.alt-server.IVector3'
   name: IVector3
   href: js/api/alt-server.IVector3.html#_altmp_altv_types_alt_server_IVector3
