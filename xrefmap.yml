@@ -125,10 +125,6 @@ references:
   name: friendIndicatorVisible
   href: js/api/alt-client.Blip.html#_altmp_altv_types_alt_client_Blip_friendIndicatorVisible
   fullName: friendIndicatorVisible
-- uid: '@altmp/altv-types.alt-client.Blip.friendly'
-  name: friendly
-  href: js/api/alt-client.Blip.html#_altmp_altv_types_alt_client_Blip_friendly
-  fullName: friendly
 - uid: '@altmp/altv-types.alt-client.Blip.gxtName'
   name: gxtName
   href: js/api/alt-client.Blip.html#_altmp_altv_types_alt_client_Blip_gxtName
@@ -172,10 +168,6 @@ references:
 - uid: '@altmp/altv-types.alt-client.Blip.routeColor'
   name: routeColor
   href: js/api/alt-client.Blip.html#_altmp_altv_types_alt_client_Blip_routeColor
-  fullName: routeColor
-- uid: '@altmp/altv-types.alt-client.Blip.routeColor_1'
-  name: routeColor
-  href: js/api/alt-client.Blip.html#_altmp_altv_types_alt_client_Blip_routeColor_1
   fullName: routeColor
 - uid: '@altmp/altv-types.alt-client.Blip.scale'
   name: scale
@@ -1357,6 +1349,12 @@ references:
   name: right
   href: js/api/alt-client.IVehicleNeon.html#_altmp_altv_types_alt_client_IVehicleNeon_right
   fullName: right
+- uid: '@altmp/altv-types.alt-client.loadModel'
+  name: loadModel(number)
+  href: js/api/alt-client.html#_altmp_altv_types_alt_client_loadModel
+- uid: '@altmp/altv-types.alt-client.loadModelAsync'
+  name: loadModelAsync(number)
+  href: js/api/alt-client.html#_altmp_altv_types_alt_client_loadModelAsync
 - uid: '@altmp/altv-types.alt-client.loadYtyp'
   name: loadYtyp(string)
   href: js/api/alt-client.html#_altmp_altv_types_alt_client_loadYtyp
@@ -1801,9 +1799,6 @@ references:
 - uid: '@altmp/altv-types.alt-client.setMeta'
   name: setMeta(string, any)
   href: js/api/alt-client.html#_altmp_altv_types_alt_client_setMeta
-- uid: '@altmp/altv-types.alt-client.setModel'
-  name: setModel(string)
-  href: js/api/alt-client.html#_altmp_altv_types_alt_client_setModel
 - uid: '@altmp/altv-types.alt-client.setMsPerGameMinute'
   name: setMsPerGameMinute(number)
   href: js/api/alt-client.html#_altmp_altv_types_alt_client_setMsPerGameMinute
@@ -1865,6 +1860,106 @@ references:
 - uid: '@altmp/altv-types.alt-client.unloadYtyp'
   name: unloadYtyp(string)
   href: js/api/alt-client.html#_altmp_altv_types_alt_client_unloadYtyp
+- uid: '@altmp/altv-types.alt-client.Vector2'
+  name: Vector2
+  href: js/api/alt-client.Vector2.html#_altmp_altv_types_alt_client_Vector2
+  fullName: Vector2
+- uid: '@altmp/altv-types.alt-client.Vector2.add'
+  name: add(number, number)
+  href: js/api/alt-client.Vector2.html#_altmp_altv_types_alt_client_Vector2_add
+- uid: '@altmp/altv-types.alt-client.Vector2.add_1'
+  name: add(number)
+  href: js/api/alt-client.Vector2.html#_altmp_altv_types_alt_client_Vector2_add_1
+- uid: '@altmp/altv-types.alt-client.Vector2.add_2'
+  name: add(Object)
+  href: js/api/alt-client.Vector2.html#_altmp_altv_types_alt_client_Vector2_add_2
+- uid: '@altmp/altv-types.alt-client.Vector2.add_3'
+  name: add(IVector2)
+  href: js/api/alt-client.Vector2.html#_altmp_altv_types_alt_client_Vector2_add_3
+- uid: '@altmp/altv-types.alt-client.Vector2.angleTo'
+  name: angleTo(IVector2)
+  href: js/api/alt-client.Vector2.html#_altmp_altv_types_alt_client_Vector2_angleTo
+- uid: '@altmp/altv-types.alt-client.Vector2.angleToDegrees'
+  name: angleToDegrees(IVector2)
+  href: js/api/alt-client.Vector2.html#_altmp_altv_types_alt_client_Vector2_angleToDegrees
+- uid: '@altmp/altv-types.alt-client.Vector2.constructor'
+  name: Vector2(number, number)
+  href: js/api/alt-client.Vector2.html#_altmp_altv_types_alt_client_Vector2_constructor
+- uid: '@altmp/altv-types.alt-client.Vector2.constructor_1'
+  name: Vector2(Object)
+  href: js/api/alt-client.Vector2.html#_altmp_altv_types_alt_client_Vector2_constructor_1
+- uid: '@altmp/altv-types.alt-client.Vector2.constructor_2'
+  name: Vector2(IVector2)
+  href: js/api/alt-client.Vector2.html#_altmp_altv_types_alt_client_Vector2_constructor_2
+- uid: '@altmp/altv-types.alt-client.Vector2.distanceTo'
+  name: distanceTo(IVector2)
+  href: js/api/alt-client.Vector2.html#_altmp_altv_types_alt_client_Vector2_distanceTo
+- uid: '@altmp/altv-types.alt-client.Vector2.div'
+  name: div(number, number)
+  href: js/api/alt-client.Vector2.html#_altmp_altv_types_alt_client_Vector2_div
+- uid: '@altmp/altv-types.alt-client.Vector2.div_1'
+  name: div(number)
+  href: js/api/alt-client.Vector2.html#_altmp_altv_types_alt_client_Vector2_div_1
+- uid: '@altmp/altv-types.alt-client.Vector2.div_2'
+  name: div(Object)
+  href: js/api/alt-client.Vector2.html#_altmp_altv_types_alt_client_Vector2_div_2
+- uid: '@altmp/altv-types.alt-client.Vector2.div_3'
+  name: div(IVector2)
+  href: js/api/alt-client.Vector2.html#_altmp_altv_types_alt_client_Vector2_div_3
+- uid: '@altmp/altv-types.alt-client.Vector2.isInRange'
+  name: isInRange(IVector2, number)
+  href: js/api/alt-client.Vector2.html#_altmp_altv_types_alt_client_Vector2_isInRange
+- uid: '@altmp/altv-types.alt-client.Vector2.length'
+  name: length
+  href: js/api/alt-client.Vector2.html#_altmp_altv_types_alt_client_Vector2_length
+  fullName: length
+- uid: '@altmp/altv-types.alt-client.Vector2.mul'
+  name: mul(number, number)
+  href: js/api/alt-client.Vector2.html#_altmp_altv_types_alt_client_Vector2_mul
+- uid: '@altmp/altv-types.alt-client.Vector2.mul_1'
+  name: mul(number)
+  href: js/api/alt-client.Vector2.html#_altmp_altv_types_alt_client_Vector2_mul_1
+- uid: '@altmp/altv-types.alt-client.Vector2.mul_2'
+  name: mul(Object)
+  href: js/api/alt-client.Vector2.html#_altmp_altv_types_alt_client_Vector2_mul_2
+- uid: '@altmp/altv-types.alt-client.Vector2.mul_3'
+  name: mul(IVector2)
+  href: js/api/alt-client.Vector2.html#_altmp_altv_types_alt_client_Vector2_mul_3
+- uid: '@altmp/altv-types.alt-client.Vector2.negative'
+  name: negative()
+  href: js/api/alt-client.Vector2.html#_altmp_altv_types_alt_client_Vector2_negative
+- uid: '@altmp/altv-types.alt-client.Vector2.normalize'
+  name: normalize()
+  href: js/api/alt-client.Vector2.html#_altmp_altv_types_alt_client_Vector2_normalize
+- uid: '@altmp/altv-types.alt-client.Vector2.sub'
+  name: sub(number, number)
+  href: js/api/alt-client.Vector2.html#_altmp_altv_types_alt_client_Vector2_sub
+- uid: '@altmp/altv-types.alt-client.Vector2.sub_1'
+  name: sub(number)
+  href: js/api/alt-client.Vector2.html#_altmp_altv_types_alt_client_Vector2_sub_1
+- uid: '@altmp/altv-types.alt-client.Vector2.sub_2'
+  name: sub(Object)
+  href: js/api/alt-client.Vector2.html#_altmp_altv_types_alt_client_Vector2_sub_2
+- uid: '@altmp/altv-types.alt-client.Vector2.sub_3'
+  name: sub(IVector2)
+  href: js/api/alt-client.Vector2.html#_altmp_altv_types_alt_client_Vector2_sub_3
+- uid: '@altmp/altv-types.alt-client.Vector2.toArray'
+  name: toArray()
+  href: js/api/alt-client.Vector2.html#_altmp_altv_types_alt_client_Vector2_toArray
+- uid: '@altmp/altv-types.alt-client.Vector2.toDegrees'
+  name: toDegrees()
+  href: js/api/alt-client.Vector2.html#_altmp_altv_types_alt_client_Vector2_toDegrees
+- uid: '@altmp/altv-types.alt-client.Vector2.toRadians'
+  name: toRadians()
+  href: js/api/alt-client.Vector2.html#_altmp_altv_types_alt_client_Vector2_toRadians
+- uid: '@altmp/altv-types.alt-client.Vector2.x'
+  name: x
+  href: js/api/alt-client.Vector2.html#_altmp_altv_types_alt_client_Vector2_x
+  fullName: x
+- uid: '@altmp/altv-types.alt-client.Vector2.y'
+  name: y
+  href: js/api/alt-client.Vector2.html#_altmp_altv_types_alt_client_Vector2_y
+  fullName: y
 - uid: '@altmp/altv-types.alt-client.Vector3'
   name: Vector3
   href: js/api/alt-client.Vector3.html#_altmp_altv_types_alt_client_Vector3
@@ -1891,7 +1986,7 @@ references:
   name: Vector3(number, number, number)
   href: js/api/alt-client.Vector3.html#_altmp_altv_types_alt_client_Vector3_constructor
 - uid: '@altmp/altv-types.alt-client.Vector3.constructor_1'
-  name: Vector3(number[])
+  name: Vector3(Object)
   href: js/api/alt-client.Vector3.html#_altmp_altv_types_alt_client_Vector3_constructor_1
 - uid: '@altmp/altv-types.alt-client.Vector3.constructor_2'
   name: Vector3(IVector3)
@@ -2662,6 +2757,9 @@ references:
 - uid: '@altmp/altv-types.alt-server.emit'
   name: emit(string, any[])
   href: js/api/alt-server.html#_altmp_altv_types_alt_server_emit
+- uid: '@altmp/altv-types.alt-server.emitAllClients'
+  name: emitAllClients(string, any[])
+  href: js/api/alt-server.html#_altmp_altv_types_alt_server_emitAllClients
 - uid: '@altmp/altv-types.alt-server.emitClient'
   name: emitClient(Player, string, any[])
   href: js/api/alt-server.html#_altmp_altv_types_alt_server_emitClient
@@ -2907,6 +3005,10 @@ references:
   name: ICloth
   href: js/api/alt-server.ICloth.html#_altmp_altv_types_alt_server_ICloth
   fullName: ICloth
+- uid: '@altmp/altv-types.alt-server.ICloth.dlc'
+  name: dlc
+  href: js/api/alt-server.ICloth.html#_altmp_altv_types_alt_server_ICloth_dlc
+  fullName: dlc
 - uid: '@altmp/altv-types.alt-server.ICloth.drawable'
   name: drawable
   href: js/api/alt-server.ICloth.html#_altmp_altv_types_alt_server_ICloth_drawable
@@ -2931,6 +3033,22 @@ references:
   name: weapon
   href: js/api/alt-server.IFireInfo.html#_altmp_altv_types_alt_server_IFireInfo_weapon
   fullName: weapon
+- uid: '@altmp/altv-types.alt-server.IProp'
+  name: IProp
+  href: js/api/alt-server.IProp.html#_altmp_altv_types_alt_server_IProp
+  fullName: IProp
+- uid: '@altmp/altv-types.alt-server.IProp.dlc'
+  name: dlc
+  href: js/api/alt-server.IProp.html#_altmp_altv_types_alt_server_IProp_dlc
+  fullName: dlc
+- uid: '@altmp/altv-types.alt-server.IProp.drawable'
+  name: drawable
+  href: js/api/alt-server.IProp.html#_altmp_altv_types_alt_server_IProp_drawable
+  fullName: drawable
+- uid: '@altmp/altv-types.alt-server.IProp.texture'
+  name: texture
+  href: js/api/alt-server.IProp.html#_altmp_altv_types_alt_server_IProp_texture
+  fullName: texture
 - uid: '@altmp/altv-types.alt-server.IServerEvent'
   name: IServerEvent
   href: js/api/alt-server.IServerEvent.html#_altmp_altv_types_alt_server_IServerEvent
@@ -3211,8 +3329,11 @@ references:
   name: getByID(number)
   href: js/api/alt-server.Player.html#_altmp_altv_types_alt_server_Player_getByID
 - uid: '@altmp/altv-types.alt-server.Player.getClothes'
-  name: getClothes(number)
+  name: getClothes(number, boolean)
   href: js/api/alt-server.Player.html#_altmp_altv_types_alt_server_Player_getClothes
+- uid: '@altmp/altv-types.alt-server.Player.getProp'
+  name: getProp(number, boolean)
+  href: js/api/alt-server.Player.html#_altmp_altv_types_alt_server_Player_getProp
 - uid: '@altmp/altv-types.alt-server.Player.giveWeapon'
   name: giveWeapon(number, number, boolean)
   href: js/api/alt-server.Player.html#_altmp_altv_types_alt_server_Player_giveWeapon
@@ -3268,11 +3389,14 @@ references:
   href: js/api/alt-server.Player.html#_altmp_altv_types_alt_server_Player_seat
   fullName: seat
 - uid: '@altmp/altv-types.alt-server.Player.setClothes'
-  name: setClothes(number, number, number, number)
+  name: setClothes(number, number, number, number, number)
   href: js/api/alt-server.Player.html#_altmp_altv_types_alt_server_Player_setClothes
 - uid: '@altmp/altv-types.alt-server.Player.setDateTime'
   name: setDateTime(DateTimeDay, DateTimeMonth, number, DateTimeHour, DateTimeMinute, DateTimeSecond)
   href: js/api/alt-server.Player.html#_altmp_altv_types_alt_server_Player_setDateTime
+- uid: '@altmp/altv-types.alt-server.Player.setProp'
+  name: setProp(number, number, number, number)
+  href: js/api/alt-server.Player.html#_altmp_altv_types_alt_server_Player_setProp
 - uid: '@altmp/altv-types.alt-server.Player.setWeaponTintIndex'
   name: setWeaponTintIndex(number, number)
   href: js/api/alt-server.Player.html#_altmp_altv_types_alt_server_Player_setWeaponTintIndex
@@ -3283,6 +3407,10 @@ references:
   name: socialId
   href: js/api/alt-server.Player.html#_altmp_altv_types_alt_server_Player_socialId
   fullName: socialId
+- uid: '@altmp/altv-types.alt-server.Player.socialID'
+  name: socialID
+  href: js/api/alt-server.Player.html#_altmp_altv_types_alt_server_Player_socialID
+  fullName: socialID
 - uid: '@altmp/altv-types.alt-server.Player.spawn'
   name: spawn(number, number, number, number)
   href: js/api/alt-server.Player.html#_altmp_altv_types_alt_server_Player_spawn
@@ -3420,6 +3548,106 @@ references:
 - uid: '@altmp/altv-types.alt-server.stopResource'
   name: stopResource(string)
   href: js/api/alt-server.html#_altmp_altv_types_alt_server_stopResource
+- uid: '@altmp/altv-types.alt-server.Vector2'
+  name: Vector2
+  href: js/api/alt-server.Vector2.html#_altmp_altv_types_alt_server_Vector2
+  fullName: Vector2
+- uid: '@altmp/altv-types.alt-server.Vector2.add'
+  name: add(number, number)
+  href: js/api/alt-server.Vector2.html#_altmp_altv_types_alt_server_Vector2_add
+- uid: '@altmp/altv-types.alt-server.Vector2.add_1'
+  name: add(number)
+  href: js/api/alt-server.Vector2.html#_altmp_altv_types_alt_server_Vector2_add_1
+- uid: '@altmp/altv-types.alt-server.Vector2.add_2'
+  name: add(Object)
+  href: js/api/alt-server.Vector2.html#_altmp_altv_types_alt_server_Vector2_add_2
+- uid: '@altmp/altv-types.alt-server.Vector2.add_3'
+  name: add(IVector2)
+  href: js/api/alt-server.Vector2.html#_altmp_altv_types_alt_server_Vector2_add_3
+- uid: '@altmp/altv-types.alt-server.Vector2.angleTo'
+  name: angleTo(IVector2)
+  href: js/api/alt-server.Vector2.html#_altmp_altv_types_alt_server_Vector2_angleTo
+- uid: '@altmp/altv-types.alt-server.Vector2.angleToDegrees'
+  name: angleToDegrees(IVector2)
+  href: js/api/alt-server.Vector2.html#_altmp_altv_types_alt_server_Vector2_angleToDegrees
+- uid: '@altmp/altv-types.alt-server.Vector2.constructor'
+  name: Vector2(number, number)
+  href: js/api/alt-server.Vector2.html#_altmp_altv_types_alt_server_Vector2_constructor
+- uid: '@altmp/altv-types.alt-server.Vector2.constructor_1'
+  name: Vector2(Object)
+  href: js/api/alt-server.Vector2.html#_altmp_altv_types_alt_server_Vector2_constructor_1
+- uid: '@altmp/altv-types.alt-server.Vector2.constructor_2'
+  name: Vector2(IVector2)
+  href: js/api/alt-server.Vector2.html#_altmp_altv_types_alt_server_Vector2_constructor_2
+- uid: '@altmp/altv-types.alt-server.Vector2.distanceTo'
+  name: distanceTo(IVector2)
+  href: js/api/alt-server.Vector2.html#_altmp_altv_types_alt_server_Vector2_distanceTo
+- uid: '@altmp/altv-types.alt-server.Vector2.div'
+  name: div(number, number)
+  href: js/api/alt-server.Vector2.html#_altmp_altv_types_alt_server_Vector2_div
+- uid: '@altmp/altv-types.alt-server.Vector2.div_1'
+  name: div(number)
+  href: js/api/alt-server.Vector2.html#_altmp_altv_types_alt_server_Vector2_div_1
+- uid: '@altmp/altv-types.alt-server.Vector2.div_2'
+  name: div(Object)
+  href: js/api/alt-server.Vector2.html#_altmp_altv_types_alt_server_Vector2_div_2
+- uid: '@altmp/altv-types.alt-server.Vector2.div_3'
+  name: div(IVector2)
+  href: js/api/alt-server.Vector2.html#_altmp_altv_types_alt_server_Vector2_div_3
+- uid: '@altmp/altv-types.alt-server.Vector2.isInRange'
+  name: isInRange(IVector2, number)
+  href: js/api/alt-server.Vector2.html#_altmp_altv_types_alt_server_Vector2_isInRange
+- uid: '@altmp/altv-types.alt-server.Vector2.length'
+  name: length
+  href: js/api/alt-server.Vector2.html#_altmp_altv_types_alt_server_Vector2_length
+  fullName: length
+- uid: '@altmp/altv-types.alt-server.Vector2.mul'
+  name: mul(number, number)
+  href: js/api/alt-server.Vector2.html#_altmp_altv_types_alt_server_Vector2_mul
+- uid: '@altmp/altv-types.alt-server.Vector2.mul_1'
+  name: mul(number)
+  href: js/api/alt-server.Vector2.html#_altmp_altv_types_alt_server_Vector2_mul_1
+- uid: '@altmp/altv-types.alt-server.Vector2.mul_2'
+  name: mul(Object)
+  href: js/api/alt-server.Vector2.html#_altmp_altv_types_alt_server_Vector2_mul_2
+- uid: '@altmp/altv-types.alt-server.Vector2.mul_3'
+  name: mul(IVector2)
+  href: js/api/alt-server.Vector2.html#_altmp_altv_types_alt_server_Vector2_mul_3
+- uid: '@altmp/altv-types.alt-server.Vector2.negative'
+  name: negative()
+  href: js/api/alt-server.Vector2.html#_altmp_altv_types_alt_server_Vector2_negative
+- uid: '@altmp/altv-types.alt-server.Vector2.normalize'
+  name: normalize()
+  href: js/api/alt-server.Vector2.html#_altmp_altv_types_alt_server_Vector2_normalize
+- uid: '@altmp/altv-types.alt-server.Vector2.sub'
+  name: sub(number, number)
+  href: js/api/alt-server.Vector2.html#_altmp_altv_types_alt_server_Vector2_sub
+- uid: '@altmp/altv-types.alt-server.Vector2.sub_1'
+  name: sub(number)
+  href: js/api/alt-server.Vector2.html#_altmp_altv_types_alt_server_Vector2_sub_1
+- uid: '@altmp/altv-types.alt-server.Vector2.sub_2'
+  name: sub(Object)
+  href: js/api/alt-server.Vector2.html#_altmp_altv_types_alt_server_Vector2_sub_2
+- uid: '@altmp/altv-types.alt-server.Vector2.sub_3'
+  name: sub(IVector2)
+  href: js/api/alt-server.Vector2.html#_altmp_altv_types_alt_server_Vector2_sub_3
+- uid: '@altmp/altv-types.alt-server.Vector2.toArray'
+  name: toArray()
+  href: js/api/alt-server.Vector2.html#_altmp_altv_types_alt_server_Vector2_toArray
+- uid: '@altmp/altv-types.alt-server.Vector2.toDegrees'
+  name: toDegrees()
+  href: js/api/alt-server.Vector2.html#_altmp_altv_types_alt_server_Vector2_toDegrees
+- uid: '@altmp/altv-types.alt-server.Vector2.toRadians'
+  name: toRadians()
+  href: js/api/alt-server.Vector2.html#_altmp_altv_types_alt_server_Vector2_toRadians
+- uid: '@altmp/altv-types.alt-server.Vector2.x'
+  name: x
+  href: js/api/alt-server.Vector2.html#_altmp_altv_types_alt_server_Vector2_x
+  fullName: x
+- uid: '@altmp/altv-types.alt-server.Vector2.y'
+  name: y
+  href: js/api/alt-server.Vector2.html#_altmp_altv_types_alt_server_Vector2_y
+  fullName: y
 - uid: '@altmp/altv-types.alt-server.Vector3'
   name: Vector3
   href: js/api/alt-server.Vector3.html#_altmp_altv_types_alt_server_Vector3
@@ -3446,7 +3674,7 @@ references:
   name: Vector3(number, number, number)
   href: js/api/alt-server.Vector3.html#_altmp_altv_types_alt_server_Vector3_constructor
 - uid: '@altmp/altv-types.alt-server.Vector3.constructor_1'
-  name: Vector3(number[])
+  name: Vector3(Object)
   href: js/api/alt-server.Vector3.html#_altmp_altv_types_alt_server_Vector3_constructor_1
 - uid: '@altmp/altv-types.alt-server.Vector3.constructor_2'
   name: Vector3(IVector3)
@@ -37517,6 +37745,12 @@ references:
   commentId: F:AltV.Net.Enums.VehicleModel.Akuma
   fullName: AltV.Net.Enums.VehicleModel.Akuma
   nameWithType: VehicleModel.Akuma
+- uid: AltV.Net.Enums.VehicleModel.Alkonost
+  name: Alkonost
+  href: cs/api/AltV.Net.Enums.VehicleModel.html#AltV_Net_Enums_VehicleModel_Alkonost
+  commentId: F:AltV.Net.Enums.VehicleModel.Alkonost
+  fullName: AltV.Net.Enums.VehicleModel.Alkonost
+  nameWithType: VehicleModel.Alkonost
 - uid: AltV.Net.Enums.VehicleModel.Alpha
   name: Alpha
   href: cs/api/AltV.Net.Enums.VehicleModel.html#AltV_Net_Enums_VehicleModel_Alpha
@@ -37541,6 +37775,12 @@ references:
   commentId: F:AltV.Net.Enums.VehicleModel.Annihilator
   fullName: AltV.Net.Enums.VehicleModel.Annihilator
   nameWithType: VehicleModel.Annihilator
+- uid: AltV.Net.Enums.VehicleModel.Annihilator2
+  name: Annihilator2
+  href: cs/api/AltV.Net.Enums.VehicleModel.html#AltV_Net_Enums_VehicleModel_Annihilator2
+  commentId: F:AltV.Net.Enums.VehicleModel.Annihilator2
+  fullName: AltV.Net.Enums.VehicleModel.Annihilator2
+  nameWithType: VehicleModel.Annihilator2
 - uid: AltV.Net.Enums.VehicleModel.Apc
   name: Apc
   href: cs/api/AltV.Net.Enums.VehicleModel.html#AltV_Net_Enums_VehicleModel_Apc
@@ -37619,6 +37859,12 @@ references:
   commentId: F:AltV.Net.Enums.VehicleModel.Avenger2
   fullName: AltV.Net.Enums.VehicleModel.Avenger2
   nameWithType: VehicleModel.Avenger2
+- uid: AltV.Net.Enums.VehicleModel.Avisa
+  name: Avisa
+  href: cs/api/AltV.Net.Enums.VehicleModel.html#AltV_Net_Enums_VehicleModel_Avisa
+  commentId: F:AltV.Net.Enums.VehicleModel.Avisa
+  fullName: AltV.Net.Enums.VehicleModel.Avisa
+  nameWithType: VehicleModel.Avisa
 - uid: AltV.Net.Enums.VehicleModel.Bagger
   name: Bagger
   href: cs/api/AltV.Net.Enums.VehicleModel.html#AltV_Net_Enums_VehicleModel_Bagger
@@ -37931,6 +38177,12 @@ references:
   commentId: F:AltV.Net.Enums.VehicleModel.Brioso
   fullName: AltV.Net.Enums.VehicleModel.Brioso
   nameWithType: VehicleModel.Brioso
+- uid: AltV.Net.Enums.VehicleModel.Brioso2
+  name: Brioso2
+  href: cs/api/AltV.Net.Enums.VehicleModel.html#AltV_Net_Enums_VehicleModel_Brioso2
+  commentId: F:AltV.Net.Enums.VehicleModel.Brioso2
+  fullName: AltV.Net.Enums.VehicleModel.Brioso2
+  nameWithType: VehicleModel.Brioso2
 - uid: AltV.Net.Enums.VehicleModel.Bruiser
   name: Bruiser
   href: cs/api/AltV.Net.Enums.VehicleModel.html#AltV_Net_Enums_VehicleModel_Bruiser
@@ -38477,6 +38729,12 @@ references:
   commentId: F:AltV.Net.Enums.VehicleModel.Dinghy4
   fullName: AltV.Net.Enums.VehicleModel.Dinghy4
   nameWithType: VehicleModel.Dinghy4
+- uid: AltV.Net.Enums.VehicleModel.Dinghy5
+  name: Dinghy5
+  href: cs/api/AltV.Net.Enums.VehicleModel.html#AltV_Net_Enums_VehicleModel_Dinghy5
+  commentId: F:AltV.Net.Enums.VehicleModel.Dinghy5
+  fullName: AltV.Net.Enums.VehicleModel.Dinghy5
+  nameWithType: VehicleModel.Dinghy5
 - uid: AltV.Net.Enums.VehicleModel.DLoader
   name: DLoader
   href: cs/api/AltV.Net.Enums.VehicleModel.html#AltV_Net_Enums_VehicleModel_DLoader
@@ -39305,6 +39563,12 @@ references:
   commentId: F:AltV.Net.Enums.VehicleModel.ItaliGto
   fullName: AltV.Net.Enums.VehicleModel.ItaliGto
   nameWithType: VehicleModel.ItaliGto
+- uid: AltV.Net.Enums.VehicleModel.Italirsx
+  name: Italirsx
+  href: cs/api/AltV.Net.Enums.VehicleModel.html#AltV_Net_Enums_VehicleModel_Italirsx
+  commentId: F:AltV.Net.Enums.VehicleModel.Italirsx
+  fullName: AltV.Net.Enums.VehicleModel.Italirsx
+  nameWithType: VehicleModel.Italirsx
 - uid: AltV.Net.Enums.VehicleModel.Jackal
   name: Jackal
   href: cs/api/AltV.Net.Enums.VehicleModel.html#AltV_Net_Enums_VehicleModel_Jackal
@@ -39401,6 +39665,12 @@ references:
   commentId: F:AltV.Net.Enums.VehicleModel.Komoda
   fullName: AltV.Net.Enums.VehicleModel.Komoda
   nameWithType: VehicleModel.Komoda
+- uid: AltV.Net.Enums.VehicleModel.Kosatka
+  name: Kosatka
+  href: cs/api/AltV.Net.Enums.VehicleModel.html#AltV_Net_Enums_VehicleModel_Kosatka
+  commentId: F:AltV.Net.Enums.VehicleModel.Kosatka
+  fullName: AltV.Net.Enums.VehicleModel.Kosatka
+  nameWithType: VehicleModel.Kosatka
 - uid: AltV.Net.Enums.VehicleModel.Krieger
   name: Krieger
   href: cs/api/AltV.Net.Enums.VehicleModel.html#AltV_Net_Enums_VehicleModel_Krieger
@@ -39467,6 +39737,12 @@ references:
   commentId: F:AltV.Net.Enums.VehicleModel.Locust
   fullName: AltV.Net.Enums.VehicleModel.Locust
   nameWithType: VehicleModel.Locust
+- uid: AltV.Net.Enums.VehicleModel.Longfin
+  name: Longfin
+  href: cs/api/AltV.Net.Enums.VehicleModel.html#AltV_Net_Enums_VehicleModel_Longfin
+  commentId: F:AltV.Net.Enums.VehicleModel.Longfin
+  fullName: AltV.Net.Enums.VehicleModel.Longfin
+  nameWithType: VehicleModel.Longfin
 - uid: AltV.Net.Enums.VehicleModel.Lurcher
   name: Lurcher
   href: cs/api/AltV.Net.Enums.VehicleModel.html#AltV_Net_Enums_VehicleModel_Lurcher
@@ -39521,6 +39797,12 @@ references:
   commentId: F:AltV.Net.Enums.VehicleModel.Manchez
   fullName: AltV.Net.Enums.VehicleModel.Manchez
   nameWithType: VehicleModel.Manchez
+- uid: AltV.Net.Enums.VehicleModel.Manchez2
+  name: Manchez2
+  href: cs/api/AltV.Net.Enums.VehicleModel.html#AltV_Net_Enums_VehicleModel_Manchez2
+  commentId: F:AltV.Net.Enums.VehicleModel.Manchez2
+  fullName: AltV.Net.Enums.VehicleModel.Manchez2
+  nameWithType: VehicleModel.Manchez2
 - uid: AltV.Net.Enums.VehicleModel.Marquis
   name: Marquis
   href: cs/api/AltV.Net.Enums.VehicleModel.html#AltV_Net_Enums_VehicleModel_Marquis
@@ -39893,6 +40175,12 @@ references:
   commentId: F:AltV.Net.Enums.VehicleModel.Patriot2
   fullName: AltV.Net.Enums.VehicleModel.Patriot2
   nameWithType: VehicleModel.Patriot2
+- uid: AltV.Net.Enums.VehicleModel.Patrolboat
+  name: Patrolboat
+  href: cs/api/AltV.Net.Enums.VehicleModel.html#AltV_Net_Enums_VehicleModel_Patrolboat
+  commentId: F:AltV.Net.Enums.VehicleModel.Patrolboat
+  fullName: AltV.Net.Enums.VehicleModel.Patrolboat
+  nameWithType: VehicleModel.Patrolboat
 - uid: AltV.Net.Enums.VehicleModel.PBus
   name: PBus
   href: cs/api/AltV.Net.Enums.VehicleModel.html#AltV_Net_Enums_VehicleModel_PBus
@@ -40553,6 +40841,18 @@ references:
   commentId: F:AltV.Net.Enums.VehicleModel.Seasparrow
   fullName: AltV.Net.Enums.VehicleModel.Seasparrow
   nameWithType: VehicleModel.Seasparrow
+- uid: AltV.Net.Enums.VehicleModel.Seasparrow2
+  name: Seasparrow2
+  href: cs/api/AltV.Net.Enums.VehicleModel.html#AltV_Net_Enums_VehicleModel_Seasparrow2
+  commentId: F:AltV.Net.Enums.VehicleModel.Seasparrow2
+  fullName: AltV.Net.Enums.VehicleModel.Seasparrow2
+  nameWithType: VehicleModel.Seasparrow2
+- uid: AltV.Net.Enums.VehicleModel.Seasparrow3
+  name: Seasparrow3
+  href: cs/api/AltV.Net.Enums.VehicleModel.html#AltV_Net_Enums_VehicleModel_Seasparrow3
+  commentId: F:AltV.Net.Enums.VehicleModel.Seasparrow3
+  fullName: AltV.Net.Enums.VehicleModel.Seasparrow3
+  nameWithType: VehicleModel.Seasparrow3
 - uid: AltV.Net.Enums.VehicleModel.Seminole
   name: Seminole
   href: cs/api/AltV.Net.Enums.VehicleModel.html#AltV_Net_Enums_VehicleModel_Seminole
@@ -40631,6 +40931,12 @@ references:
   commentId: F:AltV.Net.Enums.VehicleModel.Skylift
   fullName: AltV.Net.Enums.VehicleModel.Skylift
   nameWithType: VehicleModel.Skylift
+- uid: AltV.Net.Enums.VehicleModel.Slamtruck
+  name: Slamtruck
+  href: cs/api/AltV.Net.Enums.VehicleModel.html#AltV_Net_Enums_VehicleModel_Slamtruck
+  commentId: F:AltV.Net.Enums.VehicleModel.Slamtruck
+  fullName: AltV.Net.Enums.VehicleModel.Slamtruck
+  nameWithType: VehicleModel.Slamtruck
 - uid: AltV.Net.Enums.VehicleModel.SlamVan
   name: SlamVan
   href: cs/api/AltV.Net.Enums.VehicleModel.html#AltV_Net_Enums_VehicleModel_SlamVan
@@ -40715,6 +41021,12 @@ references:
   commentId: F:AltV.Net.Enums.VehicleModel.Speedo4
   fullName: AltV.Net.Enums.VehicleModel.Speedo4
   nameWithType: VehicleModel.Speedo4
+- uid: AltV.Net.Enums.VehicleModel.Squaddie
+  name: Squaddie
+  href: cs/api/AltV.Net.Enums.VehicleModel.html#AltV_Net_Enums_VehicleModel_Squaddie
+  commentId: F:AltV.Net.Enums.VehicleModel.Squaddie
+  fullName: AltV.Net.Enums.VehicleModel.Squaddie
+  nameWithType: VehicleModel.Squaddie
 - uid: AltV.Net.Enums.VehicleModel.Squalo
   name: Squalo
   href: cs/api/AltV.Net.Enums.VehicleModel.html#AltV_Net_Enums_VehicleModel_Squalo
@@ -41063,6 +41375,12 @@ references:
   commentId: F:AltV.Net.Enums.VehicleModel.Titan
   fullName: AltV.Net.Enums.VehicleModel.Titan
   nameWithType: VehicleModel.Titan
+- uid: AltV.Net.Enums.VehicleModel.Toreador
+  name: Toreador
+  href: cs/api/AltV.Net.Enums.VehicleModel.html#AltV_Net_Enums_VehicleModel_Toreador
+  commentId: F:AltV.Net.Enums.VehicleModel.Toreador
+  fullName: AltV.Net.Enums.VehicleModel.Toreador
+  nameWithType: VehicleModel.Toreador
 - uid: AltV.Net.Enums.VehicleModel.Torero
   name: Torero
   href: cs/api/AltV.Net.Enums.VehicleModel.html#AltV_Net_Enums_VehicleModel_Torero
@@ -41417,12 +41735,36 @@ references:
   commentId: F:AltV.Net.Enums.VehicleModel.Verlierer2
   fullName: AltV.Net.Enums.VehicleModel.Verlierer2
   nameWithType: VehicleModel.Verlierer2
+- uid: AltV.Net.Enums.VehicleModel.Verus
+  name: Verus
+  href: cs/api/AltV.Net.Enums.VehicleModel.html#AltV_Net_Enums_VehicleModel_Verus
+  commentId: F:AltV.Net.Enums.VehicleModel.Verus
+  fullName: AltV.Net.Enums.VehicleModel.Verus
+  nameWithType: VehicleModel.Verus
 - uid: AltV.Net.Enums.VehicleModel.Vestra
   name: Vestra
   href: cs/api/AltV.Net.Enums.VehicleModel.html#AltV_Net_Enums_VehicleModel_Vestra
   commentId: F:AltV.Net.Enums.VehicleModel.Vestra
   fullName: AltV.Net.Enums.VehicleModel.Vestra
   nameWithType: VehicleModel.Vestra
+- uid: AltV.Net.Enums.VehicleModel.Vetir
+  name: Vetir
+  href: cs/api/AltV.Net.Enums.VehicleModel.html#AltV_Net_Enums_VehicleModel_Vetir
+  commentId: F:AltV.Net.Enums.VehicleModel.Vetir
+  fullName: AltV.Net.Enums.VehicleModel.Vetir
+  nameWithType: VehicleModel.Vetir
+- uid: AltV.Net.Enums.VehicleModel.Veto
+  name: Veto
+  href: cs/api/AltV.Net.Enums.VehicleModel.html#AltV_Net_Enums_VehicleModel_Veto
+  commentId: F:AltV.Net.Enums.VehicleModel.Veto
+  fullName: AltV.Net.Enums.VehicleModel.Veto
+  nameWithType: VehicleModel.Veto
+- uid: AltV.Net.Enums.VehicleModel.Veto2
+  name: Veto2
+  href: cs/api/AltV.Net.Enums.VehicleModel.html#AltV_Net_Enums_VehicleModel_Veto2
+  commentId: F:AltV.Net.Enums.VehicleModel.Veto2
+  fullName: AltV.Net.Enums.VehicleModel.Veto2
+  nameWithType: VehicleModel.Veto2
 - uid: AltV.Net.Enums.VehicleModel.Vigero
   name: Vigero
   href: cs/api/AltV.Net.Enums.VehicleModel.html#AltV_Net_Enums_VehicleModel_Vigero
@@ -41537,6 +41879,12 @@ references:
   commentId: F:AltV.Net.Enums.VehicleModel.Wastlndr
   fullName: AltV.Net.Enums.VehicleModel.Wastlndr
   nameWithType: VehicleModel.Wastlndr
+- uid: AltV.Net.Enums.VehicleModel.Weevil
+  name: Weevil
+  href: cs/api/AltV.Net.Enums.VehicleModel.html#AltV_Net_Enums_VehicleModel_Weevil
+  commentId: F:AltV.Net.Enums.VehicleModel.Weevil
+  fullName: AltV.Net.Enums.VehicleModel.Weevil
+  nameWithType: VehicleModel.Weevil
 - uid: AltV.Net.Enums.VehicleModel.Windsor
   name: Windsor
   href: cs/api/AltV.Net.Enums.VehicleModel.html#AltV_Net_Enums_VehicleModel_Windsor
@@ -41549,6 +41897,12 @@ references:
   commentId: F:AltV.Net.Enums.VehicleModel.Windsor2
   fullName: AltV.Net.Enums.VehicleModel.Windsor2
   nameWithType: VehicleModel.Windsor2
+- uid: AltV.Net.Enums.VehicleModel.Winky
+  name: Winky
+  href: cs/api/AltV.Net.Enums.VehicleModel.html#AltV_Net_Enums_VehicleModel_Winky
+  commentId: F:AltV.Net.Enums.VehicleModel.Winky
+  fullName: AltV.Net.Enums.VehicleModel.Winky
+  nameWithType: VehicleModel.Winky
 - uid: AltV.Net.Enums.VehicleModel.Wolfsbane
   name: Wolfsbane
   href: cs/api/AltV.Net.Enums.VehicleModel.html#AltV_Net_Enums_VehicleModel_Wolfsbane
