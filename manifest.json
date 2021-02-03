@@ -13,17 +13,6 @@
       "is_incremental": false
     },
     {
-      "type": "Resource",
-      "source_relative_path": "CNAME",
-      "output": {
-        "resource": {
-          "relative_path": "CNAME"
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
       "type": "TypeScriptReference",
       "source_relative_path": "altv-types/docs/api/alt-client.AreaBlip.yml",
       "output": {
@@ -1098,6 +1087,45 @@
         ".html": {
           "relative_path": "js/index.html",
           "hash": "TqAt9VJxhM3AOf0BMIf5WA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/contributing.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/contributing.html",
+          "hash": "ewTGus4mchNLeusiOUAIsQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/getting-started/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/getting-started/index.html",
+          "hash": "av//rsf22fyclDdLfZ1SiA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "log_codes": [
+        "EmptyTocItemName"
+      ],
+      "type": "Toc",
+      "source_relative_path": "articles/getting-started/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "articles/getting-started/toc.html",
+          "hash": "Q7FmuDZ5AYZgIJ2Xzncd4Q=="
         }
       },
       "is_incremental": false,
@@ -7515,7 +7543,7 @@
       "output": {
         ".html": {
           "relative_path": "toc.html",
-          "hash": "EAUIHqYRaXIEvIJVzrEnhA=="
+          "hash": "7pKDGkRyXQMxOthqydbt6Q=="
         }
       },
       "is_incremental": false,
@@ -7536,7 +7564,7 @@
         "ConceptualDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 42,
+          "total_file_count": 44,
           "skipped_file_count": 0
         },
         "ManagedReferenceDocumentProcessor": {
