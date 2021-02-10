@@ -18,7 +18,7 @@
       "output": {
         ".html": {
           "relative_path": "js/api/alt-client.AreaBlip.html",
-          "hash": "mAou8OpFcIYJatBv6ggAMg=="
+          "hash": "ldKGckVUDslgtISse80VOg=="
         }
       },
       "is_incremental": false,
@@ -54,7 +54,7 @@
       "output": {
         ".html": {
           "relative_path": "js/api/alt-client.Blip.html",
-          "hash": "SUML80FwJodjfo3NeI1M2g=="
+          "hash": "+13mJLEwmHwwn1YZ/g4SPQ=="
         }
       },
       "is_incremental": false,
@@ -90,7 +90,7 @@
       "output": {
         ".html": {
           "relative_path": "js/api/alt-client.Discord.html",
-          "hash": "uY1eZXPAfZU7tm7XBkSDzg=="
+          "hash": "qEPgyLCGePhsn/vpE53PDg=="
         }
       },
       "is_incremental": false,
@@ -114,7 +114,7 @@
       "output": {
         ".html": {
           "relative_path": "js/api/alt-client.File.html",
-          "hash": "e2wuA/Jb2lx90dUemWPLcg=="
+          "hash": "YuWA8TSg7aHpXVn9T2sTiw=="
         }
       },
       "is_incremental": false,
@@ -138,7 +138,7 @@
       "output": {
         ".html": {
           "relative_path": "js/api/alt-client.HandlingData.html",
-          "hash": "Fv6vzs8M8NC78m86Ag4+Xw=="
+          "hash": "tQnDb4RnoKxk6gGYciKqPw=="
         }
       },
       "is_incremental": false,
@@ -234,7 +234,7 @@
       "output": {
         ".html": {
           "relative_path": "js/api/alt-client.LocalStorage.html",
-          "hash": "+0lGfCOWX8AGNt1kNS4/Ug=="
+          "hash": "GzXQVve0WFW2L5MtfiO/uA=="
         }
       },
       "is_incremental": false,
@@ -258,7 +258,7 @@
       "output": {
         ".html": {
           "relative_path": "js/api/alt-client.MapZoomData.html",
-          "hash": "r4wHEp+0NRVPeN97nfqIiQ=="
+          "hash": "DAxSESkeFS/pRxNcJDkT2A=="
         }
       },
       "is_incremental": false,
@@ -270,7 +270,7 @@
       "output": {
         ".html": {
           "relative_path": "js/api/alt-client.MemoryBuffer.html",
-          "hash": "9ZX76aSCqTssSiAj5NOv9A=="
+          "hash": "vR9bguJht3mnGFVq9AEzEw=="
         }
       },
       "is_incremental": false,
@@ -306,7 +306,7 @@
       "output": {
         ".html": {
           "relative_path": "js/api/alt-client.Player.html",
-          "hash": "rey7ICbPUHVHq7WHl82H0Q=="
+          "hash": "cj2tD/u5D/HMuf5yi2ETfg=="
         }
       },
       "is_incremental": false,
@@ -318,7 +318,7 @@
       "output": {
         ".html": {
           "relative_path": "js/api/alt-client.PointBlip.html",
-          "hash": "NlxGH1OEbDmvQhzFJUIscg=="
+          "hash": "lMUjJpUbRCmh0MIPUYIxKQ=="
         }
       },
       "is_incremental": false,
@@ -342,7 +342,7 @@
       "output": {
         ".html": {
           "relative_path": "js/api/alt-client.RadiusBlip.html",
-          "hash": "z6Pbbbslp+Bvt5B+tv2CgQ=="
+          "hash": "hnqFOo5dnet5u90zxfvKzA=="
         }
       },
       "is_incremental": false,
@@ -390,7 +390,7 @@
       "output": {
         ".html": {
           "relative_path": "js/api/alt-client.Vehicle.html",
-          "hash": "v1+L4i3DimiGODNC54j5oQ=="
+          "hash": "nfKHSarLND5ui2IjvwofaQ=="
         }
       },
       "is_incremental": false,
@@ -402,7 +402,7 @@
       "output": {
         ".html": {
           "relative_path": "js/api/alt-client.Voice.html",
-          "hash": "Cp7jx11Id8c21Nz/qLSy3Q=="
+          "hash": "DaPbz+fXCPcIbWZqD13N5Q=="
         }
       },
       "is_incremental": false,
@@ -414,7 +414,7 @@
       "output": {
         ".html": {
           "relative_path": "js/api/alt-client.WebSocketClient.html",
-          "hash": "CVTHtxhAULZjC7eGOAVxmA=="
+          "hash": "T1hcVcTU+9U51IYR7860Ig=="
         }
       },
       "is_incremental": false,
@@ -438,7 +438,7 @@
       "output": {
         ".html": {
           "relative_path": "js/api/alt-client.WebView.html",
-          "hash": "mb8SSlt2+r834NCo/q36pw=="
+          "hash": "Fo8jy+piwl+YxvwCaLfcjA=="
         }
       },
       "is_incremental": false,
@@ -462,7 +462,7 @@
       "output": {
         ".html": {
           "relative_path": "js/api/alt-client.html",
-          "hash": "6PUadtzqFGzMaMxh/hJKpw=="
+          "hash": "+oPOohmr0cXrbArRdHn4KQ=="
         }
       },
       "is_incremental": false,
@@ -1058,11 +1058,182 @@
     },
     {
       "type": "Conceptual",
+      "source_relative_path": "altv-types/docs/articles/player/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "js/articles/player/index.html",
+          "hash": "ZlT8lKyULILpOrAlVsYdOA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "altv-types/docs/articles/player/player-script-id.md",
+      "output": {
+        ".html": {
+          "relative_path": "js/articles/player/player-script-id.html",
+          "hash": "KkbsKd6/RTUGKfYC4W3ydA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "altv-types/docs/articles/player/server-player-funcs.md",
+      "output": {
+        ".html": {
+          "relative_path": "js/articles/player/server-player-funcs.html",
+          "hash": "gh52fHDOxZzC+vp9fVR98Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "altv-types/docs/articles/player/server-player-props.md",
+      "output": {
+        ".html": {
+          "relative_path": "js/articles/player/server-player-props.html",
+          "hash": "+KjNpmDwlSxFh74XWC3E+w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
       "source_relative_path": "altv-types/docs/articles/setup.md",
       "output": {
         ".html": {
           "relative_path": "js/articles/setup.html",
-          "hash": "/GUIMLLIn1cdhrFLV3wSZw=="
+          "hash": "J6bE3c1+PV9l6zZHRwdJvA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "altv-types/docs/articles/snippets/encryption.md",
+      "output": {
+        ".html": {
+          "relative_path": "js/articles/snippets/encryption.html",
+          "hash": "enO6gEEO7ewNPFk5Jvgvyw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "altv-types/docs/articles/snippets/helptext.md",
+      "output": {
+        ".html": {
+          "relative_path": "js/articles/snippets/helptext.html",
+          "hash": "lgYtHGE/w+Xk7kCU189W8A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "altv-types/docs/articles/snippets/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "js/articles/snippets/index.html",
+          "hash": "l58nUW4k63GIDMMB7Y+HmQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "altv-types/docs/articles/snippets/markers.md",
+      "output": {
+        ".html": {
+          "relative_path": "js/articles/snippets/markers.html",
+          "hash": "DNQGIF1qoTYwZLLZqU/wJg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "altv-types/docs/articles/snippets/math.md",
+      "output": {
+        ".html": {
+          "relative_path": "js/articles/snippets/math.html",
+          "hash": "JEtqROhUiEKk/pIzouT1vA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "altv-types/docs/articles/snippets/notifications.md",
+      "output": {
+        ".html": {
+          "relative_path": "js/articles/snippets/notifications.html",
+          "hash": "RVROqDklVsHgYqeUO6YDtg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "altv-types/docs/articles/snippets/prototyping.md",
+      "output": {
+        ".html": {
+          "relative_path": "js/articles/snippets/prototyping.html",
+          "hash": "w4Bb04s2WBkAGMVdP1onnw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "altv-types/docs/articles/snippets/shuffle.md",
+      "output": {
+        ".html": {
+          "relative_path": "js/articles/snippets/shuffle.html",
+          "hash": "LE27GNlnDcj32fsNNOETUw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "log_codes": [
+        "InvalidFileLink"
+      ],
+      "type": "Conceptual",
+      "source_relative_path": "altv-types/docs/articles/snippets/textlabels.md",
+      "output": {
+        ".html": {
+          "relative_path": "js/articles/snippets/textlabels.html",
+          "hash": "Ssg57roTZvVB0eDYhSEi6w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "altv-types/docs/articles/snippets/voice.md",
+      "output": {
+        ".html": {
+          "relative_path": "js/articles/snippets/voice.html",
+          "hash": "fUVX686BScjzmsYiFJBihw=="
         }
       },
       "is_incremental": false,
@@ -1074,7 +1245,19 @@
       "output": {
         ".html": {
           "relative_path": "js/articles/toc.html",
-          "hash": "rEtIOmmnRLnRaQvRZCUU+g=="
+          "hash": "hSi3jSBwR/QuUI0qU4278w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "altv-types/docs/articles/understanding-events.md",
+      "output": {
+        ".html": {
+          "relative_path": "js/articles/understanding-events.html",
+          "hash": "Jl0DHN8J2qqLRTrzGVtv0g=="
         }
       },
       "is_incremental": false,
@@ -7197,7 +7380,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/articles/checkpoints.html",
-          "hash": "cDlLkyUTg88N9IBEHikxkg=="
+          "hash": "lS+A1JrSwxEnrDTjqNzprQ=="
         }
       },
       "is_incremental": false,
@@ -7636,7 +7819,7 @@
         "ConceptualDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 49,
+          "total_file_count": 64,
           "skipped_file_count": 0
         },
         "ManagedReferenceDocumentProcessor": {
