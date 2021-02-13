@@ -366,7 +366,7 @@
       "output": {
         ".html": {
           "relative_path": "js/api/alt-client.Vector2.html",
-          "hash": "4Njz2RGHqGYDTLARSAmE7g=="
+          "hash": "4VOrB+E9546IXQOOX9u7mw=="
         }
       },
       "is_incremental": false,
@@ -378,7 +378,7 @@
       "output": {
         ".html": {
           "relative_path": "js/api/alt-client.Vector3.html",
-          "hash": "UKVZ6lKe9FUTHT2VH+aQCw=="
+          "hash": "VYMy/6j1Rd6vA1X++NRUVg=="
         }
       },
       "is_incremental": false,
@@ -822,7 +822,7 @@
       "output": {
         ".html": {
           "relative_path": "js/api/alt-server.Vector2.html",
-          "hash": "rg7VS4wR/w6v0FSprYyzFw=="
+          "hash": "BH/x9LR0ojLu3jpAJ8Wv2A=="
         }
       },
       "is_incremental": false,
@@ -834,7 +834,7 @@
       "output": {
         ".html": {
           "relative_path": "js/api/alt-server.Vector3.html",
-          "hash": "kWVxUOBW7/llAzyzjukR2A=="
+          "hash": "OW5eZbiW3U7D7t5XEIBkFQ=="
         }
       },
       "is_incremental": false,
@@ -1213,15 +1213,12 @@
       "version": ""
     },
     {
-      "log_codes": [
-        "InvalidFileLink"
-      ],
       "type": "Conceptual",
       "source_relative_path": "altv-types/docs/articles/snippets/textlabels.md",
       "output": {
         ".html": {
           "relative_path": "js/articles/snippets/textlabels.html",
-          "hash": "Ssg57roTZvVB0eDYhSEi6w=="
+          "hash": "kuwzMO7YwiYOXIOAMawQhg=="
         }
       },
       "is_incremental": false,

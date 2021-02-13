@@ -1865,7 +1865,7 @@ references:
   name: add(number)
   href: js/api/alt-client.Vector2.html#_altmp_altv_types_alt_client_Vector2_add_1
 - uid: '@altmp/altv-types.alt-client.Vector2.add_2'
-  name: add(Object)
+  name: add([number | number])
   href: js/api/alt-client.Vector2.html#_altmp_altv_types_alt_client_Vector2_add_2
 - uid: '@altmp/altv-types.alt-client.Vector2.add_3'
   name: add(IVector2)
@@ -1880,7 +1880,7 @@ references:
   name: Vector2(number, number)
   href: js/api/alt-client.Vector2.html#_altmp_altv_types_alt_client_Vector2_constructor
 - uid: '@altmp/altv-types.alt-client.Vector2.constructor_1'
-  name: Vector2(Object)
+  name: Vector2([number | number])
   href: js/api/alt-client.Vector2.html#_altmp_altv_types_alt_client_Vector2_constructor_1
 - uid: '@altmp/altv-types.alt-client.Vector2.constructor_2'
   name: Vector2(IVector2)
@@ -1895,7 +1895,7 @@ references:
   name: div(number)
   href: js/api/alt-client.Vector2.html#_altmp_altv_types_alt_client_Vector2_div_1
 - uid: '@altmp/altv-types.alt-client.Vector2.div_2'
-  name: div(Object)
+  name: div([number | number])
   href: js/api/alt-client.Vector2.html#_altmp_altv_types_alt_client_Vector2_div_2
 - uid: '@altmp/altv-types.alt-client.Vector2.div_3'
   name: div(IVector2)
@@ -1914,7 +1914,7 @@ references:
   name: mul(number)
   href: js/api/alt-client.Vector2.html#_altmp_altv_types_alt_client_Vector2_mul_1
 - uid: '@altmp/altv-types.alt-client.Vector2.mul_2'
-  name: mul(Object)
+  name: mul([number | number])
   href: js/api/alt-client.Vector2.html#_altmp_altv_types_alt_client_Vector2_mul_2
 - uid: '@altmp/altv-types.alt-client.Vector2.mul_3'
   name: mul(IVector2)
@@ -1932,7 +1932,7 @@ references:
   name: sub(number)
   href: js/api/alt-client.Vector2.html#_altmp_altv_types_alt_client_Vector2_sub_1
 - uid: '@altmp/altv-types.alt-client.Vector2.sub_2'
-  name: sub(Object)
+  name: sub([number | number])
   href: js/api/alt-client.Vector2.html#_altmp_altv_types_alt_client_Vector2_sub_2
 - uid: '@altmp/altv-types.alt-client.Vector2.sub_3'
   name: sub(IVector2)
@@ -1965,7 +1965,7 @@ references:
   name: add(number)
   href: js/api/alt-client.Vector3.html#_altmp_altv_types_alt_client_Vector3_add_1
 - uid: '@altmp/altv-types.alt-client.Vector3.add_2'
-  name: add(Object)
+  name: add([number | number | number])
   href: js/api/alt-client.Vector3.html#_altmp_altv_types_alt_client_Vector3_add_2
 - uid: '@altmp/altv-types.alt-client.Vector3.add_3'
   name: add(IVector3)
@@ -1980,7 +1980,7 @@ references:
   name: Vector3(number, number, number)
   href: js/api/alt-client.Vector3.html#_altmp_altv_types_alt_client_Vector3_constructor
 - uid: '@altmp/altv-types.alt-client.Vector3.constructor_1'
-  name: Vector3(Object)
+  name: Vector3([number | number | number])
   href: js/api/alt-client.Vector3.html#_altmp_altv_types_alt_client_Vector3_constructor_1
 - uid: '@altmp/altv-types.alt-client.Vector3.constructor_2'
   name: Vector3(IVector3)
@@ -1995,7 +1995,7 @@ references:
   name: div(number)
   href: js/api/alt-client.Vector3.html#_altmp_altv_types_alt_client_Vector3_div_1
 - uid: '@altmp/altv-types.alt-client.Vector3.div_2'
-  name: div(Object)
+  name: div([number | number | number])
   href: js/api/alt-client.Vector3.html#_altmp_altv_types_alt_client_Vector3_div_2
 - uid: '@altmp/altv-types.alt-client.Vector3.div_3'
   name: div(IVector3)
@@ -2014,7 +2014,7 @@ references:
   name: mul(number)
   href: js/api/alt-client.Vector3.html#_altmp_altv_types_alt_client_Vector3_mul_1
 - uid: '@altmp/altv-types.alt-client.Vector3.mul_2'
-  name: mul(Object)
+  name: mul([number | number | number])
   href: js/api/alt-client.Vector3.html#_altmp_altv_types_alt_client_Vector3_mul_2
 - uid: '@altmp/altv-types.alt-client.Vector3.mul_3'
   name: mul(IVector3)
@@ -2032,7 +2032,7 @@ references:
   name: sub(number)
   href: js/api/alt-client.Vector3.html#_altmp_altv_types_alt_client_Vector3_sub_1
 - uid: '@altmp/altv-types.alt-client.Vector3.sub_2'
-  name: sub(Object)
+  name: sub([number | number | number])
   href: js/api/alt-client.Vector3.html#_altmp_altv_types_alt_client_Vector3_sub_2
 - uid: '@altmp/altv-types.alt-client.Vector3.sub_3'
   name: sub(IVector3)
@@ -3553,7 +3553,7 @@ references:
   name: add(number)
   href: js/api/alt-server.Vector2.html#_altmp_altv_types_alt_server_Vector2_add_1
 - uid: '@altmp/altv-types.alt-server.Vector2.add_2'
-  name: add(Object)
+  name: add([number | number])
   href: js/api/alt-server.Vector2.html#_altmp_altv_types_alt_server_Vector2_add_2
 - uid: '@altmp/altv-types.alt-server.Vector2.add_3'
   name: add(IVector2)
@@ -3568,7 +3568,7 @@ references:
   name: Vector2(number, number)
   href: js/api/alt-server.Vector2.html#_altmp_altv_types_alt_server_Vector2_constructor
 - uid: '@altmp/altv-types.alt-server.Vector2.constructor_1'
-  name: Vector2(Object)
+  name: Vector2([number | number])
   href: js/api/alt-server.Vector2.html#_altmp_altv_types_alt_server_Vector2_constructor_1
 - uid: '@altmp/altv-types.alt-server.Vector2.constructor_2'
   name: Vector2(IVector2)
@@ -3583,7 +3583,7 @@ references:
   name: div(number)
   href: js/api/alt-server.Vector2.html#_altmp_altv_types_alt_server_Vector2_div_1
 - uid: '@altmp/altv-types.alt-server.Vector2.div_2'
-  name: div(Object)
+  name: div([number | number])
   href: js/api/alt-server.Vector2.html#_altmp_altv_types_alt_server_Vector2_div_2
 - uid: '@altmp/altv-types.alt-server.Vector2.div_3'
   name: div(IVector2)
@@ -3602,7 +3602,7 @@ references:
   name: mul(number)
   href: js/api/alt-server.Vector2.html#_altmp_altv_types_alt_server_Vector2_mul_1
 - uid: '@altmp/altv-types.alt-server.Vector2.mul_2'
-  name: mul(Object)
+  name: mul([number | number])
   href: js/api/alt-server.Vector2.html#_altmp_altv_types_alt_server_Vector2_mul_2
 - uid: '@altmp/altv-types.alt-server.Vector2.mul_3'
   name: mul(IVector2)
@@ -3620,7 +3620,7 @@ references:
   name: sub(number)
   href: js/api/alt-server.Vector2.html#_altmp_altv_types_alt_server_Vector2_sub_1
 - uid: '@altmp/altv-types.alt-server.Vector2.sub_2'
-  name: sub(Object)
+  name: sub([number | number])
   href: js/api/alt-server.Vector2.html#_altmp_altv_types_alt_server_Vector2_sub_2
 - uid: '@altmp/altv-types.alt-server.Vector2.sub_3'
   name: sub(IVector2)
@@ -3653,7 +3653,7 @@ references:
   name: add(number)
   href: js/api/alt-server.Vector3.html#_altmp_altv_types_alt_server_Vector3_add_1
 - uid: '@altmp/altv-types.alt-server.Vector3.add_2'
-  name: add(Object)
+  name: add([number | number | number])
   href: js/api/alt-server.Vector3.html#_altmp_altv_types_alt_server_Vector3_add_2
 - uid: '@altmp/altv-types.alt-server.Vector3.add_3'
   name: add(IVector3)
@@ -3668,7 +3668,7 @@ references:
   name: Vector3(number, number, number)
   href: js/api/alt-server.Vector3.html#_altmp_altv_types_alt_server_Vector3_constructor
 - uid: '@altmp/altv-types.alt-server.Vector3.constructor_1'
-  name: Vector3(Object)
+  name: Vector3([number | number | number])
   href: js/api/alt-server.Vector3.html#_altmp_altv_types_alt_server_Vector3_constructor_1
 - uid: '@altmp/altv-types.alt-server.Vector3.constructor_2'
   name: Vector3(IVector3)
@@ -3683,7 +3683,7 @@ references:
   name: div(number)
   href: js/api/alt-server.Vector3.html#_altmp_altv_types_alt_server_Vector3_div_1
 - uid: '@altmp/altv-types.alt-server.Vector3.div_2'
-  name: div(Object)
+  name: div([number | number | number])
   href: js/api/alt-server.Vector3.html#_altmp_altv_types_alt_server_Vector3_div_2
 - uid: '@altmp/altv-types.alt-server.Vector3.div_3'
   name: div(IVector3)
@@ -3702,7 +3702,7 @@ references:
   name: mul(number)
   href: js/api/alt-server.Vector3.html#_altmp_altv_types_alt_server_Vector3_mul_1
 - uid: '@altmp/altv-types.alt-server.Vector3.mul_2'
-  name: mul(Object)
+  name: mul([number | number | number])
   href: js/api/alt-server.Vector3.html#_altmp_altv_types_alt_server_Vector3_mul_2
 - uid: '@altmp/altv-types.alt-server.Vector3.mul_3'
   name: mul(IVector3)
@@ -3720,7 +3720,7 @@ references:
   name: sub(number)
   href: js/api/alt-server.Vector3.html#_altmp_altv_types_alt_server_Vector3_sub_1
 - uid: '@altmp/altv-types.alt-server.Vector3.sub_2'
-  name: sub(Object)
+  name: sub([number | number | number])
   href: js/api/alt-server.Vector3.html#_altmp_altv_types_alt_server_Vector3_sub_2
 - uid: '@altmp/altv-types.alt-server.Vector3.sub_3'
   name: sub(IVector3)
