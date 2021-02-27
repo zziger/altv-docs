@@ -5111,6 +5111,19 @@ references:
   isSpec: "True"
   fullName: AltV.Net.Alt.GetPlayersArray
   nameWithType: Alt.GetPlayersArray
+- uid: AltV.Net.Alt.GetResource(System.String)
+  name: GetResource(String)
+  href: cs/api/AltV.Net.Alt.html#AltV_Net_Alt_GetResource_System_String_
+  commentId: M:AltV.Net.Alt.GetResource(System.String)
+  fullName: AltV.Net.Alt.GetResource(System.String)
+  nameWithType: Alt.GetResource(String)
+- uid: AltV.Net.Alt.GetResource*
+  name: GetResource
+  href: cs/api/AltV.Net.Alt.html#AltV_Net_Alt_GetResource_
+  commentId: Overload:AltV.Net.Alt.GetResource
+  isSpec: "True"
+  fullName: AltV.Net.Alt.GetResource
+  nameWithType: Alt.GetResource
 - uid: AltV.Net.Alt.GetSyncedMetaData(System.String,System.Int32@)
   name: GetSyncedMetaData(String, out Int32)
   href: cs/api/AltV.Net.Alt.html#AltV_Net_Alt_GetSyncedMetaData_System_String_System_Int32__
@@ -5593,6 +5606,32 @@ references:
   isSpec: "True"
   fullName: AltV.Net.Alt.RemoveVoiceChannel
   nameWithType: Alt.RemoveVoiceChannel
+- uid: AltV.Net.Alt.Resource
+  name: Resource
+  href: cs/api/AltV.Net.Alt.html#AltV_Net_Alt_Resource
+  commentId: P:AltV.Net.Alt.Resource
+  fullName: AltV.Net.Alt.Resource
+  nameWithType: Alt.Resource
+- uid: AltV.Net.Alt.Resource*
+  name: Resource
+  href: cs/api/AltV.Net.Alt.html#AltV_Net_Alt_Resource_
+  commentId: Overload:AltV.Net.Alt.Resource
+  isSpec: "True"
+  fullName: AltV.Net.Alt.Resource
+  nameWithType: Alt.Resource
+- uid: AltV.Net.Alt.RestartResource(System.String)
+  name: RestartResource(String)
+  href: cs/api/AltV.Net.Alt.html#AltV_Net_Alt_RestartResource_System_String_
+  commentId: M:AltV.Net.Alt.RestartResource(System.String)
+  fullName: AltV.Net.Alt.RestartResource(System.String)
+  nameWithType: Alt.RestartResource(String)
+- uid: AltV.Net.Alt.RestartResource*
+  name: RestartResource
+  href: cs/api/AltV.Net.Alt.html#AltV_Net_Alt_RestartResource_
+  commentId: Overload:AltV.Net.Alt.RestartResource
+  isSpec: "True"
+  fullName: AltV.Net.Alt.RestartResource
+  nameWithType: Alt.RestartResource
 - uid: AltV.Net.Alt.Server
   name: Server
   href: cs/api/AltV.Net.Alt.html#AltV_Net_Alt_Server
@@ -5632,6 +5671,32 @@ references:
   isSpec: "True"
   fullName: AltV.Net.Alt.SetSyncedMetaData
   nameWithType: Alt.SetSyncedMetaData
+- uid: AltV.Net.Alt.StartResource(System.String)
+  name: StartResource(String)
+  href: cs/api/AltV.Net.Alt.html#AltV_Net_Alt_StartResource_System_String_
+  commentId: M:AltV.Net.Alt.StartResource(System.String)
+  fullName: AltV.Net.Alt.StartResource(System.String)
+  nameWithType: Alt.StartResource(String)
+- uid: AltV.Net.Alt.StartResource*
+  name: StartResource
+  href: cs/api/AltV.Net.Alt.html#AltV_Net_Alt_StartResource_
+  commentId: Overload:AltV.Net.Alt.StartResource
+  isSpec: "True"
+  fullName: AltV.Net.Alt.StartResource
+  nameWithType: Alt.StartResource
+- uid: AltV.Net.Alt.StopResource(System.String)
+  name: StopResource(String)
+  href: cs/api/AltV.Net.Alt.html#AltV_Net_Alt_StopResource_System_String_
+  commentId: M:AltV.Net.Alt.StopResource(System.String)
+  fullName: AltV.Net.Alt.StopResource(System.String)
+  nameWithType: Alt.StopResource(String)
+- uid: AltV.Net.Alt.StopResource*
+  name: StopResource
+  href: cs/api/AltV.Net.Alt.html#AltV_Net_Alt_StopResource_
+  commentId: Overload:AltV.Net.Alt.StopResource
+  isSpec: "True"
+  fullName: AltV.Net.Alt.StopResource
+  nameWithType: Alt.StopResource
 - uid: AltV.Net.AltTrace
   name: AltTrace
   href: cs/api/AltV.Net.AltTrace.html
@@ -7261,19 +7326,6 @@ references:
   isSpec: "True"
   fullName: AltV.Net.Async.AltAsync.Log
   nameWithType: AltAsync.Log
-- uid: AltV.Net.Async.AltAsync.LogFast(System.String)
-  name: LogFast(String)
-  href: cs/api/AltV.Net.Async.AltAsync.html#AltV_Net_Async_AltAsync_LogFast_System_String_
-  commentId: M:AltV.Net.Async.AltAsync.LogFast(System.String)
-  fullName: AltV.Net.Async.AltAsync.LogFast(System.String)
-  nameWithType: AltAsync.LogFast(String)
-- uid: AltV.Net.Async.AltAsync.LogFast*
-  name: LogFast
-  href: cs/api/AltV.Net.Async.AltAsync.html#AltV_Net_Async_AltAsync_LogFast_
-  commentId: Overload:AltV.Net.Async.AltAsync.LogFast
-  isSpec: "True"
-  fullName: AltV.Net.Async.AltAsync.LogFast
-  nameWithType: AltAsync.LogFast
 - uid: AltV.Net.Async.AltAsync.OffClient(System.String,System.Action)
   name: OffClient(String, Action)
   href: cs/api/AltV.Net.Async.AltAsync.html#AltV_Net_Async_AltAsync_OffClient_System_String_System_Action_
@@ -16775,46 +16827,6 @@ references:
   isSpec: "True"
   fullName: AltV.Net.Elements.Entities.BaseObject.Type
   nameWithType: BaseObject.Type
-- uid: AltV.Net.Elements.Entities.BaseObjectExtensions
-  name: BaseObjectExtensions
-  href: cs/api/AltV.Net.Elements.Entities.BaseObjectExtensions.html
-  commentId: T:AltV.Net.Elements.Entities.BaseObjectExtensions
-  fullName: AltV.Net.Elements.Entities.BaseObjectExtensions
-  nameWithType: BaseObjectExtensions
-- uid: AltV.Net.Elements.Entities.BaseObjectExtensions.GetMetaData(AltV.Net.Elements.Entities.IBaseObject,System.String,System.Int32@)
-  name: GetMetaData(IBaseObject, String, out Int32)
-  href: cs/api/AltV.Net.Elements.Entities.BaseObjectExtensions.html#AltV_Net_Elements_Entities_BaseObjectExtensions_GetMetaData_AltV_Net_Elements_Entities_IBaseObject_System_String_System_Int32__
-  commentId: M:AltV.Net.Elements.Entities.BaseObjectExtensions.GetMetaData(AltV.Net.Elements.Entities.IBaseObject,System.String,System.Int32@)
-  name.vb: GetMetaData(IBaseObject, String, ByRef Int32)
-  fullName: AltV.Net.Elements.Entities.BaseObjectExtensions.GetMetaData(AltV.Net.Elements.Entities.IBaseObject, System.String, out System.Int32)
-  fullName.vb: AltV.Net.Elements.Entities.BaseObjectExtensions.GetMetaData(AltV.Net.Elements.Entities.IBaseObject, System.String, ByRef System.Int32)
-  nameWithType: BaseObjectExtensions.GetMetaData(IBaseObject, String, out Int32)
-  nameWithType.vb: BaseObjectExtensions.GetMetaData(IBaseObject, String, ByRef Int32)
-- uid: AltV.Net.Elements.Entities.BaseObjectExtensions.GetMetaData(AltV.Net.Elements.Entities.IBaseObject,System.String,System.Single@)
-  name: GetMetaData(IBaseObject, String, out Single)
-  href: cs/api/AltV.Net.Elements.Entities.BaseObjectExtensions.html#AltV_Net_Elements_Entities_BaseObjectExtensions_GetMetaData_AltV_Net_Elements_Entities_IBaseObject_System_String_System_Single__
-  commentId: M:AltV.Net.Elements.Entities.BaseObjectExtensions.GetMetaData(AltV.Net.Elements.Entities.IBaseObject,System.String,System.Single@)
-  name.vb: GetMetaData(IBaseObject, String, ByRef Single)
-  fullName: AltV.Net.Elements.Entities.BaseObjectExtensions.GetMetaData(AltV.Net.Elements.Entities.IBaseObject, System.String, out System.Single)
-  fullName.vb: AltV.Net.Elements.Entities.BaseObjectExtensions.GetMetaData(AltV.Net.Elements.Entities.IBaseObject, System.String, ByRef System.Single)
-  nameWithType: BaseObjectExtensions.GetMetaData(IBaseObject, String, out Single)
-  nameWithType.vb: BaseObjectExtensions.GetMetaData(IBaseObject, String, ByRef Single)
-- uid: AltV.Net.Elements.Entities.BaseObjectExtensions.GetMetaData(AltV.Net.Elements.Entities.IBaseObject,System.String,System.UInt32@)
-  name: GetMetaData(IBaseObject, String, out UInt32)
-  href: cs/api/AltV.Net.Elements.Entities.BaseObjectExtensions.html#AltV_Net_Elements_Entities_BaseObjectExtensions_GetMetaData_AltV_Net_Elements_Entities_IBaseObject_System_String_System_UInt32__
-  commentId: M:AltV.Net.Elements.Entities.BaseObjectExtensions.GetMetaData(AltV.Net.Elements.Entities.IBaseObject,System.String,System.UInt32@)
-  name.vb: GetMetaData(IBaseObject, String, ByRef UInt32)
-  fullName: AltV.Net.Elements.Entities.BaseObjectExtensions.GetMetaData(AltV.Net.Elements.Entities.IBaseObject, System.String, out System.UInt32)
-  fullName.vb: AltV.Net.Elements.Entities.BaseObjectExtensions.GetMetaData(AltV.Net.Elements.Entities.IBaseObject, System.String, ByRef System.UInt32)
-  nameWithType: BaseObjectExtensions.GetMetaData(IBaseObject, String, out UInt32)
-  nameWithType.vb: BaseObjectExtensions.GetMetaData(IBaseObject, String, ByRef UInt32)
-- uid: AltV.Net.Elements.Entities.BaseObjectExtensions.GetMetaData*
-  name: GetMetaData
-  href: cs/api/AltV.Net.Elements.Entities.BaseObjectExtensions.html#AltV_Net_Elements_Entities_BaseObjectExtensions_GetMetaData_
-  commentId: Overload:AltV.Net.Elements.Entities.BaseObjectExtensions.GetMetaData
-  isSpec: "True"
-  fullName: AltV.Net.Elements.Entities.BaseObjectExtensions.GetMetaData
-  nameWithType: BaseObjectExtensions.GetMetaData
 - uid: AltV.Net.Elements.Entities.BaseObjectRemovedException
   name: BaseObjectRemovedException
   href: cs/api/AltV.Net.Elements.Entities.BaseObjectRemovedException.html
@@ -18453,6 +18465,33 @@ references:
   fullName.vb: AltV.Net.Elements.Entities.IBaseObject.GetMetaData(System.String, ByRef AltV.Net.Elements.Args.MValueConst)
   nameWithType: IBaseObject.GetMetaData(String, out MValueConst)
   nameWithType.vb: IBaseObject.GetMetaData(String, ByRef MValueConst)
+- uid: AltV.Net.Elements.Entities.IBaseObject.GetMetaData(System.String,System.Int32@)
+  name: GetMetaData(String, out Int32)
+  href: cs/api/AltV.Net.Elements.Entities.IBaseObject.html#AltV_Net_Elements_Entities_IBaseObject_GetMetaData_System_String_System_Int32__
+  commentId: M:AltV.Net.Elements.Entities.IBaseObject.GetMetaData(System.String,System.Int32@)
+  name.vb: GetMetaData(String, ByRef Int32)
+  fullName: AltV.Net.Elements.Entities.IBaseObject.GetMetaData(System.String, out System.Int32)
+  fullName.vb: AltV.Net.Elements.Entities.IBaseObject.GetMetaData(System.String, ByRef System.Int32)
+  nameWithType: IBaseObject.GetMetaData(String, out Int32)
+  nameWithType.vb: IBaseObject.GetMetaData(String, ByRef Int32)
+- uid: AltV.Net.Elements.Entities.IBaseObject.GetMetaData(System.String,System.Single@)
+  name: GetMetaData(String, out Single)
+  href: cs/api/AltV.Net.Elements.Entities.IBaseObject.html#AltV_Net_Elements_Entities_IBaseObject_GetMetaData_System_String_System_Single__
+  commentId: M:AltV.Net.Elements.Entities.IBaseObject.GetMetaData(System.String,System.Single@)
+  name.vb: GetMetaData(String, ByRef Single)
+  fullName: AltV.Net.Elements.Entities.IBaseObject.GetMetaData(System.String, out System.Single)
+  fullName.vb: AltV.Net.Elements.Entities.IBaseObject.GetMetaData(System.String, ByRef System.Single)
+  nameWithType: IBaseObject.GetMetaData(String, out Single)
+  nameWithType.vb: IBaseObject.GetMetaData(String, ByRef Single)
+- uid: AltV.Net.Elements.Entities.IBaseObject.GetMetaData(System.String,System.UInt32@)
+  name: GetMetaData(String, out UInt32)
+  href: cs/api/AltV.Net.Elements.Entities.IBaseObject.html#AltV_Net_Elements_Entities_IBaseObject_GetMetaData_System_String_System_UInt32__
+  commentId: M:AltV.Net.Elements.Entities.IBaseObject.GetMetaData(System.String,System.UInt32@)
+  name.vb: GetMetaData(String, ByRef UInt32)
+  fullName: AltV.Net.Elements.Entities.IBaseObject.GetMetaData(System.String, out System.UInt32)
+  fullName.vb: AltV.Net.Elements.Entities.IBaseObject.GetMetaData(System.String, ByRef System.UInt32)
+  nameWithType: IBaseObject.GetMetaData(String, out UInt32)
+  nameWithType.vb: IBaseObject.GetMetaData(String, ByRef UInt32)
 - uid: AltV.Net.Elements.Entities.IBaseObject.GetMetaData*
   name: GetMetaData
   href: cs/api/AltV.Net.Elements.Entities.IBaseObject.html#AltV_Net_Elements_Entities_IBaseObject_GetMetaData_
@@ -42503,6 +42542,12 @@ references:
   commentId: F:AltV.Net.Enums.WeaponModel.CombatPistol
   fullName: AltV.Net.Enums.WeaponModel.CombatPistol
   nameWithType: WeaponModel.CombatPistol
+- uid: AltV.Net.Enums.WeaponModel.CombatShotgun
+  name: CombatShotgun
+  href: cs/api/AltV.Net.Enums.WeaponModel.html#AltV_Net_Enums_WeaponModel_CombatShotgun
+  commentId: F:AltV.Net.Enums.WeaponModel.CombatShotgun
+  fullName: AltV.Net.Enums.WeaponModel.CombatShotgun
+  nameWithType: WeaponModel.CombatShotgun
 - uid: AltV.Net.Enums.WeaponModel.CompactGrenadeLauncher
   name: CompactGrenadeLauncher
   href: cs/api/AltV.Net.Enums.WeaponModel.html#AltV_Net_Enums_WeaponModel_CompactGrenadeLauncher
@@ -42569,6 +42614,12 @@ references:
   commentId: F:AltV.Net.Enums.WeaponModel.Flashlight
   fullName: AltV.Net.Enums.WeaponModel.Flashlight
   nameWithType: WeaponModel.Flashlight
+- uid: AltV.Net.Enums.WeaponModel.GadgetPistol
+  name: GadgetPistol
+  href: cs/api/AltV.Net.Enums.WeaponModel.html#AltV_Net_Enums_WeaponModel_GadgetPistol
+  commentId: F:AltV.Net.Enums.WeaponModel.GadgetPistol
+  fullName: AltV.Net.Enums.WeaponModel.GadgetPistol
+  nameWithType: WeaponModel.GadgetPistol
 - uid: AltV.Net.Enums.WeaponModel.GolfClub
   name: GolfClub
   href: cs/api/AltV.Net.Enums.WeaponModel.html#AltV_Net_Enums_WeaponModel_GolfClub
@@ -42707,6 +42758,12 @@ references:
   commentId: F:AltV.Net.Enums.WeaponModel.MicroSMG
   fullName: AltV.Net.Enums.WeaponModel.MicroSMG
   nameWithType: WeaponModel.MicroSMG
+- uid: AltV.Net.Enums.WeaponModel.MilitaryRifle
+  name: MilitaryRifle
+  href: cs/api/AltV.Net.Enums.WeaponModel.html#AltV_Net_Enums_WeaponModel_MilitaryRifle
+  commentId: F:AltV.Net.Enums.WeaponModel.MilitaryRifle
+  fullName: AltV.Net.Enums.WeaponModel.MilitaryRifle
+  nameWithType: WeaponModel.MilitaryRifle
 - uid: AltV.Net.Enums.WeaponModel.Minigun
   name: Minigun
   href: cs/api/AltV.Net.Enums.WeaponModel.html#AltV_Net_Enums_WeaponModel_Minigun
