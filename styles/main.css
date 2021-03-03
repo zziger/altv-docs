@@ -1,0 +1,45 @@
+.release-stage {
+  /*display: inline-block;*/
+  padding: 0.25em;
+  margin-bottom: 0.25em;
+  vertical-align: middle;
+  font-size: 10px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  border-radius: 0.25em;
+  background-color: #808080;
+}
+
+.release-stage.alpha {
+  background-color: #055DC5;
+}
+.release-stage.alpha::before {
+  content: "alpha";
+}
+
+.release-stage.beta {
+  background-color: #E26E2D;
+}
+.release-stage.beta::before {
+  content: "beta";
+}
+
+.release-stage.public {
+  background-color: #008736;
+}
+.release-stage.public::before {
+  content: "public";
+}
+
+.release-stage.alpha::before {
+  content: "dev" !important;
+}
+
+.release-stage.beta::before {
+  content: "rc" !important;
+}
+
+.release-stage.public::before {
+  content: "release" !important;
+}
