@@ -467,7 +467,7 @@ references:
   href: js/api/alt-client.Discord.html#_altmp_altv_types_alt_client_Discord_currentUser
   fullName: currentUser
 - uid: '@altmp/altv-types.alt-client.doesConfigFlagExist'
-  name: doesConfigFlagExist(string)
+  name: doesConfigFlagExist("DISABLE_PED_PROP_KNOCK_OFF")
   href: js/api/alt-client.html#_altmp_altv_types_alt_client_doesConfigFlagExist
 - uid: '@altmp/altv-types.alt-client.emit'
   name: emit(string, any[])
@@ -526,7 +526,7 @@ references:
   href: js/api/alt-client.Entity.html#_altmp_altv_types_alt_client_Entity_visible
   fullName: visible
 - uid: '@altmp/altv-types.alt-client.everyTick'
-  name: everyTick(() => void)
+  name: 'everyTick((...args: any[]) => void)'
   href: js/api/alt-client.html#_altmp_altv_types_alt_client_everyTick
 - uid: '@altmp/altv-types.alt-client.File'
   name: File
@@ -558,7 +558,7 @@ references:
   name: gameControlsEnabled()
   href: js/api/alt-client.html#_altmp_altv_types_alt_client_gameControlsEnabled
 - uid: '@altmp/altv-types.alt-client.getConfigFlag'
-  name: getConfigFlag(string)
+  name: getConfigFlag("DISABLE_PED_PROP_KNOCK_OFF")
   href: js/api/alt-client.html#_altmp_altv_types_alt_client_getConfigFlag
 - uid: '@altmp/altv-types.alt-client.getCursorPos'
   name: getCursorPos()
@@ -1569,7 +1569,7 @@ references:
   name: ushort(number)
   href: js/api/alt-client.MemoryBuffer.html#_altmp_altv_types_alt_client_MemoryBuffer_ushort
 - uid: '@altmp/altv-types.alt-client.nextTick'
-  name: nextTick(() => void)
+  name: 'nextTick((...args: any[]) => void)'
   href: js/api/alt-client.html#_altmp_altv_types_alt_client_nextTick
 - uid: '@altmp/altv-types.alt-client.off'
   name: 'off(string, (...args: any[]) => void)'
@@ -1790,13 +1790,13 @@ references:
   name: setCamFrozen(boolean)
   href: js/api/alt-client.html#_altmp_altv_types_alt_client_setCamFrozen
 - uid: '@altmp/altv-types.alt-client.setConfigFlag'
-  name: setConfigFlag(string, boolean)
+  name: setConfigFlag("DISABLE_PED_PROP_KNOCK_OFF", boolean)
   href: js/api/alt-client.html#_altmp_altv_types_alt_client_setConfigFlag
 - uid: '@altmp/altv-types.alt-client.setCursorPos'
   name: setCursorPos(IVector2)
   href: js/api/alt-client.html#_altmp_altv_types_alt_client_setCursorPos
 - uid: '@altmp/altv-types.alt-client.setInterval'
-  name: setInterval(() => void, number)
+  name: 'setInterval((...args: any[]) => void, number)'
   href: js/api/alt-client.html#_altmp_altv_types_alt_client_setInterval
 - uid: '@altmp/altv-types.alt-client.setMeta'
   name: setMeta(string, any)
@@ -1811,7 +1811,7 @@ references:
   name: setStat(StatName, number)
   href: js/api/alt-client.html#_altmp_altv_types_alt_client_setStat
 - uid: '@altmp/altv-types.alt-client.setTimeout'
-  name: setTimeout(() => void, number)
+  name: 'setTimeout((...args: any[]) => void, number)'
   href: js/api/alt-client.html#_altmp_altv_types_alt_client_setTimeout
 - uid: '@altmp/altv-types.alt-client.setWeatherCycle'
   name: setWeatherCycle(Array<number>, Array<number>)
@@ -2830,7 +2830,7 @@ references:
   href: js/api/alt-server.Entity.html#_altmp_altv_types_alt_server_Entity_visible
   fullName: visible
 - uid: '@altmp/altv-types.alt-server.everyTick'
-  name: everyTick(() => void)
+  name: 'everyTick((...args: any[]) => void)'
   href: js/api/alt-server.html#_altmp_altv_types_alt_server_everyTick
 - uid: '@altmp/altv-types.alt-server.ExplosionType'
   name: ExplosionType
@@ -3233,7 +3233,7 @@ references:
   name: logWarning(any[])
   href: js/api/alt-server.html#_altmp_altv_types_alt_server_logWarning
 - uid: '@altmp/altv-types.alt-server.nextTick'
-  name: nextTick(() => void)
+  name: 'nextTick((...args: any[]) => void)'
   href: js/api/alt-server.html#_altmp_altv_types_alt_server_nextTick
 - uid: '@altmp/altv-types.alt-server.NumberPlateStyle'
   name: NumberPlateStyle
@@ -3533,7 +3533,7 @@ references:
   href: js/api/alt-server.html#_altmp_altv_types_alt_server_sdkVersion
   fullName: sdkVersion
 - uid: '@altmp/altv-types.alt-server.setInterval'
-  name: setInterval(() => void, number)
+  name: 'setInterval((...args: any[]) => void, number)'
   href: js/api/alt-server.html#_altmp_altv_types_alt_server_setInterval
 - uid: '@altmp/altv-types.alt-server.setMeta'
   name: setMeta(string, any)
@@ -3545,7 +3545,7 @@ references:
   name: setSyncedMeta(string, any)
   href: js/api/alt-server.html#_altmp_altv_types_alt_server_setSyncedMeta
 - uid: '@altmp/altv-types.alt-server.setTimeout'
-  name: setTimeout(() => void, number)
+  name: 'setTimeout((...args: any[]) => void, number)'
   href: js/api/alt-server.html#_altmp_altv_types_alt_server_setTimeout
 - uid: '@altmp/altv-types.alt-server.startResource'
   name: startResource(string)

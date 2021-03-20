@@ -223,7 +223,7 @@
         <span class="release-stage beta"></span>
         <span class="release-stage alpha"></span>
   </h4>
-        <div class="markdown level1 summary"><p>Clears a timer set with the <a class="xref" href="alt-server.html#_altmp_altv_types_alt_server_everyTick">everyTick(() =&gt; void)</a> function.</p>
+        <div class="markdown level1 summary"><p>Clears a timer set with the <a class="xref" href="alt-server.html#_altmp_altv_types_alt_server_everyTick">everyTick((...args: any[]) =&gt; void)</a> function.</p>
 </div>
         <div class="markdown level1 conceptual"></div>
         <h5 class="decalaration">Declaration</h5>
@@ -263,7 +263,7 @@
         <span class="release-stage beta"></span>
         <span class="release-stage alpha"></span>
   </h4>
-        <div class="markdown level1 summary"><p>Clears a timer set with the <a class="xref" href="alt-server.html#_altmp_altv_types_alt_server_setInterval">setInterval(() =&gt; void, number)</a> function.</p>
+        <div class="markdown level1 summary"><p>Clears a timer set with the <a class="xref" href="alt-server.html#_altmp_altv_types_alt_server_setInterval">setInterval((...args: any[]) =&gt; void, number)</a> function.</p>
 </div>
         <div class="markdown level1 conceptual"></div>
         <h5 class="decalaration">Declaration</h5>
@@ -303,7 +303,7 @@
         <span class="release-stage beta"></span>
         <span class="release-stage alpha"></span>
   </h4>
-        <div class="markdown level1 summary"><p>Clears a timer set with the <a class="xref" href="alt-server.html#_altmp_altv_types_alt_server_nextTick">nextTick(() =&gt; void)</a> function.</p>
+        <div class="markdown level1 summary"><p>Clears a timer set with the <a class="xref" href="alt-server.html#_altmp_altv_types_alt_server_nextTick">nextTick((...args: any[]) =&gt; void)</a> function.</p>
 </div>
         <div class="markdown level1 conceptual"></div>
         <h5 class="decalaration">Declaration</h5>
@@ -343,7 +343,7 @@
         <span class="release-stage beta"></span>
         <span class="release-stage alpha"></span>
   </h4>
-        <div class="markdown level1 summary"><p>Clears a timer set with the <a class="xref" href="alt-server.html#_altmp_altv_types_alt_server_setTimeout">setTimeout(() =&gt; void, number)</a> function.</p>
+        <div class="markdown level1 summary"><p>Clears a timer set with the <a class="xref" href="alt-server.html#_altmp_altv_types_alt_server_setTimeout">setTimeout((...args: any[]) =&gt; void, number)</a> function.</p>
 </div>
         <div class="markdown level1 conceptual"></div>
         <h5 class="decalaration">Declaration</h5>
@@ -670,7 +670,7 @@
         <span class="small pull-right mobile-hide">
           <a href="https://github.com/altmp/altv-types/blob/master/./server/index.d.ts/#L1410">View Source</a>
         </span>
-        <h4 id="_altmp_altv_types_alt_server_everyTick" data-uid="@altmp/altv-types.alt-server.everyTick">everyTick(() =&gt; void)
+        <h4 id="_altmp_altv_types_alt_server_everyTick" data-uid="@altmp/altv-types.alt-server.everyTick">everyTick((...args: any[]) =&gt; void)
         <span class="release-stage public"></span>
         <span class="release-stage beta"></span>
         <span class="release-stage alpha"></span>
@@ -680,7 +680,7 @@
         <div class="markdown level1 conceptual"></div>
         <h5 class="decalaration">Declaration</h5>
         <div class="codewrapper">
-          <pre><code class="lang-typeScript hljs">everyTick(handler: () =&gt; void): number</code></pre>
+          <pre><code class="lang-typeScript hljs">everyTick(handler: (...args: any[]) =&gt; void): number</code></pre>
         </div>
         <h5 class="parameters">Parameters</h5>
         <table class="table table-bordered table-striped table-condensed">
@@ -693,7 +693,7 @@
           </thead>
           <tbody>
             <tr>
-              <td><span class="xref">() =&gt; void</span></td>
+              <td><span class="xref">(...args: any[]) =&gt; void</span></td>
               <td><em>handler</em></td>
               <td>
                 <p>Handler that should be scheduled for execution.</p>
@@ -1376,7 +1376,7 @@
         <span class="small pull-right mobile-hide">
           <a href="https://github.com/altmp/altv-types/blob/master/./server/index.d.ts/#L1473">View Source</a>
         </span>
-        <h4 id="_altmp_altv_types_alt_server_nextTick" data-uid="@altmp/altv-types.alt-server.nextTick">nextTick(() =&gt; void)
+        <h4 id="_altmp_altv_types_alt_server_nextTick" data-uid="@altmp/altv-types.alt-server.nextTick">nextTick((...args: any[]) =&gt; void)
         <span class="release-stage public"></span>
         <span class="release-stage beta"></span>
         <span class="release-stage alpha"></span>
@@ -1386,7 +1386,7 @@
         <div class="markdown level1 conceptual"></div>
         <h5 class="decalaration">Declaration</h5>
         <div class="codewrapper">
-          <pre><code class="lang-typeScript hljs">nextTick(handler: () =&gt; void): number</code></pre>
+          <pre><code class="lang-typeScript hljs">nextTick(handler: (...args: any[]) =&gt; void): number</code></pre>
         </div>
         <h5 class="parameters">Parameters</h5>
         <table class="table table-bordered table-striped table-condensed">
@@ -1399,7 +1399,7 @@
           </thead>
           <tbody>
             <tr>
-              <td><span class="xref">() =&gt; void</span></td>
+              <td><span class="xref">(...args: any[]) =&gt; void</span></td>
               <td><em>handler</em></td>
               <td>
                 <p>Handler that should be scheduled for execution.</p>
@@ -1868,7 +1868,7 @@
         <span class="small pull-right mobile-hide">
           <a href="https://github.com/altmp/altv-types/blob/master/./server/index.d.ts/#L1548">View Source</a>
         </span>
-        <h4 id="_altmp_altv_types_alt_server_setInterval" data-uid="@altmp/altv-types.alt-server.setInterval">setInterval(() =&gt; void, number)
+        <h4 id="_altmp_altv_types_alt_server_setInterval" data-uid="@altmp/altv-types.alt-server.setInterval">setInterval((...args: any[]) =&gt; void, number)
         <span class="release-stage public"></span>
         <span class="release-stage beta"></span>
         <span class="release-stage alpha"></span>
@@ -1878,7 +1878,7 @@
         <div class="markdown level1 conceptual"></div>
         <h5 class="decalaration">Declaration</h5>
         <div class="codewrapper">
-          <pre><code class="lang-typeScript hljs">setInterval(handler: () =&gt; void, miliseconds: number): number</code></pre>
+          <pre><code class="lang-typeScript hljs">setInterval(handler: (...args: any[]) =&gt; void, miliseconds: number): number</code></pre>
         </div>
         <h5 class="parameters">Parameters</h5>
         <table class="table table-bordered table-striped table-condensed">
@@ -1891,7 +1891,7 @@
           </thead>
           <tbody>
             <tr>
-              <td><span class="xref">() =&gt; void</span></td>
+              <td><span class="xref">(...args: any[]) =&gt; void</span></td>
               <td><em>handler</em></td>
               <td>
                 <p>Handler that should be scheduled for execution.</p>
@@ -2073,7 +2073,7 @@
         <span class="small pull-right mobile-hide">
           <a href="https://github.com/altmp/altv-types/blob/master/./server/index.d.ts/#L1557">View Source</a>
         </span>
-        <h4 id="_altmp_altv_types_alt_server_setTimeout" data-uid="@altmp/altv-types.alt-server.setTimeout">setTimeout(() =&gt; void, number)
+        <h4 id="_altmp_altv_types_alt_server_setTimeout" data-uid="@altmp/altv-types.alt-server.setTimeout">setTimeout((...args: any[]) =&gt; void, number)
         <span class="release-stage public"></span>
         <span class="release-stage beta"></span>
         <span class="release-stage alpha"></span>
@@ -2083,7 +2083,7 @@
         <div class="markdown level1 conceptual"></div>
         <h5 class="decalaration">Declaration</h5>
         <div class="codewrapper">
-          <pre><code class="lang-typeScript hljs">setTimeout(handler: () =&gt; void, miliseconds: number): number</code></pre>
+          <pre><code class="lang-typeScript hljs">setTimeout(handler: (...args: any[]) =&gt; void, miliseconds: number): number</code></pre>
         </div>
         <h5 class="parameters">Parameters</h5>
         <table class="table table-bordered table-striped table-condensed">
@@ -2096,7 +2096,7 @@
           </thead>
           <tbody>
             <tr>
-              <td><span class="xref">() =&gt; void</span></td>
+              <td><span class="xref">(...args: any[]) =&gt; void</span></td>
               <td><em>handler</em></td>
               <td>
                 <p>Handler that should be scheduled for execution.</p>

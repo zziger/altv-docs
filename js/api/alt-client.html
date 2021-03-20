@@ -319,7 +319,7 @@ This handling applies to particular vehicle instance, as opposed to the <a class
         <span class="release-stage beta"></span>
         <span class="release-stage alpha"></span>
   </h4>
-        <div class="markdown level1 summary"><p>Clears a timer set with the <a class="xref" href="alt-client.html#_altmp_altv_types_alt_client_everyTick">everyTick(() =&gt; void)</a> function.</p>
+        <div class="markdown level1 summary"><p>Clears a timer set with the <a class="xref" href="alt-client.html#_altmp_altv_types_alt_client_everyTick">everyTick((...args: any[]) =&gt; void)</a> function.</p>
 </div>
         <div class="markdown level1 conceptual"></div>
         <h5 class="decalaration">Declaration</h5>
@@ -359,7 +359,7 @@ This handling applies to particular vehicle instance, as opposed to the <a class
         <span class="release-stage beta"></span>
         <span class="release-stage alpha"></span>
   </h4>
-        <div class="markdown level1 summary"><p>Clears a timer set with the <a class="xref" href="alt-client.html#_altmp_altv_types_alt_client_setInterval">setInterval(() =&gt; void, number)</a> function.</p>
+        <div class="markdown level1 summary"><p>Clears a timer set with the <a class="xref" href="alt-client.html#_altmp_altv_types_alt_client_setInterval">setInterval((...args: any[]) =&gt; void, number)</a> function.</p>
 </div>
         <div class="markdown level1 conceptual"></div>
         <h5 class="decalaration">Declaration</h5>
@@ -399,7 +399,7 @@ This handling applies to particular vehicle instance, as opposed to the <a class
         <span class="release-stage beta"></span>
         <span class="release-stage alpha"></span>
   </h4>
-        <div class="markdown level1 summary"><p>Clears a timer set with the <a class="xref" href="alt-client.html#_altmp_altv_types_alt_client_nextTick">nextTick(() =&gt; void)</a> function.</p>
+        <div class="markdown level1 summary"><p>Clears a timer set with the <a class="xref" href="alt-client.html#_altmp_altv_types_alt_client_nextTick">nextTick((...args: any[]) =&gt; void)</a> function.</p>
 </div>
         <div class="markdown level1 conceptual"></div>
         <h5 class="decalaration">Declaration</h5>
@@ -439,7 +439,7 @@ This handling applies to particular vehicle instance, as opposed to the <a class
         <span class="release-stage beta"></span>
         <span class="release-stage alpha"></span>
   </h4>
-        <div class="markdown level1 summary"><p>Clears a timer set with the <a class="xref" href="alt-client.html#_altmp_altv_types_alt_client_setTimeout">setTimeout(() =&gt; void, number)</a> function.</p>
+        <div class="markdown level1 summary"><p>Clears a timer set with the <a class="xref" href="alt-client.html#_altmp_altv_types_alt_client_setTimeout">setTimeout((...args: any[]) =&gt; void, number)</a> function.</p>
 </div>
         <div class="markdown level1 conceptual"></div>
         <h5 class="decalaration">Declaration</h5>
@@ -514,7 +514,7 @@ This handling applies to particular vehicle instance, as opposed to the <a class
         <span class="small pull-right mobile-hide">
           <a href="https://github.com/altmp/altv-types/blob/master/./client/index.d.ts/#L1930">View Source</a>
         </span>
-        <h4 id="_altmp_altv_types_alt_client_doesConfigFlagExist" data-uid="@altmp/altv-types.alt-client.doesConfigFlagExist">doesConfigFlagExist(string)
+        <h4 id="_altmp_altv_types_alt_client_doesConfigFlagExist" data-uid="@altmp/altv-types.alt-client.doesConfigFlagExist">doesConfigFlagExist(&quot;DISABLE_PED_PROP_KNOCK_OFF&quot;)
         <span class="release-stage public"></span>
         <span class="release-stage beta"></span>
         <span class="release-stage alpha"></span>
@@ -524,7 +524,7 @@ This handling applies to particular vehicle instance, as opposed to the <a class
         <div class="markdown level1 conceptual"></div>
         <h5 class="decalaration">Declaration</h5>
         <div class="codewrapper">
-          <pre><code class="lang-typeScript hljs">doesConfigFlagExist(flag: string): boolean</code></pre>
+          <pre><code class="lang-typeScript hljs">doesConfigFlagExist(flag: &quot;DISABLE_PED_PROP_KNOCK_OFF&quot;): boolean</code></pre>
         </div>
         <h5 class="parameters">Parameters</h5>
         <table class="table table-bordered table-striped table-condensed">
@@ -537,7 +537,7 @@ This handling applies to particular vehicle instance, as opposed to the <a class
           </thead>
           <tbody>
             <tr>
-              <td><span class="xref">string</span></td>
+              <td><span class="xref">&quot;DISABLE_PED_PROP_KNOCK_OFF&quot;</span></td>
               <td><em>flag</em></td>
               <td>
                 <p>Config flag name.</p>
@@ -666,7 +666,7 @@ This handling applies to particular vehicle instance, as opposed to the <a class
         <span class="small pull-right mobile-hide">
           <a href="https://github.com/altmp/altv-types/blob/master/./client/index.d.ts/#L1636">View Source</a>
         </span>
-        <h4 id="_altmp_altv_types_alt_client_everyTick" data-uid="@altmp/altv-types.alt-client.everyTick">everyTick(() =&gt; void)
+        <h4 id="_altmp_altv_types_alt_client_everyTick" data-uid="@altmp/altv-types.alt-client.everyTick">everyTick((...args: any[]) =&gt; void)
         <span class="release-stage public"></span>
         <span class="release-stage beta"></span>
         <span class="release-stage alpha"></span>
@@ -676,7 +676,7 @@ This handling applies to particular vehicle instance, as opposed to the <a class
         <div class="markdown level1 conceptual"></div>
         <h5 class="decalaration">Declaration</h5>
         <div class="codewrapper">
-          <pre><code class="lang-typeScript hljs">everyTick(handler: () =&gt; void): number</code></pre>
+          <pre><code class="lang-typeScript hljs">everyTick(handler: (...args: any[]) =&gt; void): number</code></pre>
         </div>
         <h5 class="parameters">Parameters</h5>
         <table class="table table-bordered table-striped table-condensed">
@@ -689,7 +689,7 @@ This handling applies to particular vehicle instance, as opposed to the <a class
           </thead>
           <tbody>
             <tr>
-              <td><span class="xref">() =&gt; void</span></td>
+              <td><span class="xref">(...args: any[]) =&gt; void</span></td>
               <td><em>handler</em></td>
               <td>
                 <p>Handler that should be scheduled for execution.</p>
@@ -756,17 +756,17 @@ This handling applies to particular vehicle instance, as opposed to the <a class
         <span class="small pull-right mobile-hide">
           <a href="https://github.com/altmp/altv-types/blob/master/./client/index.d.ts/#L1922">View Source</a>
         </span>
-        <h4 id="_altmp_altv_types_alt_client_getConfigFlag" data-uid="@altmp/altv-types.alt-client.getConfigFlag">getConfigFlag(string)
+        <h4 id="_altmp_altv_types_alt_client_getConfigFlag" data-uid="@altmp/altv-types.alt-client.getConfigFlag">getConfigFlag(&quot;DISABLE_PED_PROP_KNOCK_OFF&quot;)
         <span class="release-stage public"></span>
         <span class="release-stage beta"></span>
         <span class="release-stage alpha"></span>
   </h4>
-        <div class="markdown level1 summary"><p>Returns the state of the specified config flag.</p>
+        <div class="markdown level1 summary"><p>Returns the state of the specified ped config flag of the local player.</p>
 </div>
         <div class="markdown level1 conceptual"></div>
         <h5 class="decalaration">Declaration</h5>
         <div class="codewrapper">
-          <pre><code class="lang-typeScript hljs">getConfigFlag(flag: string): boolean</code></pre>
+          <pre><code class="lang-typeScript hljs">getConfigFlag(flag: &quot;DISABLE_PED_PROP_KNOCK_OFF&quot;): boolean</code></pre>
         </div>
         <h5 class="parameters">Parameters</h5>
         <table class="table table-bordered table-striped table-condensed">
@@ -779,7 +779,7 @@ This handling applies to particular vehicle instance, as opposed to the <a class
           </thead>
           <tbody>
             <tr>
-              <td><span class="xref">string</span></td>
+              <td><span class="xref">&quot;DISABLE_PED_PROP_KNOCK_OFF&quot;</span></td>
               <td><em>flag</em></td>
               <td>
                 <p>Config flag name.</p>
@@ -2042,7 +2042,7 @@ This handling applies to particular vehicle instance, as opposed to the <a class
         <span class="small pull-right mobile-hide">
           <a href="https://github.com/altmp/altv-types/blob/master/./client/index.d.ts/#L1787">View Source</a>
         </span>
-        <h4 id="_altmp_altv_types_alt_client_nextTick" data-uid="@altmp/altv-types.alt-client.nextTick">nextTick(() =&gt; void)
+        <h4 id="_altmp_altv_types_alt_client_nextTick" data-uid="@altmp/altv-types.alt-client.nextTick">nextTick((...args: any[]) =&gt; void)
         <span class="release-stage public"></span>
         <span class="release-stage beta"></span>
         <span class="release-stage alpha"></span>
@@ -2052,7 +2052,7 @@ This handling applies to particular vehicle instance, as opposed to the <a class
         <div class="markdown level1 conceptual"></div>
         <h5 class="decalaration">Declaration</h5>
         <div class="codewrapper">
-          <pre><code class="lang-typeScript hljs">nextTick(handler: () =&gt; void): number</code></pre>
+          <pre><code class="lang-typeScript hljs">nextTick(handler: (...args: any[]) =&gt; void): number</code></pre>
         </div>
         <h5 class="parameters">Parameters</h5>
         <table class="table table-bordered table-striped table-condensed">
@@ -2065,7 +2065,7 @@ This handling applies to particular vehicle instance, as opposed to the <a class
           </thead>
           <tbody>
             <tr>
-              <td><span class="xref">() =&gt; void</span></td>
+              <td><span class="xref">(...args: any[]) =&gt; void</span></td>
               <td><em>handler</em></td>
               <td>
                 <p>Handler that should be scheduled for execution.</p>
@@ -2697,17 +2697,17 @@ This handling applies to particular vehicle instance, as opposed to the <a class
         <span class="small pull-right mobile-hide">
           <a href="https://github.com/altmp/altv-types/blob/master/./client/index.d.ts/#L1914">View Source</a>
         </span>
-        <h4 id="_altmp_altv_types_alt_client_setConfigFlag" data-uid="@altmp/altv-types.alt-client.setConfigFlag">setConfigFlag(string, boolean)
+        <h4 id="_altmp_altv_types_alt_client_setConfigFlag" data-uid="@altmp/altv-types.alt-client.setConfigFlag">setConfigFlag(&quot;DISABLE_PED_PROP_KNOCK_OFF&quot;, boolean)
         <span class="release-stage public"></span>
         <span class="release-stage beta"></span>
         <span class="release-stage alpha"></span>
   </h4>
-        <div class="markdown level1 summary"><p>Sets the specified config flag to the specified state.</p>
+        <div class="markdown level1 summary"><p>Sets the specified ped config flag of the local player to the specified state.</p>
 </div>
         <div class="markdown level1 conceptual"></div>
         <h5 class="decalaration">Declaration</h5>
         <div class="codewrapper">
-          <pre><code class="lang-typeScript hljs">setConfigFlag(flag: string, state: boolean): void</code></pre>
+          <pre><code class="lang-typeScript hljs">setConfigFlag(flag: &quot;DISABLE_PED_PROP_KNOCK_OFF&quot;, state: boolean): void</code></pre>
         </div>
         <h5 class="parameters">Parameters</h5>
         <table class="table table-bordered table-striped table-condensed">
@@ -2720,7 +2720,7 @@ This handling applies to particular vehicle instance, as opposed to the <a class
           </thead>
           <tbody>
             <tr>
-              <td><span class="xref">string</span></td>
+              <td><span class="xref">&quot;DISABLE_PED_PROP_KNOCK_OFF&quot;</span></td>
               <td><em>flag</em></td>
               <td>
                 <p>Config flag name.</p>
@@ -2788,7 +2788,7 @@ This handling applies to particular vehicle instance, as opposed to the <a class
         <span class="small pull-right mobile-hide">
           <a href="https://github.com/altmp/altv-types/blob/master/./client/index.d.ts/#L1946">View Source</a>
         </span>
-        <h4 id="_altmp_altv_types_alt_client_setInterval" data-uid="@altmp/altv-types.alt-client.setInterval">setInterval(() =&gt; void, number)
+        <h4 id="_altmp_altv_types_alt_client_setInterval" data-uid="@altmp/altv-types.alt-client.setInterval">setInterval((...args: any[]) =&gt; void, number)
         <span class="release-stage public"></span>
         <span class="release-stage beta"></span>
         <span class="release-stage alpha"></span>
@@ -2798,7 +2798,7 @@ This handling applies to particular vehicle instance, as opposed to the <a class
         <div class="markdown level1 conceptual"></div>
         <h5 class="decalaration">Declaration</h5>
         <div class="codewrapper">
-          <pre><code class="lang-typeScript hljs">setInterval(handler: () =&gt; void, miliseconds: number): number</code></pre>
+          <pre><code class="lang-typeScript hljs">setInterval(handler: (...args: any[]) =&gt; void, miliseconds: number): number</code></pre>
         </div>
         <h5 class="parameters">Parameters</h5>
         <table class="table table-bordered table-striped table-condensed">
@@ -2811,7 +2811,7 @@ This handling applies to particular vehicle instance, as opposed to the <a class
           </thead>
           <tbody>
             <tr>
-              <td><span class="xref">() =&gt; void</span></td>
+              <td><span class="xref">(...args: any[]) =&gt; void</span></td>
               <td><em>handler</em></td>
               <td>
                 <p>Handler that should be scheduled for execution.</p>
@@ -3059,7 +3059,7 @@ This handling applies to particular vehicle instance, as opposed to the <a class
         <span class="small pull-right mobile-hide">
           <a href="https://github.com/altmp/altv-types/blob/master/./client/index.d.ts/#L1978">View Source</a>
         </span>
-        <h4 id="_altmp_altv_types_alt_client_setTimeout" data-uid="@altmp/altv-types.alt-client.setTimeout">setTimeout(() =&gt; void, number)
+        <h4 id="_altmp_altv_types_alt_client_setTimeout" data-uid="@altmp/altv-types.alt-client.setTimeout">setTimeout((...args: any[]) =&gt; void, number)
         <span class="release-stage public"></span>
         <span class="release-stage beta"></span>
         <span class="release-stage alpha"></span>
@@ -3069,7 +3069,7 @@ This handling applies to particular vehicle instance, as opposed to the <a class
         <div class="markdown level1 conceptual"></div>
         <h5 class="decalaration">Declaration</h5>
         <div class="codewrapper">
-          <pre><code class="lang-typeScript hljs">setTimeout(handler: () =&gt; void, miliseconds: number): number</code></pre>
+          <pre><code class="lang-typeScript hljs">setTimeout(handler: (...args: any[]) =&gt; void, miliseconds: number): number</code></pre>
         </div>
         <h5 class="parameters">Parameters</h5>
         <table class="table table-bordered table-striped table-condensed">
@@ -3082,7 +3082,7 @@ This handling applies to particular vehicle instance, as opposed to the <a class
           </thead>
           <tbody>
             <tr>
-              <td><span class="xref">() =&gt; void</span></td>
+              <td><span class="xref">(...args: any[]) =&gt; void</span></td>
               <td><em>handler</em></td>
               <td>
                 <p>Handler that should be scheduled for execution.</p>
