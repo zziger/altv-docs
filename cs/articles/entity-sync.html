@@ -111,7 +111,7 @@
 <a href="https://www.nuget.org/packages/AltV.Net.EntitySync">https://www.nuget.org/packages/AltV.Net.EntitySync</a> // The core package with the sync logic
 <a href="https://www.nuget.org/packages/AltV.Net.EntitySync.ServerEvent">https://www.nuget.org/packages/AltV.Net.EntitySync.ServerEvent</a> // A optional package that will send the entity sync events to the client via server events</p>
 <h2 id="configure-the-entity-sync">Configure the Entity Sync</h2>
-<pre><code class="lang-csharp">AltEntitySync.Init(1, 100, (threadId) =&gt; false,
+<pre><code class="lang-csharp">AltEntitySync.Init(1, (threadId) =&gt; 100, (threadId) =&gt; false,
    (threadCount, repository) =&gt; new ServerEventNetworkLayer(threadCount, repository),
    (entity, threadCount) =&gt; (entity.Id % threadCount), 
    (entityId, entityType, threadCount) =&gt; (entityId % threadCount),
@@ -120,7 +120,7 @@
 </code></pre>
 <p>Now breakdown the parameters of the Init function:</p>
 <p>The first parameter is the thread count, this describes the number of thats that will run in parallel to calculate the streamed entities.</p>
-<p>The second parameter is the sync rate, it describes the interval in which each sync thread calculates the streamed entities.</p>
+<p>The second parameter is the sync rate, it describes the interval in which each sync thread calculates the streamed entities and can be configured per thread id.</p>
 <p>The third parameter is a bool with that you can enable net owner calculations and events.</p>
 <p>The fourth parameter is the Action that returns a new NetworkLayer for a repository. The ServerEventNetworkLayer is part of the second nuget package.</p>
 <p>The fifth parameter defines the thread the entity shoud use.</p>
