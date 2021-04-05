@@ -3112,7 +3112,7 @@
   "js/articles/index.html": {
     "href": "js/articles/index.html",
     "title": "Getting Started",
-    "keywords": "Getting Started This is the documentation for getting started with developing JS resources. Note These articles are still under development."
+    "keywords": "Getting Started This is the documentation for getting started with developing JS resources. Read Setup for setting up alt:V. Read Create Resource for information on how to create your first JS resource. Read Understanding Events for an introduction on handling alt:V events. Read Player for an introduction to the player. Read Snippets for useful snippets."
   },
   "js/articles/player/index.html": {
     "href": "js/articles/player/index.html",
