@@ -1,0 +1,248 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Events </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Events ">
+    <meta name="generator" content="docfx 2.56.7.0">
+    
+    <link rel="shortcut icon" href="../../favicon.ico">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.1.1/styles/night-owl.min.css" integrity="sha512-xYwrX34LRktCfb+3WW0FtJf6qEc2tcJet152No8epFPBoM4qNaaVk5xdfCYI0Ns0H2jD0Isc3VoShSMv6zzpPA==" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/solid.min.css" crossorigin="anonymous">
+    <link rel="stylesheet" href="../../styles/colors.css">
+    <link rel="stylesheet" href="../../styles/discord.css">
+    <link rel="stylesheet" href="../../styles/main.css">
+    <meta property="docfx:navrel" content="../../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+
+  <body>
+
+        <div class="body-content">
+
+            <nav id="sidebar" role="navigation">
+
+                <div class="sidebar">
+                    
+                    
+                    
+                    
+                    <div>
+                      
+                      <a class="brand" href="../../index.html">
+                        <img src="../../logo.svg" alt="alt:V" class="logomark">
+                        <span class="brand-title">alt:V</span>
+                      </a>
+                      <div id="navbar">
+                    
+                      </div>
+                    
+                    </div>
+                    
+
+                    <div class="sidebar-item-separator"></div>
+
+                        
+                        <div id="sidetoggle">
+                          <div id="sidetoc"></div>
+                        </div>
+
+                </div>
+
+
+            </nav>
+
+            <main class="main-panel">
+
+                <div class="blackout desktop-hide"></div>
+
+                    
+                    <div class="subnav navbar navbar-default">
+                      <button class="btn-link search-back desktop-hide"></button>
+                      <button class="btn-link navbar-toggler" aria-label="Toggle navigation"></button>
+                      <div class="container" id="breadcrumb">
+                        <ul class="breadcrumb">
+                          <li></li>
+                        </ul>
+                      </div>
+                      <div class="flex-space"></div>
+                      <div class="toolbar">
+                      </div>
+                      <button class="btn-link btn-floating search desktop-hide"></button>
+                    </div>
+
+                <div class="content-region" role="main">
+
+                    <div class="content-column Conceptual">
+
+                            
+                            <div class="sideaffix hide-when-search">
+                              <h3>Index</h3>
+                              <div class="bs-docs-sidebar affix" id="affix">
+                                <div></div>
+                              </div>
+                            </div>
+
+
+                        <article class="content wrap hide-when-search" id="_content" data-uid="">
+
+                                <span class="small pull-right article mobile-hide" style="margin: 0;">
+                                    <ul class="subnav contribution">
+                                            <li>
+                                                <a href="https://github.com/altmp/altv-types/blob/master/docs/articles/understanding-events.md/#L1">Improve this Doc</a>
+                                            </li>
+                                    </ul>
+                                </span>
+
+<h1 id="events">Events</h1>
+
+<p>Events work in a very specific way and understanding their communication is very important.</p>
+<p>Server can talk to any client.
+Client may only talk to WebViews and the Server.</p>
+<p>A client <strong>CANNOT</strong> talk to another client.</p>
+<table>
+<thead>
+<tr>
+<th>Function Name</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>alt.emit</td>
+<td>Emit an event on server or client side. Only received on the side it was emitted from.</td>
+</tr>
+<tr>
+<td>alt.on</td>
+<td>Receives an event. Server only receives server events. Client only receives client events.</td>
+</tr>
+<tr>
+<td>alt.onServer</td>
+<td>Receives an event emitted from the server on client-side. Triggered with <code>alt.emitClient</code>.</td>
+</tr>
+<tr>
+<td>alt.emitClient</td>
+<td>Emit an event to a specific client that they receive with <code>alt.onServer</code>.</td>
+</tr>
+<tr>
+<td>alt.onClient</td>
+<td>Receives an event emitted from the client on server-side. Triggered with <code>alt.emitServer</code>.</td>
+</tr>
+<tr>
+<td>alt.emitServer</td>
+<td>Emit an event to the server that is received with <code>alt.onClient</code>.</td>
+</tr>
+</tbody>
+</table>
+<h2 id="server-to-client">Server to Client</h2>
+<p>The server may only emit data to the client-side with emitClient which requires a Player.
+However, a player can also be substituted for null which will emit to all players.</p>
+<p><strong>Server Side</strong></p>
+<pre><code class="lang-js">alt.on('playerConnect', player =&gt; {
+    alt.emitClient(player, 'sayHello');
+});
+</code></pre>
+<p><strong>Client Side</strong></p>
+<pre><code class="lang-js">alt.onServer('sayHello', () =&gt; {
+    alt.log('Hello from server.');
+});
+</code></pre>
+<h2 id="client-to-server">Client to Server</h2>
+<p>The client may only emit data to the server-side with emitServer.
+The server-side onServer event will automatically receive a Player in their event handler.</p>
+<p><strong>Client Side</strong></p>
+<pre><code class="lang-js">alt.on('connectionComplete', () =&gt; {
+    alt.emitServer('sayHello');
+});
+</code></pre>
+<p><strong>Server Side</strong></p>
+<pre><code class="lang-js">alt.onClient('sayHello', player =&gt; {
+    alt.log(`${player.name} is saying hello`);
+});
+</code></pre>
+<h2 id="server-resource-to-server-resource">Server Resource to Server Resource</h2>
+<p>The server may only communicate with itself with on and emit functions.
+The client may only communicate with itself with on and emit functions.
+They speak across resources as well.</p>
+<p><strong>Server Side</strong></p>
+<pre><code class="lang-js">alt.emit('hello', 'this is a message');
+
+alt.on('hello', msg =&gt; {
+    alt.log(msg);
+});
+</code></pre>
+<h2 id="client-resource-to-client-resource">Client Resource to Client Resource</h2>
+<p><strong>Client Side</strong></p>
+<pre><code class="lang-js">alt.emit('hello', 'this is a message');
+
+alt.on('hello', msg =&gt; {
+    alt.log(msg);
+});
+</code></pre>
+<h2 id="client-to-webview-and-back">Client to WebView and Back</h2>
+<p><strong>Note:</strong> Resource in the HTTP address refers to the resource that you are currently writing code for.</p>
+<p><strong>Client Side</strong></p>
+<pre><code class="lang-js">const webview = new alt.WebView('http://resource/client/html/index.html');
+webview.on('test2', handleFromWebview);
+
+function handleFromWebview(msg) {
+    alt.log(msg);
+}
+
+alt.setTimeout(() =&gt; {
+    webview.emit('test', 'Hello from Client');
+}, 500);
+</code></pre>
+<p><strong>Client Side HTML Page</strong></p>
+<pre><code class="lang-html">&lt;html&gt;
+    &lt;head&gt;
+        &lt;title&gt;Hello World&lt;/title&gt;
+    &lt;/head&gt;
+    &lt;body&gt;
+        &lt;p&gt;Words&lt;/p&gt;
+        &lt;script type=&quot;text/javascript&quot;&gt;
+            if ('alt' in window) {
+                alt.on('test', msg =&gt; {
+                    console.log(msg);
+                    alt.emit('test2', 'hello from webview');
+                });
+            }
+        &lt;/script&gt;
+    &lt;/body&gt;
+&lt;/html&gt;
+</code></pre>
+</article>
+                    </div>
+
+                </div>
+
+            </main>
+
+        </div>
+
+        
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twbs-pagination/1.4.2/jquery.twbsPagination.min.js" integrity="sha512-frFP3ZxLshB4CErXkPVEXnd5ingvYYtYhE5qllGdZmcOlRKNEPbufyupfdSTNmoF5ICaQNO6SenXzOZvoGkiIA==" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/jquery.mark.min.js" integrity="sha512-mhbv5DqBMgrWL+32MmsDOt/OAvqr/cHimk6B8y/bx/xS88MVkYGPiVv2ixKVrkywF2qHplNRUvFsAHUdxZ3Krg==" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js" integrity="sha512-ubuT8Z88WxezgSqf3RLuNi5lmjstiJcyezx34yIU2gAHonIi27Na7atqzUZCOoY4CExaoFumzOsFQ2Ch+I/HCw==" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha512-M5KW3ztuIICmVIhjSqXe01oV2bpe248gOxqmlcYrEzAvws7Pw3z6BK0iGbrwvdrUQUhi3eXgtxp5I8PDo9YfjQ==" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.3.2/highlight.min.js" integrity="sha512-8DnqlIcZT5O7kn55WxWs0PnFyhwCqVEnsDpyHqcadSNtP0eqae406JmIoo2cXT5A42jnlcCw013sdkmK3mEJcQ==" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlightjs-line-numbers.js/2.8.0/highlightjs-line-numbers.min.js" integrity="sha512-axd5V66bnXpNVQzm1c7u1M614TVRXXtouyWCE+eMYl8ALK8ePJEs96Xtx7VVrPBc0UraCn63U1+ARFI3ofW+aA==" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/js-url/1.8.8/url.min.js" integrity="sha512-r7Z8tYN1iMr6CTQ7pNJa2q+3owm4Tc6dLkVzGV68AFGiI0muMh5eLVQlas5kb9qwPY168HsTBctUwn3k0FVqyw==" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/4.3.0/anchor.min.js" integrity="sha512-G2OGlm41XXw+fcgDcRPjVYEn7qCY6qiKWNqDGT37SnKh0qtRXTuKZ5/UQR0kDN0PZRNWcGExd3lAeqEH0I36bQ==" crossorigin="anonymous"></script>
+<script type="text/javascript" src="../../styles/docfx.js"></script>
+<script type="text/javascript" src="../../styles/discord.js"></script>
+<script type="text/javascript" src="../../styles/main.js"></script>
+
+    </body>
+
+</html>

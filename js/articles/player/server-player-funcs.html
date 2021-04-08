@@ -1,0 +1,373 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Player Server Functions </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Player Server Functions ">
+    <meta name="generator" content="docfx 2.56.7.0">
+    
+    <link rel="shortcut icon" href="../../../favicon.ico">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.1.1/styles/night-owl.min.css" integrity="sha512-xYwrX34LRktCfb+3WW0FtJf6qEc2tcJet152No8epFPBoM4qNaaVk5xdfCYI0Ns0H2jD0Isc3VoShSMv6zzpPA==" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/solid.min.css" crossorigin="anonymous">
+    <link rel="stylesheet" href="../../../styles/colors.css">
+    <link rel="stylesheet" href="../../../styles/discord.css">
+    <link rel="stylesheet" href="../../../styles/main.css">
+    <meta property="docfx:navrel" content="../../../toc.html">
+    <meta property="docfx:tocrel" content="../toc.html">
+    
+    
+    
+  </head>
+
+  <body>
+
+        <div class="body-content">
+
+            <nav id="sidebar" role="navigation">
+
+                <div class="sidebar">
+                    
+                    
+                    
+                    
+                    <div>
+                      
+                      <a class="brand" href="../../../index.html">
+                        <img src="../../../logo.svg" alt="alt:V" class="logomark">
+                        <span class="brand-title">alt:V</span>
+                      </a>
+                      <div id="navbar">
+                    
+                      </div>
+                    
+                    </div>
+                    
+
+                    <div class="sidebar-item-separator"></div>
+
+                        
+                        <div id="sidetoggle">
+                          <div id="sidetoc"></div>
+                        </div>
+
+                </div>
+
+
+            </nav>
+
+            <main class="main-panel">
+
+                <div class="blackout desktop-hide"></div>
+
+                    
+                    <div class="subnav navbar navbar-default">
+                      <button class="btn-link search-back desktop-hide"></button>
+                      <button class="btn-link navbar-toggler" aria-label="Toggle navigation"></button>
+                      <div class="container" id="breadcrumb">
+                        <ul class="breadcrumb">
+                          <li></li>
+                        </ul>
+                      </div>
+                      <div class="flex-space"></div>
+                      <div class="toolbar">
+                      </div>
+                      <button class="btn-link btn-floating search desktop-hide"></button>
+                    </div>
+
+                <div class="content-region" role="main">
+
+                    <div class="content-column Conceptual">
+
+                            
+                            <div class="sideaffix hide-when-search">
+                              <h3>Index</h3>
+                              <div class="bs-docs-sidebar affix" id="affix">
+                                <div></div>
+                              </div>
+                            </div>
+
+
+                        <article class="content wrap hide-when-search" id="_content" data-uid="">
+
+                                <span class="small pull-right article mobile-hide" style="margin: 0;">
+                                    <ul class="subnav contribution">
+                                            <li>
+                                                <a href="https://github.com/altmp/altv-types/blob/master/docs/articles/player/server-player-funcs.md/#L1">Improve this Doc</a>
+                                            </li>
+                                    </ul>
+                                </span>
+
+<h1 id="player-server-functions">Player Server Functions</h1>
+
+<p>This page will act as a representation on using the various player functions.</p>
+<p>These are meant to be used on server side.</p>
+<h2 id="addweaponcomponent">addWeaponComponent</h2>
+<p>Used to add a weapon component to a weapon based on its hash.</p>
+<pre><code class="lang-js">// weaponHash, componentHash
+player.addWeaponComponent(0xDFE37640, 0x5B3E7DB6)
+</code></pre>
+<h2 id="deletemeta">deleteMeta</h2>
+<p>Used to delete <strong>server-side</strong> meta that is cross-resource available.</p>
+<pre><code class="lang-js">// Set the player's meta.
+player.setMeta('cash', 500); // key, value
+
+// Check if the meta exists.
+if (player.hasMeta('cash')) { // key
+    // Get the meta from the player.
+	const currentCash = player.getMeta('cash'); // key
+
+	// Delete the meta.
+    player.deleteMeta('cash'); // &lt;--- Usage
+}
+</code></pre>
+<h2 id="deletestreamsyncedmeta">deleteStreamSyncedMeta</h2>
+<p>Used to delete data stored on the player entity that is accessible on <strong>server-side</strong> and <strong>client-side</strong>.</p>
+<p>This type of synced meta is only accessible by players in streaming range of this player.</p>
+<pre><code class="lang-js">// Set the player's meta.
+player.setStreamSyncedMeta('ping', player.ip); // key, value
+
+// Check if the meta exists.
+if (player.hasStreamSyncedMeta('ping')) { // key
+    // Get the meta from the player.
+	const currentCash = player.getStreamSyncedMeta('ping'); // key
+    
+	// Delete the meta.
+    player.deleteStreamSyncedMeta('ping'); // &lt;--- Usage
+}
+</code></pre>
+<h2 id="deletesyncedmeta">deleteSyncedMeta</h2>
+<p>Used to delete data stored on the player entity that is accessible on <strong>server-side</strong> and <strong>client-side</strong>.</p>
+<p>This type of synced meta is accessible inside and <strong>outside</strong> streaming range.</p>
+<pre><code class="lang-js">// Set the player's meta.
+player.setSyncedMeta('ping', player.ip); // key, value
+
+// Check if the meta exists.
+if (player.hasSyncedMeta('ping')) { // key
+    // Get the meta from the player.
+	const currentCash = player.getSyncedMeta('ping'); // key
+    
+	// Delete the meta.
+    player.deleteSyncedMeta('ping'); // &lt;--- Usage
+}
+</code></pre>
+<h2 id="destroy">destroy</h2>
+<p>You should never use this. It won't do anything and may just crash your server.</p>
+<h2 id="getmeta">getMeta</h2>
+<p>Used to get <strong>server-side</strong> meta that is cross-resource available.</p>
+<pre><code class="lang-js">// Set the player's meta.
+player.setMeta('cash', 500); // key, value
+
+// Check if the meta exists.
+if (player.hasMeta('cash')) { // key
+    // Get the meta from the player.
+	const currentCash = player.getMeta('cash'); // &lt;--- Usage
+
+	// Delete the meta.
+    player.deleteMeta('cash'); // key
+}
+</code></pre>
+<h2 id="getstreamsyncedmeta">getStreamSyncedMeta</h2>
+<p>Used to get data stored on the player entity that is accessible on <strong>server-side</strong> and <strong>client-side</strong>.</p>
+<p>This type of synced meta is only accessible by players <strong>inside</strong> streaming range of this player.</p>
+<pre><code class="lang-js">// Set the player's meta.
+player.setStreamSyncedMeta('ping', player.ip); // key, value
+
+// Check if the meta exists.
+if (player.hasStreamSyncedMeta('ping')) { // key
+    // Get the meta from the player.
+	const currentCash = player.getStreamSyncedMeta('ping'); // &lt;--- Usage
+    
+	// Delete the meta.
+    player.deleteStreamSyncedMeta('ping'); // key
+}
+</code></pre>
+<h2 id="getsyncedmeta">getSyncedMeta</h2>
+<p>Used to delete data stored on the player entity that is accessible on <strong>server-side</strong> and <strong>client-side</strong>.</p>
+<p>This type of synced meta is accessible <strong>inside</strong> and outside streaming range.</p>
+<pre><code class="lang-js">// Set the player's meta.
+player.setSyncedMeta('ping', player.ip); // key, value
+
+// Check if the meta exists.
+if (player.hasSyncedMeta('ping')) { // key
+    // Get the meta from the player.
+	const currentCash = player.getSyncedMeta('ping'); // &lt;--- Usage
+    
+	// Delete the meta.
+    player.deleteSyncedMeta('ping'); // key
+}
+</code></pre>
+<h2 id="giveweapon">giveWeapon</h2>
+<p>Used to give the player a weapon based on hash or appropriate name.</p>
+<pre><code class="lang-js">// weaponHash, ammoCount, equipThisWeaponNow?
+player.giveWeapon(1141786504, 1, true); // Get a golf club.
+</code></pre>
+<h2 id="hasmeta">hasMeta</h2>
+<p>Used to check if <strong>server-side</strong> meta is available. This works cross-resource.</p>
+<pre><code class="lang-js">// Set the player's meta.
+player.setMeta('cash', 500); // key, value
+
+// Check if the meta exists.
+if (player.hasMeta('cash')) { // &lt;---- Usage
+    // Get the meta from the player.
+	const currentCash = player.getMeta('cash'); // key
+
+	// Delete the meta.
+    player.deleteMeta('cash'); // key
+}
+</code></pre>
+<h2 id="hasstreamsyncedmeta">hasStreamSyncedMeta</h2>
+<p>Used to check if the data stored on the player entity is available. This is accessible on <strong>server-side</strong> and <strong>client-side</strong>.</p>
+<p>This type of synced meta is only accessible by players in streaming range of this player.</p>
+<pre><code class="lang-js">// Set the player's meta.
+player.setStreamSyncedMeta('ping', player.ip); // key, value
+
+// Check if the meta exists.
+if (player.hasStreamSyncedMeta('ping')) { // &lt;--- Usage
+    // Get the meta from the player.
+	const currentCash = player.getStreamSyncedMeta('ping'); // key
+    
+	// Delete the meta.
+    player.deleteStreamSyncedMeta('ping'); // key
+}
+</code></pre>
+<h2 id="hassyncedmeta">hasSyncedMeta</h2>
+<p>Used to check if the data stored on the player entity is available. This is accessible on <strong>server-side</strong> and <strong>client-side</strong>.</p>
+<p>This type of synced meta is accessible <strong>inside</strong> and outside streaming range.</p>
+<pre><code class="lang-js">// Set the player's meta.
+player.setSyncedMeta('ping', player.ip); // key, value
+
+// Check if the meta exists.
+if (player.hasSyncedMeta('ping')) {  // &lt;--- Usage
+    // Get the meta from the player.
+	const currentCash = player.getSyncedMeta('ping'); // key
+    
+	// Delete the meta.
+    player.deleteSyncedMeta('ping'); // key
+}
+</code></pre>
+<h2 id="kick">kick</h2>
+<p>Used to a kick a player from the server. The <strong>reason</strong> when supplied to a kick function does not currently show it to the player.</p>
+<p>You may want to create a work-around that eventually disconnects the user after 5 seconds.</p>
+<pre><code class="lang-js">alt.on('playerConnect', handleConnect);
+
+// Listen for player connections.
+function handleConnect(player) {
+	player.kick('Bye'); // Kick them instantly.
+    
+	// Kick them eventually.
+    alt.setTimeout(() =&gt; {
+        console.log(`${player.name} will be kicked in 5 seconds.`);
+    }, 5000); // 5 seconds.
+}
+</code></pre>
+<h2 id="removeallweapons">removeAllWeapons</h2>
+<p>Used to remove all weapons from the player.</p>
+<pre><code class="lang-js">player.removeAllWeapons(); // Not much else to this.
+</code></pre>
+<h2 id="removeweapon">removeWeapon</h2>
+<p>Used to remove a weapon based on its weaponHash.</p>
+<pre><code class="lang-js">player.removeWeapon(1141786504); // Remove a golf club.
+</code></pre>
+<h2 id="removeweaponcomponent">removeWeaponComponent</h2>
+<p>Used to remove a weapon component from a player's weapon.</p>
+<pre><code class="lang-js">// weaponHash, componentHash
+player.removeWeaponComponent(0xDFE37640, 0x5B3E7DB6)
+</code></pre>
+<h2 id="resetnetowner">resetNetOwner</h2>
+<p>Restores default functionality of netOwner. Average developers will likely not be using this.</p>
+<h2 id="setdatetime">setDateTime</h2>
+<p>Used to set the player's current time of day in-game. It is important to understand that time will still continue at whatever the player's current timescale is.</p>
+<p>It is recommended to freeze the time if you wish for it to stay a certain time.</p>
+<p>This can be done with the native <code>native.pauseClock(true);</code> on <strong>client-side</strong>.</p>
+<pre><code class="lang-js">const currentServerTime = new Date(Date.now());
+// day, month, year, hour, minute, second
+player.setDateTime(date.getDay(), date.getMonth(), date.getFullYear(), date.getHour(), date.getMinute(), date.getSecond())
+</code></pre>
+<h2 id="setmeta">setMeta</h2>
+<p>Used to set <strong>server-side</strong> meta on the player. This works cross-resource.</p>
+<pre><code class="lang-js">// Set the player's meta.
+player.setMeta('cash', 500); // &lt;--- Usage (key, value)
+
+// Check if the meta exists.
+if (player.hasMeta('cash')) { // key
+    // Get the meta from the player.
+	const currentCash = player.getMeta('cash'); // key
+
+	// Delete the meta.
+    player.deleteMeta('cash'); // key
+}
+</code></pre>
+<h2 id="setnetowner">setNetOwner</h2>
+<p>Used to change this entities network owner. Average developers will likely not be using this.</p>
+<h2 id="setstreamsyncedmeta">setStreamSyncedMeta</h2>
+<p>Used to set the data stored on the player entity. This is accessible on <strong>server-side</strong> and <strong>client-side</strong>.</p>
+<p>This type of synced meta is only accessible by players in streaming range of this player.</p>
+<pre><code class="lang-js">// Set the player's meta.
+player.setStreamSyncedMeta('ping', player.ip); // key, value
+
+// Check if the meta exists.
+if (player.hasStreamSyncedMeta('ping')) { // &lt;--- Usage
+    // Get the meta from the player.
+	const currentCash = player.getStreamSyncedMeta('ping'); // key
+    
+	// Delete the meta.
+    player.deleteStreamSyncedMeta('ping'); // key
+}
+</code></pre>
+<h2 id="setsyncedmeta">setSyncedMeta</h2>
+<p>Used to set data stored on the player entity that is accessible on <strong>server-side</strong> and <strong>client-side</strong>.</p>
+<p>This type of synced meta is accessible <strong>inside</strong> and <strong>outside</strong> streaming range.</p>
+<pre><code class="lang-js">// Set the player's meta.
+player.setSyncedMeta('ping', player.ip); // key, value
+
+// Check if the meta exists.
+if (player.hasSyncedMeta('ping')) {  // &lt;--- Usage
+    // Get the meta from the player.
+	const currentCash = player.getSyncedMeta('ping'); // key
+    
+	// Delete the meta.
+    player.deleteSyncedMeta('ping'); // key
+}
+</code></pre>
+<h2 id="setweapontintindex">setWeaponTintIndex</h2>
+<p>Used to set the weapon tint index of a weapon based on its hash.</p>
+<pre><code class="lang-js">// weaponHash, componentHash
+player.setWeaponTintIndex(0xDFE37640, 1)
+</code></pre>
+<h2 id="spawn">spawn</h2>
+<p>Used to respawn the player after they die based on a Vector3 position. The last parameter is used to delay the spawn.</p>
+<pre><code class="lang-js">// x, y, z, delay
+player.spawn(0, 0, 0, 0); // Spawn player under the map at 0,0,0
+</code></pre>
+</article>
+                    </div>
+
+                </div>
+
+            </main>
+
+        </div>
+
+        
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twbs-pagination/1.4.2/jquery.twbsPagination.min.js" integrity="sha512-frFP3ZxLshB4CErXkPVEXnd5ingvYYtYhE5qllGdZmcOlRKNEPbufyupfdSTNmoF5ICaQNO6SenXzOZvoGkiIA==" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/jquery.mark.min.js" integrity="sha512-mhbv5DqBMgrWL+32MmsDOt/OAvqr/cHimk6B8y/bx/xS88MVkYGPiVv2ixKVrkywF2qHplNRUvFsAHUdxZ3Krg==" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js" integrity="sha512-ubuT8Z88WxezgSqf3RLuNi5lmjstiJcyezx34yIU2gAHonIi27Na7atqzUZCOoY4CExaoFumzOsFQ2Ch+I/HCw==" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha512-M5KW3ztuIICmVIhjSqXe01oV2bpe248gOxqmlcYrEzAvws7Pw3z6BK0iGbrwvdrUQUhi3eXgtxp5I8PDo9YfjQ==" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.3.2/highlight.min.js" integrity="sha512-8DnqlIcZT5O7kn55WxWs0PnFyhwCqVEnsDpyHqcadSNtP0eqae406JmIoo2cXT5A42jnlcCw013sdkmK3mEJcQ==" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlightjs-line-numbers.js/2.8.0/highlightjs-line-numbers.min.js" integrity="sha512-axd5V66bnXpNVQzm1c7u1M614TVRXXtouyWCE+eMYl8ALK8ePJEs96Xtx7VVrPBc0UraCn63U1+ARFI3ofW+aA==" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/js-url/1.8.8/url.min.js" integrity="sha512-r7Z8tYN1iMr6CTQ7pNJa2q+3owm4Tc6dLkVzGV68AFGiI0muMh5eLVQlas5kb9qwPY168HsTBctUwn3k0FVqyw==" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/4.3.0/anchor.min.js" integrity="sha512-G2OGlm41XXw+fcgDcRPjVYEn7qCY6qiKWNqDGT37SnKh0qtRXTuKZ5/UQR0kDN0PZRNWcGExd3lAeqEH0I36bQ==" crossorigin="anonymous"></script>
+<script type="text/javascript" src="../../../styles/docfx.js"></script>
+<script type="text/javascript" src="../../../styles/discord.js"></script>
+<script type="text/javascript" src="../../../styles/main.js"></script>
+
+    </body>
+
+</html>

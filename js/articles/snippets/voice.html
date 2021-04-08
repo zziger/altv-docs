@@ -1,0 +1,378 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Voice (Utilize alt:V&#180;s built in Voice) </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Voice (Utilize alt:V&#180;s built in Voice) ">
+    <meta name="generator" content="docfx 2.56.7.0">
+    
+    <link rel="shortcut icon" href="../../../favicon.ico">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.1.1/styles/night-owl.min.css" integrity="sha512-xYwrX34LRktCfb+3WW0FtJf6qEc2tcJet152No8epFPBoM4qNaaVk5xdfCYI0Ns0H2jD0Isc3VoShSMv6zzpPA==" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/solid.min.css" crossorigin="anonymous">
+    <link rel="stylesheet" href="../../../styles/colors.css">
+    <link rel="stylesheet" href="../../../styles/discord.css">
+    <link rel="stylesheet" href="../../../styles/main.css">
+    <meta property="docfx:navrel" content="../../../toc.html">
+    <meta property="docfx:tocrel" content="../toc.html">
+    
+    
+    
+  </head>
+
+  <body>
+
+        <div class="body-content">
+
+            <nav id="sidebar" role="navigation">
+
+                <div class="sidebar">
+                    
+                    
+                    
+                    
+                    <div>
+                      
+                      <a class="brand" href="../../../index.html">
+                        <img src="../../../logo.svg" alt="alt:V" class="logomark">
+                        <span class="brand-title">alt:V</span>
+                      </a>
+                      <div id="navbar">
+                    
+                      </div>
+                    
+                    </div>
+                    
+
+                    <div class="sidebar-item-separator"></div>
+
+                        
+                        <div id="sidetoggle">
+                          <div id="sidetoc"></div>
+                        </div>
+
+                </div>
+
+
+            </nav>
+
+            <main class="main-panel">
+
+                <div class="blackout desktop-hide"></div>
+
+                    
+                    <div class="subnav navbar navbar-default">
+                      <button class="btn-link search-back desktop-hide"></button>
+                      <button class="btn-link navbar-toggler" aria-label="Toggle navigation"></button>
+                      <div class="container" id="breadcrumb">
+                        <ul class="breadcrumb">
+                          <li></li>
+                        </ul>
+                      </div>
+                      <div class="flex-space"></div>
+                      <div class="toolbar">
+                      </div>
+                      <button class="btn-link btn-floating search desktop-hide"></button>
+                    </div>
+
+                <div class="content-region" role="main">
+
+                    <div class="content-column Conceptual">
+
+                            
+                            <div class="sideaffix hide-when-search">
+                              <h3>Index</h3>
+                              <div class="bs-docs-sidebar affix" id="affix">
+                                <div></div>
+                              </div>
+                            </div>
+
+
+                        <article class="content wrap hide-when-search" id="_content" data-uid="">
+
+                                <span class="small pull-right article mobile-hide" style="margin: 0;">
+                                    <ul class="subnav contribution">
+                                            <li>
+                                                <a href="https://github.com/altmp/altv-types/blob/master/docs/articles/snippets/voice.md/#L1">Improve this Doc</a>
+                                            </li>
+                                    </ul>
+                                </span>
+
+<h1 id="voice-utilize-altvs-built-in-voice">Voice (Utilize alt:V´s built in Voice)</h1>
+
+<p>alt:V by default has a built in Voice functionality and this is how you can use it.</p>
+<p>This voice can be used for 3D or 2D Voice solutions to ship features like:</p>
+<ul>
+<li>3D &amp; 2D Voicechat</li>
+<li>Phonecalls</li>
+<li>Radio communication</li>
+<li>much more</li>
+</ul>
+<p><strong>The snippet below will show you how to implement 3D voice for roleplay servers with javascript class usage</strong></p>
+<h2 id="functional-explanation">Functional Explanation</h2>
+<p>Quick explanation for what voice functionality is available through the alt:V API</p>
+<p><strong>Player properties (clientside)</strong></p>
+<p><code>isTalking</code> boolean - which will be true if player is talking</p>
+<p><code>micLevel</code> number - player talking volume</p>
+<pre><code class="lang-js">import * as alt from 'alt-client';
+
+let localPlayer = alt.Player.local;
+alt.log('Is player talking: ' + localPlayer.isTalking);
+alt.log('Player talking volume: ' + localPlayer.micLevel);
+</code></pre>
+<p><strong>VoiceChannel Class</strong></p>
+<p><code>new VoiceChannel(isSpatial: boolean, maxDistance: number)</code> constructor - isPatial false means global voice channel,isPatial true means 3D voice channel which uses maxDistance as range</p>
+<p><code>addPlayer(player: alt.Player)</code> function - adds a player to the specific channel</p>
+<p><code>removePlayer(player: alt.Player)</code> function - removes a player to the specific channel</p>
+<p><code>mutePlayer(player: alt.Player)</code> function - mute the player inside the specific channel</p>
+<p><code>unmutePlayer(player: alt.Player)</code> function - unmute the player inside the specific channel</p>
+<p><code>isPlayerInChannel(player: alt.Player)</code> function - checks if the player is already in the specific channel</p>
+<p><code>isPlayerMuted(player: alt.Player)</code> function - checks if the player is muted in the specific channel</p>
+<pre><code class="lang-js">import * as alt from 'alt-server';
+
+let testChannel = new alt.VoiceChannel(true, 20);
+alt.on('playerConnect', player =&gt; {
+    testChannel.addPlayer(player);
+    testChannel.unmutePlayer(player);
+});
+
+alt.on('playerDisconnect', player =&gt; {
+    testChannel.removePlayer(player);
+});
+
+alt.on('playerDeath', player =&gt; {
+    //mute player in testchannel if dead and connected to voice
+    if (testChannel.isPlayerInChannel(player) &amp;&amp; !testChannel.isPlayerMuted(player)) {
+        testChannel.mutePlayer(player);
+    }
+});
+//check example
+</code></pre>
+<h2 id="example-usage-3d-serverside">Example Usage 3D (Serverside)</h2>
+<p><em>Serverside</em></p>
+<pre><code class="lang-js">import * as alt from 'alt-server';
+
+class AltvVoiceServerModule {
+    constructor() {
+        //yell channel
+        this.longRangeChannel = new alt.VoiceChannel(true, 16);
+        //speak channel
+        this.midRangeChannel = new alt.VoiceChannel(true, 8);
+        //whisper channel
+        this.lowRangeChannel = new alt.VoiceChannel(true, 3);
+        this.registerEvents();
+        alt.log('AltvVoiceServerModule init');
+    }
+
+    registerEvents() {
+        //alternatively call it after player succesfully spawned after authentication
+        alt.on('playerConnect', player =&gt; {
+            this.addToVoiceChannels(player);
+            this.changeVoiceRange(player);
+        });
+        //handle player disconenct
+        alt.on('playerDisconnect', this.removePlayerFromChannels.bind(this));
+        //handle player gamecrash/entity invalidity
+        alt.on('removeEntity', this.removePlayerFromChannels.bind(this));
+        //handle player voicerange change
+        alt.onClient('server:ChangeVoiceRange', this.changeVoiceRange.bind(this));
+    }
+
+    /**
+     * clear channels for given player
+     * @param  {alt.Player} player
+     * @returns {null}
+     */
+    removePlayerFromChannels(player) {
+        if (this.lowRangeChannel.isPlayerInChannel(player)) {
+            this.lowRangeChannel.removePlayer(player);
+        }
+        if (this.midRangeChannel.isPlayerInChannel(player)) {
+            this.midRangeChannel.removePlayer(player);
+        }
+        if (this.longRangeChannel.isPlayerInChannel(player)) {
+            this.longRangeChannel.removePlayer(player);
+        }
+    }
+
+    /**
+     * add player to all voice channels
+     * @param  {alt.Player} player
+     * @returns {null}
+     */
+    addToVoiceChannels(player) {
+        this.lowRangeChannel.addPlayer(player);
+        this.midRangeChannel.addPlayer(player);
+        this.longRangeChannel.addPlayer(player);
+    }
+
+    /**
+     * mute player in all voice channels
+     * @param  {alt.Player} player
+     * @returns {null}
+     */
+    muteInAllChannels(player) {
+        this.lowRangeChannel.mutePlayer(player);
+        this.midRangeChannel.mutePlayer(player);
+        this.longRangeChannel.mutePlayer(player);
+    }
+
+    /**
+     * takes a range for a player and mutes this player in all channels he shouldn´t be heard
+     * @param  {alt.Player} player
+     * @param  {number} range
+     * @returns {null}
+     */
+    muteNotInRangeChannels(player, range) {
+        switch (range) {
+            case 3:
+                this.midRangeChannel.mutePlayer(player);
+                this.longRangeChannel.mutePlayer(player);
+                break;
+            case 8:
+                this.lowRangeChannel.mutePlayer(player);
+                this.longRangeChannel.mutePlayer(player);
+                break;
+            case 15:
+                this.lowRangeChannel.mutePlayer(player);
+                this.midRangeChannel.mutePlayer(player);
+                break;
+            default:
+                break;
+        }
+    }
+
+    /**
+     * change the voice range of the given player and unmute in new range channel
+     * @param  {alt.Player} player
+     * @returns {null}
+     */
+    changeVoiceRange(player) {
+        if (!player.voiceRange) {
+            player.voiceRange = 0;
+        }
+        switch (player.voiceRange) {
+            case 0:
+                player.voiceRange = 3;
+                this.muteNotInRangeChannels(player, 3);
+                this.lowRangeChannel.unmutePlayer(player);
+                alt.emitClient(player, 'client:UpdateCurrentAltVoiceRange', 3);
+                break;
+            case 3:
+                player.voiceRange = 8;
+                this.muteNotInRangeChannels(player, 8);
+                this.midRangeChannel.unmutePlayer(player);
+                alt.emitClient(player, 'client:UpdateCurrentAltVoiceRange', 8);
+                break;
+            case 8:
+                player.voiceRange = 15;
+                this.muteNotInRangeChannels(player, 15);
+                this.longRangeChannel.unmutePlayer(player);
+                alt.emitClient(player, 'client:UpdateCurrentAltVoiceRange', 15);
+                break;
+            case 15:
+                player.voiceRange = 0;
+                this.muteInAllChannels(player);
+                alt.emitClient(player, 'client:UpdateCurrentAltVoiceRange', 0);
+                break;
+            default:
+                break;
+        }
+    }
+}
+
+//initilize voice class instance
+export const AltvVoiceServerModuleInstance = new AltvVoiceServerModule();
+</code></pre>
+<h2 id="example-usage-3d-clientside">Example Usage 3D (Clientside)</h2>
+<p><em>Clientside</em></p>
+<pre><code class="lang-js">import * as alt from 'alt-client';
+
+class AltvVoiceClientModule {
+    constructor() {
+        //localPlayer object shortcut
+        this.localPlayer = alt.Player.local;
+        //interval to check state changes
+        this.interval = null;
+        //cached talking state
+        this.talkingState = false;
+        //cached voice range
+        this.currentRange = 0;
+        this.registerEvents();
+        alt.log('AltvVoiceClientModule init');
+    }
+
+    registerEvents() {
+        alt.on('keydown', key =&gt; {
+            if (key == 107) {
+                //Press Num+ to change the range in which you get heard by other players
+                alt.emitServer('server:ChangeVoiceRange');
+            }
+        });
+
+        alt.onServer('client:UpdateCurrentAltVoiceRange', range =&gt; {
+            this.currentRange = range;
+            //emit new range to your user interface
+            /* example payload
+                {
+                muted: range === 0 ? true : false,
+                range: range
+                }
+            */
+        });
+
+        this.registerTalkingInterval();
+    }
+
+    /*
+     * interval to handle talking state changes
+     * i.e show in your ui if this player is talking (like ts3 voice led)
+     */
+    registerTalkingInterval() {
+        this.interval = alt.setInterval(() =&gt; {
+            //only emit if state changed
+            if (this.talkingState !== this.localPlayer.isTalking &amp;&amp; this.currentRange !== 0) {
+                this.talkingState = this.localPlayer.isTalking;
+                //emit talking state change to your ui {this.talkingState}
+            }
+            if (this.talkingState &amp;&amp; this.currentRange === 0) {
+                //emit talking state change to your ui {false}
+            }
+        }, 444);
+    }
+}
+
+//initilize voice class instance
+export const AltvVoiceClientModuleInstance = new AltvVoiceClientModule();
+</code></pre>
+</article>
+                    </div>
+
+                </div>
+
+            </main>
+
+        </div>
+
+        
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twbs-pagination/1.4.2/jquery.twbsPagination.min.js" integrity="sha512-frFP3ZxLshB4CErXkPVEXnd5ingvYYtYhE5qllGdZmcOlRKNEPbufyupfdSTNmoF5ICaQNO6SenXzOZvoGkiIA==" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/jquery.mark.min.js" integrity="sha512-mhbv5DqBMgrWL+32MmsDOt/OAvqr/cHimk6B8y/bx/xS88MVkYGPiVv2ixKVrkywF2qHplNRUvFsAHUdxZ3Krg==" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js" integrity="sha512-ubuT8Z88WxezgSqf3RLuNi5lmjstiJcyezx34yIU2gAHonIi27Na7atqzUZCOoY4CExaoFumzOsFQ2Ch+I/HCw==" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha512-M5KW3ztuIICmVIhjSqXe01oV2bpe248gOxqmlcYrEzAvws7Pw3z6BK0iGbrwvdrUQUhi3eXgtxp5I8PDo9YfjQ==" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.3.2/highlight.min.js" integrity="sha512-8DnqlIcZT5O7kn55WxWs0PnFyhwCqVEnsDpyHqcadSNtP0eqae406JmIoo2cXT5A42jnlcCw013sdkmK3mEJcQ==" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlightjs-line-numbers.js/2.8.0/highlightjs-line-numbers.min.js" integrity="sha512-axd5V66bnXpNVQzm1c7u1M614TVRXXtouyWCE+eMYl8ALK8ePJEs96Xtx7VVrPBc0UraCn63U1+ARFI3ofW+aA==" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/js-url/1.8.8/url.min.js" integrity="sha512-r7Z8tYN1iMr6CTQ7pNJa2q+3owm4Tc6dLkVzGV68AFGiI0muMh5eLVQlas5kb9qwPY168HsTBctUwn3k0FVqyw==" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/4.3.0/anchor.min.js" integrity="sha512-G2OGlm41XXw+fcgDcRPjVYEn7qCY6qiKWNqDGT37SnKh0qtRXTuKZ5/UQR0kDN0PZRNWcGExd3lAeqEH0I36bQ==" crossorigin="anonymous"></script>
+<script type="text/javascript" src="../../../styles/docfx.js"></script>
+<script type="text/javascript" src="../../../styles/discord.js"></script>
+<script type="text/javascript" src="../../../styles/main.js"></script>
+
+    </body>
+
+</html>
