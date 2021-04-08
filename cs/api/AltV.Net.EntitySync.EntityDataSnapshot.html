@@ -23,7 +23,7 @@
     <meta property="docfx:navrel" content="../../toc.html">
     <meta property="docfx:tocrel" content="toc.html">
     
-    
+    <meta property="docfx:rel" content="../../">
     
   </head>
 
@@ -78,6 +78,19 @@
                       </div>
                       <div class="flex-space"></div>
                       <div class="toolbar">
+                          <div style="position: relative;">
+                            <form class="search-bar mobile-hide" role="search" id="search" style="position: relative;">
+                              <button class="btn-link clear" id="search-query-clear"></button>
+                              <!-- <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off"> -->
+                              <div role="textbox" class="form-control" id="search-query" placeholder="Search" contenteditable="true"></div>
+                            </form>
+                            <div class="popout" id="search-menu">
+                              <span class="title">
+                                Search options:
+                              </span>
+                            </div>
+                            <button class="btn-link search-tip desktop-hide"></button>
+                          </div>
                       </div>
                       <button class="btn-link btn-floating search desktop-hide"></button>
                     </div>
@@ -94,6 +107,14 @@
                               </div>
                             </div>
 
+                            
+                            <div id="search-results">
+                              <div class="search-list">Search Results for <span></span></div>
+                              <div class="sr-items">
+                                <p><span class="glyphicon glyphicon-refresh index-loading"></span></p>
+                              </div>
+                              <ul id="pagination" data-first="" data-prev="&#xf053;" data-next="&#xf054;" data-last=""></ul>
+                            </div>
 
                         <article class="content wrap hide-when-search" id="_content" data-uid="AltV.Net.EntitySync.EntityDataSnapshot">
 
