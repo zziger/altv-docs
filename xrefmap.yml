@@ -525,6 +525,9 @@ references:
   name: visible
   href: js/api/alt-client.Entity.html#_altmp_altv_types_alt_client_Entity_visible
   fullName: visible
+- uid: '@altmp/altv-types.alt-client.evalModule'
+  name: evalModule(string)
+  href: js/api/alt-client.html#_altmp_altv_types_alt_client_evalModule
 - uid: '@altmp/altv-types.alt-client.everyTick'
   name: 'everyTick((...args: any[]) => void)'
   href: js/api/alt-client.html#_altmp_altv_types_alt_client_everyTick
@@ -867,6 +870,9 @@ references:
 - uid: '@altmp/altv-types.alt-client.hasMeta'
   name: hasMeta(string)
   href: js/api/alt-client.html#_altmp_altv_types_alt_client_hasMeta
+- uid: '@altmp/altv-types.alt-client.hasResource'
+  name: hasResource(string)
+  href: js/api/alt-client.html#_altmp_altv_types_alt_client_hasResource
 - uid: '@altmp/altv-types.alt-client.hasSyncedMeta'
   name: hasSyncedMeta(string)
   href: js/api/alt-client.html#_altmp_altv_types_alt_client_hasSyncedMeta
@@ -1459,24 +1465,42 @@ references:
 - uid: '@altmp/altv-types.alt-client.LocalStorage.clear'
   name: clear()
   href: js/api/alt-client.LocalStorage.html#_altmp_altv_types_alt_client_LocalStorage_clear
+- uid: '@altmp/altv-types.alt-client.LocalStorage.clear_1'
+  name: clear()
+  href: js/api/alt-client.LocalStorage.html#_altmp_altv_types_alt_client_LocalStorage_clear_1
 - uid: '@altmp/altv-types.alt-client.LocalStorage.delete'
   name: delete(string)
   href: js/api/alt-client.LocalStorage.html#_altmp_altv_types_alt_client_LocalStorage_delete
+- uid: '@altmp/altv-types.alt-client.LocalStorage.delete_1'
+  name: delete(string)
+  href: js/api/alt-client.LocalStorage.html#_altmp_altv_types_alt_client_LocalStorage_delete_1
 - uid: '@altmp/altv-types.alt-client.LocalStorage.deleteAll'
   name: deleteAll()
   href: js/api/alt-client.LocalStorage.html#_altmp_altv_types_alt_client_LocalStorage_deleteAll
+- uid: '@altmp/altv-types.alt-client.LocalStorage.deleteAll_1'
+  name: deleteAll()
+  href: js/api/alt-client.LocalStorage.html#_altmp_altv_types_alt_client_LocalStorage_deleteAll_1
 - uid: '@altmp/altv-types.alt-client.LocalStorage.get'
   name: get(string)
   href: js/api/alt-client.LocalStorage.html#_altmp_altv_types_alt_client_LocalStorage_get
 - uid: '@altmp/altv-types.alt-client.LocalStorage.get_1'
   name: get()
   href: js/api/alt-client.LocalStorage.html#_altmp_altv_types_alt_client_LocalStorage_get_1
+- uid: '@altmp/altv-types.alt-client.LocalStorage.get_1_1'
+  name: get(string)
+  href: js/api/alt-client.LocalStorage.html#_altmp_altv_types_alt_client_LocalStorage_get_1_1
 - uid: '@altmp/altv-types.alt-client.LocalStorage.save'
   name: save()
   href: js/api/alt-client.LocalStorage.html#_altmp_altv_types_alt_client_LocalStorage_save
+- uid: '@altmp/altv-types.alt-client.LocalStorage.save_1'
+  name: save()
+  href: js/api/alt-client.LocalStorage.html#_altmp_altv_types_alt_client_LocalStorage_save_1
 - uid: '@altmp/altv-types.alt-client.LocalStorage.set'
   name: set(string, any)
   href: js/api/alt-client.LocalStorage.html#_altmp_altv_types_alt_client_LocalStorage_set
+- uid: '@altmp/altv-types.alt-client.LocalStorage.set_1'
+  name: set(string, any)
+  href: js/api/alt-client.LocalStorage.html#_altmp_altv_types_alt_client_LocalStorage_set_1
 - uid: '@altmp/altv-types.alt-client.log'
   name: log(any[])
   href: js/api/alt-client.html#_altmp_altv_types_alt_client_log
@@ -3175,6 +3199,9 @@ references:
   name: weaponDamage
   href: js/api/alt-server.IServerEvent.html#_altmp_altv_types_alt_server_IServerEvent_weaponDamage
   fullName: weaponDamage
+- uid: '@altmp/altv-types.alt-server.isInDebug'
+  name: isInDebug()
+  href: js/api/alt-server.html#_altmp_altv_types_alt_server_isInDebug
 - uid: '@altmp/altv-types.alt-server.IVector2'
   name: IVector2
   href: js/api/alt-server.IVector2.html#_altmp_altv_types_alt_server_IVector2
@@ -3269,18 +3296,30 @@ references:
 - uid: '@altmp/altv-types.alt-server.on_1'
   name: 'on<S extends string>(Exclude<S, keyof IServerEvent>, (...args: any[]) => boolean | void | Promise<boolean | void>)'
   href: js/api/alt-server.html#_altmp_altv_types_alt_server_on_1
+- uid: '@altmp/altv-types.alt-server.on_2'
+  name: 'on((eventName: string, ...args: any[]) => void)'
+  href: js/api/alt-server.html#_altmp_altv_types_alt_server_on_2
 - uid: '@altmp/altv-types.alt-server.once'
   name: once<K extends keyof IServerEvent>(K, IServerEvent[K])
   href: js/api/alt-server.html#_altmp_altv_types_alt_server_once
 - uid: '@altmp/altv-types.alt-server.once_1'
   name: 'once<S extends string>(Exclude<S, keyof IServerEvent>, (...args: any[]) => boolean | void | Promise<boolean | void>)'
   href: js/api/alt-server.html#_altmp_altv_types_alt_server_once_1
+- uid: '@altmp/altv-types.alt-server.once_2'
+  name: 'once((eventName: string, ...args: any[]) => void)'
+  href: js/api/alt-server.html#_altmp_altv_types_alt_server_once_2
 - uid: '@altmp/altv-types.alt-server.onceClient'
   name: 'onceClient(string, (player: Player, ...args: any[]) => void)'
   href: js/api/alt-server.html#_altmp_altv_types_alt_server_onceClient
+- uid: '@altmp/altv-types.alt-server.onceClient_1'
+  name: 'onceClient((eventName: string, player: Player, ...args: any[]) => void)'
+  href: js/api/alt-server.html#_altmp_altv_types_alt_server_onceClient_1
 - uid: '@altmp/altv-types.alt-server.onClient'
   name: 'onClient(string, (player: Player, ...args: any[]) => void)'
   href: js/api/alt-server.html#_altmp_altv_types_alt_server_onClient
+- uid: '@altmp/altv-types.alt-server.onClient_1'
+  name: 'onClient((eventName: string, player: Player, ...args: any[]) => void)'
+  href: js/api/alt-server.html#_altmp_altv_types_alt_server_onClient_1
 - uid: '@altmp/altv-types.alt-server.Player'
   name: Player
   href: js/api/alt-server.Player.html#_altmp_altv_types_alt_server_Player
