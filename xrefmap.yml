@@ -1087,10 +1087,10 @@ references:
   name: brakeForce
   href: js/api/alt-client.IVehicleHandling.html#_altmp_altv_types_alt_client_IVehicleHandling_brakeForce
   fullName: brakeForce
-- uid: '@altmp/altv-types.alt-client.IVehicleHandling.camberStiffnesss'
-  name: camberStiffnesss
-  href: js/api/alt-client.IVehicleHandling.html#_altmp_altv_types_alt_client_IVehicleHandling_camberStiffnesss
-  fullName: camberStiffnesss
+- uid: '@altmp/altv-types.alt-client.IVehicleHandling.camberStiffness'
+  name: camberStiffness
+  href: js/api/alt-client.IVehicleHandling.html#_altmp_altv_types_alt_client_IVehicleHandling_camberStiffness
+  fullName: camberStiffness
 - uid: '@altmp/altv-types.alt-client.IVehicleHandling.centreOfMassOffset'
   name: centreOfMassOffset
   href: js/api/alt-client.IVehicleHandling.html#_altmp_altv_types_alt_client_IVehicleHandling_centreOfMassOffset

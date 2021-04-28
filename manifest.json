@@ -258,7 +258,7 @@
       "output": {
         ".html": {
           "relative_path": "js/api/alt-client.IVehicleHandling.html",
-          "hash": "dj9Kzzv6brzG48DXk8kguvtNHtEdS4Xn9b4i222K128="
+          "hash": "LqBkH+6JZFp2vFAiDv1a/LmLk0wjFbe0vrVTNwBS0po="
         }
       },
       "is_incremental": false,
@@ -9767,6 +9767,18 @@
     },
     {
       "type": "Conceptual",
+      "source_relative_path": "coreclr-module/docs/articles/player_damage.md",
+      "output": {
+        ".html": {
+          "relative_path": "cs/articles/player_damage.html",
+          "hash": "yvsKKFBE9cqyOVpjslcH4ZTVo/ALG3FPu3GKgHnOy8U="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
       "source_relative_path": "coreclr-module/docs/articles/player_death.md",
       "output": {
         ".html": {
@@ -9903,7 +9915,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/articles/toc.html",
-          "hash": "WaZMQybUG62OsCCvj18myAUcgtW1RT2zeLbBVjY0vyM="
+          "hash": "M8IpKOwrR5/sWqFs4UCmwu+jVwNAolAy8RncHcH2bmY="
         }
       },
       "is_incremental": false,
@@ -10042,7 +10054,7 @@
         "ConceptualDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 67,
+          "total_file_count": 68,
           "skipped_file_count": 0
         },
         "ManagedReferenceDocumentProcessor": {
