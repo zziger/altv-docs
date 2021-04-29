@@ -155,31 +155,26 @@
 }
 </code></pre>
 <h2 id="iscript-event-handler">IScript event handler</h2>
-<h5 id="note--scriptevents-have-to-be-created-in-a-iscript-class-otherwise-it-wont-work">Note : ScriptEvents have to be created in a IScript Class! Otherwise it won´t work!</h5>
+<h5 id="note--scriptevents-have-to-be-created-in-a-iscript-class-otherwise-it-wont-work">Note : ScriptEvents have to be created in a IScript class! Otherwise it won't work!</h5>
 <pre><code class="lang-csharp">    // We create our IScript class
     public class MyScriptClass : IScript
     {
         // We declare and create our event handler
         [ScriptEvent(ScriptEventType.PlayerDead)]
-        public static void OnPlayerDead(IPlayer player, IEntity killer, uint weapon)
+        public static void OnPlayerDead(IPlayer player, IEntity attacker, uint weapon)
         {
-            if ((killer is IPlayer killerPlayer)){
-                // If you killed yourself then it should notify you
-                if (killerPlayer == player) {
-                    player.SendChatMessage(&quot;You killed yourself&quot;);
-                }
-                else
-                {
-                    // We notify the killer and the player.
-                    killerPlayer.SendChatMessage(&quot;You killed &quot; + player.Name);
-                    player.SendChatMessage(killerPlayer?.Name + &quot; killed you!&quot;);
-                }
-            }
-            else if((killer is IVehicle vehicle)){
-                player.SendChatMessage(&quot;You got killed by a &quot; + (VehicleModel)vehicle.model);
-            }
-            // We spawn the dead player after 1000ms at (0, 0, 72)
-            player.Spawn(new Position(0, 0, 72), 1000);
+            
+            string deathReason = attacker switch
+            {
+                IPlayer attackerPlayer when attackerPlayer == player =&gt; &quot;yourself!&quot;,
+                IPlayer killerPlayer =&gt; killerPlayer?.Name,
+                IVehicle vehicle =&gt; &quot;a &quot; + ((VehicleModel)vehicle?.Model),
+                _ =&gt; &quot;world caused damage.&quot;
+            };
+            
+            player?.SendChatMessage(&quot;You got killed by &quot; + deathReason);
+            
+            player?.Spawn(new Vector3(0, 0, 72), 1000); // &lt;= We spawn the dead player after 1000ms.
         }
     }
 </code></pre>

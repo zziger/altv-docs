@@ -141,11 +141,19 @@
 </tr>
 <tr>
 <td>target</td>
-<td>The target who got hitted by a Player</td>
+<td>The target who got damaged by the player</td>
 </tr>
 <tr>
 <td>weapon</td>
 <td>The weapon that was used or a other reason <a href="https://github.com/FabianTerhorst/coreclr-module/blob/master/api/AltV.Net/Data/Weapons.cs">https://github.com/FabianTerhorst/coreclr-module/blob/master/api/AltV.Net/Data/Weapons.cs</a></td>
+</tr>
+<tr>
+<td>damage</td>
+<td>The damage that the target received.</td>
+</tr>
+<tr>
+<td>offset</td>
+<td>The offset coordinates caused by the weapon damage the target received.</td>
 </tr>
 </tbody>
 </table>
@@ -156,30 +164,30 @@
 }
 </code></pre>
 <h2 id="iscript-event-handler">IScript event handler</h2>
-<p>This event will be called if a player do any damage by a Weapon to a other player.</p>
+<p>This event will be called if a player deals any damage by a weapon to a other victim.</p>
 <h5 id="note--scriptevents-have-to-be-created-in-a-iscript-class-otherwise-it-wont-work">Note : ScriptEvents have to be created in a IScript Class! Otherwise it won´t work!</h5>
 <pre><code class="lang-csharp">// We create our IScript class
 public class MyScriptClass : IScript
 {
     // We declare and create our event handler
     [ScriptEvent(ScriptEventType.WeaponDamage)]
-    public static bool WeaponDamage(IPlayer player, IEntity target, uint weapon, ushort damage, Position offset, BodyPart bodypart)
+    public static bool WeaponDamage(IPlayer player, IEntity target, uint weapon, ushort damage, Position offset, BodyPart bodyPart)
     {
-        // We convert the weapon uint to a regular weaponmodel enum
-        AltV.Net.Enums.WeaponModel weaponModel = (AltV.Net.Enums.WeaponModel) weapon;
-        if (target is IPlayer targetPlayer) {
-            player?.SendChatMessage(&quot;You hitted &quot; + targetPlayer?.Name + &quot; and gave him &quot; + damage + &quot; damage! Weapon: &quot; + weaponModel);
-            targetPlayer?.SendChatMessage(player?.Name + &quot; hitted you and gave you &quot; + damage + &quot; damage! Weapon: &quot; + weaponModel);
-
-            // We check if the hitted body part was the head
-            if (bodypart == BodyPart.Head)
-            {
-                player?.SendChatMessage(&quot;You hitted a Player in &quot; + bodypart);
-                targetPlayer?.SendChatMessage(&quot;You got hitted by a &quot; + weaponModel + &quot; in &quot; + bodypart);
-            }
+        switch (target)
+        {
+            case IPlayer victim:
+                string aimLevel = bodyPart switch
+                {
+                    BodyPart.Head =&gt; &quot;very solid &amp; awesome!&quot;,
+                    BodyPart.Chest =&gt; &quot;mysterious like a chest...&quot;,
+                    BodyPart.Pelvis =&gt; &quot;evil!&quot;,
+                    _ =&gt; &quot;very bad...&quot;
+                };
+                player?.SendChatMessage(&quot;You shot &quot; + victim.Name + &quot;! Your aim is &quot; + aimLevel);
+                return true;
+            default:
+                return false; // &lt;= return false will cancel the event and player won't receive damage.
         }
-        
-        return true; // return false will cancel the event and player won't receive damage.
     }
 }
 </code></pre>
