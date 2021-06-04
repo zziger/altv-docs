@@ -27,7 +27,7 @@ var query;
 var worker;
 var relHref;
 
-$(function() {
+$(document).ready(function() {
   highlight();
   renderAffix();
   renderTabs();
@@ -36,6 +36,9 @@ $(function() {
   $("a:not([data-tab])").off("click").on("click", delegateAnchors);
   $(".blackout").on("click", toggleMenu);
   $(".navbar-toggler").on("click", toggleMenu);
+});
+$(window).on("load hashchange", function() {
+  scrollIfAnchor(window.location.hash);
 });
 
 window.refresh = function(article) {
