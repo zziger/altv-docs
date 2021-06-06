@@ -1,0 +1,1017 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class SortedLimitedList&lt;TKey, TValue&gt;
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class SortedLimitedList&lt;TKey, TValue&gt;
+   ">
+    <meta name="generator" content="docfx 2.57.2.0">
+    
+    <link rel="shortcut icon" href="../../favicon.ico">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.1.1/styles/night-owl.min.css" integrity="sha512-xYwrX34LRktCfb+3WW0FtJf6qEc2tcJet152No8epFPBoM4qNaaVk5xdfCYI0Ns0H2jD0Isc3VoShSMv6zzpPA==" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/solid.min.css" crossorigin="anonymous">
+    <link rel="stylesheet" href="../../styles/colors.css">
+    <link rel="stylesheet" href="../../styles/discord.css">
+    <link rel="stylesheet" href="../../styles/main.css">
+    <meta property="docfx:navrel" content="../../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    <meta property="docfx:rel" content="../../">
+    
+  </head>
+
+  <body>
+
+        <div class="body-content">
+
+            <nav id="sidebar" role="navigation">
+
+                <div class="sidebar">
+                    
+                    
+                    
+                    
+                    <div>
+                      
+                      <a class="brand" href="../../index.html">
+                        <img src="../../logo.svg" alt="alt:V" class="logomark">
+                        <span class="brand-title">alt:V</span>
+                      </a>
+                      <div id="navbar">
+                    
+                      </div>
+                    
+                    </div>
+                    
+
+                    <div class="sidebar-item-separator"></div>
+
+                        
+                        <div id="sidetoggle">
+                          <div id="sidetoc"></div>
+                        </div>
+
+                </div>
+
+
+            </nav>
+
+            <main class="main-panel">
+
+                <div class="blackout desktop-hide"></div>
+
+                    
+                    <div class="subnav navbar navbar-default">
+                      <button class="btn-link search-back desktop-hide"></button>
+                      <button class="btn-link navbar-toggler" aria-label="Toggle navigation"></button>
+                      <div class="container" id="breadcrumb">
+                        <ul class="breadcrumb">
+                          <li></li>
+                        </ul>
+                      </div>
+                      <div class="flex-space"></div>
+                      <div class="toolbar">
+                          <div style="position: relative;">
+                            <form class="search-bar mobile-hide" role="search" id="search" style="position: relative;">
+                              <button class="btn-link clear" id="search-query-clear"></button>
+                              <!-- <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off"> -->
+                              <div role="textbox" class="form-control" id="search-query" placeholder="Search" contenteditable="true"></div>
+                            </form>
+                            <div class="popout" id="search-menu">
+                              <span class="title">
+                                Search options:
+                              </span>
+                            </div>
+                            <button class="btn-link search-tip desktop-hide"></button>
+                          </div>
+                      </div>
+                      <button class="btn-link btn-floating search desktop-hide"></button>
+                    </div>
+
+                <div class="content-region" role="main">
+
+                    <div class="content-column class">
+
+                            
+                            <div class="sideaffix hide-when-search">
+                              <h3>Index</h3>
+                              <div class="bs-docs-sidebar affix" id="affix">
+                                <div></div>
+                              </div>
+                            </div>
+
+                            
+                            <div id="search-results">
+                              <div class="search-list">Search Results for <span></span></div>
+                              <div class="sr-items">
+                                <p><span class="glyphicon glyphicon-refresh index-loading"></span></p>
+                              </div>
+                              <ul id="pagination" data-first="" data-prev="&#xf053;" data-next="&#xf054;" data-last=""></ul>
+                            </div>
+
+                        <article class="content wrap hide-when-search" id="_content" data-uid="AltV.Net.EntitySync.SpatialPartitions.SortedLimitedList`2">
+
+                                <span class="small pull-right article mobile-hide" style="margin: 0;">
+                                    <ul class="subnav contribution">
+                                            <li>
+                                                <a href="https://github.com/FabianTerhorst/coreclr-module/blob/master/api/AltV.Net.EntitySync/SpatialPartitions/SortedLimitedList.cs/#L51">View Source</a>
+                                            </li>
+                                            <li>
+                                                <a href="https://github.com/FabianTerhorst/coreclr-module/new/master/docs/apidoc/new?filename=AltV_Net_EntitySync_SpatialPartitions_SortedLimitedList_2.md&amp;value=---%0Auid%3A%20AltV.Net.EntitySync.SpatialPartitions.SortedLimitedList%602%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+                                            </li>
+                                    </ul>
+                                </span>
+
+  
+  
+  <h1 id="AltV_Net_EntitySync_SpatialPartitions_SortedLimitedList_2" data-uid="AltV.Net.EntitySync.SpatialPartitions.SortedLimitedList`2" class="text-break">Class SortedLimitedList&lt;TKey, TValue&gt;
+  </h1>
+  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><span class="xref">SortedLimitedList&lt;TKey, TValue&gt;</span></div>
+  </div>
+  <div classs="implements">
+    <h5>Implements</h5>
+    <div><span class="xref">IDictionary</span></div>
+    <div><span class="xref">IReadOnlyDictionary</span>&lt;TKey, TValue&gt;</div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="AltV.Net.EntitySync.SpatialPartitions.html">AltV.Net.EntitySync.SpatialPartitions</a></h6>
+  <h6><strong>Assembly</strong>: AltV.Net.EntitySync.dll</h6>
+  <h5 id="AltV_Net_EntitySync_SpatialPartitions_SortedLimitedList_2_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class SortedLimitedList&lt;TKey, TValue&gt; : IDictionary&lt;TKey, TValue&gt;, IDictionary, IReadOnlyDictionary&lt;TKey, TValue&gt;</code></pre>
+  </div>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">TKey</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="parametername">TValue</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="constructors">Constructors
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/FabianTerhorst/coreclr-module/new/master/docs/apidoc/new?filename=AltV_Net_EntitySync_SpatialPartitions_SortedLimitedList_2__ctor_System_Int32_.md&amp;value=---%0Auid%3A%20AltV.Net.EntitySync.SpatialPartitions.SortedLimitedList%602.%23ctor(System.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/FabianTerhorst/coreclr-module/blob/master/api/AltV.Net.EntitySync/SpatialPartitions/SortedLimitedList.cs/#L75">View Source</a>
+  </span>
+  <a id="AltV_Net_EntitySync_SpatialPartitions_SortedLimitedList_2__ctor_" data-uid="AltV.Net.EntitySync.SpatialPartitions.SortedLimitedList`2.#ctor*"></a>
+  <h4 id="AltV_Net_EntitySync_SpatialPartitions_SortedLimitedList_2__ctor_System_Int32_" data-uid="AltV.Net.EntitySync.SpatialPartitions.SortedLimitedList`2.#ctor(System.Int32)">SortedLimitedList(Int32)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public SortedLimitedList(int maxSize)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">maxSize</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/FabianTerhorst/coreclr-module/new/master/docs/apidoc/new?filename=AltV_Net_EntitySync_SpatialPartitions_SortedLimitedList_2__ctor_System_Int32_System_Int32_.md&amp;value=---%0Auid%3A%20AltV.Net.EntitySync.SpatialPartitions.SortedLimitedList%602.%23ctor(System.Int32%2CSystem.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/FabianTerhorst/coreclr-module/blob/master/api/AltV.Net.EntitySync/SpatialPartitions/SortedLimitedList.cs/#L91">View Source</a>
+  </span>
+  <a id="AltV_Net_EntitySync_SpatialPartitions_SortedLimitedList_2__ctor_" data-uid="AltV.Net.EntitySync.SpatialPartitions.SortedLimitedList`2.#ctor*"></a>
+  <h4 id="AltV_Net_EntitySync_SpatialPartitions_SortedLimitedList_2__ctor_System_Int32_System_Int32_" data-uid="AltV.Net.EntitySync.SpatialPartitions.SortedLimitedList`2.#ctor(System.Int32,System.Int32)">SortedLimitedList(Int32, Int32)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public SortedLimitedList(int capacity, int maxSize)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">capacity</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">maxSize</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/FabianTerhorst/coreclr-module/new/master/docs/apidoc/new?filename=AltV_Net_EntitySync_SpatialPartitions_SortedLimitedList_2__ctor_System_Int32_System_Int32_System_Nullable_IComparer__0___.md&amp;value=---%0Auid%3A%20AltV.Net.EntitySync.SpatialPartitions.SortedLimitedList%602.%23ctor(System.Int32%2CSystem.Int32%2CSystem.Nullable%7BIComparer%7B%600%7D%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/FabianTerhorst/coreclr-module/blob/master/api/AltV.Net.EntitySync/SpatialPartitions/SortedLimitedList.cs/#L129">View Source</a>
+  </span>
+  <a id="AltV_Net_EntitySync_SpatialPartitions_SortedLimitedList_2__ctor_" data-uid="AltV.Net.EntitySync.SpatialPartitions.SortedLimitedList`2.#ctor*"></a>
+  <h4 id="AltV_Net_EntitySync_SpatialPartitions_SortedLimitedList_2__ctor_System_Int32_System_Int32_System_Nullable_IComparer__0___" data-uid="AltV.Net.EntitySync.SpatialPartitions.SortedLimitedList`2.#ctor(System.Int32,System.Int32,System.Nullable{IComparer{`0}})">SortedLimitedList(Int32, Int32, Nullable&lt;IComparer&lt;TKey&gt;&gt;)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public SortedLimitedList(int capacity, int maxSize, IComparer&lt;TKey&gt;? comparer)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">capacity</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">maxSize</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">IComparer</span>&lt;TKey&gt;&gt;</td>
+        <td><span class="parametername">comparer</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/FabianTerhorst/coreclr-module/new/master/docs/apidoc/new?filename=AltV_Net_EntitySync_SpatialPartitions_SortedLimitedList_2__ctor_System_Int32_System_Nullable_IComparer__0___.md&amp;value=---%0Auid%3A%20AltV.Net.EntitySync.SpatialPartitions.SortedLimitedList%602.%23ctor(System.Int32%2CSystem.Nullable%7BIComparer%7B%600%7D%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/FabianTerhorst/coreclr-module/blob/master/api/AltV.Net.EntitySync/SpatialPartitions/SortedLimitedList.cs/#L111">View Source</a>
+  </span>
+  <a id="AltV_Net_EntitySync_SpatialPartitions_SortedLimitedList_2__ctor_" data-uid="AltV.Net.EntitySync.SpatialPartitions.SortedLimitedList`2.#ctor*"></a>
+  <h4 id="AltV_Net_EntitySync_SpatialPartitions_SortedLimitedList_2__ctor_System_Int32_System_Nullable_IComparer__0___" data-uid="AltV.Net.EntitySync.SpatialPartitions.SortedLimitedList`2.#ctor(System.Int32,System.Nullable{IComparer{`0}})">SortedLimitedList(Int32, Nullable&lt;IComparer&lt;TKey&gt;&gt;)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public SortedLimitedList(int maxSize, IComparer&lt;TKey&gt;? comparer)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">maxSize</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">IComparer</span>&lt;TKey&gt;&gt;</td>
+        <td><span class="parametername">comparer</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="properties">Properties
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/FabianTerhorst/coreclr-module/new/master/docs/apidoc/new?filename=AltV_Net_EntitySync_SpatialPartitions_SortedLimitedList_2_Capacity.md&amp;value=---%0Auid%3A%20AltV.Net.EntitySync.SpatialPartitions.SortedLimitedList%602.Capacity%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/FabianTerhorst/coreclr-module/blob/master/api/AltV.Net.EntitySync/SpatialPartitions/SortedLimitedList.cs/#L184">View Source</a>
+  </span>
+  <a id="AltV_Net_EntitySync_SpatialPartitions_SortedLimitedList_2_Capacity_" data-uid="AltV.Net.EntitySync.SpatialPartitions.SortedLimitedList`2.Capacity*"></a>
+  <h4 id="AltV_Net_EntitySync_SpatialPartitions_SortedLimitedList_2_Capacity" data-uid="AltV.Net.EntitySync.SpatialPartitions.SortedLimitedList`2.Capacity">Capacity</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int Capacity { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/FabianTerhorst/coreclr-module/new/master/docs/apidoc/new?filename=AltV_Net_EntitySync_SpatialPartitions_SortedLimitedList_2_Comparer.md&amp;value=---%0Auid%3A%20AltV.Net.EntitySync.SpatialPartitions.SortedLimitedList%602.Comparer%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/FabianTerhorst/coreclr-module/blob/master/api/AltV.Net.EntitySync/SpatialPartitions/SortedLimitedList.cs/#L220">View Source</a>
+  </span>
+  <a id="AltV_Net_EntitySync_SpatialPartitions_SortedLimitedList_2_Comparer_" data-uid="AltV.Net.EntitySync.SpatialPartitions.SortedLimitedList`2.Comparer*"></a>
+  <h4 id="AltV_Net_EntitySync_SpatialPartitions_SortedLimitedList_2_Comparer" data-uid="AltV.Net.EntitySync.SpatialPartitions.SortedLimitedList`2.Comparer">Comparer</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IComparer&lt;TKey&gt; Comparer { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">IComparer</span>&lt;TKey&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/FabianTerhorst/coreclr-module/new/master/docs/apidoc/new?filename=AltV_Net_EntitySync_SpatialPartitions_SortedLimitedList_2_Count.md&amp;value=---%0Auid%3A%20AltV.Net.EntitySync.SpatialPartitions.SortedLimitedList%602.Count%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/FabianTerhorst/coreclr-module/blob/master/api/AltV.Net.EntitySync/SpatialPartitions/SortedLimitedList.cs/#L246">View Source</a>
+  </span>
+  <a id="AltV_Net_EntitySync_SpatialPartitions_SortedLimitedList_2_Count_" data-uid="AltV.Net.EntitySync.SpatialPartitions.SortedLimitedList`2.Count*"></a>
+  <h4 id="AltV_Net_EntitySync_SpatialPartitions_SortedLimitedList_2_Count" data-uid="AltV.Net.EntitySync.SpatialPartitions.SortedLimitedList`2.Count">Count</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int Count { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/FabianTerhorst/coreclr-module/new/master/docs/apidoc/new?filename=AltV_Net_EntitySync_SpatialPartitions_SortedLimitedList_2_Item__0_.md&amp;value=---%0Auid%3A%20AltV.Net.EntitySync.SpatialPartitions.SortedLimitedList%602.Item(%600)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/FabianTerhorst/coreclr-module/blob/master/api/AltV.Net.EntitySync/SpatialPartitions/SortedLimitedList.cs/#L556">View Source</a>
+  </span>
+  <a id="AltV_Net_EntitySync_SpatialPartitions_SortedLimitedList_2_Item_" data-uid="AltV.Net.EntitySync.SpatialPartitions.SortedLimitedList`2.Item*"></a>
+  <h4 id="AltV_Net_EntitySync_SpatialPartitions_SortedLimitedList_2_Item__0_" data-uid="AltV.Net.EntitySync.SpatialPartitions.SortedLimitedList`2.Item(`0)">Item[TKey]</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public TValue this[TKey key] { get; set; }</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">TKey</span></td>
+        <td><span class="parametername">key</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">TValue</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/FabianTerhorst/coreclr-module/new/master/docs/apidoc/new?filename=AltV_Net_EntitySync_SpatialPartitions_SortedLimitedList_2_Keys.md&amp;value=---%0Auid%3A%20AltV.Net.EntitySync.SpatialPartitions.SortedLimitedList%602.Keys%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/FabianTerhorst/coreclr-module/blob/master/api/AltV.Net.EntitySync/SpatialPartitions/SortedLimitedList.cs/#L257">View Source</a>
+  </span>
+  <a id="AltV_Net_EntitySync_SpatialPartitions_SortedLimitedList_2_Keys_" data-uid="AltV.Net.EntitySync.SpatialPartitions.SortedLimitedList`2.Keys*"></a>
+  <h4 id="AltV_Net_EntitySync_SpatialPartitions_SortedLimitedList_2_Keys" data-uid="AltV.Net.EntitySync.SpatialPartitions.SortedLimitedList`2.Keys">Keys</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IList&lt;TKey&gt; Keys { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">IList</span>&lt;TKey&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/FabianTerhorst/coreclr-module/new/master/docs/apidoc/new?filename=AltV_Net_EntitySync_SpatialPartitions_SortedLimitedList_2_Values.md&amp;value=---%0Auid%3A%20AltV.Net.EntitySync.SpatialPartitions.SortedLimitedList%602.Values%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/FabianTerhorst/coreclr-module/blob/master/api/AltV.Net.EntitySync/SpatialPartitions/SortedLimitedList.cs/#L293">View Source</a>
+  </span>
+  <a id="AltV_Net_EntitySync_SpatialPartitions_SortedLimitedList_2_Values_" data-uid="AltV.Net.EntitySync.SpatialPartitions.SortedLimitedList`2.Values*"></a>
+  <h4 id="AltV_Net_EntitySync_SpatialPartitions_SortedLimitedList_2_Values" data-uid="AltV.Net.EntitySync.SpatialPartitions.SortedLimitedList`2.Values">Values</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IList&lt;TValue&gt; Values { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">IList</span>&lt;TValue&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/FabianTerhorst/coreclr-module/new/master/docs/apidoc/new?filename=AltV_Net_EntitySync_SpatialPartitions_SortedLimitedList_2_Add__0__1_.md&amp;value=---%0Auid%3A%20AltV.Net.EntitySync.SpatialPartitions.SortedLimitedList%602.Add(%600%2C%601)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/FabianTerhorst/coreclr-module/blob/master/api/AltV.Net.EntitySync/SpatialPartitions/SortedLimitedList.cs/#L143">View Source</a>
+  </span>
+  <a id="AltV_Net_EntitySync_SpatialPartitions_SortedLimitedList_2_Add_" data-uid="AltV.Net.EntitySync.SpatialPartitions.SortedLimitedList`2.Add*"></a>
+  <h4 id="AltV_Net_EntitySync_SpatialPartitions_SortedLimitedList_2_Add__0__1_" data-uid="AltV.Net.EntitySync.SpatialPartitions.SortedLimitedList`2.Add(`0,`1)">Add(TKey, TValue)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Add(TKey key, TValue value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">TKey</span></td>
+        <td><span class="parametername">key</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">TValue</span></td>
+        <td><span class="parametername">value</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/FabianTerhorst/coreclr-module/new/master/docs/apidoc/new?filename=AltV_Net_EntitySync_SpatialPartitions_SortedLimitedList_2_Clear.md&amp;value=---%0Auid%3A%20AltV.Net.EntitySync.SpatialPartitions.SortedLimitedList%602.Clear%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/FabianTerhorst/coreclr-module/blob/master/api/AltV.Net.EntitySync/SpatialPartitions/SortedLimitedList.cs/#L363">View Source</a>
+  </span>
+  <a id="AltV_Net_EntitySync_SpatialPartitions_SortedLimitedList_2_Clear_" data-uid="AltV.Net.EntitySync.SpatialPartitions.SortedLimitedList`2.Clear*"></a>
+  <h4 id="AltV_Net_EntitySync_SpatialPartitions_SortedLimitedList_2_Clear" data-uid="AltV.Net.EntitySync.SpatialPartitions.SortedLimitedList`2.Clear">Clear()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Clear()</code></pre>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/FabianTerhorst/coreclr-module/new/master/docs/apidoc/new?filename=AltV_Net_EntitySync_SpatialPartitions_SortedLimitedList_2_ClearSize.md&amp;value=---%0Auid%3A%20AltV.Net.EntitySync.SpatialPartitions.SortedLimitedList%602.ClearSize%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/FabianTerhorst/coreclr-module/blob/master/api/AltV.Net.EntitySync/SpatialPartitions/SortedLimitedList.cs/#L379">View Source</a>
+  </span>
+  <a id="AltV_Net_EntitySync_SpatialPartitions_SortedLimitedList_2_ClearSize_" data-uid="AltV.Net.EntitySync.SpatialPartitions.SortedLimitedList`2.ClearSize*"></a>
+  <h4 id="AltV_Net_EntitySync_SpatialPartitions_SortedLimitedList_2_ClearSize" data-uid="AltV.Net.EntitySync.SpatialPartitions.SortedLimitedList`2.ClearSize">ClearSize()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearSize()</code></pre>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/FabianTerhorst/coreclr-module/new/master/docs/apidoc/new?filename=AltV_Net_EntitySync_SpatialPartitions_SortedLimitedList_2_ContainsKey__0_.md&amp;value=---%0Auid%3A%20AltV.Net.EntitySync.SpatialPartitions.SortedLimitedList%602.ContainsKey(%600)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/FabianTerhorst/coreclr-module/blob/master/api/AltV.Net.EntitySync/SpatialPartitions/SortedLimitedList.cs/#L396">View Source</a>
+  </span>
+  <a id="AltV_Net_EntitySync_SpatialPartitions_SortedLimitedList_2_ContainsKey_" data-uid="AltV.Net.EntitySync.SpatialPartitions.SortedLimitedList`2.ContainsKey*"></a>
+  <h4 id="AltV_Net_EntitySync_SpatialPartitions_SortedLimitedList_2_ContainsKey__0_" data-uid="AltV.Net.EntitySync.SpatialPartitions.SortedLimitedList`2.ContainsKey(`0)">ContainsKey(TKey)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool ContainsKey(TKey key)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">TKey</span></td>
+        <td><span class="parametername">key</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/FabianTerhorst/coreclr-module/new/master/docs/apidoc/new?filename=AltV_Net_EntitySync_SpatialPartitions_SortedLimitedList_2_ContainsValue__1_.md&amp;value=---%0Auid%3A%20AltV.Net.EntitySync.SpatialPartitions.SortedLimitedList%602.ContainsValue(%601)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/FabianTerhorst/coreclr-module/blob/master/api/AltV.Net.EntitySync/SpatialPartitions/SortedLimitedList.cs/#L406">View Source</a>
+  </span>
+  <a id="AltV_Net_EntitySync_SpatialPartitions_SortedLimitedList_2_ContainsValue_" data-uid="AltV.Net.EntitySync.SpatialPartitions.SortedLimitedList`2.ContainsValue*"></a>
+  <h4 id="AltV_Net_EntitySync_SpatialPartitions_SortedLimitedList_2_ContainsValue__1_" data-uid="AltV.Net.EntitySync.SpatialPartitions.SortedLimitedList`2.ContainsValue(`1)">ContainsValue(TValue)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool ContainsValue(TValue value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">TValue</span></td>
+        <td><span class="parametername">value</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/FabianTerhorst/coreclr-module/new/master/docs/apidoc/new?filename=AltV_Net_EntitySync_SpatialPartitions_SortedLimitedList_2_GetEnumerator.md&amp;value=---%0Auid%3A%20AltV.Net.EntitySync.SpatialPartitions.SortedLimitedList%602.GetEnumerator%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/FabianTerhorst/coreclr-module/blob/master/api/AltV.Net.EntitySync/SpatialPartitions/SortedLimitedList.cs/#L526">View Source</a>
+  </span>
+  <a id="AltV_Net_EntitySync_SpatialPartitions_SortedLimitedList_2_GetEnumerator_" data-uid="AltV.Net.EntitySync.SpatialPartitions.SortedLimitedList`2.GetEnumerator*"></a>
+  <h4 id="AltV_Net_EntitySync_SpatialPartitions_SortedLimitedList_2_GetEnumerator" data-uid="AltV.Net.EntitySync.SpatialPartitions.SortedLimitedList`2.GetEnumerator">GetEnumerator()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IEnumerator&lt;KeyValuePair&lt;TKey, TValue&gt;&gt; GetEnumerator()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">IEnumerator</span>&lt;<span class="xref">KeyValuePair</span>&lt;TKey, TValue&gt;&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/FabianTerhorst/coreclr-module/new/master/docs/apidoc/new?filename=AltV_Net_EntitySync_SpatialPartitions_SortedLimitedList_2_GetValues.md&amp;value=---%0Auid%3A%20AltV.Net.EntitySync.SpatialPartitions.SortedLimitedList%602.GetValues%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/FabianTerhorst/coreclr-module/blob/master/api/AltV.Net.EntitySync/SpatialPartitions/SortedLimitedList.cs/#L135">View Source</a>
+  </span>
+  <a id="AltV_Net_EntitySync_SpatialPartitions_SortedLimitedList_2_GetValues_" data-uid="AltV.Net.EntitySync.SpatialPartitions.SortedLimitedList`2.GetValues*"></a>
+  <h4 id="AltV_Net_EntitySync_SpatialPartitions_SortedLimitedList_2_GetValues" data-uid="AltV.Net.EntitySync.SpatialPartitions.SortedLimitedList`2.GetValues">GetValues()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public TValue[] GetValues()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>TValue[]</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/FabianTerhorst/coreclr-module/new/master/docs/apidoc/new?filename=AltV_Net_EntitySync_SpatialPartitions_SortedLimitedList_2_IndexOfKey__0_.md&amp;value=---%0Auid%3A%20AltV.Net.EntitySync.SpatialPartitions.SortedLimitedList%602.IndexOfKey(%600)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/FabianTerhorst/coreclr-module/blob/master/api/AltV.Net.EntitySync/SpatialPartitions/SortedLimitedList.cs/#L623">View Source</a>
+  </span>
+  <a id="AltV_Net_EntitySync_SpatialPartitions_SortedLimitedList_2_IndexOfKey_" data-uid="AltV.Net.EntitySync.SpatialPartitions.SortedLimitedList`2.IndexOfKey*"></a>
+  <h4 id="AltV_Net_EntitySync_SpatialPartitions_SortedLimitedList_2_IndexOfKey__0_" data-uid="AltV.Net.EntitySync.SpatialPartitions.SortedLimitedList`2.IndexOfKey(`0)">IndexOfKey(TKey)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int IndexOfKey(TKey key)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">TKey</span></td>
+        <td><span class="parametername">key</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/FabianTerhorst/coreclr-module/new/master/docs/apidoc/new?filename=AltV_Net_EntitySync_SpatialPartitions_SortedLimitedList_2_IndexOfValue__1_.md&amp;value=---%0Auid%3A%20AltV.Net.EntitySync.SpatialPartitions.SortedLimitedList%602.IndexOfValue(%601)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/FabianTerhorst/coreclr-module/blob/master/api/AltV.Net.EntitySync/SpatialPartitions/SortedLimitedList.cs/#L636">View Source</a>
+  </span>
+  <a id="AltV_Net_EntitySync_SpatialPartitions_SortedLimitedList_2_IndexOfValue_" data-uid="AltV.Net.EntitySync.SpatialPartitions.SortedLimitedList`2.IndexOfValue*"></a>
+  <h4 id="AltV_Net_EntitySync_SpatialPartitions_SortedLimitedList_2_IndexOfValue__1_" data-uid="AltV.Net.EntitySync.SpatialPartitions.SortedLimitedList`2.IndexOfValue(`1)">IndexOfValue(TValue)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int IndexOfValue(TValue value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">TValue</span></td>
+        <td><span class="parametername">value</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/FabianTerhorst/coreclr-module/new/master/docs/apidoc/new?filename=AltV_Net_EntitySync_SpatialPartitions_SortedLimitedList_2_Remove__0_.md&amp;value=---%0Auid%3A%20AltV.Net.EntitySync.SpatialPartitions.SortedLimitedList%602.Remove(%600)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/FabianTerhorst/coreclr-module/blob/master/api/AltV.Net.EntitySync/SpatialPartitions/SortedLimitedList.cs/#L696">View Source</a>
+  </span>
+  <a id="AltV_Net_EntitySync_SpatialPartitions_SortedLimitedList_2_Remove_" data-uid="AltV.Net.EntitySync.SpatialPartitions.SortedLimitedList`2.Remove*"></a>
+  <h4 id="AltV_Net_EntitySync_SpatialPartitions_SortedLimitedList_2_Remove__0_" data-uid="AltV.Net.EntitySync.SpatialPartitions.SortedLimitedList`2.Remove(`0)">Remove(TKey)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool Remove(TKey key)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">TKey</span></td>
+        <td><span class="parametername">key</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/FabianTerhorst/coreclr-module/new/master/docs/apidoc/new?filename=AltV_Net_EntitySync_SpatialPartitions_SortedLimitedList_2_RemoveAt_System_Int32_.md&amp;value=---%0Auid%3A%20AltV.Net.EntitySync.SpatialPartitions.SortedLimitedList%602.RemoveAt(System.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/FabianTerhorst/coreclr-module/blob/master/api/AltV.Net.EntitySync/SpatialPartitions/SortedLimitedList.cs/#L672">View Source</a>
+  </span>
+  <a id="AltV_Net_EntitySync_SpatialPartitions_SortedLimitedList_2_RemoveAt_" data-uid="AltV.Net.EntitySync.SpatialPartitions.SortedLimitedList`2.RemoveAt*"></a>
+  <h4 id="AltV_Net_EntitySync_SpatialPartitions_SortedLimitedList_2_RemoveAt_System_Int32_" data-uid="AltV.Net.EntitySync.SpatialPartitions.SortedLimitedList`2.RemoveAt(System.Int32)">RemoveAt(Int32)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void RemoveAt(int index)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">index</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/FabianTerhorst/coreclr-module/new/master/docs/apidoc/new?filename=AltV_Net_EntitySync_SpatialPartitions_SortedLimitedList_2_TrimExcess.md&amp;value=---%0Auid%3A%20AltV.Net.EntitySync.SpatialPartitions.SortedLimitedList%602.TrimExcess%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/FabianTerhorst/coreclr-module/blob/master/api/AltV.Net.EntitySync/SpatialPartitions/SortedLimitedList.cs/#L720">View Source</a>
+  </span>
+  <a id="AltV_Net_EntitySync_SpatialPartitions_SortedLimitedList_2_TrimExcess_" data-uid="AltV.Net.EntitySync.SpatialPartitions.SortedLimitedList`2.TrimExcess*"></a>
+  <h4 id="AltV_Net_EntitySync_SpatialPartitions_SortedLimitedList_2_TrimExcess" data-uid="AltV.Net.EntitySync.SpatialPartitions.SortedLimitedList`2.TrimExcess">TrimExcess()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void TrimExcess()</code></pre>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/FabianTerhorst/coreclr-module/new/master/docs/apidoc/new?filename=AltV_Net_EntitySync_SpatialPartitions_SortedLimitedList_2_TryGetValue__0__1__.md&amp;value=---%0Auid%3A%20AltV.Net.EntitySync.SpatialPartitions.SortedLimitedList%602.TryGetValue(%600%2C%601%40)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/FabianTerhorst/coreclr-module/blob/master/api/AltV.Net.EntitySync/SpatialPartitions/SortedLimitedList.cs/#L657">View Source</a>
+  </span>
+  <a id="AltV_Net_EntitySync_SpatialPartitions_SortedLimitedList_2_TryGetValue_" data-uid="AltV.Net.EntitySync.SpatialPartitions.SortedLimitedList`2.TryGetValue*"></a>
+  <h4 id="AltV_Net_EntitySync_SpatialPartitions_SortedLimitedList_2_TryGetValue__0__1__" data-uid="AltV.Net.EntitySync.SpatialPartitions.SortedLimitedList`2.TryGetValue(`0,`1@)">TryGetValue(TKey, out TValue)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool TryGetValue(TKey key, out TValue value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">TKey</span></td>
+        <td><span class="parametername">key</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">TValue</span></td>
+        <td><span class="parametername">value</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="implements">Implements</h3>
+  <div>
+      <span class="xref">IDictionary</span>
+  </div>
+  <div>
+      <span class="xref">IReadOnlyDictionary&lt;, &gt;</span>
+  </div>
+</article>
+                    </div>
+
+                </div>
+
+            </main>
+
+        </div>
+
+        
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twbs-pagination/1.4.2/jquery.twbsPagination.min.js" integrity="sha512-frFP3ZxLshB4CErXkPVEXnd5ingvYYtYhE5qllGdZmcOlRKNEPbufyupfdSTNmoF5ICaQNO6SenXzOZvoGkiIA==" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/jquery.mark.min.js" integrity="sha512-mhbv5DqBMgrWL+32MmsDOt/OAvqr/cHimk6B8y/bx/xS88MVkYGPiVv2ixKVrkywF2qHplNRUvFsAHUdxZ3Krg==" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js" integrity="sha512-ubuT8Z88WxezgSqf3RLuNi5lmjstiJcyezx34yIU2gAHonIi27Na7atqzUZCOoY4CExaoFumzOsFQ2Ch+I/HCw==" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha512-M5KW3ztuIICmVIhjSqXe01oV2bpe248gOxqmlcYrEzAvws7Pw3z6BK0iGbrwvdrUQUhi3eXgtxp5I8PDo9YfjQ==" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.3.2/highlight.min.js" integrity="sha512-8DnqlIcZT5O7kn55WxWs0PnFyhwCqVEnsDpyHqcadSNtP0eqae406JmIoo2cXT5A42jnlcCw013sdkmK3mEJcQ==" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlightjs-line-numbers.js/2.8.0/highlightjs-line-numbers.min.js" integrity="sha512-axd5V66bnXpNVQzm1c7u1M614TVRXXtouyWCE+eMYl8ALK8ePJEs96Xtx7VVrPBc0UraCn63U1+ARFI3ofW+aA==" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/js-url/1.8.8/url.min.js" integrity="sha512-r7Z8tYN1iMr6CTQ7pNJa2q+3owm4Tc6dLkVzGV68AFGiI0muMh5eLVQlas5kb9qwPY168HsTBctUwn3k0FVqyw==" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/4.3.0/anchor.min.js" integrity="sha512-G2OGlm41XXw+fcgDcRPjVYEn7qCY6qiKWNqDGT37SnKh0qtRXTuKZ5/UQR0kDN0PZRNWcGExd3lAeqEH0I36bQ==" crossorigin="anonymous"></script>
+<script type="text/javascript" src="../../styles/docfx.js"></script>
+<script type="text/javascript" src="../../styles/discord.js"></script>
+<script type="text/javascript" src="../../styles/main.js"></script>
+
+    </body>
+
+</html>
