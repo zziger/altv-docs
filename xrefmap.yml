@@ -1418,26 +1418,6 @@ references:
   name: weaponDamageMult
   href: js/api/alt-client.IVehicleHandling.html#_altmp_altv_types_alt_client_IVehicleHandling_weaponDamageMult
   fullName: weaponDamageMult
-- uid: '@altmp/altv-types.alt-client.IVehicleNeon'
-  name: IVehicleNeon
-  href: js/api/alt-client.IVehicleNeon.html#_altmp_altv_types_alt_client_IVehicleNeon
-  fullName: IVehicleNeon
-- uid: '@altmp/altv-types.alt-client.IVehicleNeon.back'
-  name: back
-  href: js/api/alt-client.IVehicleNeon.html#_altmp_altv_types_alt_client_IVehicleNeon_back
-  fullName: back
-- uid: '@altmp/altv-types.alt-client.IVehicleNeon.front'
-  name: front
-  href: js/api/alt-client.IVehicleNeon.html#_altmp_altv_types_alt_client_IVehicleNeon_front
-  fullName: front
-- uid: '@altmp/altv-types.alt-client.IVehicleNeon.left'
-  name: left
-  href: js/api/alt-client.IVehicleNeon.html#_altmp_altv_types_alt_client_IVehicleNeon_left
-  fullName: left
-- uid: '@altmp/altv-types.alt-client.IVehicleNeon.right'
-  name: right
-  href: js/api/alt-client.IVehicleNeon.html#_altmp_altv_types_alt_client_IVehicleNeon_right
-  fullName: right
 - uid: '@altmp/altv-types.alt-client.loadModel'
   name: loadModel(number)
   href: js/api/alt-client.html#_altmp_altv_types_alt_client_loadModel
@@ -1696,15 +1676,9 @@ references:
 - uid: '@altmp/altv-types.alt-client.on'
   name: on<K extends string | number>(K, IClientEvent[K])
   href: js/api/alt-client.html#_altmp_altv_types_alt_client_on
-- uid: '@altmp/altv-types.alt-client.on_1'
-  name: 'on((eventName: string, ...args: any[]) => void)'
-  href: js/api/alt-client.html#_altmp_altv_types_alt_client_on_1
 - uid: '@altmp/altv-types.alt-client.once'
   name: once<K extends string | number>(K, IClientEvent[K])
   href: js/api/alt-client.html#_altmp_altv_types_alt_client_once
-- uid: '@altmp/altv-types.alt-client.once_1'
-  name: 'once((eventName: string, ...args: any[]) => void)'
-  href: js/api/alt-client.html#_altmp_altv_types_alt_client_once_1
 - uid: '@altmp/altv-types.alt-client.onceServer'
   name: 'onceServer(string, (...args: any[]) => void)'
   href: js/api/alt-client.html#_altmp_altv_types_alt_client_onceServer
@@ -1919,7 +1893,7 @@ references:
   name: setConfigFlag("DISABLE_PED_PROP_KNOCK_OFF", boolean)
   href: js/api/alt-client.html#_altmp_altv_types_alt_client_setConfigFlag
 - uid: '@altmp/altv-types.alt-client.setCursorPos'
-  name: setCursorPos(IVector2)
+  name: setCursorPos(shared.IVector2)
   href: js/api/alt-client.html#_altmp_altv_types_alt_client_setCursorPos
 - uid: '@altmp/altv-types.alt-client.setInterval'
   name: 'setInterval((...args: any[]) => void, number)'
@@ -2887,26 +2861,6 @@ references:
 - uid: '@altmp/altv-types.alt-server.ColShapeType.Sphere'
   name: Sphere
   href: js/api/alt-server.ColShapeType.html#_altmp_altv_types_alt_server_ColShapeType_Sphere
-- uid: '@altmp/altv-types.alt-server.DateTimeDay'
-  name: DateTimeDay
-  href: js/api/alt-server.html#_altmp_altv_types_alt_server_DateTimeDay
-  fullName: DateTimeDay
-- uid: '@altmp/altv-types.alt-server.DateTimeHour'
-  name: DateTimeHour
-  href: js/api/alt-server.html#_altmp_altv_types_alt_server_DateTimeHour
-  fullName: DateTimeHour
-- uid: '@altmp/altv-types.alt-server.DateTimeMinute'
-  name: DateTimeMinute
-  href: js/api/alt-server.html#_altmp_altv_types_alt_server_DateTimeMinute
-  fullName: DateTimeMinute
-- uid: '@altmp/altv-types.alt-server.DateTimeMonth'
-  name: DateTimeMonth
-  href: js/api/alt-server.html#_altmp_altv_types_alt_server_DateTimeMonth
-  fullName: DateTimeMonth
-- uid: '@altmp/altv-types.alt-server.DateTimeSecond'
-  name: DateTimeSecond
-  href: js/api/alt-server.html#_altmp_altv_types_alt_server_DateTimeSecond
-  fullName: DateTimeSecond
 - uid: '@altmp/altv-types.alt-server.debug'
   name: debug
   href: js/api/alt-server.html#_altmp_altv_types_alt_server_debug
@@ -2918,9 +2872,6 @@ references:
 - uid: '@altmp/altv-types.alt-server.deleteMeta'
   name: deleteMeta(string)
   href: js/api/alt-server.html#_altmp_altv_types_alt_server_deleteMeta
-- uid: '@altmp/altv-types.alt-server.deleteSyncedMeta'
-  name: deleteSyncedMeta(string)
-  href: js/api/alt-server.html#_altmp_altv_types_alt_server_deleteSyncedMeta
 - uid: '@altmp/altv-types.alt-server.emit'
   name: emit(string, any[])
   href: js/api/alt-server.html#_altmp_altv_types_alt_server_emit
@@ -3141,11 +3092,24 @@ references:
   name: exists(string)
   href: js/api/alt-server.File.html#_altmp_altv_types_alt_server_File_exists
 - uid: '@altmp/altv-types.alt-server.File.read'
-  name: read(string, "utf-8" | "utf-16")
+  name: read(string, Utf8 | Utf16)
   href: js/api/alt-server.File.html#_altmp_altv_types_alt_server_File_read
 - uid: '@altmp/altv-types.alt-server.File.read_1'
-  name: read(string, "binary")
+  name: read(string, Binary)
   href: js/api/alt-server.File.html#_altmp_altv_types_alt_server_File_read_1
+- uid: '@altmp/altv-types.alt-server.FileEncoding'
+  name: FileEncoding
+  href: js/api/alt-server.FileEncoding.html#_altmp_altv_types_alt_server_FileEncoding
+  fullName: FileEncoding
+- uid: '@altmp/altv-types.alt-server.FileEncoding.Binary'
+  name: Binary
+  href: js/api/alt-server.FileEncoding.html#_altmp_altv_types_alt_server_FileEncoding_Binary
+- uid: '@altmp/altv-types.alt-server.FileEncoding.Utf16'
+  name: Utf16
+  href: js/api/alt-server.FileEncoding.html#_altmp_altv_types_alt_server_FileEncoding_Utf16
+- uid: '@altmp/altv-types.alt-server.FileEncoding.Utf8'
+  name: Utf8
+  href: js/api/alt-server.FileEncoding.html#_altmp_altv_types_alt_server_FileEncoding_Utf8
 - uid: '@altmp/altv-types.alt-server.getEventListeners'
   name: getEventListeners(string | Object)
   href: js/api/alt-server.html#_altmp_altv_types_alt_server_getEventListeners
@@ -3453,15 +3417,9 @@ references:
 - uid: '@altmp/altv-types.alt-server.on'
   name: on<K extends string | number>(K, IServerEvent[K])
   href: js/api/alt-server.html#_altmp_altv_types_alt_server_on
-- uid: '@altmp/altv-types.alt-server.on_1'
-  name: 'on((eventName: string, ...args: any[]) => void)'
-  href: js/api/alt-server.html#_altmp_altv_types_alt_server_on_1
 - uid: '@altmp/altv-types.alt-server.once'
   name: once<K extends string | number>(K, IServerEvent[K])
   href: js/api/alt-server.html#_altmp_altv_types_alt_server_once
-- uid: '@altmp/altv-types.alt-server.once_1'
-  name: 'once((eventName: string, ...args: any[]) => void)'
-  href: js/api/alt-server.html#_altmp_altv_types_alt_server_once_1
 - uid: '@altmp/altv-types.alt-server.onceClient'
   name: 'onceClient(string, (player: Player, ...args: any[]) => void)'
   href: js/api/alt-server.html#_altmp_altv_types_alt_server_onceClient
