@@ -15,7 +15,7 @@
     
     <link rel="shortcut icon" href="../../favicon.ico">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.1.1/styles/night-owl.min.css" integrity="sha512-xYwrX34LRktCfb+3WW0FtJf6qEc2tcJet152No8epFPBoM4qNaaVk5xdfCYI0Ns0H2jD0Isc3VoShSMv6zzpPA==" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.6.0/styles/night-owl.min.css" integrity="sha512-xYwrX34LRktCfb+3WW0FtJf6qEc2tcJet152No8epFPBoM4qNaaVk5xdfCYI0Ns0H2jD0Isc3VoShSMv6zzpPA==" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/solid.min.css" crossorigin="anonymous">
     <link rel="stylesheet" href="../../styles/colors.css">
     <link rel="stylesheet" href="../../styles/discord.css">
@@ -157,7 +157,7 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-typeScript hljs">public LocalStorage(): LocalStorage</code></pre>
+    <pre><code class="lang-typeScript hljs">LocalStorage(): LocalStorage</code></pre>
   </div>
   <h3 id="methods">Methods
   </h3>
@@ -190,7 +190,7 @@
   </table>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-typeScript hljs">clear(): void</code></pre>
+    <pre><code class="lang-typeScript hljs">public clear(): void</code></pre>
   </div>
   <h5 id="_altmp_altv_types_alt_client_LocalStorage_clear_remarks" class="decalaration">Remarks</h5>
   <div class="markdown level1 remarks"><p>Alias for deleteAll.</p>
@@ -225,7 +225,7 @@
   </table>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-typeScript hljs">delete(key: string): void</code></pre>
+    <pre><code class="lang-typeScript hljs">public delete(key: string): void</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -277,7 +277,7 @@
   </table>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-typeScript hljs">deleteAll(): void</code></pre>
+    <pre><code class="lang-typeScript hljs">public deleteAll(): void</code></pre>
   </div>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
@@ -309,7 +309,7 @@
   </table>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-typeScript hljs">get(key: string): any</code></pre>
+    <pre><code class="lang-typeScript hljs">public get(key: string): any</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -376,7 +376,7 @@
   </table>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-typeScript hljs">save(): void</code></pre>
+    <pre><code class="lang-typeScript hljs">public save(): void</code></pre>
   </div>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
@@ -408,7 +408,7 @@
   </table>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-typeScript hljs">set(key: string, value: any): void</code></pre>
+    <pre><code class="lang-typeScript hljs">public set(key: string, value: any): void</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -453,7 +453,7 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-typeScript hljs">static clear(): void</code></pre>
+    <pre><code class="lang-typeScript hljs">public static clear(): void</code></pre>
   </div>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
@@ -470,7 +470,7 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-typeScript hljs">static delete(key: string): void</code></pre>
+    <pre><code class="lang-typeScript hljs">public static delete(key: string): void</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -507,7 +507,7 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-typeScript hljs">static deleteAll(): void</code></pre>
+    <pre><code class="lang-typeScript hljs">public static deleteAll(): void</code></pre>
   </div>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
@@ -526,7 +526,7 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-typeScript hljs">static get(): LocalStorage</code></pre>
+    <pre><code class="lang-typeScript hljs">public static get(): LocalStorage</code></pre>
   </div>
   <h5 class="returns">Returns</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -558,7 +558,7 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-typeScript hljs">static get(key: string): any</code></pre>
+    <pre><code class="lang-typeScript hljs">public static get(key: string): any</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -610,7 +610,7 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-typeScript hljs">static save(): void</code></pre>
+    <pre><code class="lang-typeScript hljs">public static save(): void</code></pre>
   </div>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
@@ -627,7 +627,7 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-typeScript hljs">static set(key: string, value: any): void</code></pre>
+    <pre><code class="lang-typeScript hljs">public static set(key: string, value: any): void</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -672,7 +672,7 @@
         <script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/jquery.mark.min.js" integrity="sha512-mhbv5DqBMgrWL+32MmsDOt/OAvqr/cHimk6B8y/bx/xS88MVkYGPiVv2ixKVrkywF2qHplNRUvFsAHUdxZ3Krg==" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js" integrity="sha512-ubuT8Z88WxezgSqf3RLuNi5lmjstiJcyezx34yIU2gAHonIi27Na7atqzUZCOoY4CExaoFumzOsFQ2Ch+I/HCw==" crossorigin="anonymous"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha512-M5KW3ztuIICmVIhjSqXe01oV2bpe248gOxqmlcYrEzAvws7Pw3z6BK0iGbrwvdrUQUhi3eXgtxp5I8PDo9YfjQ==" crossorigin="anonymous"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.3.2/highlight.min.js" integrity="sha512-8DnqlIcZT5O7kn55WxWs0PnFyhwCqVEnsDpyHqcadSNtP0eqae406JmIoo2cXT5A42jnlcCw013sdkmK3mEJcQ==" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.6.0/highlight.min.js" integrity="sha512-zol3kFQ5tnYhL7PzGt0LnllHHVWRGt2bTCIywDiScVvLIlaDOVJ6sPdJTVi0m3rA660RT+yZxkkRzMbb1L8Zkw==" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/highlightjs-line-numbers.js/2.8.0/highlightjs-line-numbers.min.js" integrity="sha512-axd5V66bnXpNVQzm1c7u1M614TVRXXtouyWCE+eMYl8ALK8ePJEs96Xtx7VVrPBc0UraCn63U1+ARFI3ofW+aA==" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/js-url/1.8.8/url.min.js" integrity="sha512-r7Z8tYN1iMr6CTQ7pNJa2q+3owm4Tc6dLkVzGV68AFGiI0muMh5eLVQlas5kb9qwPY168HsTBctUwn3k0FVqyw==" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/4.3.0/anchor.min.js" integrity="sha512-G2OGlm41XXw+fcgDcRPjVYEn7qCY6qiKWNqDGT37SnKh0qtRXTuKZ5/UQR0kDN0PZRNWcGExd3lAeqEH0I36bQ==" crossorigin="anonymous"></script>

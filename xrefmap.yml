@@ -2011,10 +2011,6 @@ references:
 - uid: '@altmp/altv-types.alt-client.Vector2.isInRange'
   name: isInRange(IVector2, number)
   href: js/api/alt-client.Vector2.html#_altmp_altv_types_alt_client_Vector2_isInRange
-- uid: '@altmp/altv-types.alt-client.Vector2.length'
-  name: length
-  href: js/api/alt-client.Vector2.html#_altmp_altv_types_alt_client_Vector2_length
-  fullName: length
 - uid: '@altmp/altv-types.alt-client.Vector2.mul'
   name: mul(number, number)
   href: js/api/alt-client.Vector2.html#_altmp_altv_types_alt_client_Vector2_mul
@@ -2123,10 +2119,6 @@ references:
 - uid: '@altmp/altv-types.alt-client.Vector3.isInRange'
   name: isInRange(IVector3, number)
   href: js/api/alt-client.Vector3.html#_altmp_altv_types_alt_client_Vector3_isInRange
-- uid: '@altmp/altv-types.alt-client.Vector3.length'
-  name: length
-  href: js/api/alt-client.Vector3.html#_altmp_altv_types_alt_client_Vector3_length
-  fullName: length
 - uid: '@altmp/altv-types.alt-client.Vector3.mul'
   name: mul(number, number, number)
   href: js/api/alt-client.Vector3.html#_altmp_altv_types_alt_client_Vector3_mul
@@ -2189,7 +2181,6 @@ references:
 - uid: '@altmp/altv-types.alt-client.Vehicle.gear'
   name: gear
   href: js/api/alt-client.Vehicle.html#_altmp_altv_types_alt_client_Vehicle_gear
-  fullName: gear
 - uid: '@altmp/altv-types.alt-client.Vehicle.getByID'
   name: getByID(number)
   href: js/api/alt-client.Vehicle.html#_altmp_altv_types_alt_client_Vehicle_getByID
@@ -3756,10 +3747,6 @@ references:
 - uid: '@altmp/altv-types.alt-server.Vector2.isInRange'
   name: isInRange(IVector2, number)
   href: js/api/alt-server.Vector2.html#_altmp_altv_types_alt_server_Vector2_isInRange
-- uid: '@altmp/altv-types.alt-server.Vector2.length'
-  name: length
-  href: js/api/alt-server.Vector2.html#_altmp_altv_types_alt_server_Vector2_length
-  fullName: length
 - uid: '@altmp/altv-types.alt-server.Vector2.mul'
   name: mul(number, number)
   href: js/api/alt-server.Vector2.html#_altmp_altv_types_alt_server_Vector2_mul
@@ -3868,10 +3855,6 @@ references:
 - uid: '@altmp/altv-types.alt-server.Vector3.isInRange'
   name: isInRange(IVector3, number)
   href: js/api/alt-server.Vector3.html#_altmp_altv_types_alt_server_Vector3_isInRange
-- uid: '@altmp/altv-types.alt-server.Vector3.length'
-  name: length
-  href: js/api/alt-server.Vector3.html#_altmp_altv_types_alt_server_Vector3_length
-  fullName: length
 - uid: '@altmp/altv-types.alt-server.Vector3.mul'
   name: mul(number, number, number)
   href: js/api/alt-server.Vector3.html#_altmp_altv_types_alt_server_Vector3_mul
