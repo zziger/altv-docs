@@ -20,17 +20,14 @@ references:
   href: js/api/alt-client.Audio.html#_altmp_altv_types_alt_client_Audio
   fullName: Audio
 - uid: '@altmp/altv-types.alt-client.Audio.addOutput'
-  name: addOutput(number)
+  name: addOutput(number | Entity)
   href: js/api/alt-client.Audio.html#_altmp_altv_types_alt_client_Audio_addOutput
-- uid: '@altmp/altv-types.alt-client.Audio.addOutput_1'
-  name: addOutput(Entity)
-  href: js/api/alt-client.Audio.html#_altmp_altv_types_alt_client_Audio_addOutput_1
 - uid: '@altmp/altv-types.alt-client.Audio.category'
   name: category
   href: js/api/alt-client.Audio.html#_altmp_altv_types_alt_client_Audio_category
   fullName: category
 - uid: '@altmp/altv-types.alt-client.Audio.constructor'
-  name: Audio(string, number, string)
+  name: Audio(string, number, string, boolean)
   href: js/api/alt-client.Audio.html#_altmp_altv_types_alt_client_Audio_constructor
 - uid: '@altmp/altv-types.alt-client.Audio.currentTime'
   name: currentTime
@@ -68,11 +65,8 @@ references:
   href: js/api/alt-client.Audio.html#_altmp_altv_types_alt_client_Audio_playing
   fullName: playing
 - uid: '@altmp/altv-types.alt-client.Audio.removeOutput'
-  name: removeOutput(number)
+  name: removeOutput(number | Entity)
   href: js/api/alt-client.Audio.html#_altmp_altv_types_alt_client_Audio_removeOutput
-- uid: '@altmp/altv-types.alt-client.Audio.removeOutput_1'
-  name: removeOutput(Entity)
-  href: js/api/alt-client.Audio.html#_altmp_altv_types_alt_client_Audio_removeOutput_1
 - uid: '@altmp/altv-types.alt-client.Audio.reset'
   name: reset()
   href: js/api/alt-client.Audio.html#_altmp_altv_types_alt_client_Audio_reset
@@ -2409,17 +2403,8 @@ references:
   name: WebView(string, boolean)
   href: js/api/alt-client.WebView.html#_altmp_altv_types_alt_client_WebView_constructor
 - uid: '@altmp/altv-types.alt-client.WebView.constructor_1'
-  name: WebView(string, IVector2)
-  href: js/api/alt-client.WebView.html#_altmp_altv_types_alt_client_WebView_constructor_1
-- uid: '@altmp/altv-types.alt-client.WebView.constructor_2'
-  name: WebView(string, IVector2, IVector2)
-  href: js/api/alt-client.WebView.html#_altmp_altv_types_alt_client_WebView_constructor_2
-- uid: '@altmp/altv-types.alt-client.WebView.constructor_3'
-  name: WebView(string, boolean, IVector2, IVector2)
-  href: js/api/alt-client.WebView.html#_altmp_altv_types_alt_client_WebView_constructor_3
-- uid: '@altmp/altv-types.alt-client.WebView.constructor_4'
   name: WebView(string, number, string)
-  href: js/api/alt-client.WebView.html#_altmp_altv_types_alt_client_WebView_constructor_4
+  href: js/api/alt-client.WebView.html#_altmp_altv_types_alt_client_WebView_constructor_1
 - uid: '@altmp/altv-types.alt-client.WebView.emit'
   name: emit(string, any[])
   href: js/api/alt-client.WebView.html#_altmp_altv_types_alt_client_WebView_emit

@@ -408,16 +408,18 @@ Disabling migration range will stop this process from happening until turned on 
     <a href="https://github.com/altmp/altv-types/new/master/docs/apidoc/new?filename=_altmp_altv_types_alt_server_Entity_attachTo.md&amp;value=---%0Auid%3A%20%40altmp%2Faltv-types.alt-server.Entity.attachTo%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/altmp/altv-types/blob/master/./server/index.d.ts/#L577">View Source</a>
+    <a href="https://github.com/altmp/altv-types/blob/master/./server/index.d.ts/#L589">View Source</a>
   </span>
   <h4 id="_altmp_altv_types_alt_server_Entity_attachTo" data-uid="@altmp/altv-types.alt-server.Entity.attachTo">attachTo(Entity, number, number, Vector3, Vector3, boolean, boolean)
+  <span class="release-stage beta"></span>
   <span class="release-stage alpha"></span>
   </h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Attaches this entity to another entity.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-typeScript hljs">public attachTo(entity: Entity, entityBoneId: number, ownBoneId: number, pos: Vector3, rot: Vector3, enableCollisions: boolean, noFixedRotation: boolean): void</code></pre>
+    <pre><code class="lang-typeScript hljs">public attachTo(entity: Entity, entityBoneId: number, ownBoneId: number, pos: Vector3, rot: Vector3, enableCollisions: boolean, fixedRotation: boolean): void</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -433,7 +435,8 @@ Disabling migration range will stop this process from happening until turned on 
         <td><a class="xref" href="alt-server.Entity.html#_altmp_altv_types_alt_server_Entity">Entity</a></td>
         <td><em>entity</em></td>
         <td>
-          
+          <p>Target entity.</p>
+
           
         </td>
       </tr>
@@ -441,7 +444,8 @@ Disabling migration range will stop this process from happening until turned on 
         <td><span class="xref">number</span></td>
         <td><em>entityBoneId</em></td>
         <td>
-          
+          <p>Target bone id.</p>
+
           
         </td>
       </tr>
@@ -449,7 +453,8 @@ Disabling migration range will stop this process from happening until turned on 
         <td><span class="xref">number</span></td>
         <td><em>ownBoneId</em></td>
         <td>
-          
+          <p>Origin bone id.</p>
+
           
         </td>
       </tr>
@@ -457,7 +462,8 @@ Disabling migration range will stop this process from happening until turned on 
         <td><a class="xref" href="alt-server.Vector3.html#_altmp_altv_types_alt_server_Vector3">Vector3</a></td>
         <td><em>pos</em></td>
         <td>
-          
+          <p>Position offset.</p>
+
           
         </td>
       </tr>
@@ -465,7 +471,8 @@ Disabling migration range will stop this process from happening until turned on 
         <td><a class="xref" href="alt-server.Vector3.html#_altmp_altv_types_alt_server_Vector3">Vector3</a></td>
         <td><em>rot</em></td>
         <td>
-          
+          <p>Rotation.</p>
+
           
         </td>
       </tr>
@@ -473,15 +480,17 @@ Disabling migration range will stop this process from happening until turned on 
         <td><span class="xref">boolean</span></td>
         <td><em>enableCollisions</em></td>
         <td>
-          
+          <p>If true the attached entity has a collision.</p>
+
           
         </td>
       </tr>
       <tr>
         <td><span class="xref">boolean</span></td>
-        <td><em>noFixedRotation</em></td>
+        <td><em>fixedRotation</em></td>
         <td>
-          
+          <p>If true the entity is attached with a fixed rotation (no bouncing).</p>
+
           
         </td>
       </tr>
@@ -572,12 +581,14 @@ Disabling migration range will stop this process from happening until turned on 
     <a href="https://github.com/altmp/altv-types/new/master/docs/apidoc/new?filename=_altmp_altv_types_alt_server_Entity_detach.md&amp;value=---%0Auid%3A%20%40altmp%2Faltv-types.alt-server.Entity.detach%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/altmp/altv-types/blob/master/./server/index.d.ts/#L580">View Source</a>
+    <a href="https://github.com/altmp/altv-types/blob/master/./server/index.d.ts/#L596">View Source</a>
   </span>
   <h4 id="_altmp_altv_types_alt_server_Entity_detach" data-uid="@altmp/altv-types.alt-server.Entity.detach">detach()
+  <span class="release-stage beta"></span>
   <span class="release-stage alpha"></span>
   </h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Detaches this entity if attached to another entity.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
