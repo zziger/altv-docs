@@ -15,6 +15,78 @@ references:
 - uid: '@altmp/altv-types.alt-client.AreaBlip.constructor'
   name: AreaBlip(number, number, number, number, number)
   href: js/api/alt-client.AreaBlip.html#_altmp_altv_types_alt_client_AreaBlip_constructor
+- uid: '@altmp/altv-types.alt-client.Audio'
+  name: Audio
+  href: js/api/alt-client.Audio.html#_altmp_altv_types_alt_client_Audio
+  fullName: Audio
+- uid: '@altmp/altv-types.alt-client.Audio.addOutput'
+  name: addOutput(number)
+  href: js/api/alt-client.Audio.html#_altmp_altv_types_alt_client_Audio_addOutput
+- uid: '@altmp/altv-types.alt-client.Audio.addOutput_1'
+  name: addOutput(Entity)
+  href: js/api/alt-client.Audio.html#_altmp_altv_types_alt_client_Audio_addOutput_1
+- uid: '@altmp/altv-types.alt-client.Audio.category'
+  name: category
+  href: js/api/alt-client.Audio.html#_altmp_altv_types_alt_client_Audio_category
+  fullName: category
+- uid: '@altmp/altv-types.alt-client.Audio.constructor'
+  name: Audio(string, number, string)
+  href: js/api/alt-client.Audio.html#_altmp_altv_types_alt_client_Audio_constructor
+- uid: '@altmp/altv-types.alt-client.Audio.currentTime'
+  name: currentTime
+  href: js/api/alt-client.Audio.html#_altmp_altv_types_alt_client_Audio_currentTime
+  fullName: currentTime
+- uid: '@altmp/altv-types.alt-client.Audio.frontendPlay'
+  name: frontendPlay
+  href: js/api/alt-client.Audio.html#_altmp_altv_types_alt_client_Audio_frontendPlay
+  fullName: frontendPlay
+- uid: '@altmp/altv-types.alt-client.Audio.getOutputs'
+  name: getOutputs()
+  href: js/api/alt-client.Audio.html#_altmp_altv_types_alt_client_Audio_getOutputs
+- uid: '@altmp/altv-types.alt-client.Audio.looped'
+  name: looped
+  href: js/api/alt-client.Audio.html#_altmp_altv_types_alt_client_Audio_looped
+  fullName: looped
+- uid: '@altmp/altv-types.alt-client.Audio.maxTime'
+  name: maxTime
+  href: js/api/alt-client.Audio.html#_altmp_altv_types_alt_client_Audio_maxTime
+  fullName: maxTime
+- uid: '@altmp/altv-types.alt-client.Audio.on'
+  name: on("streamEnded", () => void)
+  href: js/api/alt-client.Audio.html#_altmp_altv_types_alt_client_Audio_on
+- uid: '@altmp/altv-types.alt-client.Audio.on_1'
+  name: 'on("error", (code: number, message: string) => void)'
+  href: js/api/alt-client.Audio.html#_altmp_altv_types_alt_client_Audio_on_1
+- uid: '@altmp/altv-types.alt-client.Audio.pause'
+  name: pause()
+  href: js/api/alt-client.Audio.html#_altmp_altv_types_alt_client_Audio_pause
+- uid: '@altmp/altv-types.alt-client.Audio.play'
+  name: play()
+  href: js/api/alt-client.Audio.html#_altmp_altv_types_alt_client_Audio_play
+- uid: '@altmp/altv-types.alt-client.Audio.playing'
+  name: playing
+  href: js/api/alt-client.Audio.html#_altmp_altv_types_alt_client_Audio_playing
+  fullName: playing
+- uid: '@altmp/altv-types.alt-client.Audio.removeOutput'
+  name: removeOutput(number)
+  href: js/api/alt-client.Audio.html#_altmp_altv_types_alt_client_Audio_removeOutput
+- uid: '@altmp/altv-types.alt-client.Audio.removeOutput_1'
+  name: removeOutput(Entity)
+  href: js/api/alt-client.Audio.html#_altmp_altv_types_alt_client_Audio_removeOutput_1
+- uid: '@altmp/altv-types.alt-client.Audio.reset'
+  name: reset()
+  href: js/api/alt-client.Audio.html#_altmp_altv_types_alt_client_Audio_reset
+- uid: '@altmp/altv-types.alt-client.Audio.seek'
+  name: seek(number)
+  href: js/api/alt-client.Audio.html#_altmp_altv_types_alt_client_Audio_seek
+- uid: '@altmp/altv-types.alt-client.Audio.source'
+  name: source
+  href: js/api/alt-client.Audio.html#_altmp_altv_types_alt_client_Audio_source
+  fullName: source
+- uid: '@altmp/altv-types.alt-client.Audio.volume'
+  name: volume
+  href: js/api/alt-client.Audio.html#_altmp_altv_types_alt_client_Audio_volume
+  fullName: volume
 - uid: '@altmp/altv-types.alt-client.BaseObject'
   name: BaseObject
   href: js/api/alt-client.BaseObject.html#_altmp_altv_types_alt_client_BaseObject
@@ -2008,6 +2080,18 @@ references:
 - uid: '@altmp/altv-types.alt-client.Vector2.div_3'
   name: div(IVector2)
   href: js/api/alt-client.Vector2.html#_altmp_altv_types_alt_client_Vector2_div_3
+- uid: '@altmp/altv-types.alt-client.Vector2.dot'
+  name: dot(number, number)
+  href: js/api/alt-client.Vector2.html#_altmp_altv_types_alt_client_Vector2_dot
+- uid: '@altmp/altv-types.alt-client.Vector2.dot_1'
+  name: dot(number)
+  href: js/api/alt-client.Vector2.html#_altmp_altv_types_alt_client_Vector2_dot_1
+- uid: '@altmp/altv-types.alt-client.Vector2.dot_2'
+  name: dot([number | number])
+  href: js/api/alt-client.Vector2.html#_altmp_altv_types_alt_client_Vector2_dot_2
+- uid: '@altmp/altv-types.alt-client.Vector2.dot_3'
+  name: dot(IVector2)
+  href: js/api/alt-client.Vector2.html#_altmp_altv_types_alt_client_Vector2_dot_3
 - uid: '@altmp/altv-types.alt-client.Vector2.isInRange'
   name: isInRange(IVector2, number)
   href: js/api/alt-client.Vector2.html#_altmp_altv_types_alt_client_Vector2_isInRange
@@ -3744,6 +3828,18 @@ references:
 - uid: '@altmp/altv-types.alt-server.Vector2.div_3'
   name: div(IVector2)
   href: js/api/alt-server.Vector2.html#_altmp_altv_types_alt_server_Vector2_div_3
+- uid: '@altmp/altv-types.alt-server.Vector2.dot'
+  name: dot(number, number)
+  href: js/api/alt-server.Vector2.html#_altmp_altv_types_alt_server_Vector2_dot
+- uid: '@altmp/altv-types.alt-server.Vector2.dot_1'
+  name: dot(number)
+  href: js/api/alt-server.Vector2.html#_altmp_altv_types_alt_server_Vector2_dot_1
+- uid: '@altmp/altv-types.alt-server.Vector2.dot_2'
+  name: dot([number | number])
+  href: js/api/alt-server.Vector2.html#_altmp_altv_types_alt_server_Vector2_dot_2
+- uid: '@altmp/altv-types.alt-server.Vector2.dot_3'
+  name: dot(IVector2)
+  href: js/api/alt-server.Vector2.html#_altmp_altv_types_alt_server_Vector2_dot_3
 - uid: '@altmp/altv-types.alt-server.Vector2.isInRange'
   name: isInRange(IVector2, number)
   href: js/api/alt-server.Vector2.html#_altmp_altv_types_alt_server_Vector2_isInRange
