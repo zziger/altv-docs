@@ -1689,7 +1689,7 @@ references:
   href: js/api/alt-client.MemoryBuffer.html#_altmp_altv_types_alt_client_MemoryBuffer
   fullName: MemoryBuffer
 - uid: '@altmp/altv-types.alt-client.MemoryBuffer.address'
-  name: address(number)
+  name: address()
   href: js/api/alt-client.MemoryBuffer.html#_altmp_altv_types_alt_client_MemoryBuffer_address
 - uid: '@altmp/altv-types.alt-client.MemoryBuffer.byte'
   name: byte(number)
