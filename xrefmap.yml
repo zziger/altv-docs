@@ -1757,6 +1757,13 @@ references:
 - uid: '@altmp/altv-types.alt-client.onServer_1'
   name: 'onServer((eventName: string, ...args: any[]) => void)'
   href: js/api/alt-client.html#_altmp_altv_types_alt_client_onServer_1
+- uid: '@altmp/altv-types.alt-client.PedBlip'
+  name: PedBlip
+  href: js/api/alt-client.PedBlip.html#_altmp_altv_types_alt_client_PedBlip
+  fullName: PedBlip
+- uid: '@altmp/altv-types.alt-client.PedBlip.constructor'
+  name: PedBlip(number)
+  href: js/api/alt-client.PedBlip.html#_altmp_altv_types_alt_client_PedBlip_constructor
 - uid: '@altmp/altv-types.alt-client.Permission'
   name: Permission
   href: js/api/alt-client.Permission.html#_altmp_altv_types_alt_client_Permission
@@ -2269,6 +2276,10 @@ references:
   name: handling
   href: js/api/alt-client.Vehicle.html#_altmp_altv_types_alt_client_Vehicle_handling
   fullName: handling
+- uid: '@altmp/altv-types.alt-client.Vehicle.indicatorLights'
+  name: indicatorLights
+  href: js/api/alt-client.Vehicle.html#_altmp_altv_types_alt_client_Vehicle_indicatorLights
+  fullName: indicatorLights
 - uid: '@altmp/altv-types.alt-client.Vehicle.maxGear'
   name: maxGear
   href: js/api/alt-client.Vehicle.html#_altmp_altv_types_alt_client_Vehicle_maxGear
@@ -2293,6 +2304,13 @@ references:
   name: wheelsCount
   href: js/api/alt-client.Vehicle.html#_altmp_altv_types_alt_client_Vehicle_wheelsCount
   fullName: wheelsCount
+- uid: '@altmp/altv-types.alt-client.VehicleBlip'
+  name: VehicleBlip
+  href: js/api/alt-client.VehicleBlip.html#_altmp_altv_types_alt_client_VehicleBlip
+  fullName: VehicleBlip
+- uid: '@altmp/altv-types.alt-client.VehicleBlip.constructor'
+  name: VehicleBlip(number)
+  href: js/api/alt-client.VehicleBlip.html#_altmp_altv_types_alt_client_VehicleBlip_constructor
 - uid: '@altmp/altv-types.alt-client.version'
   name: version
   href: js/api/alt-client.html#_altmp_altv_types_alt_client_version
@@ -2411,9 +2429,21 @@ references:
 - uid: '@altmp/altv-types.alt-client.WebView.focus'
   name: focus()
   href: js/api/alt-client.WebView.html#_altmp_altv_types_alt_client_WebView_focus
+- uid: '@altmp/altv-types.alt-client.WebView.focused'
+  name: focused
+  href: js/api/alt-client.WebView.html#_altmp_altv_types_alt_client_WebView_focused
+  fullName: focused
 - uid: '@altmp/altv-types.alt-client.WebView.getEventListeners'
   name: getEventListeners(Object | string)
   href: js/api/alt-client.WebView.html#_altmp_altv_types_alt_client_WebView_getEventListeners
+- uid: '@altmp/altv-types.alt-client.WebView.isOverlay'
+  name: isOverlay
+  href: js/api/alt-client.WebView.html#_altmp_altv_types_alt_client_WebView_isOverlay
+  fullName: isOverlay
+- uid: '@altmp/altv-types.alt-client.WebView.isReady'
+  name: isReady
+  href: js/api/alt-client.WebView.html#_altmp_altv_types_alt_client_WebView_isReady
+  fullName: isReady
 - uid: '@altmp/altv-types.alt-client.WebView.isVisible'
   name: isVisible
   href: js/api/alt-client.WebView.html#_altmp_altv_types_alt_client_WebView_isVisible
@@ -2921,6 +2951,26 @@ references:
 - uid: '@altmp/altv-types.alt-server.ColShapeType.Sphere'
   name: Sphere
   href: js/api/alt-server.ColShapeType.html#_altmp_altv_types_alt_server_ColShapeType_Sphere
+- uid: '@altmp/altv-types.alt-server.DateTimeDay'
+  name: DateTimeDay
+  href: js/api/alt-server.html#_altmp_altv_types_alt_server_DateTimeDay
+  fullName: DateTimeDay
+- uid: '@altmp/altv-types.alt-server.DateTimeHour'
+  name: DateTimeHour
+  href: js/api/alt-server.html#_altmp_altv_types_alt_server_DateTimeHour
+  fullName: DateTimeHour
+- uid: '@altmp/altv-types.alt-server.DateTimeMinute'
+  name: DateTimeMinute
+  href: js/api/alt-server.html#_altmp_altv_types_alt_server_DateTimeMinute
+  fullName: DateTimeMinute
+- uid: '@altmp/altv-types.alt-server.DateTimeMonth'
+  name: DateTimeMonth
+  href: js/api/alt-server.html#_altmp_altv_types_alt_server_DateTimeMonth
+  fullName: DateTimeMonth
+- uid: '@altmp/altv-types.alt-server.DateTimeSecond'
+  name: DateTimeSecond
+  href: js/api/alt-server.html#_altmp_altv_types_alt_server_DateTimeSecond
+  fullName: DateTimeSecond
 - uid: '@altmp/altv-types.alt-server.debug'
   name: debug
   href: js/api/alt-server.html#_altmp_altv_types_alt_server_debug
@@ -3633,6 +3683,9 @@ references:
 - uid: '@altmp/altv-types.alt-server.Player.spawn'
   name: spawn(number, number, number, number)
   href: js/api/alt-server.Player.html#_altmp_altv_types_alt_server_Player_spawn
+- uid: '@altmp/altv-types.alt-server.Player.spawn_1'
+  name: spawn(Vector3, number)
+  href: js/api/alt-server.Player.html#_altmp_altv_types_alt_server_Player_spawn_1
 - uid: '@altmp/altv-types.alt-server.Player.vehicle'
   name: vehicle
   href: js/api/alt-server.Player.html#_altmp_altv_types_alt_server_Player_vehicle
