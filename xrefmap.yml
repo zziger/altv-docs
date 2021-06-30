@@ -1759,7 +1759,7 @@ references:
   href: js/api/alt-client.html#_altmp_altv_types_alt_client_onServer_1
 - uid: '@altmp/altv-types.alt-client.PedBlip'
   name: PedBlip
-  href: js/api/alt-client.PedBlip.html#_altmp_altv_types_alt_client_PedBlip
+  href: js/api/alt-client.PedBlip.html
   fullName: PedBlip
 - uid: '@altmp/altv-types.alt-client.PedBlip.constructor'
   name: PedBlip(number)
@@ -2306,11 +2306,30 @@ references:
   fullName: wheelsCount
 - uid: '@altmp/altv-types.alt-client.VehicleBlip'
   name: VehicleBlip
-  href: js/api/alt-client.VehicleBlip.html#_altmp_altv_types_alt_client_VehicleBlip
+  href: js/api/alt-client.VehicleBlip.html
   fullName: VehicleBlip
 - uid: '@altmp/altv-types.alt-client.VehicleBlip.constructor'
   name: VehicleBlip(number)
   href: js/api/alt-client.VehicleBlip.html#_altmp_altv_types_alt_client_VehicleBlip_constructor
+- uid: '@altmp/altv-types.alt-client.VehicleIndicatorLights'
+  name: VehicleIndicatorLights
+  href: js/api/alt-client.VehicleIndicatorLights.html#_altmp_altv_types_alt_client_VehicleIndicatorLights
+  fullName: VehicleIndicatorLights
+- uid: '@altmp/altv-types.alt-client.VehicleIndicatorLights.BlinkLeft'
+  name: BlinkLeft
+  href: js/api/alt-client.VehicleIndicatorLights.html#_altmp_altv_types_alt_client_VehicleIndicatorLights_BlinkLeft
+- uid: '@altmp/altv-types.alt-client.VehicleIndicatorLights.BlinkPermBoth'
+  name: BlinkPermBoth
+  href: js/api/alt-client.VehicleIndicatorLights.html#_altmp_altv_types_alt_client_VehicleIndicatorLights_BlinkPermBoth
+- uid: '@altmp/altv-types.alt-client.VehicleIndicatorLights.BlinkRight'
+  name: BlinkRight
+  href: js/api/alt-client.VehicleIndicatorLights.html#_altmp_altv_types_alt_client_VehicleIndicatorLights_BlinkRight
+- uid: '@altmp/altv-types.alt-client.VehicleIndicatorLights.Interior'
+  name: Interior
+  href: js/api/alt-client.VehicleIndicatorLights.html#_altmp_altv_types_alt_client_VehicleIndicatorLights_Interior
+- uid: '@altmp/altv-types.alt-client.VehicleIndicatorLights.StaticBoth'
+  name: StaticBoth
+  href: js/api/alt-client.VehicleIndicatorLights.html#_altmp_altv_types_alt_client_VehicleIndicatorLights_StaticBoth
 - uid: '@altmp/altv-types.alt-client.version'
   name: version
   href: js/api/alt-client.html#_altmp_altv_types_alt_client_version
