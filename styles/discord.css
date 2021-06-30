@@ -45,14 +45,10 @@ html, body
     background-color: var(--main-bg-color);
 }
 
-h1,h2,h3,h4,h5 
-{
-    color: var(--link-active-color);
-}
-
 h1, h2
 {
     margin-block-start: 2em;
+    color: var(--header-primary);
 }
 
 
@@ -66,7 +62,7 @@ h3
     margin-block-start: 1em;
     font-weight: 300;
     font-size: 1.5em;
-    color: var(--h3-color);
+    color: var(--header-secondary);
     margin-block-start: 3em;
 }
 
@@ -82,7 +78,7 @@ h3[id]
 h4 
 {
     opacity: 1;
-    color: var(--h4-color);
+    color: var(--header-secondary);
     font-size: large;
     border-bottom: 2px solid var(--separator-color);
     margin: 20px 0 0 0;
@@ -100,13 +96,14 @@ h5
     margin-block-start: 1em;
     font-size: .85em;
     font-weight: 500;
-    color: var(--h5-color);
+    color: var(--header-secondary);
 }
 
 h6
 {
     font-size: .75em;
     margin: 0;
+    color: var(--header-secondary);
 }
 
 p 
@@ -139,19 +136,23 @@ ul.level2, ul.level3
 a 
 {
     color: var(--link-color);
-    text-decoration: none;
     transition: color .25s;
+}
+
+a:link
+{
+    text-decoration: none;
 }
 
 a:focus, a:hover 
 {
-    color: var(--link-hover-color);
+    color: none;
     text-decoration: underline;
 }
 
 a.active, a:active
 {
-    color: var(--link-active-color);
+    color: none;
 }
 
 .body-content 
@@ -184,6 +185,7 @@ h1:first-of-type
 {
     margin-block-start: 1.1em;
     margin-top: 1.1em;
+    padding-bottom: 0.25em;
     border-bottom: 2px solid var(--separator-color);
 }
 
@@ -208,15 +210,16 @@ h1:first-of-type
     padding: 8px 16px;
 }
 
+
 a.sidebar-item:hover, a.sidebar-item:focus 
 {
-    color: var(--link-active-color);
+    color: var(--sidebar-item-active-color);
     text-decoration: none;
 }
 
 a.sidebar-item.active 
 {
-    color: var(--link-active-color);
+    color: var(--sidebar-item-active-color);
 }
 
 ul.level1 > li > a.sidebar-item
@@ -302,7 +305,7 @@ span.sidebar-item
     box-shadow: none;
 }
 
-.btn-link:active
+button.btn-link:active
 {
     background-color: var(--button-color);
     box-shadow: 0 0 0 2px var(--button-color);
@@ -386,6 +389,31 @@ span.sidebar-item
     content: '\f057';
 }
 
+.btn-link.theme::before
+{
+    content: '\f185';
+    font-size: 20px;
+    color: var(--topbar-icon-color);
+}
+
+.btn-link.theme-light::before
+{
+    content: '\f185';
+    color: var(--topbar-icon-color);
+}
+
+.btn-link.theme-dark::before
+{
+    content: '\f186';
+    color: var(--topbar-icon-color);
+}
+
+.btn-link.theme-auto::before
+{
+    content: '\f108';
+    color: var(--topbar-icon-color);
+}
+
 .brand 
 {
     display: flex;
@@ -407,7 +435,7 @@ span.sidebar-item
 {
     padding: 0 .5em;
     font-size: .9em;
-    color: var(--link-active-color);
+    color: var(--header-primary);
 }
 
 .footer 
@@ -683,9 +711,18 @@ code
 {
     display: inline;
     width: 100%;
-    background-color: var(--code-bg-color) !important;
     padding: 2px 4px;
     border-radius: 4px;
+}
+
+code:not(.hljs)
+{
+    background-color: var(--code-bg-color) !important;
+}
+
+code.hljs table
+{
+    background-color: unset !important;
 }
 
 code.hljs span
@@ -708,7 +745,7 @@ code tr > td:first-child
     align-items: center;
     width: 100%;
     height: 24px;
-    padding: 0 4px;
+    padding: 0 8px;
     overflow: hidden;
     background-color: var(--search-bg-color);
     border: 0px var(--text-color);
@@ -791,11 +828,10 @@ code tr > td:first-child
 .search-bar div[role="textbox"]
 {
     width: 112px;
-    display: inline-block;
-    flex: 1 1 0;
-    margin-left: -2px;
-    vertical-align: middle;
-    font-size: 14px;
+    height: 100%;
+    padding: 1px 0;
+    margin-left: -4px;
+    font-size: 15px;
     overflow: hidden;
     background: none;
     outline: none;
@@ -811,20 +847,26 @@ code tr > td:first-child
 
 .search-bar div[role="textbox"] > .keyword
 {
-    display: inline-block;
     font-weight: bold;
-    background-color: var(--search-text-filter-color);
+    background-color: var(--search-text-filter-bg-color);
+    color: var(--search-text-filter-color);
 }
 
 .search-bar div[role="textbox"] > .keyword:first-of-type
 {
-    padding-left: 3px;
+    padding: 1px;
+    border-radius: 2px;
 }
 
 .search-bar.float div[placeholder]:not([placeholder=""])
 {
     padding-left: 32px;
     color: var(--search-text);
+}
+
+.search-bar div[placeholder]:not(:empty)::before
+{
+    margin-left: -10px;
 }
 
 .search-bar div[placeholder]:not([placeholder=""]):empty::before
@@ -836,6 +878,11 @@ code tr > td:first-child
 .search-bar.float div[placeholder]:not([placeholder=""]):empty::before
 {
     color: var(--search-text-placeholder-alt);
+}
+
+.search-bar .btn-link
+{
+    width: unset;
 }
 
 .popout
@@ -913,6 +960,50 @@ code tr > td:first-child
 #search-menu:not(.active)
 {
     display: none;
+}
+
+#theme-menu
+{
+    width: 164px;
+    right: 12px;
+    top: 42px;
+    align-items: flex-start;
+}
+
+#theme-menu:not(.active)
+{
+    display: none;
+}
+
+#theme-menu .theme-option
+{
+    width: 100%;
+    height: 34px;
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    padding: 4px;
+    cursor: pointer;
+    color: var(--search-popup-text);
+}
+
+#theme-menu .theme-option .btn-link
+{
+    margin: 0;
+}
+
+#theme-menu .theme-option .btn-link::before
+{
+    padding-right: 4px;
+}
+
+#theme-menu .theme-option.active
+{
+    background-color: var(--sidebar-bg-color);
 }
 
 #search-results
@@ -1076,7 +1167,7 @@ ul.contribution > li:not(:last-child):after
         display: none !important;
     }
 
-    .popout
+    #search-menu
     {
         position: fixed;
         top: 48px;
@@ -1208,7 +1299,7 @@ ul.level3 > li > a.sidebar-item:focus
 ul.level2 > li > a.sidebar-item.active,
 ul.level3 > li > a.sidebar-item.active
 {
-    color: var(--link-active-color);
+    color: var(--sidebar-item-active-color);
 }
 
 .inheritance .level0::before,

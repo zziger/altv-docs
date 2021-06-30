@@ -23,11 +23,15 @@ const filterKeywords = {
 };
 const filterRegex = new RegExp("(\\w+):\\s*(\\w+)?", "gi")
 
+const darkThemeMq = window.matchMedia("(prefers-color-scheme: dark)");
+switchTheme();
+
 var query;
 var worker;
 var relHref;
 
 $(document).ready(function() {
+  darkThemeMq.addEventListener("change", switchTheme());
   highlight();
   renderAffix();
   renderTabs();
@@ -48,6 +52,18 @@ window.refresh = function(article) {
   renderFlowcharts();
 }
 
+function switchTheme(theme) {
+  const curTheme = theme || localStorage.getItem("theme") || "auto";
+  let themes = ["dark", "light"];
+  if ((curTheme === "auto" && !darkThemeMq.matches) || curTheme === "light") themes = themes.reverse();
+  $(document.documentElement).addClass("theme-" + themes[0]);
+  $(document.documentElement).removeClass("theme-" + themes[1]);
+  $("#theme-menu .theme-option").removeClass("active");
+  $("#theme-menu .theme-option." + curTheme).addClass("active");
+  $("link[href*='highlight.js'][href*='styles'][href*='-" + themes[0] + "']").removeAttr("disabled");
+  $("link[href*='highlight.js'][href*='styles'][href*='-" + themes[1] + "']").attr("disabled", "disabled");
+}
+
 function enableSearch() {
   $("head").append(rel);
   relHref = $("meta[property='docfx\\:rel']").attr("content");
@@ -64,7 +80,7 @@ function enableSearch() {
 
     for (const key of Object.keys(filterKeywords)) {
       $("#search-menu").append("<div class=\"option\"><span class=\"filter\">"
-       + key + "</span><span class=\"answer\">"
+       + key + ":</span><span class=\"answer\">"
         + filterKeywords[key] + "</span></div>");
     }
 
@@ -165,12 +181,12 @@ function addSearchEvent() {
     $("#search-menu").addClass("active");
     $(".btn-link.search").toggleClass("active", isSearchQueryValid(this));
   });
-  $(".popout .option").on("mousedown", function(ev) {
+  $("#search-menu .option").on("mousedown", function(ev) {
     const el = $(this).find(".filter");
     if (!el.length) return;
     ev.preventDefault();
     const searchInput = $("#search-query");
-    searchInput.text(searchInput.text() + el.text() + ":");
+    searchInput.text(searchInput.text() + el.text());
     addSearchKeyword(searchInput);
     setCurrentCursorPosition(searchInput[0], searchInput.text().length);
     $("#search-menu").removeClass("active");
@@ -185,6 +201,7 @@ function addSearchEvent() {
     $("#search-query-clear").toggleClass("active", ev.currentTarget.innerText.length > 0);
     $("#search-menu").toggleClass("active", ev.currentTarget.innerText.length == 0);
     $(".btn-link.search").toggleClass("active", isSearchQueryValid(ev.currentTarget) && prevVal != curVal);
+    $("#theme-menu").removeClass("active");
     $(ev.currentTarget).data("text", curVal);
   });
   $("#search-query").on("input", function(ev) {
@@ -214,6 +231,25 @@ function addSearchEvent() {
   $("#search-query-clear").on("click", function(ev) {
     ev.preventDefault();
     $("#search-query").text("").trigger("keydown").trigger("input");
+  });
+  $(".btn-link.theme").on("click", function(ev) {
+    ev.preventDefault();
+    $("#theme-menu").toggleClass("active");
+  });
+  $("#theme-menu .theme-option").on("mousedown", function(ev) {
+    ev.preventDefault();
+    const selTheme = $(this).attr("data-theme");
+    if (selTheme === "auto") {
+      localStorage.removeItem("theme");
+    } else {
+      localStorage.setItem("theme", selTheme);
+    }
+    switchTheme();
+    $("#theme-menu").removeClass("active");
+  });
+  $(document).click(function(ev) {
+    if ($(ev.target).is("#theme-menu") || $(ev.target).is(".btn-link.theme")) return;
+    $("#theme-menu").removeClass("active");
   });
   $(window).on("resize", function() {
     const searchQuery = $("#search-query");
