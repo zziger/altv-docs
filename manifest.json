@@ -1683,7 +1683,19 @@
       "output": {
         ".html": {
           "relative_path": "articles/getting-started/index.html",
-          "hash": "odL9QsU9q3dwXKWsOwTbj2za0zHf5OW4B7igXTCX4TY="
+          "hash": "lgn6vCCDug6ihCxr/J8Qj6FKhfs72ff8x/5Lxij3+Sk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "articles/getting-started/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "articles/getting-started/toc.html",
+          "hash": "5nW5N6L/SA5wS/bxidpr5E0hj/fI9U3hWka3yPert6c="
         }
       },
       "is_incremental": false,
@@ -10093,7 +10105,7 @@
       "output": {
         ".html": {
           "relative_path": "toc.html",
-          "hash": "MoGPawotoaF5rAFn0l1qXTuGkZnmBG+EjQTo/C+nPa0="
+          "hash": "jAL3i66ya/BqwbHg/fylMq4j/6FeZu8zYhOlGCP5YI4="
         }
       },
       "is_incremental": false,
