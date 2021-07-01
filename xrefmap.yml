@@ -1757,13 +1757,6 @@ references:
 - uid: '@altmp/altv-types.alt-client.onServer_1'
   name: 'onServer((eventName: string, ...args: any[]) => void)'
   href: js/api/alt-client.html#_altmp_altv_types_alt_client_onServer_1
-- uid: '@altmp/altv-types.alt-client.PedBlip'
-  name: PedBlip
-  href: js/api/alt-client.PedBlip.html
-  fullName: PedBlip
-- uid: '@altmp/altv-types.alt-client.PedBlip.constructor'
-  name: PedBlip(number)
-  href: js/api/alt-client.PedBlip.html#_altmp_altv_types_alt_client_PedBlip_constructor
 - uid: '@altmp/altv-types.alt-client.Permission'
   name: Permission
   href: js/api/alt-client.Permission.html#_altmp_altv_types_alt_client_Permission
@@ -2304,13 +2297,6 @@ references:
   name: wheelsCount
   href: js/api/alt-client.Vehicle.html#_altmp_altv_types_alt_client_Vehicle_wheelsCount
   fullName: wheelsCount
-- uid: '@altmp/altv-types.alt-client.VehicleBlip'
-  name: VehicleBlip
-  href: js/api/alt-client.VehicleBlip.html
-  fullName: VehicleBlip
-- uid: '@altmp/altv-types.alt-client.VehicleBlip.constructor'
-  name: VehicleBlip(number)
-  href: js/api/alt-client.VehicleBlip.html#_altmp_altv_types_alt_client_VehicleBlip_constructor
 - uid: '@altmp/altv-types.alt-client.VehicleIndicatorLights'
   name: VehicleIndicatorLights
   href: js/api/alt-client.VehicleIndicatorLights.html#_altmp_altv_types_alt_client_VehicleIndicatorLights
