@@ -650,7 +650,7 @@ references:
   name: getCursorPos()
   href: js/api/alt-client.html#_altmp_altv_types_alt_client_getCursorPos
 - uid: '@altmp/altv-types.alt-client.getEventListeners'
-  name: getEventListeners(string | Object)
+  name: getEventListeners(string | null)
   href: js/api/alt-client.html#_altmp_altv_types_alt_client_getEventListeners
 - uid: '@altmp/altv-types.alt-client.getGxtText'
   name: getGxtText(string)
@@ -674,7 +674,7 @@ references:
   name: getPermissionState(Permission)
   href: js/api/alt-client.html#_altmp_altv_types_alt_client_getPermissionState
 - uid: '@altmp/altv-types.alt-client.getRemoteEventListeners'
-  name: getRemoteEventListeners(string | Object)
+  name: getRemoteEventListeners(string | null)
   href: js/api/alt-client.html#_altmp_altv_types_alt_client_getRemoteEventListeners
 - uid: '@altmp/altv-types.alt-client.getStat'
   name: getStat(StatName)
@@ -2354,7 +2354,7 @@ references:
   name: WebSocketClient(string)
   href: js/api/alt-client.WebSocketClient.html#_altmp_altv_types_alt_client_WebSocketClient_constructor
 - uid: '@altmp/altv-types.alt-client.WebSocketClient.getEventListeners'
-  name: getEventListeners(Object | string)
+  name: getEventListeners(null | string)
   href: js/api/alt-client.WebSocketClient.html#_altmp_altv_types_alt_client_WebSocketClient_getEventListeners
 - uid: '@altmp/altv-types.alt-client.WebSocketClient.getSubProtocols'
   name: getSubProtocols()
@@ -2439,7 +2439,7 @@ references:
   href: js/api/alt-client.WebView.html#_altmp_altv_types_alt_client_WebView_focused
   fullName: focused
 - uid: '@altmp/altv-types.alt-client.WebView.getEventListeners'
-  name: getEventListeners(Object | string)
+  name: getEventListeners(null | string)
   href: js/api/alt-client.WebView.html#_altmp_altv_types_alt_client_WebView_getEventListeners
 - uid: '@altmp/altv-types.alt-client.WebView.isOverlay'
   name: isOverlay
@@ -2997,7 +2997,7 @@ references:
   name: emitClient(Player, string, any[])
   href: js/api/alt-server.html#_altmp_altv_types_alt_server_emitClient
 - uid: '@altmp/altv-types.alt-server.emitClient_1'
-  name: emitClient(Object, string, any[])
+  name: emitClient(null, string, any[])
   href: js/api/alt-server.html#_altmp_altv_types_alt_server_emitClient_1
 - uid: '@altmp/altv-types.alt-server.emitClient_2'
   name: emitClient(Player[], string, any[])
@@ -3226,7 +3226,7 @@ references:
   name: Utf8
   href: js/api/alt-server.FileEncoding.html#_altmp_altv_types_alt_server_FileEncoding_Utf8
 - uid: '@altmp/altv-types.alt-server.getEventListeners'
-  name: getEventListeners(string | Object)
+  name: getEventListeners(string | null)
   href: js/api/alt-server.html#_altmp_altv_types_alt_server_getEventListeners
 - uid: '@altmp/altv-types.alt-server.getMeta'
   name: getMeta(string)
@@ -3235,7 +3235,7 @@ references:
   name: getNetTime()
   href: js/api/alt-server.html#_altmp_altv_types_alt_server_getNetTime
 - uid: '@altmp/altv-types.alt-server.getRemoteEventListeners'
-  name: getRemoteEventListeners(string | Object)
+  name: getRemoteEventListeners(string | null)
   href: js/api/alt-server.html#_altmp_altv_types_alt_server_getRemoteEventListeners
 - uid: '@altmp/altv-types.alt-server.getResourceExports'
   name: getResourceExports(string)
