@@ -3269,10 +3269,6 @@ references:
   name: ICloth
   href: js/api/alt-server.ICloth.html#_altmp_altv_types_alt_server_ICloth
   fullName: ICloth
-- uid: '@altmp/altv-types.alt-server.ICloth.dlc'
-  name: dlc
-  href: js/api/alt-server.ICloth.html#_altmp_altv_types_alt_server_ICloth_dlc
-  fullName: dlc
 - uid: '@altmp/altv-types.alt-server.ICloth.drawable'
   name: drawable
   href: js/api/alt-server.ICloth.html#_altmp_altv_types_alt_server_ICloth_drawable
@@ -3284,6 +3280,42 @@ references:
 - uid: '@altmp/altv-types.alt-server.ICloth.texture'
   name: texture
   href: js/api/alt-server.ICloth.html#_altmp_altv_types_alt_server_ICloth_texture
+  fullName: texture
+- uid: '@altmp/altv-types.alt-server.IDlcCloth'
+  name: IDlcCloth
+  href: js/api/alt-server.IDlcCloth.html#_altmp_altv_types_alt_server_IDlcCloth
+  fullName: IDlcCloth
+- uid: '@altmp/altv-types.alt-server.IDlcCloth.dlc'
+  name: dlc
+  href: js/api/alt-server.IDlcCloth.html#_altmp_altv_types_alt_server_IDlcCloth_dlc
+  fullName: dlc
+- uid: '@altmp/altv-types.alt-server.IDlcCloth.drawable'
+  name: drawable
+  href: js/api/alt-server.IDlcCloth.html#_altmp_altv_types_alt_server_IDlcCloth_drawable
+  fullName: drawable
+- uid: '@altmp/altv-types.alt-server.IDlcCloth.palette'
+  name: palette
+  href: js/api/alt-server.IDlcCloth.html#_altmp_altv_types_alt_server_IDlcCloth_palette
+  fullName: palette
+- uid: '@altmp/altv-types.alt-server.IDlcCloth.texture'
+  name: texture
+  href: js/api/alt-server.IDlcCloth.html#_altmp_altv_types_alt_server_IDlcCloth_texture
+  fullName: texture
+- uid: '@altmp/altv-types.alt-server.IDlcProp'
+  name: IDlcProp
+  href: js/api/alt-server.IDlcProp.html#_altmp_altv_types_alt_server_IDlcProp
+  fullName: IDlcProp
+- uid: '@altmp/altv-types.alt-server.IDlcProp.dlc'
+  name: dlc
+  href: js/api/alt-server.IDlcProp.html#_altmp_altv_types_alt_server_IDlcProp_dlc
+  fullName: dlc
+- uid: '@altmp/altv-types.alt-server.IDlcProp.drawable'
+  name: drawable
+  href: js/api/alt-server.IDlcProp.html#_altmp_altv_types_alt_server_IDlcProp_drawable
+  fullName: drawable
+- uid: '@altmp/altv-types.alt-server.IDlcProp.texture'
+  name: texture
+  href: js/api/alt-server.IDlcProp.html#_altmp_altv_types_alt_server_IDlcProp_texture
   fullName: texture
 - uid: '@altmp/altv-types.alt-server.IFireInfo'
   name: IFireInfo
@@ -3301,10 +3333,6 @@ references:
   name: IProp
   href: js/api/alt-server.IProp.html#_altmp_altv_types_alt_server_IProp
   fullName: IProp
-- uid: '@altmp/altv-types.alt-server.IProp.dlc'
-  name: dlc
-  href: js/api/alt-server.IProp.html#_altmp_altv_types_alt_server_IProp_dlc
-  fullName: dlc
 - uid: '@altmp/altv-types.alt-server.IProp.drawable'
   name: drawable
   href: js/api/alt-server.IProp.html#_altmp_altv_types_alt_server_IProp_drawable
@@ -3603,10 +3631,16 @@ references:
   name: getByID(number)
   href: js/api/alt-server.Player.html#_altmp_altv_types_alt_server_Player_getByID
 - uid: '@altmp/altv-types.alt-server.Player.getClothes'
-  name: getClothes(number, boolean)
+  name: getClothes(number)
   href: js/api/alt-server.Player.html#_altmp_altv_types_alt_server_Player_getClothes
+- uid: '@altmp/altv-types.alt-server.Player.getDlcClothes'
+  name: getDlcClothes(number)
+  href: js/api/alt-server.Player.html#_altmp_altv_types_alt_server_Player_getDlcClothes
+- uid: '@altmp/altv-types.alt-server.Player.getDlcProp'
+  name: getDlcProp(number)
+  href: js/api/alt-server.Player.html#_altmp_altv_types_alt_server_Player_getDlcProp
 - uid: '@altmp/altv-types.alt-server.Player.getProp'
-  name: getProp(number, boolean)
+  name: getProp(number)
   href: js/api/alt-server.Player.html#_altmp_altv_types_alt_server_Player_getProp
 - uid: '@altmp/altv-types.alt-server.Player.giveWeapon'
   name: giveWeapon(number, number, boolean)
@@ -3663,13 +3697,19 @@ references:
   href: js/api/alt-server.Player.html#_altmp_altv_types_alt_server_Player_seat
   fullName: seat
 - uid: '@altmp/altv-types.alt-server.Player.setClothes'
-  name: setClothes(number, number, number, number, number)
+  name: setClothes(number, number, number, number)
   href: js/api/alt-server.Player.html#_altmp_altv_types_alt_server_Player_setClothes
 - uid: '@altmp/altv-types.alt-server.Player.setDateTime'
   name: setDateTime(DateTimeDay, DateTimeMonth, number, DateTimeHour, DateTimeMinute, DateTimeSecond)
   href: js/api/alt-server.Player.html#_altmp_altv_types_alt_server_Player_setDateTime
+- uid: '@altmp/altv-types.alt-server.Player.setDlcClothes'
+  name: setDlcClothes(number, number, number, number, number)
+  href: js/api/alt-server.Player.html#_altmp_altv_types_alt_server_Player_setDlcClothes
+- uid: '@altmp/altv-types.alt-server.Player.setDlcProp'
+  name: setDlcProp(number, number, number, number)
+  href: js/api/alt-server.Player.html#_altmp_altv_types_alt_server_Player_setDlcProp
 - uid: '@altmp/altv-types.alt-server.Player.setProp'
-  name: setProp(number, number, number, number)
+  name: setProp(number, number, number)
   href: js/api/alt-server.Player.html#_altmp_altv_types_alt_server_Player_setProp
 - uid: '@altmp/altv-types.alt-server.Player.setWeaponTintIndex'
   name: setWeaponTintIndex(number, number)
