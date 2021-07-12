@@ -10119,6 +10119,366 @@
     },
     {
       "type": "Conceptual",
+      "source_relative_path": "cpp-sdk/articles/README.md",
+      "output": {
+        ".html": {
+          "relative_path": "sdk/README.html",
+          "hash": "PVjacHpuisrbDLteRv8nKcPNnJYpIrTa6KvC7e7Wf8M="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "cpp-sdk/articles/articles/client/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "sdk/articles/client/index.html",
+          "hash": "GxPWdI2pK1SVp/gpuhcTiiK1d7x8DZAK1v/G3wwqrGg="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "cpp-sdk/articles/articles/client/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "sdk/articles/client/toc.html",
+          "hash": "HUnmryzg9fsxnvh/j9iOER1bk8xUx3s9Abcrpm1S8Fc="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "cpp-sdk/articles/articles/contributing.md",
+      "output": {
+        ".html": {
+          "relative_path": "sdk/articles/contributing.html",
+          "hash": "A6nk/ZulDHqzHNg4iEj6QccvsdO16iV8+AdABuB+iGQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "cpp-sdk/articles/articles/creating-resource.md",
+      "output": {
+        ".html": {
+          "relative_path": "sdk/articles/creating-resource.html",
+          "hash": "ubiAlo2LXdPlRUWGsegNO9sQr1a9O88MUetPngbkwiw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "cpp-sdk/articles/articles/creating-runtime.md",
+      "output": {
+        ".html": {
+          "relative_path": "sdk/articles/creating-runtime.html",
+          "hash": "crJeg878yNadlS0AWPbyxk/zNX4AsKuG9dOB0t2BWCc="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "cpp-sdk/articles/articles/final-steps.md",
+      "output": {
+        ".html": {
+          "relative_path": "sdk/articles/final-steps.html",
+          "hash": "7h/Lw2mmgPH2mqXzHQaWPsZ2ParVclx+tJkkMluBUlk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "cpp-sdk/articles/articles/first-steps.md",
+      "output": {
+        ".html": {
+          "relative_path": "sdk/articles/first-steps.html",
+          "hash": "OFj5I1NfUeXqFIqbdgOGw30mFEl8dNNiKj6MeE2O61w="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "cpp-sdk/articles/articles/handling-events.md",
+      "output": {
+        ".html": {
+          "relative_path": "sdk/articles/handling-events.html",
+          "hash": "6ljjsoHUGlBvpuzVYv113jabPzckGDwALvfKLh6MCIY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "cpp-sdk/articles/articles/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "sdk/articles/index.html",
+          "hash": "YmJARLE81EZPwKYDxsGOrUlmyQwOM/ph3LP3V9tAAiM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "cpp-sdk/articles/articles/introduction.md",
+      "output": {
+        ".html": {
+          "relative_path": "sdk/articles/introduction.html",
+          "hash": "aW56H02YuTIV/iUAAOLEaIOM7aM6PiScsu41s/79Cys="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "cpp-sdk/articles/articles/mvalues.md",
+      "output": {
+        ".html": {
+          "relative_path": "sdk/articles/mvalues.html",
+          "hash": "Aaa4M67qsp/CpGvSjNvB65LzfXtbA/XnFHYFQ8JKYIU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "cpp-sdk/articles/articles/refs.md",
+      "output": {
+        ".html": {
+          "relative_path": "sdk/articles/refs.html",
+          "hash": "64RNTVpbba4KBiTYol+tX4LKAIVo+x7m8672dq+x6oQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "cpp-sdk/articles/articles/server/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "sdk/articles/server/index.html",
+          "hash": "WTw6FR5OS7PJJZGaD6zCaM7bAneQDSozpzQMMgWx5xI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "cpp-sdk/articles/articles/server/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "sdk/articles/server/toc.html",
+          "hash": "HUnmryzg9fsxnvh/j9iOER1bk8xUx3s9Abcrpm1S8Fc="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "cpp-sdk/articles/articles/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "sdk/articles/toc.html",
+          "hash": "6OwHvhkiegVlDgil0cYrrmHtpKrbMjL2ZfQ7xf4IW3o="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "cpp-sdk/articles/client/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "sdk/client/index.html",
+          "hash": "CJqcdiXMJsQFBkx33nGnNt5nHza1wNRp0Sn/0dyGDf4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "cpp-sdk/articles/client/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "sdk/client/toc.html",
+          "hash": "HUnmryzg9fsxnvh/j9iOER1bk8xUx3s9Abcrpm1S8Fc="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "cpp-sdk/articles/contributing.md",
+      "output": {
+        ".html": {
+          "relative_path": "sdk/contributing.html",
+          "hash": "7r+XioKVjsjLNvXFCgy4nY8TCTt4z3cA6KeCfTt6hzI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "cpp-sdk/articles/creating-resource.md",
+      "output": {
+        ".html": {
+          "relative_path": "sdk/creating-resource.html",
+          "hash": "Mwh+DQ2Y7c84KVSjr11WTuniFMAF+5KXHX0VxFjwgIM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "cpp-sdk/articles/creating-runtime.md",
+      "output": {
+        ".html": {
+          "relative_path": "sdk/creating-runtime.html",
+          "hash": "GpBIj4iLYm8XoGmyMUccwvwetHgQspUyV9W4lgZuE5g="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "cpp-sdk/articles/final-steps.md",
+      "output": {
+        ".html": {
+          "relative_path": "sdk/final-steps.html",
+          "hash": "k/xoOXROOd0s3uYXUZkzPj4aRc+3dJ8oyM1oQ6sipEw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "cpp-sdk/articles/first-steps.md",
+      "output": {
+        ".html": {
+          "relative_path": "sdk/first-steps.html",
+          "hash": "aSadp/7/9N+7z3nidmlr6ccpl6d2RWumtEknAhaFcAQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "cpp-sdk/articles/handling-events.md",
+      "output": {
+        ".html": {
+          "relative_path": "sdk/handling-events.html",
+          "hash": "ehCQ7/7ArLhLw4Wx5J2E8KhmKOBjz3Ez+A/okwgY4hM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "cpp-sdk/articles/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "sdk/index.html",
+          "hash": "VdR033ne8cVhUz85E3N0swBr846V1ZHX98aGZiXIqj8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "cpp-sdk/articles/introduction.md",
+      "output": {
+        ".html": {
+          "relative_path": "sdk/introduction.html",
+          "hash": "mNiJIivx/f22j3U1IV3bYB8uLbVb7dYC+41fyx5bZj4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "cpp-sdk/articles/mvalues.md",
+      "output": {
+        ".html": {
+          "relative_path": "sdk/mvalues.html",
+          "hash": "B5ihkmVK6WIYC9tjvT08UoFjGgAJUQZL4IDNCTLMjjQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "cpp-sdk/articles/refs.md",
+      "output": {
+        ".html": {
+          "relative_path": "sdk/refs.html",
+          "hash": "CEWFFt0kjuIrceona4CZk222tmbP6XONBttvKwmSHVY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "cpp-sdk/articles/server/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "sdk/server/index.html",
+          "hash": "zP2SkJRYvF7keWR0PALiAXzEKAzmKI964m9fvwvjPKQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "cpp-sdk/articles/server/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "sdk/server/toc.html",
+          "hash": "HUnmryzg9fsxnvh/j9iOER1bk8xUx3s9Abcrpm1S8Fc="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
       "source_relative_path": "index.md",
       "output": {
         ".html": {
@@ -10135,7 +10495,7 @@
       "output": {
         ".html": {
           "relative_path": "toc.html",
-          "hash": "jAL3i66ya/BqwbHg/fylMq4j/6FeZu8zYhOlGCP5YI4="
+          "hash": "K/weerdrbQwl000W2+Z9qAHek+G6jjt1S9/A1ywFj3Y="
         }
       },
       "is_incremental": false,
@@ -10156,7 +10516,7 @@
         "ConceptualDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 68,
+          "total_file_count": 93,
           "skipped_file_count": 0
         },
         "ManagedReferenceDocumentProcessor": {
