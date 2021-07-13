@@ -10119,198 +10119,6 @@
     },
     {
       "type": "Conceptual",
-      "source_relative_path": "cpp-sdk/articles/README.md",
-      "output": {
-        ".html": {
-          "relative_path": "sdk/README.html",
-          "hash": "PVjacHpuisrbDLteRv8nKcPNnJYpIrTa6KvC7e7Wf8M="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "cpp-sdk/articles/articles/client/index.md",
-      "output": {
-        ".html": {
-          "relative_path": "sdk/articles/client/index.html",
-          "hash": "GxPWdI2pK1SVp/gpuhcTiiK1d7x8DZAK1v/G3wwqrGg="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Toc",
-      "source_relative_path": "cpp-sdk/articles/articles/client/toc.yml",
-      "output": {
-        ".html": {
-          "relative_path": "sdk/articles/client/toc.html",
-          "hash": "HUnmryzg9fsxnvh/j9iOER1bk8xUx3s9Abcrpm1S8Fc="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "cpp-sdk/articles/articles/contributing.md",
-      "output": {
-        ".html": {
-          "relative_path": "sdk/articles/contributing.html",
-          "hash": "A6nk/ZulDHqzHNg4iEj6QccvsdO16iV8+AdABuB+iGQ="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "cpp-sdk/articles/articles/creating-resource.md",
-      "output": {
-        ".html": {
-          "relative_path": "sdk/articles/creating-resource.html",
-          "hash": "ubiAlo2LXdPlRUWGsegNO9sQr1a9O88MUetPngbkwiw="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "cpp-sdk/articles/articles/creating-runtime.md",
-      "output": {
-        ".html": {
-          "relative_path": "sdk/articles/creating-runtime.html",
-          "hash": "crJeg878yNadlS0AWPbyxk/zNX4AsKuG9dOB0t2BWCc="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "cpp-sdk/articles/articles/final-steps.md",
-      "output": {
-        ".html": {
-          "relative_path": "sdk/articles/final-steps.html",
-          "hash": "7h/Lw2mmgPH2mqXzHQaWPsZ2ParVclx+tJkkMluBUlk="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "cpp-sdk/articles/articles/first-steps.md",
-      "output": {
-        ".html": {
-          "relative_path": "sdk/articles/first-steps.html",
-          "hash": "OFj5I1NfUeXqFIqbdgOGw30mFEl8dNNiKj6MeE2O61w="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "cpp-sdk/articles/articles/handling-events.md",
-      "output": {
-        ".html": {
-          "relative_path": "sdk/articles/handling-events.html",
-          "hash": "6ljjsoHUGlBvpuzVYv113jabPzckGDwALvfKLh6MCIY="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "cpp-sdk/articles/articles/index.md",
-      "output": {
-        ".html": {
-          "relative_path": "sdk/articles/index.html",
-          "hash": "YmJARLE81EZPwKYDxsGOrUlmyQwOM/ph3LP3V9tAAiM="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "cpp-sdk/articles/articles/introduction.md",
-      "output": {
-        ".html": {
-          "relative_path": "sdk/articles/introduction.html",
-          "hash": "aW56H02YuTIV/iUAAOLEaIOM7aM6PiScsu41s/79Cys="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "cpp-sdk/articles/articles/mvalues.md",
-      "output": {
-        ".html": {
-          "relative_path": "sdk/articles/mvalues.html",
-          "hash": "Aaa4M67qsp/CpGvSjNvB65LzfXtbA/XnFHYFQ8JKYIU="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "cpp-sdk/articles/articles/refs.md",
-      "output": {
-        ".html": {
-          "relative_path": "sdk/articles/refs.html",
-          "hash": "64RNTVpbba4KBiTYol+tX4LKAIVo+x7m8672dq+x6oQ="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "cpp-sdk/articles/articles/server/index.md",
-      "output": {
-        ".html": {
-          "relative_path": "sdk/articles/server/index.html",
-          "hash": "WTw6FR5OS7PJJZGaD6zCaM7bAneQDSozpzQMMgWx5xI="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Toc",
-      "source_relative_path": "cpp-sdk/articles/articles/server/toc.yml",
-      "output": {
-        ".html": {
-          "relative_path": "sdk/articles/server/toc.html",
-          "hash": "HUnmryzg9fsxnvh/j9iOER1bk8xUx3s9Abcrpm1S8Fc="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Toc",
-      "source_relative_path": "cpp-sdk/articles/articles/toc.yml",
-      "output": {
-        ".html": {
-          "relative_path": "sdk/articles/toc.html",
-          "hash": "6OwHvhkiegVlDgil0cYrrmHtpKrbMjL2ZfQ7xf4IW3o="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
       "source_relative_path": "cpp-sdk/articles/client/index.md",
       "output": {
         ".html": {
@@ -10411,7 +10219,7 @@
       "output": {
         ".html": {
           "relative_path": "sdk/index.html",
-          "hash": "VdR033ne8cVhUz85E3N0swBr846V1ZHX98aGZiXIqj8="
+          "hash": "tgqrew+wAE4Jm0hQ0gLmiFAkS42tdn4D0u8p2CNv9Mk="
         }
       },
       "is_incremental": false,
@@ -10516,7 +10324,7 @@
         "ConceptualDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 93,
+          "total_file_count": 80,
           "skipped_file_count": 0
         },
         "ManagedReferenceDocumentProcessor": {
