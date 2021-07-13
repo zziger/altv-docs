@@ -10143,18 +10143,6 @@
     },
     {
       "type": "Conceptual",
-      "source_relative_path": "cpp-sdk/articles/contributing.md",
-      "output": {
-        ".html": {
-          "relative_path": "sdk/contributing.html",
-          "hash": "7r+XioKVjsjLNvXFCgy4nY8TCTt4z3cA6KeCfTt6hzI="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
       "source_relative_path": "cpp-sdk/articles/creating-resource.md",
       "output": {
         ".html": {
@@ -10172,18 +10160,6 @@
         ".html": {
           "relative_path": "sdk/creating-runtime.html",
           "hash": "GpBIj4iLYm8XoGmyMUccwvwetHgQspUyV9W4lgZuE5g="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "cpp-sdk/articles/final-steps.md",
-      "output": {
-        ".html": {
-          "relative_path": "sdk/final-steps.html",
-          "hash": "k/xoOXROOd0s3uYXUZkzPj4aRc+3dJ8oyM1oQ6sipEw="
         }
       },
       "is_incremental": false,
@@ -10250,12 +10226,15 @@
       "version": ""
     },
     {
+      "log_codes": [
+        "InvalidFileLink"
+      ],
       "type": "Conceptual",
       "source_relative_path": "cpp-sdk/articles/refs.md",
       "output": {
         ".html": {
           "relative_path": "sdk/refs.html",
-          "hash": "CEWFFt0kjuIrceona4CZk222tmbP6XONBttvKwmSHVY="
+          "hash": "uW45pnvlXSrX5raD1C3BmfIVZDuqKD75TR5d5gsYWII="
         }
       },
       "is_incremental": false,
@@ -10303,7 +10282,7 @@
       "output": {
         ".html": {
           "relative_path": "toc.html",
-          "hash": "K/weerdrbQwl000W2+Z9qAHek+G6jjt1S9/A1ywFj3Y="
+          "hash": "DfqDWswamDT7kEWjZ9/KaaVzzSdi6P7Y2Npai+ERzRg="
         }
       },
       "is_incremental": false,
@@ -10324,7 +10303,7 @@
         "ConceptualDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 80,
+          "total_file_count": 78,
           "skipped_file_count": 0
         },
         "ManagedReferenceDocumentProcessor": {
