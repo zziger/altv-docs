@@ -208,8 +208,14 @@ h1:first-of-type
 .sidebar-item.large, #navbar .sidebar-item
 {
     padding: 8px 16px;
+    padding-left: 4px;
 }
 
+.sidebar-item.large, #navbar ul.level1 > li > .sidebar-item
+{
+    padding: 8px 16px;
+    padding-left: 20px;
+}
 
 a.sidebar-item:hover, a.sidebar-item:focus 
 {
@@ -231,6 +237,7 @@ ul.level1 > li > a.sidebar-item
 #toc ul.level1 > li > a.sidebar-item.active
 {
     background-color: var(--link-active-bg-color);
+    color: var(--table-cell-color);
 }
 
 .sidebar-item-separator
@@ -1209,53 +1216,32 @@ ul.contribution > li:not(:last-child):after
     position: absolute;
     width: 20px;
     height: 20px;
-    left: -5px;
+    top: 8px;
     cursor: pointer;
 }
 
-ul.level1 > li > .expand-stub
+.toc ul.level1 > li > .expand-stub
 {
     display: none;
 }
 
-#navbar.ul > li > .expand-stub
-{
-    display: none;
-}
-
-.toc .nav > li > .expand-stub::before, .toc .nav > li.active > .expand-stub::before
+.expand-stub::before
 {
     display: inherit;
     width: 100%;
     height: 100%;
     text-align: center;
-    transform: rotate(90deg);
     content: '\276F';
 }
 
-.toc .nav > li.in.active > .expand-stub::before, .toc .nav > li.in > .expand-stub::before, .toc .nav > li.in.active > .expand-stub::before, .toc .nav > li.filtered > .expand-stub::before
+.nav > li.active > .expand-stub::before, .nav > li.in > .expand-stub::before, .nav > li.filtered > .expand-stub::before
 {
-    transform: none;
+    transform: rotate(90deg);
 }
 
 li > ul
 {
     display: none;
-}
-
-#navbar li > ul.level2
-{
-    display: block;
-}
-
-li > ul.level3
-{
-    display: none;
-}
-
-#navbar li > ul.level3
-{
-    display: block;
 }
 
 li.in > ul 

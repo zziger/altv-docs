@@ -40,6 +40,17 @@ $(document).ready(function() {
   $("a:not([data-tab])").off("click").on("click", delegateAnchors);
   $(".blackout").on("click", toggleMenu);
   $(".navbar-toggler").on("click", toggleMenu);
+  $("#navbar").one("DOMNodeInserted", function() {
+    $("#navbar .nav > li > .expand-stub").click(function(ev) {
+      $(ev.target).parent().toggleClass("in");
+    });
+    $("#navbar .nav > li > .expand-stub + a:not([href])").click(function(ev) {
+      $(ev.target).parent().toggleClass("in");
+    });
+  });
+  setTimeout(() => {
+    $("#navbar .nav").parents("li.active").addClass("in");
+  }, 100);
 });
 $(window).on("load hashchange", function() {
   scrollIfAnchor(window.location.hash);
