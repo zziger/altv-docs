@@ -149,7 +149,7 @@ You need to implement the default constructor of <code>Player</code> or <code>Ve
 {
   public bool LoggedIn { get; set; }
   
-  public MyPlayer(IntPtr nativePointer, ushort id) : base(nativePointer, id)
+  public MyPlayer(IServer server, IntPtr nativePointer, ushort id) : base(server, nativePointer, id)
   {
     LoggedIn = false;
   }
@@ -162,9 +162,9 @@ Thats why you need to create a factory that will create the player for you when 
 You only need to override the <code>IPlayer Create(IntPtr playerPointer, ushort id)</code> method and initialize your own class instead of the default one.</p>
 <pre><code class="lang-csharp">public class MyPlayerFactory : IEntityFactory&lt;IPlayer&gt;
 {
-  public IPlayer Create(IntPtr playerPointer, ushort id)
+  public IPlayer Create(IServer server, IntPtr playerPointer, ushort id)
   {
-    return new MyPlayer(playerPointer, id);
+    return new MyPlayer(server, playerPointer, id);
   }
 }
 </code></pre>

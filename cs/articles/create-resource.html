@@ -144,8 +144,8 @@
 <h2 id="create-a-project-with-visual-studio-19-windows">Create a project with Visual Studio 19 (Windows)</h2>
 <ul>
 <li>Go to &quot;File -&gt; New -&gt; Project...&quot; now the Project Wizard should appear.</li>
-<li>In the left Column select &quot;Installed -&gt; Visual C# -&gt; .NET Core&quot;.</li>
-<li>Now select &quot;Class Library (.NET Core)&quot; and choose &quot;Name&quot;, &quot;Location&quot; and the &quot;Solution name&quot;.</li>
+<li>In the left Column select &quot;Installed -&gt; Visual C# -&gt; .NET&quot;.</li>
+<li>Now select &quot;Class Library (.NET)&quot; and choose &quot;Name&quot;, &quot;Location&quot; and the &quot;Solution name&quot;.</li>
 <li>To setup the correct NuGet Packages open the Manager under &quot;Tools -&gt; NuGet Package Manager -&gt; Manage NuGet Packages for Solution...&quot;</li>
 <li>Select Browse and search for AltV.Net and install the packages &quot;AltV.Net&quot;, (&quot;AltV.Net.Async&quot; when you need async thread save api access)</li>
 <li>Now go to &quot;Project -&gt; {Your Project Name} Properties... -&gt; Build&quot;, here you can select the Output path where the dll should be saved.</li>
@@ -155,12 +155,12 @@
 <pre><code>&lt;Project Sdk=&quot;Microsoft.NET.Sdk&quot;&gt;
 
     &lt;PropertyGroup&gt;
-        &lt;TargetFramework&gt;netcoreapp3.0&lt;/TargetFramework&gt;
+        &lt;TargetFramework&gt;net5.0&lt;/TargetFramework&gt;
     &lt;/PropertyGroup&gt;
 
     &lt;ItemGroup&gt;
       &lt;!--Use latest version from https://www.nuget.org/packages/AltV.Net--&gt;
-      &lt;PackageReference Include=&quot;AltV.Net&quot; Version=&quot;1.13.0&quot; /&gt;
+      &lt;PackageReference Include=&quot;AltV.Net&quot; Version=&quot;2.0.8&quot; /&gt;
     &lt;/ItemGroup&gt;
     
     &lt;!--This copies the publish directory to the resource folder which is named &quot;my-server&quot;--&gt;
@@ -202,7 +202,7 @@ namespace My.Package
 </code></pre>
 <h2 id="compile-the-resource">Compile the resource</h2>
 <p>To compile the resource from the command line use <code>dotnet publish -c Release</code></p>
-<p>This will output the resource dll and all other dependencies including AltV.Net.dll in the yourresource/bin/Release/netcoreapp3.0/publish folder.
+<p>This will output the resource dll and all other dependencies including AltV.Net.dll in the yourresource/bin/Release/net5.0/publish folder.
 Copy the dlls to the server resource folder <code>altv-server/resources/{YourResourceName}/</code>.</p>
 <p>To get the Resource running on the server, you have to create a &quot;resource.cfg&quot; file.</p>
 <pre><code>type: &quot;csharp&quot;,
