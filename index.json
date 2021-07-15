@@ -4609,7 +4609,7 @@
     "type": "article",
     "href": "sdk/index.html",
     "title": "C++ Module SDK Documentation",
-    "keywords": "Improve this Doc C++ Module SDK Documentation The documentation for the alt:V C++ Module SDK . Table of Contents Introduction First Steps Creating your own script runtime class Creating your own resource class Handling events MValues Refs",
+    "keywords": "Improve this Doc C++ Module SDK Documentation The documentation for the alt:V C++ Module SDK . Table of Contents Introduction First Steps Creating your own script runtime class Creating your own resource class Handling events MValues Refs Boilerplate Alongside this documentation, there is also a boilerplate for alt:V modules available, to quickstart the development of a module. The boilerplate can be found here .",
     "langs": ""
   },
   "sdk/introduction.html": {
