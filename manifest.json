@@ -1797,7 +1797,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.Alt.html",
-          "hash": "4CDhW/9ZMkks0zruhg+f8SxJJ501tOguiADSIirHvTc="
+          "hash": "KF0fdFkoeg+VPjPaCdT+ghealuk3K3sWR1aMN2NaTmY="
         }
       },
       "is_incremental": false,
@@ -1813,7 +1813,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.AltTrace.html",
-          "hash": "bofoIF552g1S0YiljysvUPLZWXj1f7CXzgnac37QkXY="
+          "hash": "q7oVxl99j0f77FjICTqGVRwPlxPeTNwjQ/Ytj3ggfM0="
         }
       },
       "is_incremental": false,
@@ -1829,7 +1829,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.Async.ActionTickSchedulerFactory.html",
-          "hash": "KAuTVbbL+JY4U8/ee7+sQw+Z/vJ1xqKKZUjO8QrbLIo="
+          "hash": "g8DmeQ6wu5+BoRQ2VogqXNxg9+j0PsxLgvcUgmCUV88="
         }
       },
       "is_incremental": false,
@@ -1845,7 +1845,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.Async.AltAsync.html",
-          "hash": "VUQSeXncZmHgXwVMGCfy8eTKnXd36YKQE0CNfOGTzE4="
+          "hash": "9gjqTW+MWbWZjOCQ1mOvhkWoWZm3fwMrycF6BldsUJo="
         }
       },
       "is_incremental": false,
@@ -1861,7 +1861,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.Async.AsyncBaseBaseObjectPool.html",
-          "hash": "xsw4Uexwm5qroOplGvoQbbectztlpENmt0v3VcvMn1s="
+          "hash": "1Tg6ux1JIULE5ME1fE+V9UMBftM0dib0raJo6FvCSvQ="
         }
       },
       "is_incremental": false,
@@ -1877,7 +1877,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.Async.AsyncBaseObjectPool-1.html",
-          "hash": "OuKWphqLY2SHtcApdwStH9fjTwQyqIivnA/XD9sRGL8="
+          "hash": "yy3gupI1ywIXiVEqKsu0B/UJ2NZX6VLhdK/Ph+pTd9Y="
         }
       },
       "is_incremental": false,
@@ -1893,7 +1893,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.Async.AsyncClientEventAttribute.html",
-          "hash": "wGSo+MchB49AwyKrcZ3qieLz6EeTwUoYFJBLvtzuca0="
+          "hash": "O8RMLpeMVAM351/aXQXr3Q8iXYNWH6uJ7UP2IkZ5iCo="
         }
       },
       "is_incremental": false,
@@ -1909,7 +1909,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.Async.AsyncEntityPool-1.html",
-          "hash": "+qNvgnEQG924iGcO/bsA8QeyhPfYkaVbBMDurz8mxTM="
+          "hash": "Gp0rKEbwr/UUyNJg3WuSMWgYuEo8ZT32nWB115F6QfY="
         }
       },
       "is_incremental": false,
@@ -1925,7 +1925,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.Async.AsyncModule.html",
-          "hash": "OdyeWvrzbx6Ac6MV6/hmLoFfZqsL4g1guZ2bWbNoMFo="
+          "hash": "psux1gS7/7nrfS+AjwovfmnErg85u6x5Cz0XW1+bD5w="
         }
       },
       "is_incremental": false,
@@ -1941,7 +1941,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.Async.AsyncResource.html",
-          "hash": "EMxjuHnmqZqtsoHJPD1V++8O3PP9y/Gcf2HxZ8rZ8WA="
+          "hash": "HBN0Kl03eKbKb3j/haaNBP0ZN/eUq56BQPm59TCtEws="
         }
       },
       "is_incremental": false,
@@ -1957,7 +1957,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.Async.AsyncScriptEventAttribute.html",
-          "hash": "UzUUbyvwcfP2Qdxr6z5l7gVz9AZ+45SUsqNR4MKRoSE="
+          "hash": "i5TvFyhRl1VYY6Ns5syJYMoW85rMQXo+Hi6fvp6qNZo="
         }
       },
       "is_incremental": false,
@@ -1973,7 +1973,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.Async.AsyncServerEventAttribute.html",
-          "hash": "aX0Ty4KzfUVpHhisoduBY0NxNrxDgwArintwjJ8hjnE="
+          "hash": "HF8c5PHpjPYECcqzmaolwv/5poGLKpWyd7OoyVAHM14="
         }
       },
       "is_incremental": false,
@@ -1989,7 +1989,23 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.Async.ChannelTickSchedulerFactory.html",
-          "hash": "lVENCFFQJ/lP5exxTQJy4CcwYmPFTY//8rx+DbhPwdU="
+          "hash": "Y0btqVygnwNIOy+In0oZk9OS79WdJoTtIV9jT1+vlMg="
+        }
+      },
+      "is_incremental": false,
+      "version": "",
+      "langs": [
+        "csharp",
+        "vb"
+      ]
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "coreclr-module/docs/api/AltV.Net.Async.DefaultAsyncResource.yml",
+      "output": {
+        ".html": {
+          "relative_path": "cs/api/AltV.Net.Async.DefaultAsyncResource.html",
+          "hash": "QDVYq4HYCczkBC3OXjjkwCSX3tpsutnIxY824/fgnSo="
         }
       },
       "is_incremental": false,
@@ -2005,7 +2021,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.Async.DefaultTickSchedulerFactory.html",
-          "hash": "K0TjYh/tluGG/IcAdYCoLfdLVIBOpcArAuv7L+FiL54="
+          "hash": "jO/b/fVIFGyQNBmsZ8hm0Lmmb5naf+krJG3qbxP9iIQ="
         }
       },
       "is_incremental": false,
@@ -2021,7 +2037,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.Async.Elements.Entities.VehicleBuilder.html",
-          "hash": "14hIqRa4JFdSt7Ow6q1NR8EwLuBksOWjwB1POXKEoXQ="
+          "hash": "3soWqpAOXfJ5M8mzD4p15tkBBOsXHvu332C4UiW4leA="
         }
       },
       "is_incremental": false,
@@ -2053,7 +2069,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.Async.Elements.Pools.AsyncBlipPool.html",
-          "hash": "rftqJx7jFT2ZQlN50FjlXOs2x98gkAT6vFrJ9ZBuhXY="
+          "hash": "rY/dEPL8hqIj1P4tDJkOKkGmmSnDzeysYfncly92uLc="
         }
       },
       "is_incremental": false,
@@ -2069,7 +2085,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.Async.Elements.Pools.AsyncCheckpointPool.html",
-          "hash": "LfMafMT5VsuIee2eqVvvGgoE+6V6cEuPGnuDXQl1HFw="
+          "hash": "nVyJn598PB/KwPGS0LrampCK7MP4LcS0ubPYd+iP3dc="
         }
       },
       "is_incremental": false,
@@ -2085,7 +2101,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.Async.Elements.Pools.AsyncColShapePool.html",
-          "hash": "F3QfPKDT4uyBXDUYgy+zvqvsCF76rqeZmZJsg5rmrNI="
+          "hash": "S+e+UYHt82WyugQzklqM70N4VEaemvU7hEfslzCLEJI="
         }
       },
       "is_incremental": false,
@@ -2101,7 +2117,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.Async.Elements.Pools.AsyncPlayerPool.html",
-          "hash": "gIIQpIZfFuw+fvFfc8mTdEMUQUkAJ5oJsTlXseyECNg="
+          "hash": "+AZCkGw1XTojmW5GXE4IIU4UmkMZ+q/GkiHJnOPL4zU="
         }
       },
       "is_incremental": false,
@@ -2117,7 +2133,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.Async.Elements.Pools.AsyncVehiclePool.html",
-          "hash": "1GbzdGttiVFm3pDqxP2DyhmrwrWFIVVdhp6AqihFusQ="
+          "hash": "Hs2XfduBdyxz0E/nhzpFMhjK08uru1jGjt8YIU5bpqk="
         }
       },
       "is_incremental": false,
@@ -2133,7 +2149,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.Async.Elements.Pools.AsyncVoiceChannelPool.html",
-          "hash": "qvfl/IRaDxrPwuO5E0KJEjUI8xGQyVDxwuMZFF+c/Q0="
+          "hash": "3T/MXnZxzPPS29f3+H23oPBFjHEzvyX5xiSgMth4KCo="
         }
       },
       "is_incremental": false,
@@ -2165,7 +2181,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.Async.Elements.Refs.AsyncBaseObjectRef.html",
-          "hash": "K9v0pSAYD98qLj4b1hUlvTXyBei+0j9Lwo6sS4iAPvE="
+          "hash": "Ew+zR1S49loe26omwzb9iFGJfNsy3F9P8b6eSQz200o="
         }
       },
       "is_incremental": false,
@@ -2181,7 +2197,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.Async.Elements.Refs.AsyncBlipRef.html",
-          "hash": "/MTm9S+RV+0SY2S32LZKxdxkNZ+roni2NyzTi1wXqFg="
+          "hash": "svvFRnj5W6K7qX2Bf4CRqkV6WdMlgswiMcl2dqpizSU="
         }
       },
       "is_incremental": false,
@@ -2197,7 +2213,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.Async.Elements.Refs.AsyncCheckpointRef.html",
-          "hash": "Ke6EQwxVeZtNrU/2VDzcowy7fLVH9uWXPAlpKOaN1tM="
+          "hash": "GeF/PhZg9f5mP5pceCBoTTJbr0Ug7srJYEsduisxI2c="
         }
       },
       "is_incremental": false,
@@ -2213,7 +2229,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.Async.Elements.Refs.AsyncColShapeRef.html",
-          "hash": "o+iiYnLSuKVt2YkfHSkw1RKaPmoJ2OQK1UAs6Ptq08o="
+          "hash": "HELIJwBpq/L4SS/1cgsCWKL7YjgdmLNeSlDAHNaoIaU="
         }
       },
       "is_incremental": false,
@@ -2229,7 +2245,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.Async.Elements.Refs.AsyncPlayerRef.html",
-          "hash": "uYDoB826X6P6A52EfSfJSMOAr9E/toxn6w8PBHE/cAQ="
+          "hash": "ZOc1f6OFvCfQF4+BoJAFbyfPHlRCkWky20TnzQ7Tri0="
         }
       },
       "is_incremental": false,
@@ -2245,7 +2261,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.Async.Elements.Refs.AsyncVehicleRef.html",
-          "hash": "0TfG89FBhXsypnWWv7yRA3mADOho75cql63p7ZxZsK4="
+          "hash": "KS3DaMhE9G8a9B8DrM2Tz09nPC7WGx6vkn4BpjJvZPQ="
         }
       },
       "is_incremental": false,
@@ -2261,7 +2277,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.Async.Elements.Refs.AsyncVoiceChannelRef.html",
-          "hash": "RlL0he86PF6egtb1LE8vBf6xmFzyM1QQQskYVnKjM6E="
+          "hash": "3nASw29oRrC6XKUYfsQFEuRtSNssiYk2HQx+JCIrCck="
         }
       },
       "is_incremental": false,
@@ -2293,7 +2309,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.Async.Events.CheckpointAsyncDelegate.html",
-          "hash": "XMmdn08cd2XPBBFn3qFRoHazcWxUmout1XgSwuJdy6I="
+          "hash": "eWr4fObf2NCXS7PrMM3FyOd3HMRa2239sC1FZXHQGls="
         }
       },
       "is_incremental": false,
@@ -2309,7 +2325,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.Async.Events.ClientEventAsyncDelegate.html",
-          "hash": "WVKwv058F0Mnow89nBV4GjKJx0DOY8kp2pZEG4X05Ms="
+          "hash": "mUT6TRO+JFas7BM/bL8+rOZ9dDhF1d0FXN7iU+c9HOY="
         }
       },
       "is_incremental": false,
@@ -2325,7 +2341,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.Async.Events.ColShapeAsyncDelegate.html",
-          "hash": "IfI6NRABs7Ju6yyuamquN2sQ2jpbfW/Unqx19Ep20Qw="
+          "hash": "n89KnvJUn6ut+M+iFTmz1rXxUmk3jE2uSadhOzwAYQA="
         }
       },
       "is_incremental": false,
@@ -2341,7 +2357,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.Async.Events.ConsoleCommandAsyncDelegate.html",
-          "hash": "DKOYCmvjHczU8gJ15PinrK6En4JuIlpE04Y1gHC5+qA="
+          "hash": "4C9icxuz/c6AFQDTmPOzrw1DajGY3T5+k+n1r8+y6ZM="
         }
       },
       "is_incremental": false,
@@ -2357,7 +2373,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.Async.Events.ExplosionAsyncDelegate.html",
-          "hash": "hAOISu01RwDAZu4rPOPfmN2Jc7hxYpJDhIIV8mRkAxY="
+          "hash": "CFi0WZV197rUll5Uwq3/5UXho7DyiTLRUV9FhJ063cI="
         }
       },
       "is_incremental": false,
@@ -2373,7 +2389,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.Async.Events.FireAsyncDelegate.html",
-          "hash": "N6lcFPKQdD408igT/iP0asehd/iWFYTXaEwJxt4esjA="
+          "hash": "OOfrd2mr3xZacxzAYa5Kn8W03Jo6zwBJleMhos7rXyU="
         }
       },
       "is_incremental": false,
@@ -2389,7 +2405,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.Async.Events.MetaDataChangeAsyncDelegate.html",
-          "hash": "l2HVBnNE6MLS2W/wv4L/z67vQHKC7kAwooaD+xOEFbQ="
+          "hash": "aCz2zPdEqDlSi2WAsRwTAzGdPbgaHIaxs58vBKfuR8U="
         }
       },
       "is_incremental": false,
@@ -2405,7 +2421,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.Async.Events.NetOwnerChangeAsyncDelegate.html",
-          "hash": "qSrUxV1As8ncU+Q4t6jKUzy8KPMpEIPE2L+lv7f2D0c="
+          "hash": "0/jr22YmmQbUTysoWJbe2RKe8nKpAAssBi7I/mlJRw0="
         }
       },
       "is_incremental": false,
@@ -2421,7 +2437,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.Async.Events.PlayerChangeVehicleSeatAsyncDelegate.html",
-          "hash": "h0AvU+IiQbDdIkj26TqI77uZ9mpOaCHvFYEeDF+a50E="
+          "hash": "6IPHk3sgiwbriMEOcp5DeoRnZWeInt167ZboNL2jZ4k="
         }
       },
       "is_incremental": false,
@@ -2437,7 +2453,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.Async.Events.PlayerClientEventAsyncDelegate.html",
-          "hash": "bSRqeIhnZt6kCdRt9NX9/XkQDVf3AEwgBIEXkS37kZQ="
+          "hash": "iODcSaXC4lopuKD8oMLRibLuPesYrjqPmnJpTng+pfA="
         }
       },
       "is_incremental": false,
@@ -2453,7 +2469,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.Async.Events.PlayerConnectAsyncDelegate.html",
-          "hash": "AVL+h2K5ad7dhjf3foqsxphYUMBeBzDhwHs/C2Exgf8="
+          "hash": "sWTMyGOVI0U62hNyslyd//T60mw6vE1OjiwR1hpi2i4="
         }
       },
       "is_incremental": false,
@@ -2469,7 +2485,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.Async.Events.PlayerDamageAsyncDelegate.html",
-          "hash": "Ol0RMysafW61gF0llaUtg4nn2zu5mBt+gWmmofNajus="
+          "hash": "l0RUiusEFDOqz+JGc/TN1NLkTw/ToRczYpSXLJ3uXOY="
         }
       },
       "is_incremental": false,
@@ -2485,7 +2501,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.Async.Events.PlayerDeadAsyncDelegate.html",
-          "hash": "2i443NBcp5wvGusDOf5M7gFiAe205BrvxN+BpcG49lE="
+          "hash": "GiAcBJaGc/VaLsen+7GNd9OetjRVjWlZc1+QU4qs36Q="
         }
       },
       "is_incremental": false,
@@ -2501,7 +2517,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.Async.Events.PlayerDisconnectAsyncDelegate.html",
-          "hash": "kQywBPBJf1pTkJSs5NAZO1XIChFVV6ag1esMnbH7C4k="
+          "hash": "f3enbWeL3CBx381ysg/i4yDf1sAYd+s0Nqr3BGf7mZI="
         }
       },
       "is_incremental": false,
@@ -2517,7 +2533,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.Async.Events.PlayerEnterVehicleAsyncDelegate.html",
-          "hash": "+BeQE1tCIE/4+UDp/NFzBhZIaDUZoJfTdcI1eUi4254="
+          "hash": "fl3a4nSN8jKh+yK63AG9hDx69/PczDhtcaEMAWY5kb8="
         }
       },
       "is_incremental": false,
@@ -2533,7 +2549,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.Async.Events.PlayerEnteringVehicleAsyncDelegate.html",
-          "hash": "PNeD1xnOidmoZmtrufYqa65nwdqg15vnORc8Y5SQQbQ="
+          "hash": "yUaxLqA8K+3yE6QV3ffwEZDzjU6pgR7dcidY6oQUZpY="
         }
       },
       "is_incremental": false,
@@ -2549,7 +2565,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.Async.Events.PlayerLeaveVehicleAsyncDelegate.html",
-          "hash": "08OOI2xz5f8frLFjjdW7bWy6lDZHNfUcMhn96Lrm2ug="
+          "hash": "eetlcnvnbklbPo9pqX7FsxRExLwKunepLmvYiaJZWB4="
         }
       },
       "is_incremental": false,
@@ -2565,7 +2581,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.Async.Events.PlayerRemoveAsyncDelegate.html",
-          "hash": "WKOPsceijf5s8GYUmV9spc1Bee50BdmkS9XN0qd+j88="
+          "hash": "49HeVTWxwQOsxJpgKZs/84fMVmjnfjcbitbRUNdoLEs="
         }
       },
       "is_incremental": false,
@@ -2581,7 +2597,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.Async.Events.PlayerWeaponChangeAsyncDelegate.html",
-          "hash": "gxZUNF79QPA3WdfDe5GMSFhENA4cmQd8ewMxkg1xM3o="
+          "hash": "64BB5DThojwVjnDdv8J0dk/RM6dkxAe12vvkdA+3WTg="
         }
       },
       "is_incremental": false,
@@ -2597,7 +2613,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.Async.Events.ServerEventAsyncDelegate.html",
-          "hash": "bl/JW+gq4GaSIWJ3hNa6iR4hy8OYZStJatjl5l2I4dU="
+          "hash": "hGJgK3xJwsjxE6JjjAr3JOkZXzkg7kMDrhjeTSlUXq0="
         }
       },
       "is_incremental": false,
@@ -2613,7 +2629,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.Async.Events.StartProjectileAsyncDelegate.html",
-          "hash": "DbPZyNuJBxqIODD9gohwIJyAlc5UmOSW8KWXj7pYLK0="
+          "hash": "wxgC8HMFKGPW58I+0SA2NTa0BsjYjjN7Sc6l4KZ+Hps="
         }
       },
       "is_incremental": false,
@@ -2629,7 +2645,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.Async.Events.VehicleAttachAsyncDelegate.html",
-          "hash": "7fwcDv7wMA/ACuP/0PqPfrrkIqoPvXEcePCfdk91w+U="
+          "hash": "9n8CC/44ODxx9wjCevU5lTXul0avOGMt4GWXHn95t3k="
         }
       },
       "is_incremental": false,
@@ -2645,7 +2661,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.Async.Events.VehicleDestroyAsyncDelegate.html",
-          "hash": "5CMtzg+t7w1M+WlJ/3+kTFWr7SYIFrSK8ySkqPWfR/s="
+          "hash": "d7A66HmwStlWuwVKKH0ZugBlY0FUkNYzcTH8Vepw13k="
         }
       },
       "is_incremental": false,
@@ -2661,7 +2677,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.Async.Events.VehicleDetachAsyncDelegate.html",
-          "hash": "dGF9CyRYbOCCX1g9FWxZRhnvxhr8x5R0tVVVcoyUJfc="
+          "hash": "TTVz/XPfWNK3o2ebHdDuvH52mqM7kxCaMTWdeiEGxmo="
         }
       },
       "is_incremental": false,
@@ -2677,7 +2693,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.Async.Events.VehicleRemoveAsyncDelegate.html",
-          "hash": "t2z3ywpSlnB5k6vueaOj/AvjUUvOFYLtvUQceDOfSXA="
+          "hash": "seVI1KNAjWnjnw4UBB2wv7o0G6p1+21PzMyYwTp8h9U="
         }
       },
       "is_incremental": false,
@@ -2693,7 +2709,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.Async.Events.WeaponDamageAsyncDelegate.html",
-          "hash": "w3ltABj6Kc/+CgcwjAyHgsiU0j67JbI2wjeQAOhmNS4="
+          "hash": "WsjLxmbjCp/cV0p23p1a284YtHVF9+yYIgIowbfvTbE="
         }
       },
       "is_incremental": false,
@@ -2725,7 +2741,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.Async.ITickScheduler.html",
-          "hash": "Vj7RkjvHZOxtORqtIDE/yJ9ejnh1LSL30/cjtHdwEVY="
+          "hash": "mBOO78LyCsRvtDIThF3VcRbSgAU+v2gamEjjaAiUmU8="
         }
       },
       "is_incremental": false,
@@ -2741,7 +2757,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.Async.ITickSchedulerFactory.html",
-          "hash": "PPU7S/pRrFAa+N+BR69J8Tr3Vqh/RAv1oDn6+5cRzFo="
+          "hash": "Sh9P3UhchG51xTx5UX/dL84OBSCteLF/CNs5Xw1JVy4="
         }
       },
       "is_incremental": false,
@@ -2757,7 +2773,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.Async.IVehicleBuilder.html",
-          "hash": "V77+6VNXxzcesyu65u5dwRGGOCZTfA5XdmbvkzFaUdg="
+          "hash": "1uNLt1d3iBYCd10cp5DzyB4ikTkSgB5fek6DTbg53dg="
         }
       },
       "is_incremental": false,
@@ -2773,7 +2789,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.Async.MValueConstLocked.html",
-          "hash": "4opaGSRy/irbyqaEXQztiEFKs1wuvtVfTCHY/74Rhac="
+          "hash": "oFkyBehMj+/NgEOxqFG6VP9u+btSfymteT1UiM25SpM="
         }
       },
       "is_incremental": false,
@@ -2789,7 +2805,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.Async.html",
-          "hash": "/AuLh52QL6fiaMEe/hjnKUZ5BSrMT+DWE5X0B2eZLs4="
+          "hash": "YLfDti8YXS/vHhuh2yXtRod3b8Y8HzjiAQKNNyjUimw="
         }
       },
       "is_incremental": false,
@@ -2805,7 +2821,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.BenchmarkRunners.BenchmarkRunner.html",
-          "hash": "m9hUdACXWg3lr5GFAQ0NHPwUlYXzy8U/IiBD2dabrc4="
+          "hash": "QyakyMidbkaUl3/ZLPxMxBIxi6i1Ry5f0bUlMKXA/04="
         }
       },
       "is_incremental": false,
@@ -2837,7 +2853,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.Benchmarks.BenchmarkVehicle.html",
-          "hash": "+F+FoaQ7UjUrugYiCi2KLde6/NTgdfOWhK9CboD2yLY="
+          "hash": "BlfieLg8E2GV1HF2d2jeSYZpd5YtM2wCklsI2R3F+Ko="
         }
       },
       "is_incremental": false,
@@ -2869,7 +2885,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.CSharpResourceImpl.html",
-          "hash": "RTsSwaYiqh+HJk5SC6z4c4E0IPjujfOMsW8R9AEfuds="
+          "hash": "ovSYLisYfCtNCuGh5CcCYLRC2zpF5ffg3ZcFHoVQ6qU="
         }
       },
       "is_incremental": false,
@@ -2885,7 +2901,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.ClientEventAttribute.html",
-          "hash": "749a6StOIqlGPw+xkRHnmaHP3s50F01UUhK4njE3XBY="
+          "hash": "Do+GbHPmCF+ShJT9otkLUqjj244Q/H7Q2vpedLTIix8="
         }
       },
       "is_incremental": false,
@@ -2901,7 +2917,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.ColShape.AltColShape.html",
-          "hash": "qxSZq3iWcF20U1wGRSJgSyJzXGuqJUw831ZtIBA4vzg="
+          "hash": "yNO4scZg7ZHO3hRqI0AhjtbpnHp4deg1pScGaTfiFmY="
         }
       },
       "is_incremental": false,
@@ -2917,7 +2933,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.ColShape.ColShape.html",
-          "hash": "Vj+zTiaSioIp389KdzscLRz9RXQOtIJKHLL0gQFml+c="
+          "hash": "X3k33DQwBlK7w7MJ/eqTalGYizMB9zl5d6IMKaqrPXQ="
         }
       },
       "is_incremental": false,
@@ -2933,7 +2949,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.ColShape.ColShapeModule.html",
-          "hash": "VuQs0H8DIXskRhUS2UzQUf4DTOmXINE/MvJvhqOWd1k="
+          "hash": "xL+Qace7673nuqenkiL2Vyq45BOkAdtBJwGFjSX6kMY="
         }
       },
       "is_incremental": false,
@@ -2949,7 +2965,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.ColShape.ColShapeModuleOptions.html",
-          "hash": "+4kcA6MmJeIpuA/a/+LwwgdbrEkQMALGllctwgDHzVA="
+          "hash": "ix+ut+C3V/svr78VJvl3vaqmek5ilipQGOP7CMdzYQY="
         }
       },
       "is_incremental": false,
@@ -2965,7 +2981,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.ColShape.IColShape.html",
-          "hash": "ZJrkJdlca9Jf9RMD8VVfIP+9J+kCfpEOYjxrKn97y0U="
+          "hash": "D2J+WdLX5WK4LV2edo1YbJUfgAftD6urMgfC+eqXjqs="
         }
       },
       "is_incremental": false,
@@ -2997,7 +3013,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.ColoredConsole.ColoredMessage.html",
-          "hash": "LbSuQBKVTmUtxEZJEd32DWyo92v19uQaNMHMmWa3UU4="
+          "hash": "hoyL4ukoQRCD8MR8iDrWJpOgegp0gtjC13c0ZRSv2y8="
         }
       },
       "is_incremental": false,
@@ -3013,7 +3029,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.ColoredConsole.TextColor.html",
-          "hash": "LV+ptLQk+MEq9zhIgfQ1d3UQibWI+UjjbqKVdkqNoWw="
+          "hash": "UHzSRqVfFYRXXOwZGeiiEw/sDFAOeyy36ZFtnqEdYgE="
         }
       },
       "is_incremental": false,
@@ -3045,7 +3061,23 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.Data.BodyPart.html",
-          "hash": "rNQ3zmesyJbRCGTdimfyQB0Iz8wOvprWzSri2PO514U="
+          "hash": "oEyE0RM0rsZJot4LPb0s7mjnGFh4HAOBx2UvRvDszBw="
+        }
+      },
+      "is_incremental": false,
+      "version": "",
+      "langs": [
+        "csharp",
+        "vb"
+      ]
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "coreclr-module/docs/api/AltV.Net.Data.Cloth.yml",
+      "output": {
+        ".html": {
+          "relative_path": "cs/api/AltV.Net.Data.Cloth.html",
+          "hash": "ZywWodmtrqcOQrH+/7dT4cUPws1RCpNoWv2sWQ+MqyQ="
         }
       },
       "is_incremental": false,
@@ -3061,7 +3093,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.Data.DegreeRotation.html",
-          "hash": "vQrNCK1WgWQKf4894DOv3Ireg+R43Fygf9quYXfDsPM="
+          "hash": "iWGLoOK+05Pe7BorJFICcSVXJVMKG68WrCSY7/6p1n8="
         }
       },
       "is_incremental": false,
@@ -3077,7 +3109,39 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.Data.Dimension.html",
-          "hash": "tkCGXzOpEbadG23zX6FTKYXrwT31ZogY/d7D9Pdg8S4="
+          "hash": "CgQ58ZMWxKWxhjzedv6Qjs4lGqXMV2MnMUMeIWzHqao="
+        }
+      },
+      "is_incremental": false,
+      "version": "",
+      "langs": [
+        "csharp",
+        "vb"
+      ]
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "coreclr-module/docs/api/AltV.Net.Data.DlcCloth.yml",
+      "output": {
+        ".html": {
+          "relative_path": "cs/api/AltV.Net.Data.DlcCloth.html",
+          "hash": "VmmOpr+0Hhixl0XPFybCXk+/ZQlIqouuklIOV+lk6P0="
+        }
+      },
+      "is_incremental": false,
+      "version": "",
+      "langs": [
+        "csharp",
+        "vb"
+      ]
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "coreclr-module/docs/api/AltV.Net.Data.DlcProp.yml",
+      "output": {
+        ".html": {
+          "relative_path": "cs/api/AltV.Net.Data.DlcProp.html",
+          "hash": "2qphjc4xB7KvqhF5oGlW65kQtI5P+vHEPysOdZnr7hY="
         }
       },
       "is_incremental": false,
@@ -3093,7 +3157,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.Data.ExplosionType.html",
-          "hash": "jLsS0IyvsEGvd3c1fcht/DVVm31yqgu5Jr3v/98pfRs="
+          "hash": "SQhKH6gf6BJHwVLT8BTk6zueD+rX67u7IKZLqOHIPD0="
         }
       },
       "is_incremental": false,
@@ -3109,7 +3173,23 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.Data.Position.html",
-          "hash": "ESmT3NZ+1kAV0yqFuOjvNIBJcw0Xt++rSbcyuWWs2LY="
+          "hash": "vdWQko4vruklcb6NSnBTfUQ8hee10viQ8lp3jjeh6EI="
+        }
+      },
+      "is_incremental": false,
+      "version": "",
+      "langs": [
+        "csharp",
+        "vb"
+      ]
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "coreclr-module/docs/api/AltV.Net.Data.Prop.yml",
+      "output": {
+        ".html": {
+          "relative_path": "cs/api/AltV.Net.Data.Prop.html",
+          "hash": "PVTjGKgcxH+PFprKxVcBYovw1a0bymXLROlj3Tf5w74="
         }
       },
       "is_incremental": false,
@@ -3125,7 +3205,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.Data.Rgba.html",
-          "hash": "WLtkUxIJs+lrV/QK4sR5Kqy1j8epLOBiRQhOUcwS5FA="
+          "hash": "kFjRmyxYOldB+NVwx2wuOXxg3z91Q/UGxn9HvqRbCnI="
         }
       },
       "is_incremental": false,
@@ -3141,7 +3221,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.Data.Rotation.html",
-          "hash": "hhAux5VUriw/6i0a2M4/4GYWGbewWH9AXehovIz0lmA="
+          "hash": "yI0FFCbSgZc/V699/M+2bMXa6BtucQIXe/iYcmSMZzQ="
         }
       },
       "is_incremental": false,
@@ -3157,7 +3237,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.Data.VehicleConstants.html",
-          "hash": "2301PUnJ9Z8a31EbqWZ0OkfGperG3cZRnwc587fHCUs="
+          "hash": "z3j8hAql70O5wQTd9sxAKtJYNwqYVChb/nb7tSA0V7E="
         }
       },
       "is_incremental": false,
@@ -3173,7 +3253,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.Data.Weapons.html",
-          "hash": "8f8l6et1h5sIob52Q0poyITaf79DJKBNvk5Ib7Y3Wkk="
+          "hash": "H3IKnb/zc6yFz+4i6Z5JFTBLZ3iPbelxvYOvYT2WWcU="
         }
       },
       "is_incremental": false,
@@ -3189,7 +3269,23 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.Data.html",
-          "hash": "PXloUPZzFNCBhiGDI/BwQtlVEERe0XB1gPVzHhSvCQY="
+          "hash": "xvuaOK3NSfkq8y743HjkLfiUhFSR18/6OW+WGQ15B/c="
+        }
+      },
+      "is_incremental": false,
+      "version": "",
+      "langs": [
+        "csharp",
+        "vb"
+      ]
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "coreclr-module/docs/api/AltV.Net.DefaultResource.yml",
+      "output": {
+        ".html": {
+          "relative_path": "cs/api/AltV.Net.DefaultResource.html",
+          "hash": "i7sad9zxTYpBB85/n+kPnTvrR53NtPtY8GDTsOc2ycg="
         }
       },
       "is_incremental": false,
@@ -3205,7 +3301,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.Elements.Args.DefaultMValueAdapters.DefaultArrayAdapter-1.html",
-          "hash": "iWCg6VrFiAyafBicxbiDFOUmj9yvjJYD4+G3Vw6fPsM="
+          "hash": "tmaJ5rD2B7uHEEfUUUoNM+Jced/Snb28n6fDW4t68co="
         }
       },
       "is_incremental": false,
@@ -3221,7 +3317,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.Elements.Args.DefaultMValueAdapters.DefaultDictionaryAdapter-1.html",
-          "hash": "CL3SYtLPPEMF+U9qnyFke2eg01MbBu4raidjutdEqco="
+          "hash": "MVYYMNtjNSyZ9aYe02dyuv6fqzbVsNMnwS8GuGQ2KVc="
         }
       },
       "is_incremental": false,
@@ -3237,7 +3333,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.Elements.Args.DefaultMValueAdapters.html",
-          "hash": "4dMX4UjhEXpGFb2B4Rg8gDcOODVOJQCyPg0neOw1euY="
+          "hash": "QinIKs4I/XvvZJubjiFuraIOwjK7gGZrN/uZJd6tsvQ="
         }
       },
       "is_incremental": false,
@@ -3253,7 +3349,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.Elements.Args.MValueAdapters.html",
-          "hash": "sNYhBG++n5RL9svnv1xIqnMblnEv0prdh2n7KHy7tZ8="
+          "hash": "bGzAxRymWNE3T4r+StPrglGB0N72DtbXFGCQMJ0Uoi0="
         }
       },
       "is_incremental": false,
@@ -3269,7 +3365,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.Elements.Args.MValueBuffer2.html",
-          "hash": "3OXr227QDfnQ88tAnPqVKEYdGqLiwlaA5L1h6kPbDnc="
+          "hash": "Ep2o5VxbzhC4ngLHJp4okxzxyI7xCHituAJxbdTWA+A="
         }
       },
       "is_incremental": false,
@@ -3285,7 +3381,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.Elements.Args.MValueConst.Type.html",
-          "hash": "xDLsNqeTbfstmfIPHoNGo1l1VSC0ehEm/TW8jJea30w="
+          "hash": "AYiJ/X80zLFeQ0mwUE195AZr6cI327VyB/xFv1DqzHI="
         }
       },
       "is_incremental": false,
@@ -3301,7 +3397,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.Elements.Args.MValueConst.html",
-          "hash": "CC/JOPevCCRyMwba1ZbfXhC51CgP1asWNs5qu2Fl/64="
+          "hash": "Jqj8Zb3elTuRIPptNDnjrqgvYPLcbrB3I4RpXdeekgw="
         }
       },
       "is_incremental": false,
@@ -3317,7 +3413,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.Elements.Args.MValueFunctionCallback.html",
-          "hash": "mqzK0AJlZzmStBCfAJ3O5QDQ1SbFtPUUqaU/X2krYL8="
+          "hash": "5Meioz5f7Oh8wrgvvVb1dJu5rcrAvqMZkN/ARrf4jqE="
         }
       },
       "is_incremental": false,
@@ -3333,7 +3429,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.Elements.Args.MValueReaderToken.html",
-          "hash": "qahDs8+6FVKEkUDQ4cPmNhVnU49+rUKZBsUyGnoP8hc="
+          "hash": "OwyJr/Hh/WLL00KqvF9JezFUTVVMh97mbROV9xc0MLg="
         }
       },
       "is_incremental": false,
@@ -3349,7 +3445,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.Elements.Args.MValueWriter2.IWritableMValue.html",
-          "hash": "rcenEkvMiblAl6Hhubh/X6V4SJ+MoJd1+hT81sXMJm0="
+          "hash": "YrrMqxVFCbTHK+OII9/Jun9koQZOICqJi4ONXS3iH1c="
         }
       },
       "is_incremental": false,
@@ -3365,7 +3461,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.Elements.Args.MValueWriter2.MValueArray.html",
-          "hash": "hllvoV9A4eJyKpaae+8+BbD26jqhPwoBG57wkUXQGTg="
+          "hash": "73YueYVxCoNsS3QRwmIxAJsGrEsfnOL/W3krEsh8QCU="
         }
       },
       "is_incremental": false,
@@ -3381,7 +3477,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.Elements.Args.MValueWriter2.MValueObject.html",
-          "hash": "NrZ17tPyvoQTrz+obun/q5UH8qdNXGPlRbeLxfcaRvM="
+          "hash": "lX9ZdXLBQjaKuUD5sKqxW1qqJlSN7UeaDpxY8dULBCU="
         }
       },
       "is_incremental": false,
@@ -3397,7 +3493,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.Elements.Args.MValueWriter2.html",
-          "hash": "CohAxJLwUbG7eYKubamoS1aUhJONOrT+WJmXX0YW7BI="
+          "hash": "Vquxmd2uqDxPhGEMvHNme5YUPrxwUYTtDqO7FiKLihM="
         }
       },
       "is_incremental": false,
@@ -3429,7 +3525,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.Elements.Entities.BaseObject.html",
-          "hash": "GCuUCYZcA1AiR9YP7cXjAMJaszbES0NWemD3UusqQHE="
+          "hash": "948HTU+0MHLT/yqfAWWyDKX6N1lhbKvqvLNb41w18EQ="
         }
       },
       "is_incremental": false,
@@ -3445,7 +3541,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.Elements.Entities.BaseObjectRemovedException.html",
-          "hash": "XFyd0TImVo9sJ7/uTS5e3WsLQLd19tuGGYJ+H/MCwpc="
+          "hash": "MR2KCexbu3vJCA5Fo3IR4Mvq0Mwrpzc2Ow5xs3DW6lk="
         }
       },
       "is_incremental": false,
@@ -3461,7 +3557,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.Elements.Entities.BaseObjectType.html",
-          "hash": "uFydUfeg4IjRzOImQadpd5K/3Vrg2clwgTy4MPfg/6E="
+          "hash": "7Ka/Tpwozr9JQwv8q2azOWagTer1Dr+cMZfSwpu47gE="
         }
       },
       "is_incremental": false,
@@ -3477,7 +3573,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.Elements.Entities.Blip.html",
-          "hash": "scxgM7ZpZMcE5TYuonCNYjGjFk8SnfsdJHgLjgNZk3c="
+          "hash": "kYg7hpnFP9B3ztuNzTw0bJv8mrq9iwzUNpERj4GWazw="
         }
       },
       "is_incremental": false,
@@ -3493,7 +3589,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.Elements.Entities.BlipType.html",
-          "hash": "SpD7yrxby01H6+fp+Ry1WSs9Bo7cO1zxN+d7jHD/8lc="
+          "hash": "9miqdUCoVIH5uUxLO0wumJ7D07t1Uypf02L1qEeKX00="
         }
       },
       "is_incremental": false,
@@ -3509,7 +3605,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.Elements.Entities.Checkpoint.html",
-          "hash": "DTPMC3Hv67c6JS08bju7WwE2kHO+O1aYEAErkCuajsE="
+          "hash": "Km1TTK8Eve51SleK5cTV9Dcl1ZciVJHNwWQ/GrZqjM8="
         }
       },
       "is_incremental": false,
@@ -3525,7 +3621,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.Elements.Entities.CheckpointType.html",
-          "hash": "Gwsp7eFN69CgukM6fiIIgXQ5KJugN6UjsZdzFTdLGVw="
+          "hash": "WPESFRFsWjxvCXyi+CBXk4AbGpNB4MmjCUheoAqq510="
         }
       },
       "is_incremental": false,
@@ -3541,7 +3637,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.Elements.Entities.ColShape.html",
-          "hash": "kuZcaAubZ0mE6ElCmeCw1UrBkJ9biT+R/itBoM4RZnc="
+          "hash": "IWQHaWVu7ttivSnzuzXAbr9JKL4O3ho9RQuRVGXpGCg="
         }
       },
       "is_incremental": false,
@@ -3557,7 +3653,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.Elements.Entities.ColShapeType.html",
-          "hash": "dOfx2umUrdU72t+9frmuyYyawcL+r9cv7esGKgmfLoY="
+          "hash": "TSSH6e2Jou+QSEephaJ+sjVD+K9v3UfUO1H0SRNG5bU="
         }
       },
       "is_incremental": false,
@@ -3573,7 +3669,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.Elements.Entities.Entity.html",
-          "hash": "k5z+tP1JT68gDF+bHR4IDSOtP/3Y43kTo+2QxF92zFo="
+          "hash": "L6u4Sey/teI6hgRakmxAbqFKLllNrMg/aH3GAfQRxno="
         }
       },
       "is_incremental": false,
@@ -3589,7 +3685,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.Elements.Entities.EntityRemovedException.html",
-          "hash": "XHqGSzMGYOxhWOFFuoBfLeTSWOQ/dolws4+ECAPr37A="
+          "hash": "DGhDRSm6XFn1QbwJ1eEyxl3Hi2IKKdH3AOe05Uj/jzQ="
         }
       },
       "is_incremental": false,
@@ -3605,7 +3701,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.Elements.Entities.IBaseObject.html",
-          "hash": "DHPHHw8DWvXwyJItuOccGSlPTeIIs/DM1qNiyZgPOlI="
+          "hash": "bkzhisV895m2fVBV/ghzC907b/nDvKYduvpix91m5ds="
         }
       },
       "is_incremental": false,
@@ -3621,7 +3717,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.Elements.Entities.IBlip.html",
-          "hash": "ipjr0PrVldSZx/w+Rl89RXRwf/AGRGbvujVx0N/3330="
+          "hash": "8amMwmGsQ7/tu++zZvxD6EtdeBDH4WVIG86Jqg/9+ik="
         }
       },
       "is_incremental": false,
@@ -3637,7 +3733,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.Elements.Entities.ICheckpoint.html",
-          "hash": "ewgyqwOPQq4SPQV5+0JjXOmZgPqqnqtb93HkvDVFOqs="
+          "hash": "F+rMPMClu8gJrVZ1pnrLAiP8Eemm/VTdOiqCKltnpE8="
         }
       },
       "is_incremental": false,
@@ -3653,7 +3749,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.Elements.Entities.IColShape.html",
-          "hash": "7PYzh72b0/xoq+5fXoNzCmLbf6WGPCh9Y97WjQwCcGU="
+          "hash": "Hd5ibUxVEWx39WrZy1Kj9V34wPm18ECwQhiG41palwA="
         }
       },
       "is_incremental": false,
@@ -3669,7 +3765,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.Elements.Entities.IEntity.html",
-          "hash": "4cxZEGItqx8TzEDfzoyFYEtk023DCJR2yq90k0/9nV4="
+          "hash": "RuhR6FaDuMIPnX3Ig6swB4+uyagYITq2QXmRy0nIOqU="
         }
       },
       "is_incremental": false,
@@ -3685,7 +3781,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.Elements.Entities.IPlayer.html",
-          "hash": "FHOC3rNbkURKCvdBRZmA+dKENz/+GumHRzoCvXc9Vls="
+          "hash": "t6l0Mm+0y9UTbn6DYnkY/YxIrEEg7tVODDzRM3/v5/c="
         }
       },
       "is_incremental": false,
@@ -3701,7 +3797,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.Elements.Entities.IVehicle.html",
-          "hash": "lUSVJxEHpaokHreXewXY9mWQHpEn2G99LYGtPfToClA="
+          "hash": "cVKr3zh25G6w4k2nostfQH+YNGB/0Tut2HiwQJMMKns="
         }
       },
       "is_incremental": false,
@@ -3717,7 +3813,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.Elements.Entities.IVoiceChannel.html",
-          "hash": "/o8znlKywJ8LkRqORd+LIAWgIn63x4Xgd68o7hbAGJI="
+          "hash": "cU54Zc4mr35UtEJmpXd2zZsoRA35TUkDapOMsAKYpO0="
         }
       },
       "is_incremental": false,
@@ -3733,7 +3829,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.Elements.Entities.IWorldObject.html",
-          "hash": "KVJK6w/qyUKXrQLSojNDyFxRyV47Ch9R5TaE0COPI94="
+          "hash": "AbsuMiyh4Fi4kjJSd3XOQEZydP2pku/PRoxAzrNatbM="
         }
       },
       "is_incremental": false,
@@ -3749,7 +3845,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.Elements.Entities.Player.html",
-          "hash": "etS7a9Z+ZymTn8qAdUMha91WyBkhVUZXz71iFos3LOg="
+          "hash": "wp2gQORR9Z+KfwOcJ1lReKMDUq+AryvSjZ0gfAQOPok="
         }
       },
       "is_incremental": false,
@@ -3765,7 +3861,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.Elements.Entities.PlayerExtensions.html",
-          "hash": "hOUyqcTjN15jild2VxbwKmlvH0LpZfxiQFkt1o7ZVdI="
+          "hash": "zeRLayaU2p+iH7oT0f0tmVhAc57C8lvkWBpTRWBfsu0="
         }
       },
       "is_incremental": false,
@@ -3781,7 +3877,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.Elements.Entities.Vehicle.html",
-          "hash": "4gVHHGn2584z3pFevCFulxwRfuVcdp7T3YbkCoYALDI="
+          "hash": "UfGHXN1beuKLDOmvaWa2EL+bQuUP2QpbSqEGm0LDtZ8="
         }
       },
       "is_incremental": false,
@@ -3797,7 +3893,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.Elements.Entities.VoiceChannel.html",
-          "hash": "wn28JCqGIfJJoUXUlcZ1EKJj8NIhdX/fqmz/MqwrS0Q="
+          "hash": "JyO9Ku+tY98UdBG/HyrfLDj2sweghkj0AR2egZ65o4I="
         }
       },
       "is_incremental": false,
@@ -3813,7 +3909,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.Elements.Entities.WorldObject.html",
-          "hash": "Uu1+PsWMd0JU6fzL5WkEuUyutk7xqyt8N/l2TriYxzc="
+          "hash": "xRW7Cov5w2ZxNPhbAtzDeTRuddLNBY1AyiC+4r+WAEE="
         }
       },
       "is_incremental": false,
@@ -3829,7 +3925,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.Elements.Entities.WorldObjectExtensions.html",
-          "hash": "NaahSvzFXroNrNLX8kMRtmxV0yG+XS69siQ6SYEEyg8="
+          "hash": "3JYygxswcNGrD1hmnM87JCh5++6mKh3x103bPuA7G/A="
         }
       },
       "is_incremental": false,
@@ -3845,7 +3941,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.Elements.Entities.WorldObjectRemovedException.html",
-          "hash": "FBkdonjxD/oZcjwJ7NW2WlFBhhjmlHWtTB2Gkecl6qU="
+          "hash": "oRVYcN1Pgqbno0PJnb+kNIdFeP/QoqFrbURoPnPhdOI="
         }
       },
       "is_incremental": false,
@@ -3877,7 +3973,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.Elements.Factories.BlipFactory.html",
-          "hash": "tVRR0RxH6SdV9bifwljj3Y5VRd8ffCP1E4LI1rFSKTo="
+          "hash": "5ZPPCSHV2JlxWBTcFTRFKHZ5csOJ/L8g2hGwJKevJ7o="
         }
       },
       "is_incremental": false,
@@ -3893,7 +3989,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.Elements.Factories.CheckpointFactory.html",
-          "hash": "Qb0uDz7uPkUKZHx9/Z8q1Hn3P6x9iXBrAuTbpeF8n8o="
+          "hash": "90WzTYY4y0I6/BmTiNq4Cwz4o30ZVG/N9TXTydK1U10="
         }
       },
       "is_incremental": false,
@@ -3909,7 +4005,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.Elements.Factories.ColShapeFactory.html",
-          "hash": "58z4MjG22kS+tvX9Eb9fOMoNlDQGmKlcO0KDrIugG8U="
+          "hash": "zJ7hREJgmuTAcnGU5pYdmgdPgqvhHK9MsFxUAs9o99g="
         }
       },
       "is_incremental": false,
@@ -3925,7 +4021,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.Elements.Factories.NativeResourceFactory.html",
-          "hash": "8PfwO3ElR11MY3pQICbkpf3KBFB69hCXJeCPxvAY/tg="
+          "hash": "/1WBqmGkfS+HerwXgRr+RCr/WWaQHwWSZpvzRBe0Mas="
         }
       },
       "is_incremental": false,
@@ -3941,7 +4037,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.Elements.Factories.PlayerFactory.html",
-          "hash": "mWdTj2TIYizxmaGYR1+NhkNE2xaYBr5qoxCzPHkfdyg="
+          "hash": "b3Qo8jofPQffqv6YTMmm0qiL6iaLl3eJctlJM7r7DFE="
         }
       },
       "is_incremental": false,
@@ -3957,7 +4053,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.Elements.Factories.VehicleFactory.html",
-          "hash": "7GnBmAUoof7DhkMoOx63BvYQfd9pK1eToATkMEgCM4I="
+          "hash": "i6H/OQIpYq26veUGICa0X9khS65kTenYTaKOOyyEaGw="
         }
       },
       "is_incremental": false,
@@ -3973,7 +4069,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.Elements.Factories.VoiceChannelFactory.html",
-          "hash": "eUXRvXWFcnnKwljcJOEJxlrU0jQwNbY5keMsDjadJ+c="
+          "hash": "yDzSa9SdDouUeeruQCKXWD/3pEXGT0gQ9Jb5j6S9eSw="
         }
       },
       "is_incremental": false,
@@ -4005,7 +4101,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.Elements.MValueBufferExtensions.html",
-          "hash": "9zcxT6T/5Q0ZZfucgRSj429euglo6VPIAOSDakfoq/Y="
+          "hash": "o24ZUnXFFGPBe89TkrifhwkGA7nlbmpfLPQRQozsxrk="
         }
       },
       "is_incremental": false,
@@ -4021,7 +4117,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.Elements.Pools.BaseBaseObjectPool.html",
-          "hash": "NK3Lwue8hkzStVaTkdvgn6of96h9WgsFHa9Xcz77oSU="
+          "hash": "o4chjN8iA+4/TkYYBe1uegsfcKQNWY/PAsxENtDLL/0="
         }
       },
       "is_incremental": false,
@@ -4037,7 +4133,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.Elements.Pools.BaseEntityPool.html",
-          "hash": "QrHKYtDiz78h3vndcVxFbLY+8SgJ7H2/NVqpAJZE6VA="
+          "hash": "9JDjTXDfGOZaMSOIzvso3r5L0BW7pKpkTutHmmwxKnw="
         }
       },
       "is_incremental": false,
@@ -4053,7 +4149,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.Elements.Pools.BaseObjectPool-1.html",
-          "hash": "XZ1u0Sid1efxpXud0a79d4KpuZN0ddV4xplau5wNomI="
+          "hash": "28a3jubOiStZGRCyRD7TFTWPMpDAighM8CZoItLAT50="
         }
       },
       "is_incremental": false,
@@ -4069,7 +4165,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.Elements.Pools.BlipPool.html",
-          "hash": "NZtLIYQlPMmzeyzSvkrkWV2J4YnK2qVw/KGqEEOHewY="
+          "hash": "CMK8gVewLf+ES6GWYQEWULrzMhruVyUjkUNCN/CWv+g="
         }
       },
       "is_incremental": false,
@@ -4085,7 +4181,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.Elements.Pools.CheckpointPool.html",
-          "hash": "nhxjOcDyMS2FbB6oU+cGNZlFKrub7YLOAwUbuXskpjE="
+          "hash": "dTeCjC7E4sOTCK2EVvW/TRtg0ElaPOC8fuBwSAuIMfU="
         }
       },
       "is_incremental": false,
@@ -4101,7 +4197,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.Elements.Pools.ColShapePool.html",
-          "hash": "y0qO8ktd6oAqN0JAzDF85s5n+2X1yvTr4skccSSb/Kw="
+          "hash": "7TYQiy2UCRSga5Fg1OsVD5msv8OFESMTkw8WLpXIv24="
         }
       },
       "is_incremental": false,
@@ -4117,7 +4213,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.Elements.Pools.EntityPool-1.html",
-          "hash": "y000/6VQb1hHyLpe2b4+OkLbaJNXElP/OO9Ty5bsYno="
+          "hash": "ss4tS8wR3L2W6f+jmZMxjoV0UiRp3XnJWonvxhaK1QE="
         }
       },
       "is_incremental": false,
@@ -4133,7 +4229,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.Elements.Pools.IAsyncBaseObjectCallback-1.html",
-          "hash": "wEc6gE9yR93zjd1XvoDlJzlSNSUYX0dA3kSEKRTtXKQ="
+          "hash": "/fyU+cIHDOdoVfzVudscbM+oiCb593WSZ6MTlMFSDMQ="
         }
       },
       "is_incremental": false,
@@ -4149,7 +4245,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.Elements.Pools.IBaseObjectCallback-1.html",
-          "hash": "dV6dE90iAZQshSo3XZTH8g++/+QNYxPFBR/+vrjImlI="
+          "hash": "6WPbpjouEqQHunB1RWiz/4B+ArJny03/sVtgHnApNgs="
         }
       },
       "is_incremental": false,
@@ -4165,7 +4261,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.Elements.Pools.NativeResourcePool.html",
-          "hash": "cXAOAhNpgNtM9HhHp17nXGRuwoLsCNEKq1VkFzkwT94="
+          "hash": "XWw6D1HHfK894o1pLZtRMy6KiVlBPOl0wJpNWIYhDxU="
         }
       },
       "is_incremental": false,
@@ -4181,7 +4277,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.Elements.Pools.PlayerPool.html",
-          "hash": "WIlioir9n62xaX0b86tUB8PbZjtUsIdppBI4qj+KWMo="
+          "hash": "EU2FE+8M3b9ckRlG6kWpEHxc11opkoIYxGf951/ei6c="
         }
       },
       "is_incremental": false,
@@ -4197,7 +4293,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.Elements.Pools.VehiclePool.html",
-          "hash": "LLgu9L//Ffo2J/lnDjrTVd+5lXIh5IeWDM5QxDRiCLs="
+          "hash": "hLySNtHY3wjcoG8Mlbg93SgZBCTpIvX4aoBxW4Ssn+0="
         }
       },
       "is_incremental": false,
@@ -4213,7 +4309,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.Elements.Pools.VoiceChannelPool.html",
-          "hash": "UznTV+/Dv5LMynXfH98RxT/friAPI2kB6/gAPKLA+vk="
+          "hash": "dhCn6hV+3A81sCAGcfDJf23/j56Xn95ikSTOVbNciAM="
         }
       },
       "is_incremental": false,
@@ -4245,7 +4341,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.Elements.Refs.BaseObjectRef.html",
-          "hash": "Ip2PMgxnPFeUglJs7clubTD7/3LWDwgKW4AI90O0uwI="
+          "hash": "rshJlkW5b4RJKQ10fZqaKC7tzmOoPt07uJ/dX8mcZ2w="
         }
       },
       "is_incremental": false,
@@ -4261,7 +4357,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.Elements.Refs.BlipRef.html",
-          "hash": "PmYYfe3EC+E5vLeaNRnVvCuBKTD7MZTsdHWIrSMCvc8="
+          "hash": "w/rRzUaDVZQIeT/PEV3n0cn2qZA0+zLbShWGd40nyF4="
         }
       },
       "is_incremental": false,
@@ -4277,7 +4373,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.Elements.Refs.CheckpointRef.html",
-          "hash": "Lpw+eBmC6g/prpJcH8m+cE0fIGv3ki4swKqmzw/+vAs="
+          "hash": "BXdPzxG5KUiXSd8sO8hIvTxVcYxyAZhpoCn8pXkGS2Q="
         }
       },
       "is_incremental": false,
@@ -4293,7 +4389,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.Elements.Refs.ColShapeRef.html",
-          "hash": "cKCAR29zSnVcBw7vz6vnZeWFQoSSLx8DmLs/LAvzfpY="
+          "hash": "0rWvtsKlB8TRAUOfIt9b1rRNtowskxSxu9m5HePZYMw="
         }
       },
       "is_incremental": false,
@@ -4309,7 +4405,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.Elements.Refs.PlayerRef.html",
-          "hash": "j8IRhpLFJ4qeCgUrqvO1gElTafusWz5x5Ylmm98bIyU="
+          "hash": "Sz/Alai2pTK4MCEAlUDS0XusTKkrvTM/BITP5xq/wF8="
         }
       },
       "is_incremental": false,
@@ -4325,7 +4421,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.Elements.Refs.VehicleRef.html",
-          "hash": "HTuihX7Fpyxz/0PJGIxokoxFVAymPqIqasvYOu3hr8Q="
+          "hash": "09pA8A2gv1QXkeIMzem/Qdpi2bSD/JXheX6uIhGPtZo="
         }
       },
       "is_incremental": false,
@@ -4341,7 +4437,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.Elements.Refs.VoiceChannelRef.html",
-          "hash": "9w6gw7AeHALb1TcuPt3XJPrDsm6nRybSoMybmMLwiu8="
+          "hash": "cdkM6GV0cwOCzvWKyYrlhjxetSqBKzQghJCpAv0b0e8="
         }
       },
       "is_incremental": false,
@@ -4385,11 +4481,27 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "coreclr-module/docs/api/AltV.Net.EntityFactoryAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "cs/api/AltV.Net.EntityFactoryAttribute.html",
+          "hash": "YZAlWUGRupTbLym7FLAr71U+BUqKvMgpxY86BAHY3so="
+        }
+      },
+      "is_incremental": false,
+      "version": "",
+      "langs": [
+        "csharp",
+        "vb"
+      ]
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "coreclr-module/docs/api/AltV.Net.EntitySync.AltEntitySync.yml",
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.EntitySync.AltEntitySync.html",
-          "hash": "SSPzeQWMfDR4fxoB2DGP6P7raTx36DO52jffFpVYFR0="
+          "hash": "rPUyB9H7PO45Xe0gq7HkOD7mhMVHmYttjhthPQ02gHg="
         }
       },
       "is_incremental": false,
@@ -4405,7 +4517,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.EntitySync.Benchmarks.BenchmarkEntityThread.html",
-          "hash": "i0ZjbxlL5tPq3Ts32GtYnkKXY8DDBaeSeyG8jcA6SRc="
+          "hash": "IRDvKyWmBkgP/0Ozzhho8RQjZ30OsEPtpnOUA4fKl3Y="
         }
       },
       "is_incremental": false,
@@ -4421,7 +4533,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.EntitySync.Benchmarks.MockNetworkLayer.html",
-          "hash": "XvOMjc7Tz9yxKbIdoc9iQtlHIRa3XGiQjHTFJ/Tm+qY="
+          "hash": "5n12+pufc54lgKBYCdkN1jtJx6O6tjkZqLRsjgTucqo="
         }
       },
       "is_incremental": false,
@@ -4437,7 +4549,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.EntitySync.Benchmarks.Program.html",
-          "hash": "+pL46K6zLl8HteFgcN/ynun7hGynF6uUWWayLivSdN4="
+          "hash": "qKqTTUBLIQ+9AnHi11faG1ZU36Axmdx8DnpnHpGGJ44="
         }
       },
       "is_incremental": false,
@@ -4469,7 +4581,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.EntitySync.Client.html",
-          "hash": "xuZouy0iVpu9lsRkAr7CnAgYLaE18ZSHryvMBOZIe38="
+          "hash": "FQytouwWag5FFvSF6b7uXO+0UseHK5ADUFx5NMS5f+4="
         }
       },
       "is_incremental": false,
@@ -4485,7 +4597,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.EntitySync.ClientDataSnapshot.html",
-          "hash": "bftLSzkjJFz4PrQuZLTeH5PCBkw2q6wwCTURL8yq9wg="
+          "hash": "zpKZX3oDxRDmNFIFS9PGu1zX+95Th0lRo39vMjRY0SA="
         }
       },
       "is_incremental": false,
@@ -4501,7 +4613,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.EntitySync.ClientRepository.html",
-          "hash": "1bm3/sg4NV+rMv9CtPEIOK24gjloPweYSOxpTJD8Kl0="
+          "hash": "0cj2sIAC1SrN65TN+p8Nm7Ky6VQJ5nkPVxx+OMhotF0="
         }
       },
       "is_incremental": false,
@@ -4517,7 +4629,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.EntitySync.ClientThreadRepository.html",
-          "hash": "b/HWl3gMcqbiuyP/0vZAbEevFgPtmXmH3r82YSm/VvI="
+          "hash": "yHLP+MNCyfxRc3sZMaJNiCOjwgPVBfXLvFNllbo/r1w="
         }
       },
       "is_incremental": false,
@@ -4533,7 +4645,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.EntitySync.DataSnapshot.html",
-          "hash": "v1cWNi//hlDPeRgGmmgsOJBVtH15IgBlAYd5GOMi7DQ="
+          "hash": "elnrAo1s+UPt7dNYoNvC0szPkSzcSoCY3y7+GIPWrjA="
         }
       },
       "is_incremental": false,
@@ -4549,7 +4661,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.EntitySync.Entities.AltEntitySyncEntities.html",
-          "hash": "OLAs79/xf/FAQAK30usMmIeKywHLliZYXxcXCXr8dro="
+          "hash": "mt+/diYNDj7yn9VbcXjxVVkQ7Cxy/MnR6RHGzkIuDSY="
         }
       },
       "is_incremental": false,
@@ -4565,7 +4677,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.EntitySync.Entities.BlipEntity.html",
-          "hash": "djn1oinYMl+ga+iDdHpKT0f5yKjP0Lj/EYOOtUNhmn4="
+          "hash": "Y9rKvyicgpf3EaTZco2QFZonYfHiAEAyN48R6GVNXfI="
         }
       },
       "is_incremental": false,
@@ -4581,7 +4693,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.EntitySync.Entities.EntitySyncBlip.html",
-          "hash": "We7BeD/ebjqRtTNP2Q3clHU+53ohV9W19FXAsS+Tsmw="
+          "hash": "nY/LDNcxQahRew5PkyLIEGTXZBPwA6Uj0BhNVBZh1s0="
         }
       },
       "is_incremental": false,
@@ -4597,7 +4709,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.EntitySync.Entities.EntitySyncMarker.html",
-          "hash": "4M4xHVggnc5G749dMiSlwVjeAOuJUKttgMgDeGl7Rh8="
+          "hash": "bZJgJu03U4IBLh0JMShWGsUzlUBp56+CsHlv8krwUYQ="
         }
       },
       "is_incremental": false,
@@ -4613,7 +4725,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.EntitySync.Entities.EntitySyncObject.html",
-          "hash": "3lgkVWX4uLGfSmlxkBEQdO4g0ALlPDURTdYWDl0Dsv0="
+          "hash": "nJXppmTFTccXh3P6MPCJVMOdGWuEG2H2J3BlJfyRr+Y="
         }
       },
       "is_incremental": false,
@@ -4629,7 +4741,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.EntitySync.Entities.EntitySyncPed.html",
-          "hash": "oBSl1TCsD1+fueGCEL/nlSCu4n9EBCyEEScyICRs4MU="
+          "hash": "DHPWcRb1UNaAUSmXFoaad8NvBFTQXMZpfy7GWRgWMho="
         }
       },
       "is_incremental": false,
@@ -4645,7 +4757,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.EntitySync.Entities.EntitySyncTextLabel.html",
-          "hash": "K3Sf/ZlhN9KXTv5wiVz5L+1GfW24qJkcTrLXWFhkMPs="
+          "hash": "wvGl6Y8hzZiufZvDc0boHxCggsA+up1XKg/B0oYuItc="
         }
       },
       "is_incremental": false,
@@ -4661,7 +4773,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.EntitySync.Entities.EntityType.html",
-          "hash": "+GcSloL70aFkGZ+UvFgQPCYw8zMatyy0UaF9WkioqF4="
+          "hash": "8gMAEMQew8SH1lAmfPxkeQzaeittAGdyZMpXLjArjKk="
         }
       },
       "is_incremental": false,
@@ -4693,7 +4805,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.EntitySync.Entity.html",
-          "hash": "/elLQ+cfJB7Dndnd7oyZo1ifV+NgI+JLlMyv71nav34="
+          "hash": "Pu1JnXHuGJmY+9pi6KBfItgZPL1rbxdMd6cliXzNP/o="
         }
       },
       "is_incremental": false,
@@ -4709,7 +4821,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.EntitySync.EntityDataSnapshot.html",
-          "hash": "RlIdTeqHO6b3Gpyy79ZELgpqFiUj993VSeGuIAms5HE="
+          "hash": "3a9byT8qsQRqzwO6Sme7wp55T0qP76LpPMxr1mF6JDI="
         }
       },
       "is_incremental": false,
@@ -4725,7 +4837,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.EntitySync.EntityPropertyState.html",
-          "hash": "s8bTFW5QOa57o0UxrEQ5doBvKMR+OoZONvZySsvmHvo="
+          "hash": "H35rAt2u8pHgZvmGabi9ScArSepWgIWcu7JKsxP4ukI="
         }
       },
       "is_incremental": false,
@@ -4741,7 +4853,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.EntitySync.EntityRepository.html",
-          "hash": "ZN3YhtKd89ZYPaCwx35xbs3hZzSIVlCjWJeUy+OhyFY="
+          "hash": "74hhaZH7enGg8Sc1UEN+xXtVTaJFkgUzK60l3to9jpU="
         }
       },
       "is_incremental": false,
@@ -4757,7 +4869,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.EntitySync.EntitySyncServer.html",
-          "hash": "P+/RRhQrmTakvXTUx9GLJ/R1+Fc/mOpN2WHv9BJw4C4="
+          "hash": "3OZbX9XmUkXU8IQC1ocZfEO2TloDLhfAQHCWRbZCtUU="
         }
       },
       "is_incremental": false,
@@ -4773,7 +4885,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.EntitySync.EntityThread.html",
-          "hash": "D+03EYvSRYzAgNFOr//1sYKMPw9fu91pDueP4tMmVT0="
+          "hash": "8d9/YzIZsvfeWrys7T8rIV3G+KPA30IM9qZs+HQ6t30="
         }
       },
       "is_incremental": false,
@@ -4789,7 +4901,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.EntitySync.EntityThreadRepository.html",
-          "hash": "EYLvvc8WgGEsdkASFtl40mmEHslgVAcMngnMHhhn0Gk="
+          "hash": "jK4L3mmR3X2qXdD3xqbptXCbN/edBgSOzBCAgvZPQ4Y="
         }
       },
       "is_incremental": false,
@@ -4805,7 +4917,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.EntitySync.EventType.html",
-          "hash": "2yCDKOCb0hxYR/rTWBCNT1NKtIAX4LAKYzxKzEHMmIw="
+          "hash": "9Rt3x9n1AJ2LykeBHjJXssYF1TzhWpIOHpX+IZIO4XQ="
         }
       },
       "is_incremental": false,
@@ -4821,7 +4933,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.EntitySync.Events.ClientSubscribeEntityDelegate.html",
-          "hash": "Rdcpv/f8D5gckS+7elnlhIDKictdkS+l/HImnyygkWc="
+          "hash": "+HMI5lmU80OU8BOnkHl5lF1bwDIqtSyAKHs5IodbR2Q="
         }
       },
       "is_incremental": false,
@@ -4837,7 +4949,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.EntitySync.Events.ClientUnsubscribeEntityDelegate.html",
-          "hash": "juwt4IgePtvagklvicueCf/3CS8TfNjU4i9FCwnQx7o="
+          "hash": "D2L5FqEwIFyTd2dn7mocMrE7+LmgD0lcOZ3QwUx1WLo="
         }
       },
       "is_incremental": false,
@@ -4853,7 +4965,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.EntitySync.Events.ConnectionConnectEventDelegate.html",
-          "hash": "pkTxze1mS9OhiAQa3EjT+H7EQhp6cp7Ebnh+w/QuA64="
+          "hash": "Sh5qxZ2xFWbw5rCBqqt906Iz1XPHyJ/ugj0plW15Gcw="
         }
       },
       "is_incremental": false,
@@ -4869,7 +4981,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.EntitySync.Events.ConnectionDisconnectEventDelegate.html",
-          "hash": "aKKwQc++0s0vAEcmn1tu+wzztt3L0OWi0ZsTDZN0ORM="
+          "hash": "UP+rfKr5ooA+qsZ3M1y53KCQpSeqbX84bdOCk95UUOE="
         }
       },
       "is_incremental": false,
@@ -4885,7 +4997,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.EntitySync.Events.EntityClearCacheEvent.html",
-          "hash": "Exoc6owUjcBDAhmdCr+pWzwY6rsXdmDyKvZ8MYQTcEk="
+          "hash": "XGA2wypI6/83keZeb9d4mFAawlYglEsCE+cXVufJFAs="
         }
       },
       "is_incremental": false,
@@ -4901,7 +5013,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.EntitySync.Events.EntityCreateDelegate.html",
-          "hash": "B4b9VnpDt+9uUbW2b1RZrz0Tiky8/hFgIEBUuzP2uRw="
+          "hash": "3JoJjbAbCCeldrHqucWLd6QGv+tWERP89E4mCxkArOc="
         }
       },
       "is_incremental": false,
@@ -4917,7 +5029,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.EntitySync.Events.EntityCreateEvent.html",
-          "hash": "lEFv5rW0lzGb5r5INajzfHQQNHqKcnAJCobEsZhsEQs="
+          "hash": "tniyhR72qgcK1j78qHKNZKaMXfd64CrJIxMOfCzVrRo="
         }
       },
       "is_incremental": false,
@@ -4933,7 +5045,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.EntitySync.Events.EntityCreateEventDelegate.html",
-          "hash": "ts5pCovizWf5zsgRM9s6qc0dsjDfZBAAdS8vNVJVwlE="
+          "hash": "Ag3vLVrsnp+MWh7Z9eFo/6+VlkOJu0pCfJh4bGjEMb0="
         }
       },
       "is_incremental": false,
@@ -4949,7 +5061,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.EntitySync.Events.EntityDataChangeEvent.html",
-          "hash": "A3LUDzk3k4Jad/9XqNde2mLt4EPHgW964XTm4VjDqpc="
+          "hash": "FD83kZ+zrLM0TUBGMB97pVFggeI+N9S3TjVucphNd/o="
         }
       },
       "is_incremental": false,
@@ -4965,7 +5077,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.EntitySync.Events.EntityDataUpdateEventDelegate.html",
-          "hash": "4CFP2YE5eFupRyrBd+td4u6bXvzgvxA5ZEnw1vJwYjc="
+          "hash": "SE/766jA786Of78knIgcX0BqaoZMaIt23VxYoQppr7Y="
         }
       },
       "is_incremental": false,
@@ -4981,7 +5093,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.EntitySync.Events.EntityNetOwnerChangeEvent.html",
-          "hash": "4wyMmw8kxJgo3HOqvUxrXlmPU+fP7hOCz1c39UGJyVc="
+          "hash": "SWT0XQ+JAYGeCh8Nl+7sl2b/bhUgZJZv1+U5LB+brEY="
         }
       },
       "is_incremental": false,
@@ -4997,7 +5109,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.EntitySync.Events.EntityNetOwnerUpdateEventDelegate.html",
-          "hash": "NRNaoo99/E+cun27kPMIit6GL+wF08lusOVzG6Y6eyI="
+          "hash": "fPaU9ph76Qw/KIEZEnItYwCM/L/hB/eckEPoyBtzMgE="
         }
       },
       "is_incremental": false,
@@ -5013,7 +5125,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.EntitySync.Events.EntityPositionUpdateEvent.html",
-          "hash": "lJ9k8nwycBj/ozZlKMuCSC2eETxXdxInBu33n48ZKOI="
+          "hash": "vL+hz0BLV2ffdrQ9Waar2iILar0LWLTyPFUQnFgO0vA="
         }
       },
       "is_incremental": false,
@@ -5029,7 +5141,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.EntitySync.Events.EntityPositionUpdateEventDelegate.html",
-          "hash": "ZaVFf52tNobBV0UH+SD5uTGj2cNt0sahg7zWPnlroHs="
+          "hash": "GyAtlWaE8GOcK/EcdRY4PeUOfF8x8ZHBcu934Ez13ew="
         }
       },
       "is_incremental": false,
@@ -5045,7 +5157,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.EntitySync.Events.EntityRemoveDelegate.html",
-          "hash": "Yh3SB8Es5UPJkTh8jtvnBK+RjAeKWF7HHBBwUqtKeRY="
+          "hash": "TTzia7NKMzgwQ4RgdguIxfXQYBhV8v6mxOiEQ0hZD6A="
         }
       },
       "is_incremental": false,
@@ -5061,7 +5173,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.EntitySync.Events.EntityRemoveEvent.html",
-          "hash": "K5iW9O9tr5Xc7oJMiS0hD1JHW2Zu7fgGc+i4L8PU6Kg="
+          "hash": "LTxXm7qyJCuJY8Fn2VjvssPJPhZhaYHLNRQMMwXdJKk="
         }
       },
       "is_incremental": false,
@@ -5077,7 +5189,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.EntitySync.Events.EntityRemoveEventDelegate.html",
-          "hash": "4NnFOVfrnO50JwXJ7e5w9W8bofPTEcRag8mHQlOHJz8="
+          "hash": "pX4+K0uIbSzIkx86uRRrkUNdA81oNmWrc93xQ2okzfw="
         }
       },
       "is_incremental": false,
@@ -5109,7 +5221,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.EntitySync.IClient.html",
-          "hash": "cTc3I3RBH8Az8iKOdZC6W+XO6XKComqKCCDw+u5eXXs="
+          "hash": "Y6gLaMkgVcrrXGp6NXL6JGcNeD/xt0oQNPWZh1i2cMM="
         }
       },
       "is_incremental": false,
@@ -5125,7 +5237,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.EntitySync.IClientRepository.html",
-          "hash": "AY61xC8o7fbA2VRw9U8Mcgc/lKPHVNRUF35GVdmNXS0="
+          "hash": "Hgb9R+Ov602Sb2GIM30Vuf48PrrZ52iFyQZ2kR9vn90="
         }
       },
       "is_incremental": false,
@@ -5141,7 +5253,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.EntitySync.IClientThreadRepository.html",
-          "hash": "B35IifpWrM0RQleSRxRhSNaTS3j70emA0XFlwDwnr9w="
+          "hash": "kMoTPOQLOaGyYe4CqQCi5A7i+SSMEj74+CKQ/VB9KzQ="
         }
       },
       "is_incremental": false,
@@ -5157,7 +5269,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.EntitySync.IEntity.html",
-          "hash": "oSfxLecoKX5cc/vFh3ayWxFVrLaD5bnqTZabhwV4ucc="
+          "hash": "n5x1Yentho7eHiIWAAaMR6BjoYo6naSmDDH9TvXqZzU="
         }
       },
       "is_incremental": false,
@@ -5173,7 +5285,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.EntitySync.IEntityRepository.html",
-          "hash": "CWlhVMIG/65mkKO3tszzFr4//in4H21IjSCaU/GIDRY="
+          "hash": "zPlgfkqf1aEvmJvGhsYG9U39MtGPH6YK/zlHwJm9qXI="
         }
       },
       "is_incremental": false,
@@ -5189,7 +5301,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.EntitySync.IEntityThreadRepository.html",
-          "hash": "O4XgVLEAaGTEWC3nBc0QzELArejxeRLaafPUQ1YjiEk="
+          "hash": "ByOWZwZ3Topu6KeP3GLYsFql74+888IaIvNMmQAXaUg="
         }
       },
       "is_incremental": false,
@@ -5205,7 +5317,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.EntitySync.IIdProvider-1.html",
-          "hash": "T/kPhbvOVuLl1YRamk72iFL8W9FCm85g1nAo+coQDNg="
+          "hash": "KlTFmKygxiga12bfaVkt65BieOlWqZAZIFItTFYtrLs="
         }
       },
       "is_incremental": false,
@@ -5221,7 +5333,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.EntitySync.IPriorityEntity.html",
-          "hash": "AyfDM5i5evn39IU9hwfpoQFU0kyEylKOQuGkT6ygYLk="
+          "hash": "/YvpWncHEx6OFDBXWIye8JaM29vDDsiCJDYrrClkBaQ="
         }
       },
       "is_incremental": false,
@@ -5237,7 +5349,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.EntitySync.IdProvider.html",
-          "hash": "7QQBePhBMrZ9ZzKA2HCD3nTv+ShsgFzmL55YLd4xa6g="
+          "hash": "Z/sGBXfbHoKIt+D5szZ5+XS0GVnA+rI3xCgbG87pFLo="
         }
       },
       "is_incremental": false,
@@ -5253,7 +5365,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.EntitySync.NetworkLayer.html",
-          "hash": "0QuS6GskMLTEa8RR1BQ3Xoi2l0YJA2l9SRymsolBS+Q="
+          "hash": "MeHsahmvZuZAuTG3mojcBlHTIl3X70X3cLt6fclaJL4="
         }
       },
       "is_incremental": false,
@@ -5269,7 +5381,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.EntitySync.PriorityEntity.html",
-          "hash": "x3M+I+edWQD/+vZU6MonU0669ykEnLxCk0XyLYOePxI="
+          "hash": "SC7OO85kdsc9vXcPtchbSZCVzBoB/2+GENsAm8Fh6EA="
         }
       },
       "is_incremental": false,
@@ -5285,7 +5397,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.EntitySync.ServerEvent.PlayerClient.html",
-          "hash": "PltknTrrPJGWq83WabFNyPXxVTy7dNffPJu95iyHUsQ="
+          "hash": "Y2nKDki4J82UOyrno7o4/Z5GGmtkR1Mc7itFKiwHZd0="
         }
       },
       "is_incremental": false,
@@ -5301,7 +5413,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.EntitySync.ServerEvent.PlayerClientExtensions.html",
-          "hash": "LDp+5nS0Mkv0h212NY+kVL1IsDTLxk9+lR/RP2bqSfo="
+          "hash": "/ZBzroLC2FSaCPqWLAyvrI+eV+z9R3T5sdaz4I7ceI8="
         }
       },
       "is_incremental": false,
@@ -5317,7 +5429,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.EntitySync.ServerEvent.ServerEventNetworkLayer.html",
-          "hash": "G+w+NkSHi5oV60PBdrS5YVb3vJaFom9GiMq4MfRPKGA="
+          "hash": "KyVO7AmKbI7LjlWIgloHvie4bP60uGRlsXEHmnRBA8I="
         }
       },
       "is_incremental": false,
@@ -5349,7 +5461,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.EntitySync.SpatialPartitions.Grid.html",
-          "hash": "H2FRGAold9xULC27bfTNf2+/PDVK/b+IgzaUg7ecSc8="
+          "hash": "lr3KJBEaUu5GozuJxvVQcstwZs+kgj3EydxtddSEFF0="
         }
       },
       "is_incremental": false,
@@ -5365,7 +5477,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.EntitySync.SpatialPartitions.Grid2.html",
-          "hash": "HASOhEh+LjkTr6bIfoQywyDj8GAzApiTzGkUs+0Nsgo="
+          "hash": "nVrSgUn8vliayNnPqur6/IuL2GAprOHQO7JtUsp8LEY="
         }
       },
       "is_incremental": false,
@@ -5381,7 +5493,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.EntitySync.SpatialPartitions.Grid3.html",
-          "hash": "42PrLvcPLbRCC8Y1P9jzFnzTxsx761x3IeQme8T0GZ4="
+          "hash": "ouO6c3B6ILygppKDWSHaC5Rp2W2nqZEq+Dh9Anzl2jg="
         }
       },
       "is_incremental": false,
@@ -5397,7 +5509,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.EntitySync.SpatialPartitions.GridEntity.html",
-          "hash": "U5i8XZYbO+VYOhc8TFom/i5RKxC8s1woJWEL/ZWcNdM="
+          "hash": "e8qozJuOG21LiS1ADtd7uyXuzVmSZYPiFNeB32cIAzs="
         }
       },
       "is_incremental": false,
@@ -5413,7 +5525,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.EntitySync.SpatialPartitions.LimitedGrid.html",
-          "hash": "n5Aj14aQRyXtOEXod4FB3QG+AYP0T6CA2C7XSyPTZ28="
+          "hash": "4jTVGtbNxTgr+/9mRrp0ZXX9ffRrvimxtG+EVvP5Iwg="
         }
       },
       "is_incremental": false,
@@ -5429,7 +5541,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.EntitySync.SpatialPartitions.LimitedGrid3.html",
-          "hash": "4g5hO2PyLFIDVwnpOcBVvk2rWPjZISfVxmpKOPxBZY8="
+          "hash": "QOkmJ6q1l5eKu2t6eeLzH4x1Rv3JkLMeHGKUhrVZKTs="
         }
       },
       "is_incremental": false,
@@ -5445,7 +5557,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.EntitySync.SpatialPartitions.LimitedPriorityGrid3.html",
-          "hash": "RIjYf02JmaE1vz62IL3QPz+zv87rq+R7KYKs1LHH4NM="
+          "hash": "F+ZDr84qOpZfrBS8q0LcHv1F9W/dS9MzWoQExQ+Rdno="
         }
       },
       "is_incremental": false,
@@ -5461,7 +5573,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.EntitySync.SpatialPartitions.SortedLimitedList-2.KeyList.html",
-          "hash": "5p57zheNJGWqdPkOL+eWKzChcOBcNOh/xr6i5uzC0Bk="
+          "hash": "/VaFCQgyUwrpdR5pvnEwy7Wd1yBu5R1dmBaJnBLxYvU="
         }
       },
       "is_incremental": false,
@@ -5477,7 +5589,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.EntitySync.SpatialPartitions.SortedLimitedList-2.ValueList.html",
-          "hash": "JQau22UKITBPpbryNEJN8ZyweFNzB1AlMOdacfP6kKw="
+          "hash": "xCu5h67rFwfY3KOF3meRB/tPfSf9Zfk/HY+3KmqITB8="
         }
       },
       "is_incremental": false,
@@ -5493,7 +5605,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.EntitySync.SpatialPartitions.SortedLimitedList-2.html",
-          "hash": "STn8+VrimB/5f3iNedZGyGSV/lH1BeE7uB2WmXZYZsM="
+          "hash": "XoAswMXmXq3TAEoSxDaTPGWLjpwqbMVHI6mMhSc8044="
         }
       },
       "is_incremental": false,
@@ -5509,7 +5621,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.EntitySync.SpatialPartitions.SpatialPartition.html",
-          "hash": "Nc/IYmZX7thoLpokDAdQdAAzY7rQOLbG8+JB3aE16gQ="
+          "hash": "shd61z+TCB0WVSeWfCUPl8ZqWLj7wxnEGhHWxg4lmXw="
         }
       },
       "is_incremental": false,
@@ -5541,7 +5653,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.EntitySync.WebSocket.PlayerClient.html",
-          "hash": "/Esiq6qMo8at7/Qw810ge252XZ13O5H3/BXP0ClYTrY="
+          "hash": "7BRRZDTNjNlhRAPAZJiBtlhpFWA3cTrcP89DO6I7SMY="
         }
       },
       "is_incremental": false,
@@ -5557,7 +5669,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.EntitySync.WebSocket.WebSocketNetworkLayer.html",
-          "hash": "5h9mdhf2BRiFNG2PyL27CZjL/X6PcdcCelHZ4FLxBy0="
+          "hash": "gQL8SFdTbWivvyAqFc8yc/jjaR2aYQyGoilWrZVgJIk="
         }
       },
       "is_incremental": false,
@@ -5605,7 +5717,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.Enums.ExplosionType.html",
-          "hash": "TqhL8IjvqT8fdqVaxC/a8je0AnJVCrhus3LB6DxUKvY="
+          "hash": "vMFoidPnQIXaGDrcKOciqQm5F1gQy4/YKwBF02+aKgg="
         }
       },
       "is_incremental": false,
@@ -5621,7 +5733,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.Enums.NumberPlateStyle.html",
-          "hash": "gjGwi8K2XvSbXk9LNvHX5ksCVVDsRtnbCDyOeqkno0o="
+          "hash": "DvSIsKLzbImNaxgLJouVh1HowQJMLKXvd8OIPCMnJ0E="
         }
       },
       "is_incremental": false,
@@ -5637,7 +5749,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.Enums.PedModel.html",
-          "hash": "OmPekFKYswMVMhdPIs7HTOZq676cEBQ+1+mN2we+P9o="
+          "hash": "D43JwqkFt6VkBzGvas/IJ6qm7pJHLkm2vWM3yobX4r0="
         }
       },
       "is_incremental": false,
@@ -5653,7 +5765,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.Enums.RadioStation.html",
-          "hash": "++HpdPgJHFnNd+YMVHoyU7hulzg+zv8UnvrQRXv7Fp4="
+          "hash": "80pyJfittENBg1JtNC9SYeM31ef8tcj9RhRqVudy8o0="
         }
       },
       "is_incremental": false,
@@ -5669,7 +5781,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.Enums.VehicleBumper.html",
-          "hash": "d5WTwKP7jHZyIBZSxt4/GAJNFaIXNePJtNisyZMbk8o="
+          "hash": "V+/vof/HLRwzUmH9I/O6tuIZjMS6J66J8JjtlTxzCng="
         }
       },
       "is_incremental": false,
@@ -5685,7 +5797,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.Enums.VehicleBumperDamage.html",
-          "hash": "s5hu2XxklzhvtkkuTNznZj1Nav8dEeuOq9/MDnnNS/E="
+          "hash": "37E80Rr+Cvakb1i8gkGivWkVX027uNtUEPIIYPiu+qs="
         }
       },
       "is_incremental": false,
@@ -5701,7 +5813,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.Enums.VehicleDoor.html",
-          "hash": "MfwtW8mV/NSJBnKMiu3akUC7gMDrVBMP4W5RSdX+dqk="
+          "hash": "rf8fnRLf6ZTsVj2LUU78WY7TbadPeLvST83+1mUsmbw="
         }
       },
       "is_incremental": false,
@@ -5717,7 +5829,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.Enums.VehicleDoorState.html",
-          "hash": "b/shjhAHNFFyOTU1QE0ZPeOxN/+ckIzmLTgJPExf4V0="
+          "hash": "zg2bn17R0JaOOnKae7Sctzinsaf8g/QLpyJiHi2jMJU="
         }
       },
       "is_incremental": false,
@@ -5733,7 +5845,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.Enums.VehicleLockState.html",
-          "hash": "9oOzbkNubZH7r1JUsfVy5l6YRbZxISM19AVGc+PPps0="
+          "hash": "LYTV/HEH5q0tzjYnVWkOEMHdG+JgYdM6D+EtYfMBDj0="
         }
       },
       "is_incremental": false,
@@ -5749,7 +5861,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.Enums.VehicleModType.html",
-          "hash": "YW86OqJaKpEWklz/oMTYdNaZF6bm9YKydRxbtsdK++E="
+          "hash": "GhU0BH2XurlbIlxf7ktPRLXZhYr0sFkO8uOwL3ubbgE="
         }
       },
       "is_incremental": false,
@@ -5765,7 +5877,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.Enums.VehicleModel.html",
-          "hash": "MNGSAcAxweb3GKI3FU0P7hePEhqxHhFZ/+H5JWaj+m8="
+          "hash": "Zdq3myTckFIggv/mKtTJIuV1N12srfnSh8fyJi2iJXs="
         }
       },
       "is_incremental": false,
@@ -5781,7 +5893,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.Enums.VehiclePart.html",
-          "hash": "HxaZWw8BTYXqF0s7WV4Ja2UeVxtJvviJY6DJrgDhJ1g="
+          "hash": "nnlOK6wl3YopPOC+ga3lZe7i7UcLJW07vCf2BZa0jl8="
         }
       },
       "is_incremental": false,
@@ -5797,7 +5909,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.Enums.VehiclePartDamage.html",
-          "hash": "pruzf6nnwImncLvabG9sERmKg5vKEsVf8dXj+MO0xQs="
+          "hash": "kcK1KwDws5nXQDapN4oEN9Ut0GpBXg2CVkhroPANLxM="
         }
       },
       "is_incremental": false,
@@ -5813,7 +5925,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.Enums.VehicleRoofState.html",
-          "hash": "p+c00Rzkvoxd4FmPNsWbnECGooGQ0R1FowARohNLp/w="
+          "hash": "ekd4zkCQCbJ4Zh0VNNkosjRzVhk/CcHCJMOxsu6GWTA="
         }
       },
       "is_incremental": false,
@@ -5829,7 +5941,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.Enums.WeaponModel.html",
-          "hash": "E17e6t43BYtkZBew8X/Ln/FY/EUjxJ+Ij+Dukl0lRwU="
+          "hash": "iBJR2+uMlL9zW0I09QYFkwLBbp5MsxStwCoEctKQQeQ="
         }
       },
       "is_incremental": false,
@@ -5845,7 +5957,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.Enums.WeatherType.html",
-          "hash": "RFyIFvJ6NkyxARo5lNe5i0Ror+w0iVHQUPlbhO/KeWo="
+          "hash": "PtkWSUlunFsnAmmQ4+9PraXy4LfSWfN2SjdAzSnusdE="
         }
       },
       "is_incremental": false,
@@ -5861,7 +5973,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.Enums.WindowTint.html",
-          "hash": "ZjflOB/LJkFwqYZ1s8EGJSwv1cfy+Tw+kLWW/ku+JV4="
+          "hash": "QpvJjWraXM1XfxrD6hMygeJrrVT/Jza2mD6/aS5BmV0="
         }
       },
       "is_incremental": false,
@@ -5893,7 +6005,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.Events.CheckpointDelegate.html",
-          "hash": "uj1Tv5DT6n8Fc28EQ8kkxPVlkbeur15FYnq6PpkLybo="
+          "hash": "jj1JhT+ctdi0BOw6RS8suYweRPoe14GSxOOIaNZU608="
         }
       },
       "is_incremental": false,
@@ -5909,7 +6021,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.Events.ClientEventDelegate.html",
-          "hash": "jRfgpAt6uzOv2h1J3jt69QN1A4U9VF1kCWO+1icLLYg="
+          "hash": "8oyxnQgK3NEsLNRsajkkf3FdjtP9OJnc5zPCGAhuB0c="
         }
       },
       "is_incremental": false,
@@ -5925,7 +6037,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.Events.ColShapeDelegate.html",
-          "hash": "SlJb22X5Jf8XSQka20LpQoaloaDXnK/tFIiZpWjIr8o="
+          "hash": "54KsLXkUNeFTwVGSavLsZqYCU/xCb3JoAChJuVUPGhk="
         }
       },
       "is_incremental": false,
@@ -5941,7 +6053,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.Events.ConsoleCommandDelegate.html",
-          "hash": "xfqcgJwcKAco8mL+4AadVAZRrmSvy5ghjB3l+Msmlxg="
+          "hash": "VS3tJPc9SIXBUc/Cje5gDyTBMDWg3BO2BSZb8Rqw8D0="
         }
       },
       "is_incremental": false,
@@ -5957,7 +6069,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.Events.Event.html",
-          "hash": "e47R8WIPDcBtgyZ9/jBeWXFnRorgTJccXpk1OFAX5L4="
+          "hash": "IeNxKw1RQchjBNTGzDJNvLw9ZeFCRNfu8U9VzeVHyjk="
         }
       },
       "is_incremental": false,
@@ -5973,7 +6085,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.Events.ExplosionDelegate.html",
-          "hash": "cxuNpfAP2a96o/zePAhIfprLiWbvhryT6jjLdjJJXVQ="
+          "hash": "/+Y5lEcsNhhedBocoQ0hEnXhpE6G56VNwLjnkbaA3Hs="
         }
       },
       "is_incremental": false,
@@ -5989,7 +6101,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.Events.FireDelegate.html",
-          "hash": "VdoztK4u2+PJBwwmVFANzFO4C3oTDdX3SoSSRTXjivg="
+          "hash": "FSicnEPSC6S2diWsMRIm+hlBxdlM3bX5FnwbEdKRcZw="
         }
       },
       "is_incremental": false,
@@ -6005,7 +6117,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.Events.MetaDataChangeDelegate.html",
-          "hash": "2Qmw99HfMPmg/HtGfMH6ai9k2Dyq2H84Vo/1FtI5QnM="
+          "hash": "ExcRRFHmChx/FVb8K3gWu//6VD8Eu4zXRa3YVsYBBgc="
         }
       },
       "is_incremental": false,
@@ -6021,7 +6133,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.Events.NetOwnerChangeDelegate.html",
-          "hash": "IBd9HtVsIewlW9ZjFwY5fXdlUTsmGUstHf9skjX8RIM="
+          "hash": "vkFBp7sywoWLG+rc/j5U65VFBLigVJcdreZKzPUpn6E="
         }
       },
       "is_incremental": false,
@@ -6037,7 +6149,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.Events.PlayerChangeVehicleSeatDelegate.html",
-          "hash": "KRZg6KW3lDwhtcIGHYTeyZNXkxwMb6ktIpud+pEzqd8="
+          "hash": "X8CGjDF1c1pxZQW51i5CWGqM3Qg4xGEivZoBlOF0+94="
         }
       },
       "is_incremental": false,
@@ -6053,7 +6165,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.Events.PlayerClientCustomEventDelegate.html",
-          "hash": "BBiIelCHLFj4+5Lfw6F1UbGkhB2yeB0e4eMLQxJBdcY="
+          "hash": "NwTig2RdZo/MCqPGg8tffreq5B7BOl83IQ8bphW+h1s="
         }
       },
       "is_incremental": false,
@@ -6069,7 +6181,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.Events.PlayerClientEventDelegate.html",
-          "hash": "K2tIBZcGrhYQ1knhgOlbAeHTwEJBir9ffYAWQBGZx3w="
+          "hash": "hOtPTSzZY8xIdH+liNnMp3ENw/WMHWUPSzroQWm3VgA="
         }
       },
       "is_incremental": false,
@@ -6085,7 +6197,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.Events.PlayerConnectDelegate.html",
-          "hash": "0tz3OPZHZ/q/W1udcpjVA32YoKgjaZsI7UoDsFaKXvc="
+          "hash": "5r0kF/yRpU3xzaG8SayAEJLle0LQEkIsLlYExFEpSa8="
         }
       },
       "is_incremental": false,
@@ -6101,7 +6213,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.Events.PlayerDamageDelegate.html",
-          "hash": "pboQIQ0yZyGft4Q7Mfvfjmgy+KZz7P7j/LfFVW7+Wtc="
+          "hash": "tlJS2EzpqBSSwNNhBbTr32C+22ldwE+h0XcdIAJwTPc="
         }
       },
       "is_incremental": false,
@@ -6117,7 +6229,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.Events.PlayerDeadDelegate.html",
-          "hash": "kJyBFb8/dvMdRp8DH98cPdM6Gfo1Y8UaeCEiGzd5nc0="
+          "hash": "oFv9NQLHIjFvSYoNzBAPV8TgfouGMaIRt5DzY71YUUU="
         }
       },
       "is_incremental": false,
@@ -6133,7 +6245,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.Events.PlayerDisconnectDelegate.html",
-          "hash": "+m79pkCsXPJoFBoSYT0sGeiWANTy0M9NJhte4NnftG4="
+          "hash": "7v1jefGOVV0HG0nndSIg+ytKbmcrBfxanh/XjeiH078="
         }
       },
       "is_incremental": false,
@@ -6149,7 +6261,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.Events.PlayerEnterVehicleDelegate.html",
-          "hash": "XIerH0ELsSIRm0b4SZwOPCNNVkaL/N24Qw1YuJp/eI0="
+          "hash": "20m7LGEszAnvXOlnTJYANJBYrckpW/qBTeLN/EOAZ7c="
         }
       },
       "is_incremental": false,
@@ -6165,7 +6277,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.Events.PlayerEnteringVehicleDelegate.html",
-          "hash": "dsxaVhDY/5CsMYXPAIXsMP5t7RjOjICjA6da1fFMezU="
+          "hash": "v5d/VbjBEAbUA6iDSIy7ODjBilRDz4cpvVQr/J2C/S4="
         }
       },
       "is_incremental": false,
@@ -6181,7 +6293,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.Events.PlayerLeaveVehicleDelegate.html",
-          "hash": "whShWUoanNdaRPPQSCFnTGGhzeYFGqJ42v6oFim28+0="
+          "hash": "ua3hvWyDAKf1ZH8KphBswYmxycfq9jEKBiXcrrGjxrc="
         }
       },
       "is_incremental": false,
@@ -6197,7 +6309,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.Events.PlayerRemoveDelegate.html",
-          "hash": "4d4yT8uFSSkuXG7ML3j3SD0LeAyflTcXvshk/skRGzs="
+          "hash": "UxVgM4r51QCjCrguRXRQMS9J6ZW2c51/Ywxv9hND4P4="
         }
       },
       "is_incremental": false,
@@ -6213,7 +6325,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.Events.PlayerWeaponChangeDelegate.html",
-          "hash": "CKCQUOJiIskB8qpDZjq+t2jvhelVzWM79ug++tlKUO8="
+          "hash": "5wle8bI+UTFi18Ylto7QN+w26cE/0RjW/Capkq6jVqE="
         }
       },
       "is_incremental": false,
@@ -6229,7 +6341,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.Events.ResourceEventDelegate.html",
-          "hash": "W+BraBdPiibYdeevvGJjPbjqLHOKRe/sw7jfegCBFgA="
+          "hash": "Lf8u4JZ71zpzo4DfRNFaZdcU0+qwRnUOUY1x5/QCuuo="
         }
       },
       "is_incremental": false,
@@ -6245,7 +6357,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.Events.ServerCustomEventEventDelegate.html",
-          "hash": "MjsneLOU5cB+A247WZjiGI10Zv2TkEyG3HZX/EcTeFA="
+          "hash": "7xWMbcBz6l/30dwy/6vNk40G9qoZSHlgPSumcqgtyVw="
         }
       },
       "is_incremental": false,
@@ -6261,7 +6373,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.Events.ServerEventDelegate.html",
-          "hash": "OX3tCMW9Ks8pfuv+SmWJKc7UwwO7CyN4tO9gjH4niE8="
+          "hash": "tPYpo3Pq71QPaLKBc+8cZe+K9cztSLWAfBTd1A49wbY="
         }
       },
       "is_incremental": false,
@@ -6277,7 +6389,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.Events.ServerEventEventDelegate.html",
-          "hash": "Uz7j/iNWbmC8y1WONVx8LzhC1LNk1A9sKg+6HoYwHF4="
+          "hash": "oEkFvXVdEBeKOiECZyf45HxW9xvcp36NHoOt9wg059s="
         }
       },
       "is_incremental": false,
@@ -6293,7 +6405,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.Events.StartProjectileDelegate.html",
-          "hash": "x8YA5UBA9hOGGJPFKKQXQLSK/aewRfWoOG08rJcq6pU="
+          "hash": "pJpVKjrp27ZfAQmecBMVtPlHe/alc1oci45iiwgFDlI="
         }
       },
       "is_incremental": false,
@@ -6309,7 +6421,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.Events.VehicleAttachDelegate.html",
-          "hash": "2knqIU9mACOYHeQIbiDLfFwAB3JbGWfcZNhg5VKlkmQ="
+          "hash": "jRX4HdXkI4nGc/MO3on2wAlLaMuSDoj2GckZKxv+iu8="
         }
       },
       "is_incremental": false,
@@ -6325,7 +6437,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.Events.VehicleDestroyDelegate.html",
-          "hash": "3XP641R0wPBUmS227xr1eZGuNLhIEvOfyHrKH4/KhEk="
+          "hash": "XfOcP0HVWb+9Zi51Bo/IEJ1VToKZBTsEa+l7kogpz7Y="
         }
       },
       "is_incremental": false,
@@ -6341,7 +6453,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.Events.VehicleDetachDelegate.html",
-          "hash": "/zU04eWw/Li1c96z1rHr0H3mkiBC0mmwIvLuoulakpo="
+          "hash": "/oOY8vbrsN/6wDvS63mj2Oddb7LPz5/E2MJ9yl8bmu8="
         }
       },
       "is_incremental": false,
@@ -6357,7 +6469,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.Events.VehicleRemoveDelegate.html",
-          "hash": "5y58IJpNZSoYsBuc+nb146So4iKxMJJ7EzwFd87BCK4="
+          "hash": "4bBu0hTEEY6vI77VGIUgGu7A9T6ymlEFtGsqkn1j7+4="
         }
       },
       "is_incremental": false,
@@ -6373,7 +6485,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.Events.WeaponDamageDelegate.html",
-          "hash": "TL8uS8Dd13HxrJv3clbRpohej9tkLhQ1uHXWmWVdh84="
+          "hash": "Pxl9FA3RfYzjyucd0Rjs0DE5hgR2En0Dvj6MuUWK8pg="
         }
       },
       "is_incremental": false,
@@ -6405,7 +6517,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.Exceptions.IllegalThreadException.html",
-          "hash": "80I15kzos/GXRJ7eeR8zomj1N4GXbz8Lhx97nfubgvc="
+          "hash": "ZTXzvSx0FVts3TA8THfBVvmdpmCN9y6tBDyJsmXpTaI="
         }
       },
       "is_incremental": false,
@@ -6437,7 +6549,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.FireInfo.html",
-          "hash": "yATJcLSlcj0mwCAFKCIQdxm0XTxqZLZ21Bpy94HIK4s="
+          "hash": "zd0S+VDXpWLyvkaodhP2huFD6cXobGj7fR2iiwPNm1I="
         }
       },
       "is_incremental": false,
@@ -6453,7 +6565,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.Function.Func.html",
-          "hash": "xThS56D7R2IejDLEXmRQlA6B5L/YsfNF8HvKi52k7zw="
+          "hash": "vOMp3Gmch7fH24VwywrWv8M96aokbBofFmduBoaBaZ4="
         }
       },
       "is_incremental": false,
@@ -6469,7 +6581,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.Function.html",
-          "hash": "bWvdeLpDpjHfp152kgc8ZaqmUK5siSCTRX15wuYH5Ao="
+          "hash": "9zWJYkGooSdoAto0bJMncYKqQnRmcJ6oSAUBcXHPQlA="
         }
       },
       "is_incremental": false,
@@ -6485,7 +6597,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.FunctionParser.ClientEventParser-1.html",
-          "hash": "hv77nB+V32e+WgrjwFPNMD98VT/jqKXFuQTlSLk67f0="
+          "hash": "k6fZ2lAjHcDTfKS16b/sKZA6jp43pMsrwZi0Mocibpo="
         }
       },
       "is_incremental": false,
@@ -6501,7 +6613,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.FunctionParser.FunctionParserMethodInfo.html",
-          "hash": "P9lZcpFnkW+VN9987NrBo9uplDlR39T80L2fRBjnUvE="
+          "hash": "qtDiHzTwOXi+aaLmC9ODS72SmyebAQV1xLtP/sgvs1U="
         }
       },
       "is_incremental": false,
@@ -6517,7 +6629,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.FunctionParser.ModuleScriptMethodIndexer.html",
-          "hash": "8iFj1XuWkduBP5heG9+3v1b2rOIgdN34hzTj6sNYSKw="
+          "hash": "YdRKyzh0C3EsgGEp8+7zaVJ1OxPk1HaVSMxzReKIgHw="
         }
       },
       "is_incremental": false,
@@ -6533,7 +6645,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.FunctionParser.ScriptFunction.html",
-          "hash": "LpWylK94eWrIvRNakEBDLR5gBTNXGbHAoVkjv4k+HbQ="
+          "hash": "SwXDCumS6GR8K4K49St/sr6ATnOoOAioXuv0cOvy5cI="
         }
       },
       "is_incremental": false,
@@ -6549,7 +6661,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.FunctionParser.ServerEventParser-1.html",
-          "hash": "I/4sFrB3Ju9RJstQFcZ/GsVeZCC3FxJcVwxz5X8eIPo="
+          "hash": "J72+5h+2hx70AuSXStssZa9gEWAhTtb+UnjEgzxqmHM="
         }
       },
       "is_incremental": false,
@@ -6581,7 +6693,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.Host.ClrTraceEventParser.Keywords.html",
-          "hash": "BFK+QqgjUB/qFXUlnw56mQkw6h/h1gLpRRXnqZDrI6U="
+          "hash": "t0181IsLsl43mgOyO9/hHSW2QaRoQXfXeHHTR+ZLr4Q="
         }
       },
       "is_incremental": false,
@@ -6597,7 +6709,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.Host.ClrTraceEventParser.html",
-          "hash": "D6K0d0SESvO/jYzsmhJ4NQOGLRhJ6gHMc3az+7Debyw="
+          "hash": "V3SGlqlNRe8SeNfiq/Qjwb4cl+cCwA7o8CqMEY2zPxQ="
         }
       },
       "is_incremental": false,
@@ -6613,7 +6725,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.Host.CollectTrace.Profile.html",
-          "hash": "vHdkCXNIybGRNiBYv1UxAFgUfmSZ8JcPX+biyRHDATA="
+          "hash": "/zqPS4kXbbADceWK9ZRRpsvEeNySJ/VljxKM/N9X9vs="
         }
       },
       "is_incremental": false,
@@ -6629,7 +6741,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.Host.CollectTrace.Tracing.html",
-          "hash": "FqxA3MgrP31eFyGp9jAkkJ5dYgTkS9u20Dgf+RDKX18="
+          "hash": "fEQZopwDUdPqNpHhQi7gYgHJ7gX6XY/k1fTl5GAWtK4="
         }
       },
       "is_incremental": false,
@@ -6645,7 +6757,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.Host.CollectTrace.html",
-          "hash": "q3Te1VCCAwMrMFxIlrCf8ioPd8swEKuJtcsDutNGQsE="
+          "hash": "UyyVtgLG47t+uXcZx8ag7+GrLZTI1e6iL8aFne28GMQ="
         }
       },
       "is_incremental": false,
@@ -6661,7 +6773,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.Host.CollectTraceClient.Profile.html",
-          "hash": "oKZ53dPmSgNT5UuiwCMvZFXGa5Q/3qpv8X0jfyNkWBQ="
+          "hash": "u3dolxlY1i+GRbwJ0Sb7H1xcCDilgcTCf1iEv6HCqes="
         }
       },
       "is_incremental": false,
@@ -6677,7 +6789,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.Host.CollectTraceClient.html",
-          "hash": "Ojqha6LNiIahWDF3h3ZVSIeSwRiD3JAzGOhfm5lcI6U="
+          "hash": "6qp2gMAmMkyLEyi9FHOMPH+tn5Vg5oMOewHUfr3EEfw="
         }
       },
       "is_incremental": false,
@@ -6693,7 +6805,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.Host.Diagnostics.Client.DiagnosticsClient.DiagnosticsClient.html",
-          "hash": "akosUEnEOh678RRgR8snQS2BU3syxWA7k9W88nU8T4A="
+          "hash": "AnjyJhkSkLvaiZVvt0/hT8mAnrytGzh13/mM4ImtG5w="
         }
       },
       "is_incremental": false,
@@ -6709,7 +6821,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.Host.Diagnostics.Client.DiagnosticsClient.DiagnosticsClientException.html",
-          "hash": "D8EJeqJrnDlxHBtB8BMfgcHnJrh3BmOLQWtlYIhXG7A="
+          "hash": "vyy04YsiZ8IE/0q6KkXey8LrY1GXTky5U0jgW7y/K7w="
         }
       },
       "is_incremental": false,
@@ -6725,7 +6837,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.Host.Diagnostics.Client.DiagnosticsClient.DumpType.html",
-          "hash": "idpF4ywl+Li5MTsab9lrWGLYHXN5YSJchsBRB9Zhk9k="
+          "hash": "R54gBuWAiW4lhlAPccHebkjis8X/3L+Nuy7LlfDcEKA="
         }
       },
       "is_incremental": false,
@@ -6741,7 +6853,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.Host.Diagnostics.Client.DiagnosticsClient.EventPipeProvider.html",
-          "hash": "qiK6VsbIizu+pN8csICP6oXqaaqbRVeVucwg2uQcOwM="
+          "hash": "exsq4I/9ljnvZ9LUD949StRAdwDYammUBjBOO0fFZwE="
         }
       },
       "is_incremental": false,
@@ -6757,7 +6869,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.Host.Diagnostics.Client.DiagnosticsClient.EventPipeSession.html",
-          "hash": "p/hGWs9XMqqpixz4ifGacMi3zLej/5bDvTOovX1dTGk="
+          "hash": "YKbu8sU2V1tIL8LejeMvjFJWR4Pv5cdYH2jjsQABwco="
         }
       },
       "is_incremental": false,
@@ -6773,7 +6885,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.Host.Diagnostics.Client.DiagnosticsClient.ServerErrorException.html",
-          "hash": "BBqOJ9JKnRk+lgtacdpPBOCGO7CUvam3H0o+aMcMOM4="
+          "hash": "bw+EX9CnJeHJ5SiedssLzh0waw4ZSSHJoji/yinrxnM="
         }
       },
       "is_incremental": false,
@@ -6789,7 +6901,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.Host.Diagnostics.Client.DiagnosticsClient.ServerNotAvailableException.html",
-          "hash": "r4usOyt24LIJfaKJP3lxYZhyWYXwFiGhN5cIYxvr+UU="
+          "hash": "aX7KRldbzN8MY6jw6iHNza5Nm/xMmsgd02iXS4+FMt0="
         }
       },
       "is_incremental": false,
@@ -6805,7 +6917,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.Host.Diagnostics.Client.DiagnosticsClient.UnsupportedProtocolException.html",
-          "hash": "my1Dzx+3ydT64Fvuo8fUDz/AAOzyThBkucQQblD3Bd8="
+          "hash": "fOT3L5mSQ1vabyNdMMv3FWn6csWWws4zEt0wzz2tcIc="
         }
       },
       "is_incremental": false,
@@ -6837,7 +6949,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.Host.Diagnostics.DiagnosticsHelpers.DumpType.html",
-          "hash": "x2FmXiza/P+xdifIJ1PBKCuEfU6RluT9gGO9IJyIjHM="
+          "hash": "IUJtZUDWu4DHUgeNa1UtduyzOVTHdo5SXB818jkFO3c="
         }
       },
       "is_incremental": false,
@@ -6853,7 +6965,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.Host.Diagnostics.DiagnosticsHelpers.html",
-          "hash": "1PmYxcRIQT/rLXmo/rR8Cwd1uziTKTLnzRMQqMjn6TA="
+          "hash": "D9m5HaCDca6UFzQsQtsqjVz2Z3gYK9hVvjn7DgCRpCk="
         }
       },
       "is_incremental": false,
@@ -6869,7 +6981,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.Host.Diagnostics.DiagnosticsIpc.DiagnosticsServerCommandId.html",
-          "hash": "rxbAX+SSiVe/AuteiB4S99YD58bc0zQxH2h6L829OBM="
+          "hash": "IciUyIkrif1s/5DeX1YNESmSAp5q2dJtTK3YasWHsaI="
         }
       },
       "is_incremental": false,
@@ -6885,7 +6997,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.Host.Diagnostics.DiagnosticsIpc.DiagnosticsServerCommandSet.html",
-          "hash": "IiAJ1jUu3ffOHHKcTS4NPbq4RSu210Gmjvt+y+mEjxY="
+          "hash": "50n9Af5qQYqXQn/eQoq5DalyvXv96vOKGwrHPBttK0w="
         }
       },
       "is_incremental": false,
@@ -6901,7 +7013,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.Host.Diagnostics.DiagnosticsIpc.DumpCommandId.html",
-          "hash": "qbAqIr4pzWc+DARMR0aI9jFd7JgBWJntGHibSb/CnwI="
+          "hash": "58gKiglkfzvNN6PVQzZAW5VK1/S7vJHnODCB/lsR+EU="
         }
       },
       "is_incremental": false,
@@ -6917,7 +7029,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.Host.Diagnostics.DiagnosticsIpc.EventPipeCommandId.html",
-          "hash": "VaHtcKJmQwbSxvbA3EfK6ePUaeEHWdFOW7rVPYIwEcc="
+          "hash": "z8nRZu72GN92qqeTi6tcqj+ZxfyUrtpZEZ7QxgG6LSQ="
         }
       },
       "is_incremental": false,
@@ -6933,7 +7045,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.Host.Diagnostics.DiagnosticsIpc.IpcClient.html",
-          "hash": "+gor1cG45cFhw3sNOo0nF3OfLXLbjhYXGGhEsJyMTyk="
+          "hash": "Z/SbTJXgy0BHXigFGZrqu2W2YLdN5VCzjAgaOQlyhYc="
         }
       },
       "is_incremental": false,
@@ -6949,7 +7061,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.Host.Diagnostics.DiagnosticsIpc.IpcHeader.html",
-          "hash": "ycA6JJiCmLcuEjOzSBdiaouuSPAzzq0gHDqNrBHl1mo="
+          "hash": "XXmcJXPd8BWBLOi1iXCelB8MGfOGktVEb4rukOkMlmE="
         }
       },
       "is_incremental": false,
@@ -6965,7 +7077,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.Host.Diagnostics.DiagnosticsIpc.IpcMessage.html",
-          "hash": "FJaqPmcjIBnJ3419iLX2FxL+1FDOnStORmcqHWxCvmM="
+          "hash": "vYJQ+M93WlpEbtp/MeS0A4cDcitk4PU9RbJe6PLOXEU="
         }
       },
       "is_incremental": false,
@@ -6981,7 +7093,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.Host.Diagnostics.DiagnosticsIpc.ProfilerCommandId.html",
-          "hash": "41whvqGA93qmnTDvPPrzCVm+rAX2ci4Lu4Jipn5SJEw="
+          "hash": "MfaqwYNnW8uwmaiSkWpYzlwjdgq9RUUBdlfIBt3s74o="
         }
       },
       "is_incremental": false,
@@ -7013,7 +7125,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.Host.Diagnostics.Eventing.DiagnosticsMessageType.html",
-          "hash": "akZdworuOmdZjMGbvVS4QjoxD8qzFfGQkGDg+aipRbQ="
+          "hash": "fhcGvWNjL4J/Lest/87uifl909dkONxn71YSzF8nlU4="
         }
       },
       "is_incremental": false,
@@ -7029,7 +7141,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.Host.Diagnostics.Eventing.EventPipeBadEncodingException.html",
-          "hash": "3JByiukgHxdq8aofidMkQ0m0stNfBaWWkTsJ/0sBMvo="
+          "hash": "gK0JqpFpqya8aAaU8U548R4UmP8gVS6vWLumQgBy5Ps="
         }
       },
       "is_incremental": false,
@@ -7045,7 +7157,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.Host.Diagnostics.Eventing.EventPipeClient.html",
-          "hash": "stAw0/AfPLEaIk5NhIjt0qio1pwaAYrbArwaKjTLo8w="
+          "hash": "ZHCtlPcK3lyD0tge5yG1OKh1XlPOesbJvY20t/jNVDg="
         }
       },
       "is_incremental": false,
@@ -7061,7 +7173,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.Host.Diagnostics.Eventing.EventPipeErrorCode.html",
-          "hash": "Rjj0ra3pu8BshIvHwucNs2lA3FOJHoYsiaR9xndqSKg="
+          "hash": "lDkoVrb/6JanrhXznVxpctkkyPfmyAmXNH8XgPq6adc="
         }
       },
       "is_incremental": false,
@@ -7077,7 +7189,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.Host.Diagnostics.Eventing.EventPipeSerializationFormat.html",
-          "hash": "o4LK00lfQIVfRfA0Uv0nLcDN68kPRm1JbfA5S1b9oII="
+          "hash": "vkZ9Gna7f8IxM5RNXqQ85XL7cNrHeaKD+pyNxzTp/f8="
         }
       },
       "is_incremental": false,
@@ -7093,7 +7205,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.Host.Diagnostics.Eventing.EventPipeSessionType.html",
-          "hash": "9QEja2UexIaaTwqjta//Mp/osunxhJmrIrJkhrbts2M="
+          "hash": "jCIG3NkHHGXgyFqsHRqh/W+t677sdoZZaUC3aPVfNbU="
         }
       },
       "is_incremental": false,
@@ -7109,7 +7221,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.Host.Diagnostics.Eventing.EventPipeUnknownCommandException.html",
-          "hash": "jJiaLK72+EIduz8l+KqxQuPePkMGEDOftRJmobAl668="
+          "hash": "U2GUumqp/xoU7CnkJa0eVyqdO0rj/QnRskpG8gm0PVo="
         }
       },
       "is_incremental": false,
@@ -7125,7 +7237,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.Host.Diagnostics.Eventing.EventPipeUnknownErrorException.html",
-          "hash": "2C7MyJcQnH8zyyvHU17jdXBmMt491LMn/YbCYOZImWE="
+          "hash": "Luwrg1a4UX4mYbsqWNc94kVjMB7nc2uGgvmSocESoBI="
         }
       },
       "is_incremental": false,
@@ -7141,7 +7253,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.Host.Diagnostics.Eventing.EventPipeUnknownMagicException.html",
-          "hash": "udp05XcuJc9Uv6JBw3pDhsjhavpmeGzRq9K0GvWTRjw="
+          "hash": "AJpTh6U4X4DPIj4Gb7pcX1kKz/qm5mvJ0Rl9Cf3m1BI="
         }
       },
       "is_incremental": false,
@@ -7157,7 +7269,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.Host.Diagnostics.Eventing.MessageHeader.html",
-          "hash": "C0JfuP8oUlk7KVUeLmdjepjQXc7PD1b2Wrs2L2ypKbE="
+          "hash": "+Y1IyiwEZJclQBOgQr1WPY+B2Z7G3EYh5rv6C3r65Go="
         }
       },
       "is_incremental": false,
@@ -7173,7 +7285,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.Host.Diagnostics.Eventing.Provider.html",
-          "hash": "hUd4K2oitc5UcIMNFa8QebRtRz6jTq+r0K4Mt6KVGqg="
+          "hash": "Izn/T/vowDtRqb5c0TnRORvuytYwnGb1SxXqAF1tUHQ="
         }
       },
       "is_incremental": false,
@@ -7189,7 +7301,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.Host.Diagnostics.Eventing.SessionConfiguration.html",
-          "hash": "t1/8jDa4QyJ9r2vK+VLzn6vPgt5miFUvFPGEveW/c60="
+          "hash": "EY7pNwwlP4hWhBPFIi3682TjeLjFWwZ8PJA05SxMVHo="
         }
       },
       "is_incremental": false,
@@ -7205,7 +7317,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.Host.Diagnostics.Eventing.SessionConfigurationV2.html",
-          "hash": "X9teL8VblgDpHHjQtP05ciCrSTnXiBuW1vaG0YB2JL4="
+          "hash": "vi68u22XCVzGYK/x+FDQhcobUjiloumI+lBZOZnNGRw="
         }
       },
       "is_incremental": false,
@@ -7237,7 +7349,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.Host.Diagnostics.Extensions.html",
-          "hash": "KCMGOG3uuaO2cdJl9njFa5VpRVBs9w58Y6hqRMzT+gU="
+          "hash": "gdl2aXi4m3H/lYgKQO+byEEW3pbQelmXrkxOaUFxZHo="
         }
       },
       "is_incremental": false,
@@ -7253,7 +7365,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.Host.Diagnostics.Tools.TraceFileFormat.html",
-          "hash": "1p4C06HgyXiTxkl/+6lgBpWFBoB/e+ebUWds4BV26aU="
+          "hash": "qsaJveR7d+GOsysWiO8M9xWvlNHa9biE324l7d+l2Xg="
         }
       },
       "is_incremental": false,
@@ -7301,7 +7413,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.Host.Host.LibArgs.html",
-          "hash": "QHjjq8Hxf62463mkUY2pRrp94YymlcKcLRhMDFBxPM8="
+          "hash": "0pjXmRIOBOGfXQCPhyJUKnqN2VImDG1ZieaqKy30JRk="
         }
       },
       "is_incremental": false,
@@ -7317,7 +7429,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.Host.Host.UnloadArgs.html",
-          "hash": "NdHTFdCL7aqopCmshA0143hEj4CbpCusiRbfMcPXhiY="
+          "hash": "B2kZ0EqTmT5EJCJYWCFcKd63dl0TEoPTggXVSur7Xco="
         }
       },
       "is_incremental": false,
@@ -7333,7 +7445,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.Host.Host.html",
-          "hash": "ELwHp8bmYOuDGBmLytkNjhWs6GMTTjTsvj4OSwG+rY8="
+          "hash": "EsEAMS8WYv+Xq5d4Gapd99nbWFJJfIP9R36OtiUFXbY="
         }
       },
       "is_incremental": false,
@@ -7349,7 +7461,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.Host.ResourceAssemblyLoadContext.html",
-          "hash": "rJtSho9ALYbt7dreVIOeOmUDVoH+n3Rgo7VWhb+ngUc="
+          "hash": "W3T1uFzT0J7/pSb0C22pvsO0keZtJdeZmORZb81wQM8="
         }
       },
       "is_incremental": false,
@@ -7381,7 +7493,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.IBaseBaseObjectPool.html",
-          "hash": "+McZD2/DSr7GEChVM3lLzWxc+R/zOSEVzSadAqqPR5k="
+          "hash": "RrR6h/v2F3ZLPhTqP0HQ8izySdYiG+gULwcwL9VmCVc="
         }
       },
       "is_incremental": false,
@@ -7397,7 +7509,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.IBaseEntityPool.html",
-          "hash": "XMT2kL7fI3GpyUlRbRPZCV9fBBw31sH+z1bmkEueRVo="
+          "hash": "rJsr2lcQtt/byWfgCwAo0u0+ScA/weZcv/QfKvq54+w="
         }
       },
       "is_incremental": false,
@@ -7413,7 +7525,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.IBaseObjectFactory-1.html",
-          "hash": "r9cKoHCLbmqJB6VGRihCl615eRHIXYUOU6jplDsshKI="
+          "hash": "jB0kB4vTo1tjeLCsRPtASWxFBwU8Fymv+cjb5rOOo4E="
         }
       },
       "is_incremental": false,
@@ -7429,7 +7541,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.IBaseObjectPool-1.html",
-          "hash": "c0xXpnubhi/LXim42yHLpsDIWWBY+IDrg9OE4bAtidY="
+          "hash": "nNYhyuMhaACH3bBLFvwUhboRufY0iw+uPHzyF4vzzpU="
         }
       },
       "is_incremental": false,
@@ -7445,7 +7557,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.IEntityFactory-1.html",
-          "hash": "mE9zdZJ+YMyiRUAIIz7Ez3bvyx7Nxx47daXtoIoeEXc="
+          "hash": "e1//z2/g0lyxO2SrjUnx1DIiIy+Gb4iFhlNoPXVUNR4="
         }
       },
       "is_incremental": false,
@@ -7461,7 +7573,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.IEntityPool-1.html",
-          "hash": "2GmMEe57M3OSfPSUKxabHNHW/7PiBd66WcJDSnC20rQ="
+          "hash": "uqs7R4qO3LnNuBC7pX1ozIDDr7C44XGpEwJfcdAUCRI="
         }
       },
       "is_incremental": false,
@@ -7477,7 +7589,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.IMValueAdapter-1.html",
-          "hash": "+roqqe6gpV7Ecacu66zLw/SyGbwGF9nj5E8oNvhpArM="
+          "hash": "FkMiVTKTDhxJIP6SVRaSlv7msinguvPleUVJCFqP6eY="
         }
       },
       "is_incremental": false,
@@ -7493,7 +7605,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.IMValueBaseAdapter.html",
-          "hash": "81uJjJRDFM/jf7guhm7My/A6xOSMXPVBtsqi7fLznL0="
+          "hash": "VJ0Y7YZz4g3Pu9IP5IHj+0h/AYUuhHCMYsC3VlaPknw="
         }
       },
       "is_incremental": false,
@@ -7509,7 +7621,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.IMValueConvertible.html",
-          "hash": "UFvt6iEQqTn2GBkywJSrwG8IsPKLGph3JbMrnPCdYMg="
+          "hash": "+qxNLb6Y8j83SOfNGt8VaOQFZKsx8OFcwf+mdp7LQ08="
         }
       },
       "is_incremental": false,
@@ -7525,7 +7637,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.IMValueDeserializer-1.html",
-          "hash": "VsfzGrgLR3hQcr1c2LPY82JTtowmZfuvCHN4e9h1YVQ="
+          "hash": "Aeuj8fmteipSYOWxeQikQNraR5Vae0n6ktwXkRALnBs="
         }
       },
       "is_incremental": false,
@@ -7541,7 +7653,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.IMValueReader.html",
-          "hash": "ZxPZFdvVXf0nAQsCg5Mz825DL/0uoExpEe6JIrtORok="
+          "hash": "s7POxsO/Me88ImKRg/mTkV+Pun+OFssADI/4ltAP/GU="
         }
       },
       "is_incremental": false,
@@ -7557,7 +7669,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.IMValueSerializer-1.html",
-          "hash": "2c4cPHsOjjBbMcM3+APRmEsmnA7GfkSBF4X1l+Ytgko="
+          "hash": "Ta8ZVsbplu5NL2OdNOQG/VT5XOXT69EW007RL6Gooe4="
         }
       },
       "is_incremental": false,
@@ -7573,7 +7685,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.IMValueWriter.html",
-          "hash": "cuduyr9UgZn5yUqY/oChMAqHMiKibzFwCjYIz1P7sSc="
+          "hash": "jSthqq6PeRZYZRxQX/mR894Ay7+vK2JP2EG4qaG+k7c="
         }
       },
       "is_incremental": false,
@@ -7589,7 +7701,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.IModule.html",
-          "hash": "3T8POP8yokajcJUmSn8oqUiCGbUxhFN950JqUrvNnJ0="
+          "hash": "MPcbfOn6skDSRcLrnpd9KBK8Qs/epv6IUdFPbFfdipU="
         }
       },
       "is_incremental": false,
@@ -7605,7 +7717,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.INativeResource.html",
-          "hash": "R8GI6qBXfX6Iz5ganODB7XXFvmZ3XMyPTRodL1UZKfA="
+          "hash": "CG02wZgEjvplVGPfXZwK5rpH0zXWA4NtB4Mj0dnAMaw="
         }
       },
       "is_incremental": false,
@@ -7621,7 +7733,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.INativeResourceFactory.html",
-          "hash": "NFLd9/jmiC3MXWZgQAoingVvnEH6vGOaTm2Ti26YJaA="
+          "hash": "VGG9AjgfdvjUxt5PLSBnnWoPt75oVmAGGFtHRKzZMoM="
         }
       },
       "is_incremental": false,
@@ -7637,7 +7749,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.INativeResourcePool.html",
-          "hash": "SkCBm0M9yrRcAZV64eK5jp/CzNXNE2cx/YEl360phSU="
+          "hash": "wefNecKls27w6M+F5E68A1VJcXkBQXi9mHolYm9uHUE="
         }
       },
       "is_incremental": false,
@@ -7653,7 +7765,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.IResource.html",
-          "hash": "bsA34r4DIbOdbspZsIoaMaKHW46lGipSlfkCZYWkM20="
+          "hash": "AOByOdGZ8eL+4cY+HFk4Z/iCSfAZXbGr1dkAz8jI7Nc="
         }
       },
       "is_incremental": false,
@@ -7669,7 +7781,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.IScript.html",
-          "hash": "GtRrLDBO2QBYYgDZDe/O32900Z6nUHCR85dpDVCmvNc="
+          "hash": "Q3Za4wfl1OmgQILJKD4OJHWo9WH3PMQmUdDZC6iNzGM="
         }
       },
       "is_incremental": false,
@@ -7685,7 +7797,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.IServer.html",
-          "hash": "TeVMOqpqGJ5DLsdbiOpSvS5lZzQVB2oexGFKXxFn1ao="
+          "hash": "wrcjdNhmjXIsEEuMFW9NuuGci4TH5Ui84jCybCrcEf0="
         }
       },
       "is_incremental": false,
@@ -7701,7 +7813,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.IWritable.html",
-          "hash": "lIQmkaDG9MVk99QxC11XA0FOzo51y6CkApsTlDf81eY="
+          "hash": "3jR/OBOEh7obht05qcK9uirLbjZ1zhagsV8ElGq6674="
         }
       },
       "is_incremental": false,
@@ -7717,7 +7829,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.Interactions.AltInteractions.html",
-          "hash": "dobruBk0RPjJZW5Gr4dWF7pY5WjuplTQ2RO+c3hUAU4="
+          "hash": "8ryt53DTBTTzSQnpkpm08Y94Lx2XzTUYaetxEllt+2c="
         }
       },
       "is_incremental": false,
@@ -7733,7 +7845,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.Interactions.Grid.html",
-          "hash": "Wl7uZOHL8Q27+2k3jdsSz6R8z3fQN07ZxXh9DFvCxq0="
+          "hash": "Y6Gg9KV9uYQkJJLvVTnSUjvB3shdHPsNidVkadBFueQ="
         }
       },
       "is_incremental": false,
@@ -7749,7 +7861,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.Interactions.IInteraction.html",
-          "hash": "SRGy8jh7F30vBehp57z5/amfaJX9qVzJm/ata12XtiM="
+          "hash": "Tu89lUw5vdy4DWfE6Evi3Sl2Fk7AqQwcn/3Txo74YS4="
         }
       },
       "is_incremental": false,
@@ -7765,7 +7877,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.Interactions.Interaction.html",
-          "hash": "HL9Qn2fIQS/1fRCbeg27WZCs+8PDTLPznb8r2hJeUjs="
+          "hash": "8QjfGHArNcJkCjsrFcjKX4jgRRk0O2LGA1KQmch6S0k="
         }
       },
       "is_incremental": false,
@@ -7797,7 +7909,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.InvalidImportException.html",
-          "hash": "ZwJZjx080o/fKP75QoLwvOb07q/6tIKAhWEu8pUMNmg="
+          "hash": "+3fUbNADo1ZOcJoWqPY1xHOZAC5fsbMqQDb+/2cMtAI="
         }
       },
       "is_incremental": false,
@@ -7813,7 +7925,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.Mock.MockAltV-6.html",
-          "hash": "ontDWNCgGideGaCayY+JPWB78g3dUg927POCMWIkMoc="
+          "hash": "7G1524EsmXOMjRT6JhL8QTPNSSJF1wtCnkQoDbBYN8k="
         }
       },
       "is_incremental": false,
@@ -7829,7 +7941,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.Mock.MockAssemblyLoader.html",
-          "hash": "Bi2Bge3DKCUFT5ivmMUJZUxwFyMYHdAaQ3nvN2jFkFY="
+          "hash": "mjHyrmkJhKLFxe3cnEQOziv0Wsjp0dIEYxbSk4OGuzM="
         }
       },
       "is_incremental": false,
@@ -7845,7 +7957,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.Mock.MockBaseBaseObjectPool.html",
-          "hash": "QpA8gBnBaPeYmNLAI0HWv3mOJZcsZ+vqMCVIWXYwfk0="
+          "hash": "P71W6UIN8wdVDNApPmZh5y9EQwzZ74n/hDoroBcEerA="
         }
       },
       "is_incremental": false,
@@ -7861,7 +7973,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.Mock.MockBaseEntityPool.html",
-          "hash": "1X+PCTTgpb2iyyY2Uo8SiwNKCQFpmB9/OxMqe8/aQRY="
+          "hash": "/+sZH3MZWGh7cxuFa7AZy5uxDXhA8zXy9DmBpI9UP0Y="
         }
       },
       "is_incremental": false,
@@ -7877,7 +7989,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.Mock.MockBlip.html",
-          "hash": "ndfpfZ5wJ/toFpNxizjPNbgE+uo98qmpRIwz4SRlpJQ="
+          "hash": "vsiLBf2BAcSuBwOail1g5OXDibPOzcpYfYGU/Az+eDM="
         }
       },
       "is_incremental": false,
@@ -7893,7 +8005,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.Mock.MockBlipFactory-1.html",
-          "hash": "gIPk6roZjaQ53YQS1Td2lGup101LfK4/FWSFU9TQZlA="
+          "hash": "PcJP4BwFGkViFcfgZQp4n+q2x4IstdzSPzZD+AE9pKo="
         }
       },
       "is_incremental": false,
@@ -7909,7 +8021,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.Mock.MockBlipPool.html",
-          "hash": "Djg993SqERzkuZUdg7ifoFjfcqpT6vhLm/WEWHNAGSE="
+          "hash": "/h/UKhtXpjjBsatlXSfjIe1yHAGvf6rFOUbXUCV5ji8="
         }
       },
       "is_incremental": false,
@@ -7925,7 +8037,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.Mock.MockCheckpoint.html",
-          "hash": "D8lhPk/T3OOn7wDrvdiQaUP/bnFcGAN01vaggvVzW4E="
+          "hash": "EmOojTP+aRfDByhco9GNMwMaR10lnLIESAyWTRO76nU="
         }
       },
       "is_incremental": false,
@@ -7941,7 +8053,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.Mock.MockCheckpointEvents.html",
-          "hash": "w5wRwjmONd2QVuGbWf0zjPXtc4TDA3hmUAZAJTxdnHw="
+          "hash": "/0/crdIh+mTmPEEjROAg8vram7Tg4JSZAEeelhBGFWc="
         }
       },
       "is_incremental": false,
@@ -7957,7 +8069,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.Mock.MockCheckpointFactory-1.html",
-          "hash": "GJg3AuecyzE5zTxjPkzzYtAbJB2Fq/8H4laVBYxOmh4="
+          "hash": "wdCzMHtniV8S+Hyl7wR3HutJusE/DviPQVlg4zzks5w="
         }
       },
       "is_incremental": false,
@@ -7973,7 +8085,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.Mock.MockCheckpointPool.html",
-          "hash": "bkr4j8Y0+NCovElAuiHzXt9e0TRk3xkPNarSU6MdUVw="
+          "hash": "y89rGfVXbyhO9/tXBOOrU+UmHcb6DVsNVNQmwIRtI8M="
         }
       },
       "is_incremental": false,
@@ -7989,7 +8101,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.Mock.MockClientEvents.ClientAnyEventMockDelegate.html",
-          "hash": "fTa74qa9IG0uEE6dLkGOS5cQalJnuZE+wqDSJRkxup8="
+          "hash": "1UhtVdHzaafQAk0riCkS2Xc8ZvabsgfENSkF1BeAZhQ="
         }
       },
       "is_incremental": false,
@@ -8005,7 +8117,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.Mock.MockClientEvents.ClientEvent.html",
-          "hash": "MYY/QPI3EVfBO+74EVgI7zbPh6S9XS33qgAE7csUNc4="
+          "hash": "TCKOvBJHhG26kMCypHZAp49W546oevjlKHa7nDrMc+A="
         }
       },
       "is_incremental": false,
@@ -8021,7 +8133,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.Mock.MockClientEvents.ClientEventMockDelegate.html",
-          "hash": "+VCu0VOMVr/FXcS4DXCRGk6yfcRVgJMfc/abiU6OY/0="
+          "hash": "D3dKmGMWluyuRp1Napjq+qL4OHuPkUifQwBepnudrLI="
         }
       },
       "is_incremental": false,
@@ -8037,7 +8149,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.Mock.MockClientEvents.html",
-          "hash": "hvHlUsROy0/oG2BccQH0S63oY8gsOYNYdXFNmODHySk="
+          "hash": "mdXunAdUzL1XWk5cc4Jqjfiy3HL9WWacEaCVqWeEPFA="
         }
       },
       "is_incremental": false,
@@ -8053,7 +8165,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.Mock.MockColShape.html",
-          "hash": "F9YOM1JKaYCJr0cedjUzYbHGJVDiFYQPTEsPJIaVPjY="
+          "hash": "YIZk2l87ja7JbHwVNKctV83zbGhuHv8TLQTiYmClQyM="
         }
       },
       "is_incremental": false,
@@ -8069,7 +8181,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.Mock.MockColShapeFactory-1.html",
-          "hash": "f/0+t+nohRvW9haawp7zuiv7bSygDfsgwLAz2iYWgkM="
+          "hash": "cAziyGTknKCsnd/flG9/L9yZJYfVWsgpdDBmD3ScrCs="
         }
       },
       "is_incremental": false,
@@ -8085,7 +8197,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.Mock.MockColShapePool.html",
-          "hash": "8fApsKnWxqCz0K7g7ffGhg+KCajUb849ZYXxBvNkB2o="
+          "hash": "D0twIadeVwBvFRE8owwIBm7NHz1iApXf2pbGnAMKWmo="
         }
       },
       "is_incremental": false,
@@ -8101,7 +8213,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.Mock.MockDecorator-2.html",
-          "hash": "qA3/QM8/8sjMF+rLo5fjTM/GUg3P5JUWdQ3MJLtCGjA="
+          "hash": "Z5b5RlFUWSeTyVl4T9DMF0GWhykUzQt0iHR0MeN6i20="
         }
       },
       "is_incremental": false,
@@ -8117,7 +8229,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.Mock.MockEntities.html",
-          "hash": "I2Wea48e2DJnyiHW7vfs2+r6x6l7v7HN+4Z3IdpDhaw="
+          "hash": "2JmZzVyv2MK5ZQ5xXYV01DxMPOdykIXISCIk2BkapZE="
         }
       },
       "is_incremental": false,
@@ -8133,7 +8245,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.Mock.MockEntity.html",
-          "hash": "C66xUSr2PHaizoVzn97YGEL7PamMwJ2Kyv7hqh253Wo="
+          "hash": "Hwie/7XBpL7Gb7MBIo3iLmQsCsTbRCWD6ypWl+H0RLA="
         }
       },
       "is_incremental": false,
@@ -8149,7 +8261,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.Mock.MockPlayer.html",
-          "hash": "b55PvF5IaMz/A7dZpgdONcU6QWfM118Nw2r0+jZH1IE="
+          "hash": "2iyStzL/clb+7R08sSKoMa25P69VVV3x3VnUKgEYQNQ="
         }
       },
       "is_incremental": false,
@@ -8165,7 +8277,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.Mock.MockPlayerEvents.html",
-          "hash": "PvViZRrvekKXOVbprN7na6yGpLPh1ZOaGNjIbS1uOVo="
+          "hash": "W0CxnEXxhNlm7TYnF2jTcZ+1XU/8oUha2MyXKgjqDXo="
         }
       },
       "is_incremental": false,
@@ -8181,7 +8293,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.Mock.MockPlayerFactory-1.html",
-          "hash": "udceFGi0asEqfm3rQaxqFt5GznETLnbuVCPyAy8M1+o="
+          "hash": "9f6SbGwbl1zDGQvZcqTTXJ/3ecoKQmcPvGhEEdaYtLE="
         }
       },
       "is_incremental": false,
@@ -8197,7 +8309,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.Mock.MockPlayerPool.html",
-          "hash": "sFPViu+Vb0SlzKmV9we4i6KGtyopKEA3rIigi5bDeLw="
+          "hash": "VcwGGj0L3Y3KlOE/aeVEQqWQg83MzHcK25uer9DWvfA="
         }
       },
       "is_incremental": false,
@@ -8213,7 +8325,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.Mock.MockServer.html",
-          "hash": "AwE0JL/WRvzSGsUg76GIm7B1SjWMKoTe2rYMpw3Pp2U="
+          "hash": "b1Hx4dTVHTUzd4ELNotIac6lV7ZvpnerYeRMyuxdtMs="
         }
       },
       "is_incremental": false,
@@ -8229,7 +8341,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.Mock.MockVehicle.html",
-          "hash": "HFK7BdG/zDHvmjKMXZR50XTCDVwXkWaS2NR4rvloiXM="
+          "hash": "G4OLWJzQNRrNMFAm65gaO7O7EY7kpKLgnFhrQvg8Txo="
         }
       },
       "is_incremental": false,
@@ -8245,7 +8357,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.Mock.MockVehicleFactory-1.html",
-          "hash": "8VecZ4pV0OamExRw8CS9ol1UwqNcuYqq5NdLYiWRzQQ="
+          "hash": "z1W0bUjaNzM5Z92VJHj7jUQRp0dxYVZ+/qSS9aWfZG0="
         }
       },
       "is_incremental": false,
@@ -8261,7 +8373,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.Mock.MockVehiclePool.html",
-          "hash": "FLDAdDNb0OH6R202mLPscgh5bEdMVAiDjsgWZv3EWF8="
+          "hash": "Stf2il54x9Jpj9GnOLTs5FRN4UxRma6KEHh+m9j7IGI="
         }
       },
       "is_incremental": false,
@@ -8277,7 +8389,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.Mock.MockVoiceChannel.html",
-          "hash": "3MNtJLCgt7ts2nu9Rlc+NsCxWxXif51Cd7jd/Lp6ly8="
+          "hash": "rB7XCLNhavPVQpf4fJVUDvDuB7TSyBTXVtcByARX/5g="
         }
       },
       "is_incremental": false,
@@ -8293,7 +8405,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.Mock.MockVoiceChannelFactory-1.html",
-          "hash": "h5Ae+Z31JQbLQ4pfhkVyJgGhbEDV3BYzbJo5Mo9BlSc="
+          "hash": "x+rNZnOedd5XEFyWmy+ETDzWjIQ9efe5WxJoOu83XlM="
         }
       },
       "is_incremental": false,
@@ -8309,7 +8421,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.Mock.MockVoiceChannelPool.html",
-          "hash": "aXmGL41/f4ymk7Q5PwQp1sLPiv2uhFYRCafqm6bTYVA="
+          "hash": "aaAGAKQjzlDc101S9kmDD9xUCTGfqdtTseJxpJZXy+U="
         }
       },
       "is_incremental": false,
@@ -8325,7 +8437,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.Mock.MockWorldObject.html",
-          "hash": "zkZGbiFfKc6DCzEK+IG4fyxAJY13yU2P0qjTWI+uVzg="
+          "hash": "w87QjsWhaOS8l7o8hdN01SOorj+dEqEWwWbhWysH2AI="
         }
       },
       "is_incremental": false,
@@ -8389,7 +8501,39 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.Module.html",
-          "hash": "mopUzCB89M4lRSSVBw2kE/XzezWXMaAX0aJ4P3XJVeo="
+          "hash": "mnVuw6FigbVMMpSQeErWc9Vx9IkqFPqLCWJlOd2HC4U="
+        }
+      },
+      "is_incremental": false,
+      "version": "",
+      "langs": [
+        "csharp",
+        "vb"
+      ]
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "coreclr-module/docs/api/AltV.Net.Native.ILibrary.yml",
+      "output": {
+        ".html": {
+          "relative_path": "cs/api/AltV.Net.Native.ILibrary.html",
+          "hash": "7vOtmIP38L2MUWL9TUPo/d/oEGlUOTDtUhQalgxGFgI="
+        }
+      },
+      "is_incremental": false,
+      "version": "",
+      "langs": [
+        "csharp",
+        "vb"
+      ]
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "coreclr-module/docs/api/AltV.Net.Native.Library.yml",
+      "output": {
+        ".html": {
+          "relative_path": "cs/api/AltV.Net.Native.Library.html",
+          "hash": "6ku/kwYAY/4tSFF84LHwjJPwQgB5Hcmz92RngNFGmRs="
         }
       },
       "is_incremental": false,
@@ -8437,7 +8581,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.Native.StringView.html",
-          "hash": "Hv7dX1CqJTa9F5JXl3Xkop9ce3ePlLUr5AfwEc+gCK8="
+          "hash": "HLfDHNdvrVxL/uZPhSHr75FsobDcw3yV3MgcdU/VcuE="
         }
       },
       "is_incremental": false,
@@ -8453,7 +8597,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.Native.StringViewArray.html",
-          "hash": "Zqn5okPqbvA4k1/v5oNtd82D4XSVRwuIje+aV3F2MrM="
+          "hash": "DLjJCjdiArg1qahUI3ohu5jZzvYno8D360kmXO2BKAQ="
         }
       },
       "is_incremental": false,
@@ -8469,7 +8613,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.Native.UIntArray.html",
-          "hash": "bHnOc7aHFjUB28Lg+JwTINYALtIvbCn+QnYAmmXs7oY="
+          "hash": "00jW9i1bKPTFaKwGVOon1E6i/QKx6XdOM7qj5brsUjA="
         }
       },
       "is_incremental": false,
@@ -8485,7 +8629,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.Native.html",
-          "hash": "Xh7PjwGIXm1rkyFhevLaTZKP+4Zf9AdBl3nFyd29P0o="
+          "hash": "dof3wBc8G1YiQBFiuRdXCC6LslHwQhhtaA03aR1eZ/M="
         }
       },
       "is_incremental": false,
@@ -8501,7 +8645,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.NativeResource.html",
-          "hash": "iE0YcW32nNJMYb832gLtGJupw0p2RwifdXUNPENV/yc="
+          "hash": "cKFZhg5Pcni/f1V4Fzw0kpkSinMg540w+JmnfQhsVLo="
         }
       },
       "is_incremental": false,
@@ -8517,7 +8661,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.NetworkingEntity.AltNetworking.html",
-          "hash": "M8TU7zrRka2279u3QzESBzZMQs0dAv5+69BY91lZsZ0="
+          "hash": "Z/fWDXqtEAf+nlR54Y3Wpg0z8twKCiZirdJ5Jyw8P/Q="
         }
       },
       "is_incremental": false,
@@ -8533,7 +8677,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.NetworkingEntity.ClientDataSnapshot.html",
-          "hash": "IhSJzfjbrnL6TSDWKgjc8692De9jSzcl+/Xode4imdM="
+          "hash": "0NzMC2zvRRy+r9PbWNNsjRRQQjixf1IIZUsfnVSCtxo="
         }
       },
       "is_incremental": false,
@@ -8549,7 +8693,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.NetworkingEntity.ClientEntityStreamingHandler.html",
-          "hash": "+x/RIwhqsh1vmmdXWp6OJEQAMJdzyXfcIo4V5nq5/h4="
+          "hash": "CuPT+GXfgbrSEva1VUF5k0M6Vf8r5SHMEIUwpRXg1R0="
         }
       },
       "is_incremental": false,
@@ -8565,7 +8709,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.NetworkingEntity.ClientEntityStreamingHandlerFactory.html",
-          "hash": "X02LqBPfZfPxewQ/dMyLCEFAj5e60u4A/+0MzyhUGHE="
+          "hash": "ErFt2DRUzEQsJoPKdIdgMt/Yuzksj11QnVXTlz6dHFU="
         }
       },
       "is_incremental": false,
@@ -8581,7 +8725,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.NetworkingEntity.DataSnapshot.html",
-          "hash": "k5z0I7EXsJgYQKoLXWU+unPGiJtoO1LRMRhsol/vIFU="
+          "hash": "nDB80WAD5ieUspsGDBlRz5D58jV1YD9wVPbqKbBDG0c="
         }
       },
       "is_incremental": false,
@@ -8597,7 +8741,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.NetworkingEntity.Elements.Args.MValueUtils.html",
-          "hash": "l5SM7Mq1+C9vCtRImGoNrDjollKT5KC3UOBczXxvFx4="
+          "hash": "DD+2gzezhQKPnHiZ3x4QHu5pmFkMDj7ziEci7ztKy2Y="
         }
       },
       "is_incremental": false,
@@ -8629,7 +8773,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.NetworkingEntity.Elements.Entities.IInternalNetworkingClient.html",
-          "hash": "j0DG7wIFRwa/U/428hj6rOe10ohNtzBkyMnKQIJe6HE="
+          "hash": "LrMQblJKQTuwqv3Mi6HOKp7W8PkElCChRqE0tKEVCKc="
         }
       },
       "is_incremental": false,
@@ -8645,7 +8789,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.NetworkingEntity.Elements.Entities.IInternalNetworkingEntity.html",
-          "hash": "ap7McHWMwU2oGxiday3wpiD+hemsMor924AYMFGaREE="
+          "hash": "zvdDEM44Hij5BIpJOdrLRokiM7bmUkeB2dHeh8Kv3BI="
         }
       },
       "is_incremental": false,
@@ -8661,7 +8805,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.NetworkingEntity.Elements.Entities.INetworkingClient.html",
-          "hash": "IcI8Qb0mHQxt81KIjrPz2MRcPsjf6hg484lQwoYk5uQ="
+          "hash": "8NHjKn89WgKDCQB5bfyfKzP4cr4nhpWBXGWlHEDaY7Y="
         }
       },
       "is_incremental": false,
@@ -8677,7 +8821,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.NetworkingEntity.Elements.Entities.INetworkingEntity.html",
-          "hash": "u44v1kNJrOlEpPuKXS4S79qtBzw6NvfKeFGiFGNCcyY="
+          "hash": "RZOxdWCaYfLg4FEg+DUwWkZMk2/0kmDQDWN0SDhqv6w="
         }
       },
       "is_incremental": false,
@@ -8693,7 +8837,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.NetworkingEntity.Elements.Entities.NetworkingClient.html",
-          "hash": "C08YyuLsutJQ3bxIaWRVDw15XqEw7ZhyMSLRCHWuOoY="
+          "hash": "0lLYWmiO3RrgYEq+n8LgORUu7zkT6+8pUvgn3xtReA4="
         }
       },
       "is_incremental": false,
@@ -8709,7 +8853,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.NetworkingEntity.Elements.Entities.NetworkingEntity.html",
-          "hash": "I47OcaGVltrlv01ZrhtjUnvWGujAolVHqM0hhHIxcVw="
+          "hash": "76oJFWW6XeT0C6yvrmvoU5moUrxRBaNsJsolKKNnEYg="
         }
       },
       "is_incremental": false,
@@ -8741,7 +8885,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.NetworkingEntity.Elements.Factories.AuthenticationProviderFactory.html",
-          "hash": "x5TM3AhwjsxUO1NDM1bsPu8swGp4CmsluMMZSkv4NbQ="
+          "hash": "+jaUXfnL7BwAVszOjdlOe6wQtqlTq6gPLfLkacej1+c="
         }
       },
       "is_incremental": false,
@@ -8757,7 +8901,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.NetworkingEntity.Elements.Factories.IAuthenticationProviderFactory.html",
-          "hash": "aSWlGDqES3b/ILUgQIlOkhCPaRj8gUboE0rz5K8xU3o="
+          "hash": "2HL57R1kaVaEO/tJxMbtb7Mg65fnIyeXIoOaVb1RT/k="
         }
       },
       "is_incremental": false,
@@ -8773,7 +8917,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.NetworkingEntity.Elements.Factories.INetworkingClientFactory.html",
-          "hash": "S/yASE76BB6QONkYQ9kLirJj8pR1WDDS6oYc7aVgRPM="
+          "hash": "3brhXM/OeNHQ+XsTsnrRu2NQ/aw3nNeEFzLNMNmlhmU="
         }
       },
       "is_incremental": false,
@@ -8789,7 +8933,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.NetworkingEntity.Elements.Factories.INetworkingEntityFactory.html",
-          "hash": "NQ3gg2Eqnp1hacLoBvBf1Rks0qcK+j44WjcHv/DdBFg="
+          "hash": "1Pan+X295pOs3MO477XbCs8Ijo4Ns+8a2XkmS13cFTY="
         }
       },
       "is_incremental": false,
@@ -8805,7 +8949,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.NetworkingEntity.Elements.Factories.NetworkingClientFactory.html",
-          "hash": "I271xzCq4oPbo9aRXgKlpqq2SRqVBeTLzoPuLe/DilY="
+          "hash": "4Da2h0EUp/vJ7XG4CXNyv2RJIjgbJN+sMfbakAZALfY="
         }
       },
       "is_incremental": false,
@@ -8821,7 +8965,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.NetworkingEntity.Elements.Factories.NetworkingEntityFactory.html",
-          "hash": "7Hl4AqcJnajxY/H5LCAdWTTOoBE+aBF0lSqsK8KC5Kc="
+          "hash": "5fEHOfIIr5dbVw8Muh0bBVBHzhfF9A/3Z3GUvsunmC0="
         }
       },
       "is_incremental": false,
@@ -8853,7 +8997,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.NetworkingEntity.Elements.Pools.INetworkingClientPool.html",
-          "hash": "GmrnM8PrYx1+qBAYgDyDJkEaeVnDt4tl4DH7dHv0/aQ="
+          "hash": "1b4jPzuERuiPWr4UjP4M64qjQNNwe3btVfP0oMwVhhY="
         }
       },
       "is_incremental": false,
@@ -8869,7 +9013,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.NetworkingEntity.Elements.Pools.INetworkingEntityPool.html",
-          "hash": "DebZE6wiUTfEFMr1uJ2hKSd3ilwYqj+SSRzz7wiskuk="
+          "hash": "8WwKBV6bY5eCFNVp74q7V2QlXBo9u4BRuX7+D0Ejoqk="
         }
       },
       "is_incremental": false,
@@ -8885,7 +9029,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.NetworkingEntity.Elements.Pools.NetworkingClientPool.html",
-          "hash": "xj7u801r8cXg8rqyks+yCse5yKyX/nwyKnxAhjMlTH8="
+          "hash": "f1VTOEJmU8HSQQn/SQeU810S2LlGUyKVOkoXFoqcyG4="
         }
       },
       "is_incremental": false,
@@ -8901,7 +9045,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.NetworkingEntity.Elements.Pools.NetworkingEntityPool.html",
-          "hash": "tUufeYN9HXDkkdLHc4aEfSOPjSxu6QMVLO9rsbKdG94="
+          "hash": "aXNMLq/6Rk7wrdvYhoVqiPXk6Cc7Cx/HrOTvfnKAHqA="
         }
       },
       "is_incremental": false,
@@ -8933,7 +9077,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.NetworkingEntity.Elements.Providers.AuthenticationProvider.html",
-          "hash": "QVLYq1xIfgevAHrN7/l7wiO7JSfFZUvQ7MOwpDevrKE="
+          "hash": "eKiY0Nt9QRlhV7j9PYgDcV3P0iDz2ZsI8xbAIqxyf80="
         }
       },
       "is_incremental": false,
@@ -8949,7 +9093,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.NetworkingEntity.Elements.Providers.ClientTokenProvider.html",
-          "hash": "7Ef1YnnCSKPym/DpFOz1ZxJRGkud3N0EAOBgXkIYJ4g="
+          "hash": "SQOJSPrYu0OFt8mD+5zYhxufEwITCBpk0F9odkepYR8="
         }
       },
       "is_incremental": false,
@@ -8965,7 +9109,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.NetworkingEntity.Elements.Providers.IAuthenticationProvider.html",
-          "hash": "pm714hE1ygkhRbqHUeYuy9iKuxYmS6DqJcxP+N1iEuQ="
+          "hash": "g9DkQx/lWeW0AJeOeUCqkgin9BbI1Tbx6G9eMvQVKPo="
         }
       },
       "is_incremental": false,
@@ -8981,7 +9125,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.NetworkingEntity.Elements.Providers.IIdProvider-1.html",
-          "hash": "3TmrOiro+8tKxJ9iLzuSO4v6WGbjJ5X4EW+QUbK6HgQ="
+          "hash": "ZkEXfA3itt9oBHsLePMyM4aeLPaMgJH+eeviA4cZc2k="
         }
       },
       "is_incremental": false,
@@ -8997,7 +9141,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.NetworkingEntity.Elements.Providers.IdProvider.html",
-          "hash": "qMYlvbMa46dxGZel4jR+NgY/C+oPLczcLk2GAFnEOsU="
+          "hash": "A8ob4ywxzMPTCC6ZeZmfrdgkxg5TR86cw2z4ZAb8k1U="
         }
       },
       "is_incremental": false,
@@ -9029,7 +9173,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.NetworkingEntity.EntityDataSnapshot.html",
-          "hash": "RA3XOP+d9QB+1hFkD2ofSDApV/05lMdrrM75DVm1Znc="
+          "hash": "Z19kkNYa+AqCfSygYZhJ8XKOwiGdrusVcdu27eY0AGs="
         }
       },
       "is_incremental": false,
@@ -9045,7 +9189,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.NetworkingEntity.EntityStreamer.html",
-          "hash": "UAUtCI4IQUljwr+PrAHyTEsQMF2a/5HKrAtlKCMMfLQ="
+          "hash": "gd1vf+XLSRQSMA32oGiSNhq0b70M3qgsI0SAS3DwQtE="
         }
       },
       "is_incremental": false,
@@ -9061,7 +9205,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.NetworkingEntity.IEntityStreamer.html",
-          "hash": "ZNx+UvJgJ8f6sHtdfq7aMpNPzH3V1owIg4tF0Zy2aIk="
+          "hash": "je2DFGehL0wklLvo0hGJ65MjXGKwNzIn5S1AEwv0mMA="
         }
       },
       "is_incremental": false,
@@ -9077,7 +9221,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.NetworkingEntity.IStreamingHandler.html",
-          "hash": "/07sxMuJCZFvJXkPu3+GPBwqeNVHpOlVIdtcQsGX0Vs="
+          "hash": "p2Sh0J7ApFxOeIrinrbW5bAcIpS8EMHj64tEdpM3Ifo="
         }
       },
       "is_incremental": false,
@@ -9093,7 +9237,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.NetworkingEntity.IStreamingHandlerFactory.html",
-          "hash": "OwqAJlbkk7W4K9gPFG2ymVERE4QW1RgJZesfCaa17WQ="
+          "hash": "ovx0kk+9I9iyOQrZ1U0+GvUx4L6N40J/lgsEIHc8vy4="
         }
       },
       "is_incremental": false,
@@ -9109,7 +9253,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.NetworkingEntity.NetworkingEntityModuleOptions.html",
-          "hash": "YOfy8z5rNXmOwpvIdKVKh6rGUkMqzBmPrx684IndIVY="
+          "hash": "V7dEIj+AxcVYJL/Ps304nt8cfBpfTw1FBnE2DcfS+oE="
         }
       },
       "is_incremental": false,
@@ -9125,7 +9269,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.NetworkingEntity.NetworkingModule.html",
-          "hash": "Y5aBTs0WgdGrri4X1K40FrMHqaVkTL6qVpTkbrRL4wY="
+          "hash": "bFIM1TchSpWL34Ke94SodbeTai5NyRgVW6QIGaUVLGY="
         }
       },
       "is_incremental": false,
@@ -9141,7 +9285,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.NetworkingEntity.PlayerClientExtension.html",
-          "hash": "dtynIR/iqq2kvzvORBYEJoPE7YZFxS5lOUXiekPcXqE="
+          "hash": "sUQhr9UJR8aj29yIGayxqC7qYrYt5+hsN+MGynfgCn4="
         }
       },
       "is_incremental": false,
@@ -9157,7 +9301,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.NetworkingEntity.Server.html",
-          "hash": "V2J709E/CVOFZwTIRYi9nSPYwr/Xzl0TBnFkTypotIU="
+          "hash": "PEabHFNbHL39Qft/vtnZTDxIhWuP+TkLCLI/KmCoKeg="
         }
       },
       "is_incremental": false,
@@ -9173,7 +9317,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.NetworkingEntity.StreamingType.html",
-          "hash": "WtokO3Q7vF4mUcUch3uaG8hJ9f08SgftEpnEBOb+e+M="
+          "hash": "FtU5nvFVQIrB4cMLeKUqfW50AK5QJ3fQ4NL773pjQdA="
         }
       },
       "is_incremental": false,
@@ -9205,7 +9349,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.Resource.html",
-          "hash": "aCL7UGouFXgHyOQTKTwGM7CUPUNBoC2O7ouhXLkTpVA="
+          "hash": "zQLbQ4erdOOW8qFtAnXUEH6Pz2XAxPuQKuVY1ges4g0="
         }
       },
       "is_incremental": false,
@@ -9221,7 +9365,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.ResourceLoaders.AssemblyLoader.html",
-          "hash": "LyskBPJvu9qDwQL9zspJtlqjJd6oQ9bTu3zWA7BZG64="
+          "hash": "vOAwIVaSbqjrdwp1WhSFaVYPhhXBLVSuxmix6js/Uws="
         }
       },
       "is_incremental": false,
@@ -9253,7 +9397,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.ResourceSharedAssembliesAttribute.html",
-          "hash": "yVk66NEIFZBEeIFMo5LJZN0TheyLqykGd/sXwEgDXOk="
+          "hash": "CeHME5RCbUDfKwM1Q4D4OS5mmVeNckMwM9w4ADMSEjk="
         }
       },
       "is_incremental": false,
@@ -9269,7 +9413,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.Resources.Chat.Api.AltChat.CommandDoesNotExistsDelegate.html",
-          "hash": "igOsUpT47Pch5I+GsoesBitmWtOsjy7cZwo58vITAt4="
+          "hash": "6/7sbvKm2uUF4TyX/R2K4mUBS+nk4vxCTld3OZnnjVs="
         }
       },
       "is_incremental": false,
@@ -9285,7 +9429,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.Resources.Chat.Api.AltChat.html",
-          "hash": "Y5r83E3GKCWev6noyBEQql/GgtvhKujFw1BVd/KPjX0="
+          "hash": "acb0lkyCwx3U8YKmSvNLAx271fOUI86aq1VlTmr+bTk="
         }
       },
       "is_incremental": false,
@@ -9301,7 +9445,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.Resources.Chat.Api.ChatModule.html",
-          "hash": "zNbbVIgrNyRe/yVdSYfPHEGCHKDgQ1dgayBbD9vU8CI="
+          "hash": "egmTM99yILJu0t5nMTpTHPK405w/xVXaAUiBOyweb2U="
         }
       },
       "is_incremental": false,
@@ -9317,7 +9461,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.Resources.Chat.Api.Command.html",
-          "hash": "K3JyetmeIgiDoIzFBZe1wXzOvYAahl4qucZkVvwkuyM="
+          "hash": "hWlMETnc2zlysa71pfW1xnHCEpYHkOyZHTdrPF6nzDM="
         }
       },
       "is_incremental": false,
@@ -9333,7 +9477,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.Resources.Chat.Api.CommandEvent.html",
-          "hash": "ejRzDcoOgh9LUpEkaEff3owagFsAPAmElDHzM8x+FO8="
+          "hash": "Q6d4+jYV6Lwl4YSZvQ1GjCympA90VNxuGULxbORIJ4Y="
         }
       },
       "is_incremental": false,
@@ -9349,7 +9493,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.Resources.Chat.Api.CommandEventType.html",
-          "hash": "K/xmj+JOJP8EwEsDMQ8niHpqFenRixHKSE+1jF0fgzE="
+          "hash": "IeqcGlBTnrOY54Ll2jhAyMXfEONW5Q/nJR57BPBgP90="
         }
       },
       "is_incremental": false,
@@ -9365,7 +9509,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.Resources.Chat.Api.PlayerChatExtensions.html",
-          "hash": "Mtld/4Gdrdh+cRtwxA4/8TMcVaGrcaf7OmtmZGxJlR4="
+          "hash": "N1mhYCt6NTIIu1ancCDL+luMCUxEHdJbzivLY6T8SnE="
         }
       },
       "is_incremental": false,
@@ -9397,7 +9541,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.Resources.Chat.Chat.html",
-          "hash": "XDK8OvQONPO60DXuSMErxgSTqh+hA+cxPHOC0J9lXqk="
+          "hash": "Mh4CY4LlUFDKdu+zRM1fSMs54DUWFE7IMOuWwYhCE2k="
         }
       },
       "is_incremental": false,
@@ -9413,7 +9557,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.Resources.Chat.CommandHandlers.html",
-          "hash": "+u9UE5GRlAeN1d03GNhlezl/dLxXxI4GLVNrH23kRIY="
+          "hash": "I5Xkuk/2MNP54VNfwmhU1cjQmlYYcsUKZfpGuNWZrZA="
         }
       },
       "is_incremental": false,
@@ -9429,7 +9573,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.Resources.Chat.PlayerChat.html",
-          "hash": "hjjpsXbnohECqoLXqGcrVk8T16eS3Mk8iFuXRVr+sVQ="
+          "hash": "TV1UwebDYe3mmRfFo3hjZhwPLxTtgJTxxu3VLFr8dvs="
         }
       },
       "is_incremental": false,
@@ -9461,7 +9605,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.ScriptEventAttribute.html",
-          "hash": "J+0hgaYSrltAaeX61jneW9kdWgdjJNJylQxSyURcSFY="
+          "hash": "rUoA2mh9cw183ICKzT646JLgAqI3YqCqRukw6QKrBSs="
         }
       },
       "is_incremental": false,
@@ -9477,7 +9621,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.ScriptEventType.html",
-          "hash": "k5+1pAdDbivdbaVJEdsFUTBcsil96H93hn3ucl3gnTI="
+          "hash": "C3EJHCM6anDK+6LaX7XyyXocdwa37TJ+JN/zh6Flqfc="
         }
       },
       "is_incremental": false,
@@ -9493,7 +9637,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.Server.CommandCallback.html",
-          "hash": "9RFsVkYu7GrCIEP7WpyHsibivwVoS8sJFyePsv9bGy0="
+          "hash": "xcM+DGMBDbSY/24fwZMyh5tqjU4cTsSnlbwmNCPv358="
         }
       },
       "is_incremental": false,
@@ -9509,7 +9653,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.Server.EventCallback.html",
-          "hash": "kwbaInK17R36oHU4xuuXDfp463RBhgC9xe54uLsEaqs="
+          "hash": "dfB+TsVv28lA419RXaG9YpE3ltM5yib2T/MfeLsXf+c="
         }
       },
       "is_incremental": false,
@@ -9525,7 +9669,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.Server.TickCallback.html",
-          "hash": "IibUrGsrzFzm9R92pM7ZlT8el0bLroV3hA8OUsLoO34="
+          "hash": "Yqtdpsy49qgz3us+vXv4YTENVPUZCp5bmTkKy94028Y="
         }
       },
       "is_incremental": false,
@@ -9541,7 +9685,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.Server.html",
-          "hash": "rNGjsUrAL6vxwz/yvGWnsK9LfV9lPqtlAMAO3q6h3O0="
+          "hash": "2GAJEN06f3GNZZEsOcWRi1iFpXAP7Sb27Rd+EkGCmnM="
         }
       },
       "is_incremental": false,
@@ -9557,7 +9701,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.ServerEventAttribute.html",
-          "hash": "cag0Xh3oyyOZNVztrEzhP0GNNVjdwHanvNjVlYE8Fws="
+          "hash": "5hP8rOKSca5BPX77BL6bYDKUXfulUaHdc4gkgnmsFN0="
         }
       },
       "is_incremental": false,
@@ -9573,7 +9717,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.TraceFileFormat.html",
-          "hash": "mFlVRHDTitKM+AUr7ykUgWTBSoyjOa6M9kWMCqcNZg8="
+          "hash": "E5z/a6Cpv7bJoEgpKqVm9hnQeJ9PMM0RcMhU86ka33E="
         }
       },
       "is_incremental": false,
@@ -9589,7 +9733,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.VehicleData.VehicleData.ModKit.html",
-          "hash": "CJZqYiqjoojzKpFpwMe6eDvXgyaImjAo8Nh4k1iKSQY="
+          "hash": "hTdGdexBhxVLIEr6aYp3qRfiIAtTB0un8wrnGsGOdL8="
         }
       },
       "is_incremental": false,
@@ -9605,7 +9749,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.VehicleData.VehicleData.VehicleModel.html",
-          "hash": "rLi5A3qhE8PAQkVhXn2CFkklbx0xGg0moiBlZu3MW6A="
+          "hash": "acdBA3fCuR7Ds+gXr05buxrXGptKf/D8vnPUZzm1Tpw="
         }
       },
       "is_incremental": false,
@@ -9621,7 +9765,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.VehicleData.VehicleData.html",
-          "hash": "NtQpDSOK0U3gHDNQLVQY6JWLzCoT5s9c/th36IjX258="
+          "hash": "3+E/v9R7Rn6NLW5J0QcHnBSdS7GTxbfEZrwi4lsy/pU="
         }
       },
       "is_incremental": false,
@@ -9653,7 +9797,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/api/AltV.Net.html",
-          "hash": "i9b62z+5BSyHSpcmCvazht4jgOvkbPbzCUD1fWy6E1w="
+          "hash": "jRC4tWEUuIw5BxCqb1+JHE7nZxU1lqDMZecsV2U9oxI="
         }
       },
       "is_incremental": false,
@@ -9789,7 +9933,7 @@
       "output": {
         ".html": {
           "relative_path": "cs/articles/entity-factories.html",
-          "hash": "tj59MpbYBMg1OjKKAoJ7JXvHNQ+uTnAg9jJzxDdrEnc="
+          "hash": "rGMt+jgNqqfRCkche39ofBRvWsnifietrWrTBVRD2Zg="
         }
       },
       "is_incremental": false,
@@ -10294,7 +10438,7 @@
       "output": {
         ".html": {
           "relative_path": "toc.html",
-          "hash": "bJvu2niEQZL4DtXw9fWw79k2kDC8ODOWtp+ZwpR5ZF0="
+          "hash": "kOEacCHk9yV5YFTQVHV3si6L+Rii8Z6CBmlk8nAe0xg="
         }
       },
       "is_incremental": false,
