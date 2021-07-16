@@ -1249,13 +1249,15 @@ li.in > ul
     display: block;
 }
 
-li.in > ul.level3
+li.in > ul.level3,
+li.in > ul.level4
 {
     display: block;
 }
 
 ul.level2 > li > a.sidebar-item,
-ul.level3 > li > a.sidebar-item
+ul.level3 > li > a.sidebar-item,
+ul.level4 > li > a.sidebar-item
 {
     font-weight: 500;
     font-size: .95em;
@@ -1268,7 +1270,8 @@ ul.level2 > li > a.sidebar-item
     color: var(--sidebar-item-2nd-color);
 }
 
-ul.level3 > li > a.sidebar-item
+ul.level3 > li > a.sidebar-item,
+ul.level4 > li > a.sidebar-item
 {
     color: var(--sidebar-item-3rd-color);
 }
@@ -1276,14 +1279,17 @@ ul.level3 > li > a.sidebar-item
 ul.level2 > li > a.sidebar-item:hover,
 ul.level2 > li > a.sidebar-item:focus,
 ul.level3 > li > a.sidebar-item:hover,
-ul.level3 > li > a.sidebar-item:focus
+ul.level3 > li > a.sidebar-item:focus,
+ul.level4 > li > a.sidebar-item:hover,
+ul.level4 > li > a.sidebar-item:focus
 {
     color: var(--link-active-color);
     text-decoration: underline;
 }
 
 ul.level2 > li > a.sidebar-item.active,
-ul.level3 > li > a.sidebar-item.active
+ul.level3 > li > a.sidebar-item.active,
+ul.level4 > li > a.sidebar-item.active
 {
     color: var(--sidebar-item-active-color);
 }
