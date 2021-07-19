@@ -20,7 +20,7 @@
     <link rel="stylesheet" href="../../styles/discord.css">
     <link rel="stylesheet" href="../../styles/main.css">
     <meta property="docfx:navrel" content="../../toc.html">
-    <meta property="docfx:tocrel" content="../../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
     
     <meta property="docfx:rel" content="../../">
     
@@ -50,6 +50,12 @@
                     </div>
                     
 
+                        <div class="sidebar-item-separator"></div>
+
+                        
+                        <div id="sidetoggle">
+                          <div id="sidetoc"></div>
+                        </div>
 
                 </div>
 
@@ -143,7 +149,7 @@ You need to implement the default constructor of <code>Player</code> or <code>Ve
 {
   public bool LoggedIn { get; set; }
   
-  public MyPlayer(IServer server, IntPtr nativePointer, ushort id) : base(server, nativePointer, id)
+  public MyPlayer(IntPtr nativePointer, ushort id) : base(nativePointer, id)
   {
     LoggedIn = false;
   }
@@ -156,9 +162,9 @@ Thats why you need to create a factory that will create the player for you when 
 You only need to override the <code>IPlayer Create(IntPtr playerPointer, ushort id)</code> method and initialize your own class instead of the default one.</p>
 <pre><code class="lang-csharp">public class MyPlayerFactory : IEntityFactory&lt;IPlayer&gt;
 {
-  public IPlayer Create(IServer server, IntPtr playerPointer, ushort id)
+  public IPlayer Create(IntPtr playerPointer, ushort id)
   {
-    return new MyPlayer(server, playerPointer, id);
+    return new MyPlayer(playerPointer, id);
   }
 }
 </code></pre>
@@ -182,13 +188,13 @@ This will look like the code below.</p>
         public int MyData { get; set; }
 
         // This constructor is used for creation via constructor
-        public MyVehicle(IServer server, uint model, Position position, Rotation rotation) : base(server, model, position, rotation)
+        public MyVehicle(uint model, Position position, Rotation rotation) : base(model, position, rotation)
         {
             MyData = 7;
         }
 
         // This constructor is used for creation via entity factory
-        public MyVehicle(IServer server, IntPtr nativePointer, ushort id) : base(server, nativePointer, id)
+        public MyVehicle(IntPtr nativePointer, ushort id) : base(nativePointer, id)
         {
             MyData = 6;
         }
