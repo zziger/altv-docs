@@ -10397,6 +10397,18 @@
     },
     {
       "type": "Conceptual",
+      "source_relative_path": "cpp-sdk/articles/modules-for-reference.md",
+      "output": {
+        ".html": {
+          "relative_path": "sdk/modules-for-reference.html",
+          "hash": "rG9wZaqXhRZU8mQAhAaZnATUGdHrm7PnWNY51Ug3I/o="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
       "source_relative_path": "cpp-sdk/articles/mvalues.md",
       "output": {
         ".html": {
@@ -10408,15 +10420,12 @@
       "version": ""
     },
     {
-      "log_codes": [
-        "InvalidFileLink"
-      ],
       "type": "Conceptual",
       "source_relative_path": "cpp-sdk/articles/refs.md",
       "output": {
         ".html": {
           "relative_path": "sdk/refs.html",
-          "hash": "/TUr+kBNoawAg+b7JGVvxYoRBDM2KyRrHVEEA+9xUFs="
+          "hash": "i6yRRrGs6IpUK5ZPpCu1uRu684OejC+BmqgqO5uof6s="
         }
       },
       "is_incremental": false,
@@ -10464,7 +10473,7 @@
       "output": {
         ".html": {
           "relative_path": "toc.html",
-          "hash": "+2DgNtKzPQbZfIinBw4GplRxQYpQxU/dCjHyvtZR6tk="
+          "hash": "j8F6g3I7ZGE2ZUn4KbhCGO5LHBaHdZp79qQ63UH7cQQ="
         }
       },
       "is_incremental": false,
@@ -10485,7 +10494,7 @@
         "ConceptualDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 78,
+          "total_file_count": 79,
           "skipped_file_count": 0
         },
         "ManagedReferenceDocumentProcessor": {

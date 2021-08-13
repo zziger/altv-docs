@@ -6,9 +6,9 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Refs </title>
+    <title>Modules for reference </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Refs ">
+    <meta name="title" content="Modules for reference ">
     <meta name="generator" content="docfx 2.58.0.0">
     
     <link rel="shortcut icon" href="../favicon.ico">
@@ -128,72 +128,53 @@
                                 <span class="small pull-right article mobile-hide" style="margin: 0;">
                                     <ul class="subnav contribution">
                                             <li>
-                                                <a href="https://github.com/altmp/cpp-sdk/blob/master/articles/refs.md/#L1">Improve this Doc</a>
+                                                <a href="https://github.com/altmp/cpp-sdk/blob/master/articles/modules-for-reference.md/#L1">Improve this Doc</a>
                                             </li>
                                     </ul>
                                 </span>
 
-<h1 id="refs">Refs</h1>
+<h1 id="modules-for-reference">Modules for reference</h1>
 
-<p>This article will explain what Refs are and how to use them.</p>
-<h2 id="table-of-contents">Table of Contents</h2>
-<ol>
-<li><a href="#what-are-refs">What are Refs</a></li>
-<li><a href="#how-to-use-refs">How to use Refs</a></li>
-</ol>
-<h2 id="what-are-refs">What are Refs</h2>
-<p>If you are familiar with modern C++ you probably know what <strong>smart pointers</strong> are, and how to use them.
-A <code>Ref</code> is similiar to the popular <code>shared_ptr</code> container from the standard library.
-It stores a heap-allocated object and controls its lifetime and memory by using refcounting.
-If there are no more instances of the <code>Ref</code> exist, the stored object will be freed automatically.</p>
-<p>They are however different, as the <code>shared_ptr</code> stores the refcount on the <code>shared_ptr</code> container, while the
-<code>Ref</code> in the SDK stores the refcount on the stored object inside the <code>Ref</code>. That is also why any object stored in a <code>Ref</code> must
-inherit from <a href="https://github.com/altmp/cpp-sdk/blob/master/CRefCountable.h"><code>alt::CRefCountable</code></a>.</p>
-<h2 id="how-to-use-refs">How to use Refs</h2>
-<p>To create a Ref you can simply use the <code>Ref</code> class. Once you create a ref with the pointer of your object you want to store,
-make sure to NOT delete that pointer manually, the <code>Ref</code> is now responsible for managing the memory and lifetime of that object.</p>
-<p>The <code>Ref</code> class uses a template argument to specify which type of object is stored inside of it.</p>
-<p>The object stored inside the <code>Ref</code> can be accessed by using the <code>Get()</code> method. In most cases this is not necessary though,
-as the <code>-&gt;</code> operator of the <code>Ref</code> is overloaded to access methods and properties of the object inside it without having to call <code>Get()</code>.</p>
-<p>A simple example of how to use a <code>Ref</code>:</p>
-<pre><code class="lang-c++">// To store our class in a Ref,
-// we need to inherit from 'alt::CRefCountable'
-class MyClass : public alt::CRefCountable
-{
-    int id;
-public:
-    MyClass(int _id) : id(_id) {}
-
-    int GetID() { return id; }
-};
-
-// We create a ref storing the instance of our class
-// The ref now takes care of managing the object's memory
-// Once the ref and each of its copies has been destroyed,
-// the memory for the object stored will be freed.
-alt::Ref&lt;MyClass&gt; myRef(new MyClass(1));
-</code></pre>
-<pre><code class="lang-c++">// We receive a new copy of the ref here,
-// so the ref count will be increased by 1,
-// and the object can not be freed,
-// as long as this copy exists.
-int GetRefId(alt::Ref&lt;MyClass&gt; ref)
-{
-    // We use the overloaded '-&gt;' operator, 
-    // to access the method on the stored object directly,
-    // without needing to call 'Get()'
-    return ref-&gt;GetID();
-}
-
-// We call this function that takes our ref and copies it,
-// and then calls a method on it
-int id = GetRefId(myRef);
-</code></pre>
-<p>The SDK uses <code>Refs</code> in many places where instances of objects are passed, usually you do not need to worry about the refcounting of the <code>Ref</code> etc.
-You can safely store a copy of the <code>Ref</code> in your own <code>std::vector</code> or similiar, without having to think about the lifetime of the object.</p>
-<blockquote>
-<p>To see all available methods on <code>Refs</code>, refer to the <a href="https://github.com/altmp/cpp-sdk/blob/master/Ref.h">header file in the SDK</a>.</p>
-</blockquote>
+<p>This article will list the currently available modules, that can be used as a reference for making your own module.</p>
+<p>These different modules are all in a different state (some are finished, some still in development) and provide
+different implementations of alt:V systems (e.g. event system) that can be used as reference or inspiration for
+your own module.</p>
+<p>Make sure to provide credit where credit is due.</p>
+<h2 id="list-of-modules">List of modules</h2>
+<table>
+<thead>
+<tr>
+<th>Name / Repo</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://github.com/altmp/altv-js-module">JS module</a></td>
+<td>The official alt:V serverisde module providing support for the JS language, using NodeJS</td>
+</tr>
+<tr>
+<td><a href="https://github.com/altmp/altv-client-js">Client JS module</a></td>
+<td>The official alt:V clientside module providing support for the JS language, using the V8 runtime</td>
+</tr>
+<tr>
+<td><a href="https://github.com/FabianTerhorst/coreclr-module">C# module</a></td>
+<td>An alt:V module providing support for the C# language, has a C++ part for the module itself, and a runtime part in C#</td>
+</tr>
+<tr>
+<td><a href="https://github.com/LeonMrBonnie/altv-angelscript-module">AngelScript module</a></td>
+<td>An alt:V module providing support for the AngelScript language, fully written in C++</td>
+</tr>
+<tr>
+<td><a href="https://github.com/Marvisak/altv-python-module">Python module</a></td>
+<td>An alt:V module providing support for the Python language, fully written in C++ using pybind11 (<strong>UNFINISHED</strong>)</td>
+</tr>
+<tr>
+<td><a href="https://github.com/shockdev04/altv-go-module">Go module</a></td>
+<td>An alt:V module providing support for Golang, written in C(++) and Go (<strong>UNFINISHED</strong>)</td>
+</tr>
+</tbody>
+</table>
 </article>
                     </div>
 
