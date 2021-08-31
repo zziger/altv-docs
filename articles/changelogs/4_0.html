@@ -142,8 +142,8 @@
 <h1 id="40-release">4.0-Release</h1>
 
 <p>This update was released on 16.07.2021</p>
-<p>#Client
-####Added</p>
+<h1 id="client">Client</h1>
+<h4 id="added">Added</h4>
 <pre><code class="lang-yaml">- alt.setPedDlcProp, player.clearPedProp
 - alt.setPedDlcClothes
 - alt.loadYtyp
@@ -222,7 +222,7 @@
 - configflag to disable weaponswap if weapon is empty
 - currentAmmo getter for localplayer
 </code></pre>
-<p>####Fixed</p>
+<h4 id="fixed">Fixed</h4>
 <pre><code class="lang-yaml">- vehicle rotation getter
 - alt.resourceLoaded was only available in debug
 - connect url
@@ -236,18 +236,18 @@
 - vehicle rotation bug
 - microtasks (e.g. wasm apis)
 </code></pre>
-<p>####Changed</p>
+<h4 id="changed">Changed</h4>
 <pre><code class="lang-yaml">- Natives which accepted &quot;undefined&quot; needs 0 now
 </code></pre>
-<p>####Others</p>
+<h4 id="others">Others</h4>
 <pre><code class="lang-yaml">- Update v8 to Version 9.2
 - Extended Pool DrawableStore to 110 000
 - Update v8 to Version 9.2
 - Extend MapDataStore pool by 15k
 - Increased CNetworkDamageTracker pool
 </code></pre>
-<p>##Server
-####Added</p>
+<h2 id="server">Server</h2>
+<h4 id="added-1">Added</h4>
 <pre><code class="lang-yaml">- player.setProp, player.setDlcProp, player.getProp, player.getDlcProp &amp; player.clearProp
 - player.setClothes, player.setDlcClothes &amp; player.getClothes, player.getDlcClothes
 - alt.emitAllClients
@@ -264,17 +264,17 @@
 - \n support in disconnect reasons for line break
 - alt.Vehicle constructor now also accepts Vector3 for pos and rot instead of x, y, z params
 </code></pre>
-<p>####Changed</p>
+<h4 id="changed-1">Changed</h4>
 <pre><code class="lang-yaml">- vehicle.getAttached() to vehicle.attached
 - vehicle.getAttachedTo() to vehicle.attachedTo
 - socialId to socialID
 - removed alt.getPlayersByName
 </code></pre>
-<p>##JS Module</p>
+<h2 id="js-module">JS Module</h2>
 <pre><code class="lang-yaml">- Update NodeJS to Version 14.15.2
 - NodeJS Performance improvements
 </code></pre>
-<p>##C# Module</p>
+<h2 id="c-module">C# Module</h2>
 <pre><code class="lang-yaml">Reworked for .NET 5
 </code></pre>
 </article>
