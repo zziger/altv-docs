@@ -453,6 +453,7 @@ function extractContentBrief(content) {
 
 function highlight() {
   $("code.hljs").each(function(i, block) {
+    if ($(block).parent().closest(".nohljsln").length) return;
     hljs.lineNumbersBlock(block);
   });
 }

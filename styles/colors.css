@@ -80,7 +80,8 @@
     --search-bg-color-alt: #4f535c;
     --search-text-placeholder: #72767d;
     --search-text-placeholder-alt: #babbbf;
-    --search-text-filter-color: #34383d;
+    --search-text-filter-bg-color: #34383d;
+    --search-text-filter-color: #ffffff;
     --search-popup-text: #cacbce;
     --search-popup-text-alt: #72767d;
     --search-popup-shadow: 0 0 0 1px rgb(32 34 37 / 60%), 0 2px 10px 0 rgb(0 0 0 / 20%);
