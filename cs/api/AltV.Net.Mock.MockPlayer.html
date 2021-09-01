@@ -22,7 +22,7 @@
     <link rel="stylesheet" href="../../styles/discord.css">
     <link rel="stylesheet" href="../../styles/main.css">
     <meta property="docfx:navrel" content="../../toc.html">
-    <meta property="docfx:tocrel" content="../../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
     
     <meta property="docfx:rel" content="../../">
     
@@ -52,6 +52,12 @@
                     </div>
                     
 
+                        <div class="sidebar-item-separator"></div>
+
+                        
+                        <div id="sidetoggle">
+                          <div id="sidetoc"></div>
+                        </div>
 
                 </div>
 
@@ -130,7 +136,7 @@
                                 <span class="small pull-right article mobile-hide" style="margin: 0;">
                                     <ul class="subnav contribution">
                                             <li>
-                                                <a href="https://github.com/FabianTerhorst/coreclr-module/blob/9d224161890f3cd10b15792f26cba193f1e9c791/api/AltV.Net.Mock/MockPlayer.cs/#L6">View Source</a>
+                                                <a href="https://github.com/FabianTerhorst/coreclr-module/blob/49816ab88732c13d254c37eaa3cad941070d578b/api/AltV.Net.Mock/MockPlayer.cs/#L6">View Source</a>
                                             </li>
                                             <li>
                                                 <a href="https://github.com/FabianTerhorst/coreclr-module/new/master/docs/apidoc/new?filename=AltV_Net_Mock_MockPlayer.md&amp;value=---%0Auid%3A%20AltV.Net.Mock.MockPlayer%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
@@ -179,6 +185,9 @@
     </div>
     <div>
       <a class="xref" href="AltV.Net.Elements.Entities.Player.html#AltV_Net_Elements_Entities_Player_Visible">Player.Visible</a>
+    </div>
+    <div>
+      <a class="xref" href="AltV.Net.Elements.Entities.Player.html#AltV_Net_Elements_Entities_Player_Streamed">Player.Streamed</a>
     </div>
     <div>
       <a class="xref" href="AltV.Net.Elements.Entities.Player.html#AltV_Net_Elements_Entities_Player_Dimension">Player.Dimension</a>
@@ -545,7 +554,7 @@
     <a href="https://github.com/FabianTerhorst/coreclr-module/new/master/docs/apidoc/new?filename=AltV_Net_Mock_MockPlayer__ctor_AltV_Net_IServer_System_IntPtr_System_UInt16_.md&amp;value=---%0Auid%3A%20AltV.Net.Mock.MockPlayer.%23ctor(AltV.Net.IServer%2CSystem.IntPtr%2CSystem.UInt16)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/FabianTerhorst/coreclr-module/blob/9d224161890f3cd10b15792f26cba193f1e9c791/api/AltV.Net.Mock/MockPlayer.cs/#L8">View Source</a>
+    <a href="https://github.com/FabianTerhorst/coreclr-module/blob/49816ab88732c13d254c37eaa3cad941070d578b/api/AltV.Net.Mock/MockPlayer.cs/#L8">View Source</a>
   </span>
   <a id="AltV_Net_Mock_MockPlayer__ctor_" data-uid="AltV.Net.Mock.MockPlayer.#ctor*"></a>
   <h4 id="AltV_Net_Mock_MockPlayer__ctor_AltV_Net_IServer_System_IntPtr_System_UInt16_" data-uid="AltV.Net.Mock.MockPlayer.#ctor(AltV.Net.IServer,System.IntPtr,System.UInt16)">MockPlayer(IServer, IntPtr, UInt16)</h4>
@@ -732,6 +741,18 @@
       <a class="xref" href="AltV.Net.Async.AltAsync.html#AltV_Net_Async_AltAsync_EmitAsync_AltV_Net_Elements_Entities_IPlayer_System_String_System_Object___">AltAsync.EmitAsync(IPlayer, String, Object[])</a>
   </div>
   <div>
+      <a class="xref" href="AltV.Net.Async.AltAsync.html#AltV_Net_Async_AltAsync_GetVisibleAsync_AltV_Net_Elements_Entities_IPlayer_">AltAsync.GetVisibleAsync(IPlayer)</a>
+  </div>
+  <div>
+      <a class="xref" href="AltV.Net.Async.AltAsync.html#AltV_Net_Async_AltAsync_SetVisibleAsync_AltV_Net_Elements_Entities_IPlayer_System_Boolean_">AltAsync.SetVisibleAsync(IPlayer, Boolean)</a>
+  </div>
+  <div>
+      <a class="xref" href="AltV.Net.Async.AltAsync.html#AltV_Net_Async_AltAsync_GetStreamedAsync_AltV_Net_Elements_Entities_IPlayer_">AltAsync.GetStreamedAsync(IPlayer)</a>
+  </div>
+  <div>
+      <a class="xref" href="AltV.Net.Async.AltAsync.html#AltV_Net_Async_AltAsync_SetStreamedAsync_AltV_Net_Elements_Entities_IPlayer_System_Boolean_">AltAsync.SetStreamedAsync(IPlayer, Boolean)</a>
+  </div>
+  <div>
       <a class="xref" href="AltV.Net.Async.AltAsync.html#AltV_Net_Async_AltAsync_SetPositionAsync_AltV_Net_Elements_Entities_IWorldObject_AltV_Net_Data_Position_">AltAsync.SetPositionAsync(IWorldObject, Position)</a>
   </div>
   <div>
@@ -795,7 +816,7 @@
       <a class="xref" href="AltV.Net.Mock.MockPlayerEvents.html#AltV_Net_Mock_MockPlayerEvents_Disconnect_AltV_Net_Elements_Entities_IPlayer_System_String_">MockPlayerEvents.Disconnect(IPlayer, String)</a>
   </div>
   <div>
-      <a class="xref" href="AltV.Net.Mock.MockPlayerEvents.html#AltV_Net_Mock_MockPlayerEvents_Damage_AltV_Net_Elements_Entities_IPlayer_AltV_Net_Elements_Entities_IEntity_System_UInt32_System_Byte_">MockPlayerEvents.Damage(IPlayer, IEntity, UInt32, Byte)</a>
+      <a class="xref" href="AltV.Net.Mock.MockPlayerEvents.html#AltV_Net_Mock_MockPlayerEvents_Damage_AltV_Net_Elements_Entities_IPlayer_AltV_Net_Elements_Entities_IEntity_System_UInt32_System_Byte_System_Byte_">MockPlayerEvents.Damage(IPlayer, IEntity, UInt32, Byte, Byte)</a>
   </div>
   <div>
       <a class="xref" href="AltV.Net.Mock.MockPlayerEvents.html#AltV_Net_Mock_MockPlayerEvents_Death_AltV_Net_Elements_Entities_IPlayer_AltV_Net_Elements_Entities_IEntity_System_UInt32_">MockPlayerEvents.Death(IPlayer, IEntity, UInt32)</a>
