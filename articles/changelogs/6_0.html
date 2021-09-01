@@ -151,6 +151,7 @@
 <pre><code class="lang-yaml">- setting to open console in seperate window (useExternalConsole)
 - console command external_console 0/1
 - resourceError event
+- shared module
 - Vector3.cross
 - profiler api
 - more informations to timers command
@@ -169,14 +170,14 @@
 - hats in vehicle for remote players when serverside clothsetter was used
 - memory leak in timers
 - changing playermodel in interior
-- vehicleblip
+- Fixed vehicleblip
 </code></pre>
 </div>
 <h4 id="others">Others</h4>
 <div class="nohljsln">
 <pre><code class="lang-yaml">- updated CEF to 92
-- extended CHandlingObject pool by 256
-- extended various pool sizes for stability
+- extendet CHandlingObject pool by 256
+- extendet various pool sizes for stability
 </code></pre>
 </div>
 <h1 id="server">Server</h1>
@@ -184,13 +185,14 @@
 <div class="nohljsln">
 <pre><code class="lang-yaml">- resourceError event
 - vehicleDamage event
+- shared module
 - Vector3.cross
 - armourdamage to playerDamage event
-- playerDamage event didnt trigger if victim has armour or health greater then 200
+- playerDamage event didnt trigger if victim as armour or health greater then 200
 - errorlog if there is a missmatch for clothsetter
 - streamed property
 - updated clothes bin to tuners dlc
-- weaponchange event is cancelable now
+- weaponswitch is cancelable now
 </code></pre>
 </div>
 <h4 id="fixed-1">Fixed</h4>
@@ -204,16 +206,6 @@
 <div class="nohljsln">
 <pre><code class="lang-yaml">- isServer property
 - isClient property
-- shared module
-</code></pre>
-</div>
-<div class="CAUTION">
-<h5>Caution</h5>
-<p>This changes can potentially break the functionality of your gamemode, please verify and change accordingly</p>
-</div>
-<h1 id="js-module">JS Module</h1>
-<div class="nohljsln">
-<pre><code class="lang-yaml">- playerDamage has a new parameter (armourdamage). Weaponhash is now the 5th parameter instead of the 4th.
 </code></pre>
 </div>
 </article>

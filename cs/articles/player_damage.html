@@ -20,7 +20,7 @@
     <link rel="stylesheet" href="../../styles/discord.css">
     <link rel="stylesheet" href="../../styles/main.css">
     <meta property="docfx:navrel" content="../../toc.html">
-    <meta property="docfx:tocrel" content="../../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
     
     <meta property="docfx:rel" content="../../">
     
@@ -50,6 +50,12 @@
                     </div>
                     
 
+                        <div class="sidebar-item-separator"></div>
+
+                        
+                        <div id="sidetoggle">
+                          <div id="sidetoc"></div>
+                        </div>
 
                 </div>
 
@@ -157,13 +163,17 @@
 <td>The weapon that was used or a other reason <a href="https://github.com/FabianTerhorst/coreclr-module/blob/master/api/AltV.Net/Data/Weapons.cs">https://github.com/FabianTerhorst/coreclr-module/blob/master/api/AltV.Net/Data/Weapons.cs</a></td>
 </tr>
 <tr>
-<td>damage</td>
-<td>The damage that the player received.</td>
+<td>healthDamage</td>
+<td>The health damage that the player received.</td>
+</tr>
+<tr>
+<td>armourDamage</td>
+<td>The armour damage that the player received.</td>
 </tr>
 </tbody>
 </table>
 <h2 id="normal-event-handler">Normal event handler</h2>
-<pre><code class="lang-csharp">    Alt.OnPlayerDamage += (player, attacker, weapon, damage) =&gt;
+<pre><code class="lang-csharp">    Alt.OnPlayerDamage += (player, attacker, weapon, healthDamage, armourDamage) =&gt;
     {
         // ...
     };
@@ -176,7 +186,7 @@ public class MyScriptClass : IScript
 {
     // We declare and create our event handler
     [ScriptEvent(ScriptEventType.PlayerDamage)]
-    public static void PlayerDamage(IPlayer player, IEntity attacker, uint weapon, ushort damage)
+    public static void PlayerDamage(IPlayer player, IEntity attacker, uint weapon, ushort healthDamage, ushort armourDamage)
     {
         // We create a switch-statement where we check the type of our IEntity.
         switch (attacker)
