@@ -159,6 +159,9 @@
 - possibility to clear cache via menu in launcher
 - native arg size missmatch error message
 - taskChange event
+- playerName event for earlyauth (requested via alt.emit(&quot;requestPlayerName&quot;))
+- allowed some html tags for custom launcher rss feed
+- setExtraHeader method for webview
 </code></pre>
 </div>
 <h4 id="fixed">Fixed</h4>
@@ -170,6 +173,8 @@
 - memory leak in timers
 - changing playermodel in interior
 - vehicleblip
+- ime input method crash
+- abort button while downloading ressources
 </code></pre>
 </div>
 <h4 id="others">Others</h4>
@@ -177,6 +182,7 @@
 <pre><code class="lang-yaml">- updated CEF to 92
 - extended CHandlingObject pool by 256
 - extended various pool sizes for stability
+- urls need to start with ws/wss for websocket and http/https for http client
 </code></pre>
 </div>
 <h1 id="server">Server</h1>
@@ -187,10 +193,17 @@
 - Vector3.cross
 - armourdamage to playerDamage event
 - playerDamage event didnt trigger if victim has armour or health greater then 200
-- errorlog if there is a missmatch for clothsetter
+- errorlog if there is a missmatch for clothsetter (only available in debug)
 - streamed property
 - updated clothes bin to tuners dlc
 - weaponchange event is cancelable now
+- player movespeed getter
+- player IsInRagdoll getter
+- player isAiming getter
+- player aimPos getter
+- player headRot getter
+- Alt-Player-Name to connect.json http header
+- invincible setter &amp; getter for player
 </code></pre>
 </div>
 <h4 id="fixed-1">Fixed</h4>
@@ -199,6 +212,10 @@
 - changing vehicle dimension, didn't remove the player from vehicle
 - getProps getter
 - problem with setClothes if texture, palette &amp; drawable was 0
+- colshape not getting triggered for players connecting on the position of the colshape
+- fixed wheelsCount getter after vehicle repair
+- prevent headlight color from reset after vehicle repair
+- set invalid date &amp; time values crashed the client
 </code></pre>
 </div>
 <h1 id="server--client">Server &amp; Client</h1>
