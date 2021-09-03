@@ -534,8 +534,18 @@ function renderAffix() {
     el.find(".affix").html(formList(tree, ["nav", "bs-docs-sidenav"]));
   }
 
+  function getStackDepth(stack) {
+    let level = 1;
+    if (!stack|| !stack[0]?.children.length) return level;
+    for (const el of stack) {
+      if (!el.children.length) continue;
+      let depth = getHeaderDepth(el.children) + 1;
+      level = Math.max(depth, level);
+    }
+    return level;
+  }
+
   function traverseArticle() {
-    const isConceptual = $(".content-column").hasClass("Conceptual");
     let headers = $(["h1", "h2", "h3", "h4"].map(el => "article.content " + el).join(", "));
     let stack = [];
     let curr = {};
@@ -566,7 +576,7 @@ function renderAffix() {
       }
     });
 
-    return stack.length && !isConceptual ? stack[0].children : stack;
+    return stack.length && getHeaderDepth(stack) > 2 ? stack[0].children : stack;
   }
 
   function formList(item, classes) {

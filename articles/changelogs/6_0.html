@@ -141,12 +141,16 @@
 
 <h1 id="60-release">6.0-Release</h1>
 
-<div class="CAUTION">
-<h5>Caution</h5>
+<div class="WARNING">
+<h5>Warning</h5>
 <p>This update isn't released yet.</p>
 </div>
-<h1 id="client">Client</h1>
-<h4 id="added">Added</h4>
+<div class="CAUTION">
+<h5>Caution</h5>
+<p>This update contains <strong>breaking changes</strong>, which can potentially break the functionality of your gamemode, please verify and change accordingly.</p>
+</div>
+<h2 id="client">Client</h2>
+<h3 id="added">Added</h3>
 <div class="nohljsln">
 <pre><code class="lang-yaml">- setting to open console in seperate window (useExternalConsole)
 - console command external_console 0/1
@@ -164,7 +168,7 @@
 - setExtraHeader method for webview
 </code></pre>
 </div>
-<h4 id="fixed">Fixed</h4>
+<h3 id="fixed">Fixed</h3>
 <div class="nohljsln">
 <pre><code class="lang-yaml">- server errors localization
 - timers command
@@ -177,7 +181,7 @@
 - abort button while downloading ressources
 </code></pre>
 </div>
-<h4 id="others">Others</h4>
+<h3 id="changed">Changed</h3>
 <div class="nohljsln">
 <pre><code class="lang-yaml">- updated CEF to 92
 - extended CHandlingObject pool by 256
@@ -185,8 +189,8 @@
 - urls need to start with ws/wss for websocket and http/https for http client
 </code></pre>
 </div>
-<h1 id="server">Server</h1>
-<h4 id="added-1">Added</h4>
+<h2 id="server">Server</h2>
+<h3 id="added-1">Added</h3>
 <div class="nohljsln">
 <pre><code class="lang-yaml">- resourceError event
 - vehicleDamage event
@@ -206,7 +210,7 @@
 - invincible setter &amp; getter for player
 </code></pre>
 </div>
-<h4 id="fixed-1">Fixed</h4>
+<h3 id="fixed-1">Fixed</h3>
 <div class="nohljsln">
 <pre><code class="lang-yaml">- playerDamage triggered if health changed via serverside setter
 - changing vehicle dimension, didn't remove the player from vehicle
@@ -218,25 +222,22 @@
 - set invalid date &amp; time values crashed the client
 </code></pre>
 </div>
-<h1 id="server--client">Server &amp; Client</h1>
-<h4 id="added-2">Added</h4>
+<h2 id="server--client">Server &amp; Client</h2>
+<h3 id="added-2">Added</h3>
 <div class="nohljsln">
 <pre><code class="lang-yaml">- isServer property
 - isClient property
 - shared module
 </code></pre>
 </div>
-<h1 id="breaking-changes">Breaking Changes</h1>
-<div class="CAUTION">
-<h5>Caution</h5>
-<p>This changes can potentially break the functionality of your gamemode, please verify and change accordingly</p>
-</div>
-<h4 id="js-module">JS Module</h4>
+<h2 id="js-module">JS Module</h2>
+<h3 id="breaking-changes"><span style="color: red;">Breaking changes</span></h3>
 <div class="nohljsln">
 <pre><code class="lang-yaml">- playerDamage has a new parameter (armourdamage). Weaponhash is now the 5th parameter instead of the 4th.
 </code></pre>
 </div>
-<h4 id="c-module">C# Module</h4>
+<h2 id="c-module">C# Module</h2>
+<h3 id="breaking-changes-1"><span style="color: red;">Breaking changes</span></h3>
 <div class="nohljsln">
 <pre><code class="lang-yaml">- PlayerDamage has a new parameter (armourdamage). The parameter is the 5th parameter now.
 - AltV.Async: IVehicle.IsSpecialLightDamaged has been renamed to IsSpecialLightDamagedAsync
