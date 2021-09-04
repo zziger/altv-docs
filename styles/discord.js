@@ -539,7 +539,7 @@ function renderAffix() {
     if (!stack|| !stack[0]?.children.length) return level;
     for (const el of stack) {
       if (!el.children.length) continue;
-      let depth = getHeaderDepth(el.children) + 1;
+      let depth = getStackDepth(el.children) + 1;
       level = Math.max(depth, level);
     }
     return level;
@@ -576,7 +576,7 @@ function renderAffix() {
       }
     });
 
-    return stack.length && getHeaderDepth(stack) > 2 ? stack[0].children : stack;
+    return stack.length && getStackDepth(stack) > 2 ? stack[0].children : stack;
   }
 
   function formList(item, classes) {
