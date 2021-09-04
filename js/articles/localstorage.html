@@ -141,7 +141,7 @@
 <li>The LocalStorage is a persistent client cached storage.</li>
 <li>If the player deletes his cache folder the LocalStorage data will get lost!</li>
 </ul>
-<p><strong>Never use the LocalStorage for sensitive data. Someone could always inject code that reads LocalStorage values!</strong></p>
+<p><strong>Never use the LocalStorage for sensitive data. The content is saved as plain text on the disk.</strong></p>
 <table>
 <thead>
 <tr>
@@ -152,26 +152,22 @@
 <tbody>
 <tr>
 <td>alt.LocalStorage.get</td>
-<td>Gets the local storage instance.</td>
-</tr>
-<tr>
-<td>LocalStorage.get</td>
 <td>Gets the value from the specified key in the local storage..</td>
 </tr>
 <tr>
-<td>LocalStorage.set</td>
+<td>alt.LocalStorage.set</td>
 <td>Sets the specified key to the specified value in the local storage.</td>
 </tr>
 <tr>
-<td>LocalStorage.delete</td>
+<td>alt.LocalStorage.delete</td>
 <td>Deletes the specified key from the local storage.</td>
 </tr>
 <tr>
-<td>LocalStorage.deleteAll</td>
+<td>alt.LocalStorage.deleteAll</td>
 <td>Deletes all keys from the local storage.</td>
 </tr>
 <tr>
-<td>LocalStorage.save</td>
+<td>alt.LocalStorage.save</td>
 <td>Saves the changes to the disk.</td>
 </tr>
 </tbody>
@@ -179,30 +175,26 @@
 <h2 id="set-a-key-setkey-string-value-any">Set a key <code>.set(key: string, value: any)</code></h2>
 <pre><code class="lang-js">import * as alt from &quot;alt-client&quot;;
 
-const storage = alt.LocalStorage.get(); // Gets the local storage instance.
-storage.set(&quot;testKey&quot;, &quot;test&quot;); // Sets the specified key to the specified value in the local storage.
-storage.save(); // Saves the changes to the disk.
+alt.LocalStorage.set(&quot;testKey&quot;, &quot;test&quot;); // Sets the specified key to the specified value in the local storage.
+alt.LocalStorage.save(); // Saves the changes to the disk.
 </code></pre>
 <h2 id="get-a-key-getkey-string">Get a key <code>.get(key: string)</code></h2>
 <pre><code class="lang-js">import * as alt from &quot;alt-client&quot;;
 
-const storage = alt.LocalStorage.get(); // Gets the local storage instance.
-cosnt testKey = storage.get('testKey'); // Gets the value from the specified key in the local storage.
+const testKey = alt.LocalStorage.get('testKey'); // Gets the value from the specified key in the local storage.
 alt.log('testKey:', testKey)
 </code></pre>
 <h2 id="delete-a-key-deletekey-string">Delete a key <code>.delete(key: string)</code></h2>
 <pre><code class="lang-js">import * as alt from &quot;alt-client&quot;;
 
-const storage = alt.LocalStorage.get(); // Gets the local storage instance.
-storage.delete(&quot;testKey&quot;); // Deletes the specified key from the local storage.
-storage.save(); // Saves the changes to the disk.
+alt.LocalStorage.delete(&quot;testKey&quot;); // Deletes the specified key from the local storage.
+alt.LocalStorage.save(); // Saves the changes to the disk.
 </code></pre>
 <h2 id="delete-all-keys-deleteall">Delete all keys <code>.deleteAll()</code></h2>
 <pre><code class="lang-js">import * as alt from &quot;alt-client&quot;;
 
-const storage = alt.LocalStorage.get(); // Gets the local storage instance.
-storage.deleteAll(); // Deletes all keys from the local storage.
-storage.save(); // Saves the changes to the disk.
+alt.LocalStorage.deleteAll(); // Deletes all keys from the local storage.
+alt.LocalStorage.save(); // Saves the changes to the disk.
 </code></pre>
 <h2 id="example-use-cases">Example use cases:</h2>
 <ul>
