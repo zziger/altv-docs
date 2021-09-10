@@ -847,7 +847,13 @@ code tr > td:first-child
     color: var(--text-color);
 }
 
-.search-bar div[role="textbox"]:not(.float):not(:empty), .search-bar div[role="textbox"]:not(.float):focus
+.search-bar.float div[role="textbox"]
+{
+    width: 100%;
+    line-height: 32px;
+}
+
+.search-bar:not(.float) div[role="textbox"]:not(:empty), .search-bar:not(.float) div[role="textbox"]:focus
 {
     width: 208px;
 }
@@ -867,7 +873,7 @@ code tr > td:first-child
 
 .search-bar.float div[placeholder]:not([placeholder=""])
 {
-    padding-left: 32px;
+    margin-left: 32px;
     color: var(--search-text);
 }
 
@@ -890,6 +896,13 @@ code tr > td:first-child
 .search-bar .btn-link
 {
     width: unset;
+}
+
+.search-bar .btn-link:active
+{
+    background-color: unset;
+    box-shadow: unset;
+    border-radius: unset;
 }
 
 .popout

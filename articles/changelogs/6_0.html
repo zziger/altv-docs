@@ -155,7 +155,8 @@
 <pre><code class="lang-yaml">- setting to open console in seperate window (useExternalConsole)
 - console command external_console 0/1
 - resourceError event
-- Vector3.cross
+- Vector3 cross, zero, one, up, down, forward, back, left, right, negativeInfinity &amp; positiveInfinity
+- Vector2 zero, one, up, down, left, right, negativeInfinity &amp; positiveInfinity
 - profiler api
 - more informations to timers command
 - MemoryBuffer size property
@@ -166,6 +167,7 @@
 - playerName event for earlyauth (requested via alt.emit(&quot;requestPlayerName&quot;))
 - allowed some html tags for custom launcher rss feed
 - setExtraHeader method for webview
+- setZoomLevel method for webview
 </code></pre>
 </div>
 <h3 id="fixed">Fixed</h3>
@@ -176,9 +178,10 @@
 - hats in vehicle for remote players when serverside clothsetter was used
 - memory leak in timers
 - changing playermodel in interior
-- vehicleblip
+- VehicleBlip &amp; PedBlip
 - ime input method crash
 - abort button while downloading ressources
+- vehicle maxGear getter
 </code></pre>
 </div>
 <h3 id="changed">Changed</h3>
@@ -187,6 +190,7 @@
 - extended CHandlingObject pool by 256
 - extended various pool sizes for stability
 - urls need to start with ws/wss for websocket and http/https for http client
+- systemlocale will be used to define locale in cef
 </code></pre>
 </div>
 <h2 id="server">Server</h2>
@@ -206,8 +210,9 @@
 - player isAiming getter
 - player aimPos getter
 - player headRot getter
-- Alt-Player-Name to connect.json http header
+- alt-player-name to connect.json http header
 - invincible setter &amp; getter for player
+- setIntoVehicle method for player
 </code></pre>
 </div>
 <h3 id="fixed-1">Fixed</h3>
@@ -216,10 +221,11 @@
 - changing vehicle dimension, didn't remove the player from vehicle
 - getProps getter
 - problem with setClothes if texture, palette &amp; drawable was 0
-- colshape not getting triggered for players connecting on the position of the colshape
+- Colshape not getting triggered for players connecting on the position of the Colshape
 - fixed wheelsCount getter after vehicle repair
 - prevent headlight color from reset after vehicle repair
-- set invalid date &amp; time values crashed the client
+- setting invalid date &amp; time values crashed the client
+- Server crashed, if player was inside coleshape while deleting it
 </code></pre>
 </div>
 <h2 id="server--client">Server &amp; Client</h2>
@@ -228,6 +234,7 @@
 <pre><code class="lang-yaml">- isServer property
 - isClient property
 - shared module
+- baseObjectCreate &amp; baseObjectRemove
 </code></pre>
 </div>
 <h2 id="js-module">JS Module</h2>

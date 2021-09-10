@@ -536,7 +536,7 @@ function renderAffix() {
 
   function getStackDepth(stack) {
     let level = 1;
-    if (!stack|| !stack[0]?.children.length) return level;
+    if (!stack) return level;
     for (const el of stack) {
       if (!el.children.length) continue;
       let depth = getStackDepth(el.children) + 1;
@@ -546,8 +546,8 @@ function renderAffix() {
   }
 
   function traverseArticle() {
-    let headers = $(["h1", "h2", "h3", "h4"].map(el => "article.content " + el).join(", "));
-    let stack = [];
+    const headers = $(["h1", "h2", "h3", "h4"].map(el => "article.content " + el).join(", "));
+    const stack = [];
     let curr = {};
     headers.each(function () {
       const el = $(this);
@@ -564,15 +564,20 @@ function renderAffix() {
         stack.push(curr = obj);
         return;
       }
-      if (obj.type === stack[stack.length - 1].type) {
-        stack.push(curr = obj);
-      } else if (obj.type > curr.type) {
-        curr.children.push(curr = obj);
-      } else if (obj.type < curr.type) {
-        obj.parent = curr.parent.parent;
-        curr.parent.parent.children.push(curr = obj);
-      } else {
-        curr.parent.children.push(obj);
+
+      switch((obj.type > curr.type) - (obj.type < curr.type)) {
+        case 0:
+          obj.parent = curr.parent;
+          curr.parent.children.push(curr = obj);
+          break;
+        case -1:
+          let p = curr.parent;
+          while (p.type >= obj.type) p = p.parent;
+          p.children.push(curr = obj);
+          break;
+        case 1:
+          curr.children.push(curr = obj);
+          break;
       }
     });
 
