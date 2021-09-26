@@ -1247,7 +1247,7 @@ ul.contribution > li:not(:last-child):after
     content: '\276F';
 }
 
-.nav > li.active > .expand-stub::before, .nav > li.in > .expand-stub::before, .nav > li.filtered > .expand-stub::before
+/*.nav > li.active > .expand-stub::before, */.nav > li.in > .expand-stub::before, .nav > li.filtered > .expand-stub::before
 {
     transform: rotate(90deg);
 }
@@ -1263,14 +1263,18 @@ li.in > ul
 }
 
 li.in > ul.level3,
-li.in > ul.level4
+li.in > ul.level4,
+li.in > ul.level5,
+li.in > ul.level6,
 {
     display: block;
 }
 
 ul.level2 > li > a.sidebar-item,
 ul.level3 > li > a.sidebar-item,
-ul.level4 > li > a.sidebar-item
+ul.level4 > li > a.sidebar-item,
+ul.level5 > li > a.sidebar-item,
+ul.level6 > li > a.sidebar-item
 {
     font-weight: 500;
     font-size: .95em;
@@ -1284,7 +1288,9 @@ ul.level2 > li > a.sidebar-item
 }
 
 ul.level3 > li > a.sidebar-item,
-ul.level4 > li > a.sidebar-item
+ul.level4 > li > a.sidebar-item,
+ul.level5 > li > a.sidebar-item,
+ul.level6 > li > a.sidebar-item
 {
     color: var(--sidebar-item-3rd-color);
 }
@@ -1294,7 +1300,11 @@ ul.level2 > li > a.sidebar-item:focus,
 ul.level3 > li > a.sidebar-item:hover,
 ul.level3 > li > a.sidebar-item:focus,
 ul.level4 > li > a.sidebar-item:hover,
-ul.level4 > li > a.sidebar-item:focus
+ul.level4 > li > a.sidebar-item:focus,
+ul.level5 > li > a.sidebar-item:hover,
+ul.level5 > li > a.sidebar-item:focus,
+ul.level6 > li > a.sidebar-item:hover,
+ul.level6 > li > a.sidebar-item:focus
 {
     color: var(--link-active-color);
     text-decoration: underline;
@@ -1302,7 +1312,9 @@ ul.level4 > li > a.sidebar-item:focus
 
 ul.level2 > li > a.sidebar-item.active,
 ul.level3 > li > a.sidebar-item.active,
-ul.level4 > li > a.sidebar-item.active
+ul.level4 > li > a.sidebar-item.active,
+ul.level5 > li > a.sidebar-item.active,
+ul.level6 > li > a.sidebar-item.active
 {
     color: var(--sidebar-item-active-color);
 }

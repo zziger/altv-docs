@@ -40,18 +40,17 @@ $(document).ready(function() {
   $("a:not([data-tab])").off("click").on("click", delegateAnchors);
   $(".blackout").on("click", toggleMenu);
   $(".navbar-toggler").on("click", toggleMenu);
-  $("#navbar").one("DOMNodeInserted", function() {
-    $("#navbar .nav > li > .expand-stub").click(function(ev) {
+  $("body").on("searchEvent", function() {
+    $("#navbar .nav > li > .expand-stub").unbind("click").click(function(ev) {
       $(ev.target).parent().toggleClass("in");
     });
-    $("#navbar .nav > li > .expand-stub + a:not([href])").click(function(ev) {
+    $("#navbar .nav > li > .expand-stub + a:not([href])").unbind("click").click(function(ev) {
       $(ev.target).parent().toggleClass("in");
     });
-  });
-  setTimeout(() => {
     $("#navbar .nav").parents("li.active").addClass("in");
-  }, 100);
+  });
 });
+
 $(window).on("load hashchange", function() {
   scrollIfAnchor(window.location.hash);
 });
@@ -547,8 +546,13 @@ function renderAffix() {
 
   function traverseArticle() {
     const headers = $(["h1", "h2", "h3", "h4"].map(el => "article.content " + el).join(", "));
-    const stack = [];
-    let curr = {};
+    const stack = [
+      {
+        children: [],
+        type: 'H0',
+      }
+    ];
+    let curr = stack[0];
     headers.each(function () {
       const el = $(this);
       const xref = el.children().length > 1 ? el.children().last() : null;
@@ -558,12 +562,8 @@ function renderAffix() {
         id: el.prop("id"),
         name: htmlEncode(el.text()),
         href: xref?.hasClass("xref") ? xref.prop("href") : "#" + el.prop("id"),
-        children: []
+        children: [],
       };
-      if (!stack.length) {
-        stack.push(curr = obj);
-        return;
-      }
 
       switch((obj.type > curr.type) - (obj.type < curr.type)) {
         case 0:
@@ -581,7 +581,7 @@ function renderAffix() {
       }
     });
 
-    return stack.length && getStackDepth(stack) > 2 ? stack[0].children : stack;
+    return stack[0].children && !$(".content-column").hasClass('Conceptual') ? stack[0].children[0].children : stack[0].children;
   }
 
   function formList(item, classes) {
