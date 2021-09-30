@@ -20,7 +20,7 @@
     <link rel="stylesheet" href="../../styles/discord.css">
     <link rel="stylesheet" href="../../styles/main.css">
     <meta property="docfx:navrel" content="../../toc.html">
-    <meta property="docfx:tocrel" content="toc.html">
+    <meta property="docfx:tocrel" content="../../toc.html">
     
     <meta property="docfx:rel" content="../../">
     
@@ -50,12 +50,6 @@
                     </div>
                     
 
-                        <div class="sidebar-item-separator"></div>
-
-                        
-                        <div id="sidetoggle">
-                          <div id="sidetoc"></div>
-                        </div>
 
                 </div>
 
@@ -149,24 +143,6 @@
 <code>Vector3</code>, <code>Rotation</code>, <code>Position</code>, <code>IBlip</code> (or any types extending IBlip), <code>IVoiceChannel</code> (or any types extending IVoiceChannel), <code>IColShape</code> (or any types extending IColShape), <code>ICheckpoint</code> (or any types extending ICheckpoint)
 <code>Dictionary&lt;string, (any type listed here)</code>, <code>Alt.Function</code>, any type listed here as array e.g. int[].
 Also any dictionary in dictionary, array in array, ect. endless depth types are supported, because they are resolved recursively.</p>
-<h2 id="clientside">Clientside</h2>
-<p>To catch the event inside clientside javascript.</p>
-<pre><code class="lang-js">import * as alt from &quot;alt&quot;;
-
-alt.onServer(eventName, (args) =&gt; {
-
-});
-// or
-alt.onServer(eventName, (arg1, arg2) =&gt; {
-
-});
-// ect.
-</code></pre>
-<p>To send events to server from clientside javascript.</p>
-<pre><code class="lang-js">import * as alt from &quot;alt&quot;;
-
-alt.emitServer(eventName, args);
-</code></pre>
 </article>
                     </div>
 

@@ -20,7 +20,7 @@
     <link rel="stylesheet" href="../../styles/discord.css">
     <link rel="stylesheet" href="../../styles/main.css">
     <meta property="docfx:navrel" content="../../toc.html">
-    <meta property="docfx:tocrel" content="toc.html">
+    <meta property="docfx:tocrel" content="../../toc.html">
     
     <meta property="docfx:rel" content="../../">
     
@@ -50,12 +50,6 @@
                     </div>
                     
 
-                        <div class="sidebar-item-separator"></div>
-
-                        
-                        <div id="sidetoggle">
-                          <div id="sidetoc"></div>
-                        </div>
 
                 </div>
 
@@ -380,6 +374,12 @@ namespace AltV.Net
             add =&gt; Module.VehicleDetachEventHandler.Add(value);
             remove =&gt; Module.VehicleDetachEventHandler.Remove(value);
         }
+        
+        public static event VehicleDamageDelegate OnVehicleDamage
+        {
+            add =&gt; Module.VehicleDamageEventHandler.Add(value);
+            remove =&gt; Module.VehicleDamageEventHandler.Remove(value);
+        }
     }
 }
 </code></pre>
@@ -399,7 +399,7 @@ namespace AltV.Net.Events
     
     public delegate void ResourceEventDelegate(INativeResource resource);
 
-    public delegate void PlayerDamageDelegate(IPlayer player, IEntity attacker, uint weapon, ushort damage);
+    public delegate void PlayerDamageDelegate(IPlayer player, IEntity attacker, uint weapon, ushort healthDamage, ushort armourDamage);
 
     public delegate void PlayerDeadDelegate(IPlayer player, IEntity killer, uint weapon);
 
@@ -452,6 +452,8 @@ namespace AltV.Net.Events
     public delegate void VehicleAttachDelegate(IVehicle target, IVehicle attachedVehicle);
     
     public delegate void VehicleDetachDelegate(IVehicle target, IVehicle detachedVehicle);
+    
+    public delegate void VehicleDamageDelegate(IVehicle target, IEntity attacker, uint bodyHealthDamage, uint additionalBodyHealthDamage, uint engineHealthDamage, uint petrolTankDamage, uint weaponHash);
 }
 </code></pre>
 <p>The player event handler looks like this.</p>
