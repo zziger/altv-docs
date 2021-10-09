@@ -151,7 +151,10 @@
 <pre><code class="lang-yaml">- alt.Blip.all getter
 - ping getter
 - fps getter
-- isSuperJumpEnabled, isCrouching &amp; isStealthy player getter
+- player getters
+-  -&gt; isSuperJumpEnabled,
+-  -&gt; isCrouching
+-  -&gt; isStealthy
 - refCount getter (debug-mode only)
 - help button in main menu, which points to the troubleshooting guide
 </code></pre>
@@ -172,15 +175,19 @@
 <pre><code class="lang-yaml">- Blip api
 - Vehicle velocity getter
 - playAmbientSpeech for player
+- player getters
+-  -&gt; isShooting
+-  -&gt; isJumping
+-  -&gt; isReloading
+-  -&gt; currentWeaponTintIndex
 </code></pre>
 </div>
 <h3 id="fixed-1">Fixed</h3>
 <div class="nohljsln">
-<pre><code class="lang-yaml"></code></pre>
+<pre><code class="lang-yaml">- incorrect number plate index causes sync anomalies
+- vehicle stuck in air after setting position
+</code></pre>
 </div>
-<blockquote>
-<pre><code></code></pre>
-</blockquote>
 <h2 id="server--client">Server &amp; Client</h2>
 <h3 id="added-2">Added</h3>
 <div class="nohljsln">

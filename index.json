@@ -24,7 +24,7 @@
     "type": "article",
     "href": "articles/changelogs/7_0.html",
     "title": "7.0-Release",
-    "keywords": "Improve this Doc 7.0-Release Warning This update isn't released yet. Client Added - alt.Blip.all getter - ping getter - fps getter - isSuperJumpEnabled, isCrouching & isStealthy player getter - refCount getter (debug-mode only) - help button in main menu, which points to the troubleshooting guide Fixed - stacktrace for uncaught exceptions Changed - Update v8 to Version 9.5 Server Added - Blip api - Vehicle velocity getter - playAmbientSpeech for player Fixed Server & Client Added Fixed",
+    "keywords": "Improve this Doc 7.0-Release Warning This update isn't released yet. Client Added - alt.Blip.all getter - ping getter - fps getter - player getters - -> isSuperJumpEnabled, - -> isCrouching - -> isStealthy - refCount getter (debug-mode only) - help button in main menu, which points to the troubleshooting guide Fixed - stacktrace for uncaught exceptions Changed - Update v8 to Version 9.5 Server Added - Blip api - Vehicle velocity getter - playAmbientSpeech for player - player getters - -> isShooting - -> isJumping - -> isReloading - -> currentWeaponTintIndex Fixed - incorrect number plate index causes sync anomalies - vehicle stuck in air after setting position Server & Client Added Fixed",
     "langs": "yaml"
   },
   "articles/changelogs/index.html": {
