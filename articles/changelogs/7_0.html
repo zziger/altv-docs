@@ -145,6 +145,10 @@
 <h5>Warning</h5>
 <p>This update isn't released yet.</p>
 </div>
+<div class="CAUTION">
+<h5>Caution</h5>
+<p>This update contains <strong>breaking changes</strong>, which can potentially break the functionality of your gamemode, please verify and change accordingly.</p>
+</div>
 <h2 id="client">Client</h2>
 <h3 id="added">Added</h3>
 <div class="nohljsln">
@@ -157,6 +161,7 @@
 -  -&gt; isStealthy
 - refCount getter (debug-mode only)
 - help button in main menu, which points to the troubleshooting guide
+- native arg missmatch to resourceError event
 </code></pre>
 </div>
 <h3 id="fixed">Fixed</h3>
@@ -167,6 +172,11 @@
 <h3 id="changed">Changed</h3>
 <div class="nohljsln">
 <pre><code class="lang-yaml">- Update v8 to Version 9.5
+</code></pre>
+</div>
+<h3 id="breaking-changes"><span style="color: red;">Breaking changes</span></h3>
+<div class="nohljsln">
+<pre><code class="lang-yaml">- stacktrace parameter in resourceError removed
 </code></pre>
 </div>
 <h2 id="server">Server</h2>
@@ -180,6 +190,10 @@
 -  -&gt; isJumping
 -  -&gt; isReloading
 -  -&gt; currentWeaponTintIndex
+- vehicles getter
+-  -&gt; driftModeEnabled
+- vehicles setter
+-  -&gt; driftModeEnabled
 </code></pre>
 </div>
 <h3 id="fixed-1">Fixed</h3>
