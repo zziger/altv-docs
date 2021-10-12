@@ -26935,21 +26935,6 @@
     },
     {
       "type": "TypeScriptReference",
-      "source_relative_path": "altv-types/docs/api/alt-client.IDiscordOAuth2Token.yml",
-      "output": {
-        ".html": {
-          "relative_path": "js/api/alt-client.IDiscordOAuth2Token.html",
-          "hash": "KcUxYpPYX6O5GkMu7+hZAyx9MpfMbyCrIx4aXui5sc0="
-        }
-      },
-      "is_incremental": false,
-      "version": "",
-      "langs": [
-        "typeScript"
-      ]
-    },
-    {
-      "type": "TypeScriptReference",
       "source_relative_path": "altv-types/docs/api/alt-client.IDiscordUser.yml",
       "output": {
         ".html": {
@@ -28589,7 +28574,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/changelogs/7_0.html",
-          "hash": "MLPRRH8JDgk5KPenBrZP38QYG171x/oSsyMyHhnAt7I="
+          "hash": "BEvgX4NVace9ylglVpuZ2nOyvIrL+iygtAnitwznDo8="
         }
       },
       "is_incremental": false,
