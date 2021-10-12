@@ -249,12 +249,24 @@ You can see a list of all color codes in the table below:</p>
 </table>
 <h2 id="using-logs-in-your-code">Using logs in your code</h2>
 <p>Here you can find small examples in the different programming languages alt:V offers on how to use logging:</p>
-<p><strong>JavaScript</strong></p>
+<div class="tabGroup" id="tabgroup_bHGHmlrG6S">
+<ul role="tablist">
+<li role="presentation">
+<a href="#tabpanel_bHGHmlrG6S_tabid-1" role="tab" aria-controls="tabpanel_bHGHmlrG6S_tabid-1" data-tab="tabid-1" tabindex="0" aria-selected="true">Javascript</a>
+</li>
+<li role="presentation">
+<a href="#tabpanel_bHGHmlrG6S_tabid-2" role="tab" aria-controls="tabpanel_bHGHmlrG6S_tabid-2" data-tab="tabid-2" tabindex="-1">C#</a>
+</li>
+</ul>
+<section id="tabpanel_bHGHmlrG6S_tabid-1" role="tabpanel" data-tab="tabid-1">
+
 <pre><code class="lang-js">alt.log(&quot;~r~Hello ~g~World!&quot;);
 alt.logWarning(&quot;This is a warning&quot;);
 alt.logError(&quot;This is an error&quot;);
 </code></pre>
-<p><strong>C#</strong></p>
+</section>
+<section id="tabpanel_bHGHmlrG6S_tabid-2" role="tabpanel" data-tab="tabid-2" aria-hidden="true" hidden="hidden">
+
 <pre><code class="lang-csharp">ColoredMessage coloredMessage = new ColoredMessage();
 coloredMessage += TextColor.Red;
 coloredMessage += &quot;Hello &quot;;
@@ -266,6 +278,8 @@ Alt.LogError(&quot;This is an error&quot;);
 Alt.LogInfo(&quot;This is an info&quot;);
 Alt.LogDebug(&quot;This is a debug message&quot;);
 </code></pre>
+</section>
+</div>
 </article>
                     </div>
 
