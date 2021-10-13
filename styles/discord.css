@@ -1252,29 +1252,29 @@ ul.contribution > li:not(:last-child):after
     transform: rotate(90deg);
 }
 
-li > ul
+.nav li > ul
 {
     display: none;
 }
 
-li.in > ul 
+.nav li.in > ul
 {
     display: block;
 }
 
-li.in > ul.level3,
-li.in > ul.level4,
-li.in > ul.level5,
-li.in > ul.level6,
+.nav li.in > ul.level3,
+.nav li.in > ul.level4,
+.nav li.in > ul.level5,
+.nav li.in > ul.level6,
 {
     display: block;
 }
 
-ul.level2 > li > a.sidebar-item,
-ul.level3 > li > a.sidebar-item,
-ul.level4 > li > a.sidebar-item,
-ul.level5 > li > a.sidebar-item,
-ul.level6 > li > a.sidebar-item
+.nav ul.level2 > li > a.sidebar-item,
+.nav ul.level3 > li > a.sidebar-item,
+.nav ul.level4 > li > a.sidebar-item,
+.nav ul.level5 > li > a.sidebar-item,
+.nav ul.level6 > li > a.sidebar-item
 {
     font-weight: 500;
     font-size: .95em;
@@ -1282,39 +1282,39 @@ ul.level6 > li > a.sidebar-item
     margin: 2px 16px;
 }
 
-ul.level2 > li > a.sidebar-item
+.nav ul.level2 > li > a.sidebar-item
 {
     color: var(--sidebar-item-2nd-color);
 }
 
-ul.level3 > li > a.sidebar-item,
-ul.level4 > li > a.sidebar-item,
-ul.level5 > li > a.sidebar-item,
-ul.level6 > li > a.sidebar-item
+.nav ul.level3 > li > a.sidebar-item,
+.nav ul.level4 > li > a.sidebar-item,
+.nav ul.level5 > li > a.sidebar-item,
+.nav ul.level6 > li > a.sidebar-item
 {
     color: var(--sidebar-item-3rd-color);
 }
 
-ul.level2 > li > a.sidebar-item:hover,
-ul.level2 > li > a.sidebar-item:focus,
-ul.level3 > li > a.sidebar-item:hover,
-ul.level3 > li > a.sidebar-item:focus,
-ul.level4 > li > a.sidebar-item:hover,
-ul.level4 > li > a.sidebar-item:focus,
-ul.level5 > li > a.sidebar-item:hover,
-ul.level5 > li > a.sidebar-item:focus,
-ul.level6 > li > a.sidebar-item:hover,
-ul.level6 > li > a.sidebar-item:focus
+.nav ul.level2 > li > a.sidebar-item:hover,
+.nav ul.level2 > li > a.sidebar-item:focus,
+.nav ul.level3 > li > a.sidebar-item:hover,
+.nav ul.level3 > li > a.sidebar-item:focus,
+.nav ul.level4 > li > a.sidebar-item:hover,
+.nav ul.level4 > li > a.sidebar-item:focus,
+.nav ul.level5 > li > a.sidebar-item:hover,
+.nav ul.level5 > li > a.sidebar-item:focus,
+.nav ul.level6 > li > a.sidebar-item:hover,
+.nav ul.level6 > li > a.sidebar-item:focus
 {
     color: var(--link-active-color);
     text-decoration: underline;
 }
 
-ul.level2 > li > a.sidebar-item.active,
-ul.level3 > li > a.sidebar-item.active,
-ul.level4 > li > a.sidebar-item.active,
-ul.level5 > li > a.sidebar-item.active,
-ul.level6 > li > a.sidebar-item.active
+.nav ul.level2 > li > a.sidebar-item.active,
+.nav ul.level3 > li > a.sidebar-item.active,
+.nav ul.level4 > li > a.sidebar-item.active,
+.nav ul.level5 > li > a.sidebar-item.active,
+.nav ul.level6 > li > a.sidebar-item.active
 {
     color: var(--sidebar-item-active-color);
 }
