@@ -6702,6 +6702,17 @@
     },
     {
       "type": "Resource",
+      "source_relative_path": "altv-docs-gta-assets/images/modding/CollsionExampleVehicle.png",
+      "output": {
+        "resource": {
+          "relative_path": "gta/images/modding/CollsionExampleVehicle.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
       "source_relative_path": "altv-docs-gta-assets/images/ped/models/a_c_boar.png",
       "output": {
         "resource": {
@@ -28826,7 +28837,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/changelogs/7_0.html",
-          "hash": "ZoT9vtofGszwTtG60sdSn67OmNW4LN4Of3q23LD9Oh0="
+          "hash": "6rDCbDKWEAfP6rfnQ1O5zjD+rmiPQw2vCA26y0ioI3g="
         }
       },
       "is_incremental": false,
@@ -28839,6 +28850,18 @@
         ".html": {
           "relative_path": "articles/changelogs/index.html",
           "hash": "BE+jSa0UoyRXvuefaJm/FMoC2lRPh7CZTZgx5rqfj7E="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/commandlineargs.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/commandlineargs.html",
+          "hash": "tjqRzOjsWxriTEKMxYoryaHA9VIoYuXcDxyvf6aDmkY="
         }
       },
       "is_incremental": false,
@@ -28887,6 +28910,18 @@
         ".html": {
           "relative_path": "articles/configs/stream.html",
           "hash": "OR+o1HpEn8Qn7G3QZiQWCDYzLtfTTJmcfEOHqSU4m0o="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/connectprotocol.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/connectprotocol.html",
+          "hash": "3gO8Uog6ysWRPIoCp6IuGw58F7MS6HDIl3tYLyIY65o="
         }
       },
       "is_incremental": false,
@@ -28971,6 +29006,18 @@
         ".html": {
           "relative_path": "articles/permissions.html",
           "hash": "bSddzamQwYIrhRqgWA1/H7ozD5XcGoBzJLlqGQF4MPE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/serverspecs.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/serverspecs.html",
+          "hash": "5YLKjCZatxiLAQihRlS7NOHmniSaa5O2ifbfb6QsmY4="
         }
       },
       "is_incremental": false,
@@ -37216,7 +37263,7 @@
       "output": {
         ".html": {
           "relative_path": "toc.html",
-          "hash": "qb4KDyrVwFP0ZjJUHwmC66k3XwRw1HAvbXxpFEyh/lk="
+          "hash": "Qnvp1p2+rGfsn0uiaTe5EVgaADeXdUeKs2sEv5+YnW8="
         }
       },
       "is_incremental": false,
@@ -37237,7 +37284,7 @@
         "ConceptualDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 135,
+          "total_file_count": 138,
           "skipped_file_count": 0
         },
         "ManagedReferenceDocumentProcessor": {

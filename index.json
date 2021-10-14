@@ -38,7 +38,7 @@
     "type": "article",
     "href": "articles/changelogs/7_0.html",
     "title": "7.0-Release",
-    "keywords": "Improve this Doc 7.0-Release Warning This update isn't released yet. Caution This update contains breaking changes , which can potentially break the functionality of your gamemode, please verify and change accordingly. Client Added - alt.Blip.all getter - ping getter - fps getter - refCount getter (debug-mode only) - help button in main menu, which points to the troubleshooting guide - native arg missmatch to resourceError event Fixed - stacktrace for uncaught exceptions Changed - Update v8 to Version 9.5 Breaking changes - stacktrace parameter in resourceError removed Server Added - Blip api - Vehicle velocity getter - playAmbientSpeech for player - player getters - -> isShooting - -> isJumping - -> isReloading - -> currentWeaponTintIndex - -> isSuperJumpEnabled - -> isCrouching - -> isStealthy - vehicles getter - -> driftModeEnabled - vehicles setter - -> driftModeEnabled Fixed - incorrect number plate index causes sync anomalies - vehicle stuck in air after setting position Server & Client Added Fixed",
+    "keywords": "Improve this Doc 7.0-Release Warning This update isn't released yet. Caution This update contains breaking changes , which can potentially break the functionality of your gamemode, please verify and change accordingly. Client Added - alt.Blip.all getter - ping getter - fps getter - refCount getter (debug-mode only) - help button in main menu, which points to the troubleshooting guide - native arg missmatch to resourceError event Fixed - stacktrace for uncaught exceptions Changed - Update v8 to Version 9.5 Breaking changes - stacktrace parameter in resourceError removed Server Added - Blip api - Vehicle velocity getter - playAmbientSpeech for player - player getters - -> isShooting - -> isJumping - -> isReloading - -> currentWeaponTintIndex - -> isSuperJumpEnabled - -> isCrouching - -> isStealthy - vehicles getter - -> driftModeEnabled - vehicles setter - -> driftModeEnabled - Trains api Fixed - incorrect number plate index causes sync anomalies - vehicle stuck in air after setting position Server & Client Added Fixed",
     "langs": "yaml"
   },
   "articles/changelogs/index.html": {
@@ -46,6 +46,13 @@
     "href": "articles/changelogs/index.html",
     "title": "This page isn't ready yet",
     "keywords": "Improve this Doc This page isn't ready yet",
+    "langs": ""
+  },
+  "articles/commandlineargs.html": {
+    "type": "article",
+    "href": "articles/commandlineargs.html",
+    "title": "Command-line Arguments",
+    "keywords": "Improve this Doc Command-line Arguments Command line arguments means you'll likely need to pass them to individual '.exe' or compiled server or client versions. <exe or file> --option1 --option2 --option3 Server launch options Key Description Notes --config [path] Path to server config file ([path] needs to be replaced with config path) --logfile [path] Path to log file, will only output one log file to specific path instead of putting them into the log folder ([path] needs to be replaced with log path) Has higher priority then --logfolder --logfolder [path] Path to log folder ([path] needs to be replaced with log folder path) Has lower priority then --logfile --no-logfile Disables the logging to log files --extra-res-folder [path] Path to additional resource folder ([path] needs to be replaced with the the additional resource folder path) --justpack Creates packages and a resources.json for cdn download in the root folder --host [host] Specifies the host which the server should bind to ([host] needs to be replaced with the host) --port [port] Specifies the port which the should bind to ([port] needs to be replaced with port) Client launch options Key Description -sandbox Starts client into sandbox mode (Note: currently broken) -noupdate Skips alt:V updates -connecturl [url] Directly connects to specfied url ([url] needs to be replaced with the connectionurl) Server Commands Key Description start [resourcename] Starts a server resource by name stop [resourcename] Stops a server resource by name restart [resourcename] Restarts a server resource by name Client Commands Key Description netgraph 0/1 Shows a netgraph on the minimap for fps and network informations reconnect [password] Reconnect to a server if debug is true quit Closing the game heap Shows V8 Engine allocation information timers Shows how many timers a resource is using debugvehs Shows streamed vehicles information",
     "langs": ""
   },
   "articles/configs/index.html": {
@@ -75,6 +82,13 @@
     "title": "The stream.cfg configuration file",
     "keywords": "Improve this Doc The stream.cfg configuration file The stream.cfg configuration file is needed for every dlc resource, e.g. a new vehicle. It has some configuration options like the GXT values and meta files. Here is a list of all configuration options for the stream.cfg and what they are used for: # An array containing all files that should be loaded for this dlc files: [ # You can also use glob patterns to give access to a whole directory \"stream/assets/*\" ] # The meta files your dlc uses meta: { \"stream/carcols.meta\": CARCOLS_FILE, \"stream/vehicles.meta\": VEHICLE_METADATA_FILE, \"stream/handling.meta\": HANDLING_FILE } # The GXT entries for your dlc gxt: { \"myveh\": \"My vehicle\" }",
     "langs": "yaml"
+  },
+  "articles/connectprotocol.html": {
+    "type": "article",
+    "href": "articles/connectprotocol.html",
+    "title": "Direct Connect Protocol",
+    "keywords": "Improve this Doc Direct Connect Protocol This protocol can be used, to connect to an alt:V server over the browser. CDN off If your server doesn't use the cdn function, you need to use the IP-Address and the port of the server. altv://connect/{IP_ADDRESS}:{PORT} or a example altv://connect/127.0.0.1:7788 CDN on If you are using the cdn function, you need to use the direct connect url to the cdn. altv://connect/http://{CDN_URL} or a example altv://connect/http://connect.example.com",
+    "langs": ""
   },
   "articles/contributing.html": {
     "type": "article",
@@ -123,6 +137,13 @@
     "href": "articles/permissions.html",
     "title": "Permissions System",
     "keywords": "Improve this Doc Permissions System Permissions are set on a resource-by-resource basis and have to be accepted by the user joining the server Permission Types Permission Description Screen Capture This allows a screenshot to be taken of the alt:V process (just GTA) and any webview WebRTC This allows peer-to-peer RTC inside JS Required vs Option Permissions Permissions can be either be optional or required. When they are optional, this will still allow the player to join the server if they don't agree to it however you will no longer have access to the features for which the permission covers. Required permissions behave differently in the fact that if the user does not accept them then they will be unable to access the server. required-permissions: [ Screen Capture WebRTC ] optional-permissions: [ Screen Capture WebRTC ]",
+    "langs": ""
+  },
+  "articles/serverspecs.html": {
+    "type": "article",
+    "href": "articles/serverspecs.html",
+    "title": "Server Specifications",
+    "keywords": "Improve this Doc Server Specifications What should you buy? When working with alt:V it's hard to determine what kind of server you should be expected to purchase when running a server. Below are some general specifications with average player counts to help you determine what kind and type of server you need. Interesting Facts These are facts and similarities seen across all servers. The average mid-tier server utilizes 6-42% of their CPU. This is based on players and other factors. The average mid-tier server has a player count of roughly 300-600 players at peak hours. The average mid-tier server has RAM usage less than 1.25GB. The average mid-tier server has around 8 cores. The average mid-tier server is clocked at 3.7ghz Minimum Server Specification Based on these statistics one could assume the minimum specifications for a performant server above 100 players . CPU 3.2ghz 4 Cores 4 GB of RAM (Additional for Databases, etc.) Disk Space (Depends on Database and Script) This will always be subject to change based on upcoming features or performance changes.",
     "langs": ""
   },
   "articles/streamermode.html": {
