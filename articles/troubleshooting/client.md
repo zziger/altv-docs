@@ -15,7 +15,7 @@ Because alt:V is using additional technologies, we have a little bit higher Mini
 > Storage:    SSD for OS and Game
 > ```
 
-## Basic Steps
+## Basic Steps (it's recommended to try ALL OF THEM first for any problem)
 1. You need to have Singleplayer launched at least once
 2. Try Running as Admin
 3. Add an exception to your Anti-Virus for alt:V (This Includes Windows Defender).
@@ -29,6 +29,7 @@ Because alt:V is using additional technologies, we have a little bit higher Mini
 11. If the Steam version is stuck on "Load alt:V Client", try killing the Steam process(es). (Also try and remove Steam from autostart.)
 12. You must have a clean version of GTA V. Graphics mods like Redux or Natural Vision must not be present in your GTA V installation.
 13. If your game is crashing on joining a server try a server without mods (eg Freeroam servers). If its working on such server, contact the server team of the server you are crashing at.
+14. Try restarting your PC
 
 ## Known Problems & Solutions
 
@@ -81,6 +82,19 @@ If you are stuck under the world after launching alt:V or see a grey world (<a h
 3. Select Switchable Graphics
 4. Add "altv.exe", "altv-webengine.exe"and "gta5.exe" and select "High Performance"
 5. More detailed description can be found <a href="https://www.amd.com/en/support/kb/faq/dh-017">here</a>
+
+#### Webview not rendering on Linux
+If Webview is not rendering in Linux, you might be missing required libraries in the `/cef` folder. To allow CEF to load properly you must copy the missing libraries from `/libs` to `/cef`. See below a list of files that need to be copied for CEF to work.
+
+(Tested using [Wine-GE](https://github.com/GloriousEggroll/wine-ge-custom/releases) and [Lutris](https://lutris.net/) with GTA:V downloaded from Windows version of Steam)
+
+##### Files to be copied into `/cef` directory
+
+-   libcef.dll
+-   icudtl.dat
+-   snapshot_blob.bin
+-   chrome_elf.dll
+-   v8_context_snapshot.bin
 
 #### Signed out from Social Club
 If you always get signed out of Social Club when playing alt:V, then monitor folder access from Windows is probably turned on. With these steps you can turn this feature off:

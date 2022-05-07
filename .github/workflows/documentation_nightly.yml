@@ -1,14 +1,17 @@
-name: Documentation
+name: Documentation Nightly
 on:
-  push:
-    branches:
-      - master
-  repository_dispatch:
-    types:
-      - Update JS documentation
-      - Update C# documentation
-      - Update SDK documentation
-      - Update GTA documentation
+  workflow_dispatch:
+    inputs:
+      regen-artifacts:
+        description: 'Regenerate artifacts (when expired or missing)'
+        required: false
+        type: boolean
+  # repository_dispatch:
+  #   types:
+  #     - Update JS documentation
+  #     - Update C# documentation
+  #     - Update SDK documentation
+  #     - Update GTA documentation
 jobs:
   js:
     runs-on: windows-2019
@@ -17,16 +20,16 @@ jobs:
       - name: Conditional run
         id: cond-run
         run: |
-          if("${{ github.event.action }}" -ne "Update JS documentation") {
+          if("${{ github.event.action }}" -ne "Update JS documentation" -and "${{ github.event.inputs.regen-artifacts }}" -ne "true") {
             Write-Output "::set-output name=skip::true"
             Write-Output "Step skipped."
           }
-      - name: Concurrency limiter
-        uses: softprops/turnstyle@v1
-        if: ${{ steps.cond-run.outputs.skip != 'true' }}
-        with:
-          continue-after-seconds: 480
-          poll-interval-seconds: 10
+      # - name: Concurrency limiter
+      #   uses: softprops/turnstyle@v1
+      #   if: ${{ steps.cond-run.outputs.skip != 'true' }}
+      #   with:
+      #     continue-after-seconds: 480
+      #     poll-interval-seconds: 10
       - name: Setup Node.js
         uses: actions/setup-node@v1
         if: ${{ steps.cond-run.outputs.skip != 'true' }}
@@ -66,16 +69,16 @@ jobs:
       - name: Conditional run
         id: cond-run
         run: |
-          if("${{ github.event.action }}" -ne "Update C# documentation") {
+          if("${{ github.event.action }}" -ne "Update C# documentation" -and "${{ github.event.inputs.regen-artifacts }}" -ne "true") {
             Write-Output "::set-output name=skip::true"
             Write-Host "Step skipped." -ForegroundColor "Red"
           }
-      - name: Concurrency limiter
-        uses: softprops/turnstyle@v1
-        if: ${{ steps.cond-run.outputs.skip != 'true' }}
-        with:
-          continue-after-seconds: 480
-          poll-interval-seconds: 10
+      # - name: Concurrency limiter
+      #   uses: softprops/turnstyle@v1
+      #   if: ${{ steps.cond-run.outputs.skip != 'true' }}
+      #   with:
+      #     continue-after-seconds: 480
+      #     poll-interval-seconds: 10
       - name: Checkout repository
         uses: actions/checkout@v2
         if: ${{ steps.cond-run.outputs.skip != 'true' }}
@@ -112,16 +115,16 @@ jobs:
       - name: Conditional run
         id: cond-run
         run: |
-          if("${{ github.event.action }}" -ne "Update SDK documentation") {
+          if("${{ github.event.action }}" -ne "Update SDK documentation" -and "${{ github.event.inputs.regen-artifacts }}" -ne "true") {
             Write-Output "::set-output name=skip::true"
             Write-Host "Step skipped." -ForegroundColor "Red"
           }
-      - name: Concurrency limiter
-        uses: softprops/turnstyle@v1
-        if: ${{ steps.cond-run.outputs.skip != 'true' }}
-        with:
-          continue-after-seconds: 480
-          poll-interval-seconds: 10
+      # - name: Concurrency limiter
+      #   uses: softprops/turnstyle@v1
+      #   if: ${{ steps.cond-run.outputs.skip != 'true' }}
+      #   with:
+      #     continue-after-seconds: 480
+      #     poll-interval-seconds: 10
       - name: Checkout repository
         uses: actions/checkout@v2
         if: ${{ steps.cond-run.outputs.skip != 'true' }}
@@ -143,16 +146,16 @@ jobs:
       - name: Conditional run
         id: cond-run
         run: |
-          if("${{ github.event.action }}" -ne "Update GTA documentation") {
+          if("${{ github.event.action }}" -ne "Update GTA documentation" -and "${{ github.event.inputs.regen-artifacts }}" -ne "true") {
             Write-Output "::set-output name=skip::true"
             Write-Output "Step skipped."
           }
-      - name: Concurrency limiter
-        uses: softprops/turnstyle@v1
-        if: ${{ steps.cond-run.outputs.skip != 'true' }}
-        with:
-          continue-after-seconds: 480
-          poll-interval-seconds: 10
+      # - name: Concurrency limiter
+      #   uses: softprops/turnstyle@v1
+      #   if: ${{ steps.cond-run.outputs.skip != 'true' }}
+      #   with:
+      #     continue-after-seconds: 480
+      #     poll-interval-seconds: 10
       - name: Checkout repository
         uses: actions/checkout@v2
         if: ${{ steps.cond-run.outputs.skip != 'true' }}
@@ -182,13 +185,13 @@ jobs:
       - cs
       - sdk
       - gta
-    if: "contains(github.event.head_commit.message, 'Update documentation') || startsWith(github.event.action, 'Update')"
+    if: "github.event_name == 'workflow_dispatch' || startsWith(github.event.action, 'Update')"
     steps:
-      - name: Concurrency limiter
-        uses: softprops/turnstyle@v1
-        with:
-          continue-after-seconds: 480
-          poll-interval-seconds: 10
+      # - name: Concurrency limiter
+      #   uses: softprops/turnstyle@v1
+      #   with:
+      #     continue-after-seconds: 480
+      #     poll-interval-seconds: 10
       - name: Setup Node.js
         uses: actions/setup-node@v1
         with:
@@ -383,12 +386,13 @@ jobs:
     runs-on: ubuntu-20.04
     needs:
       - docs
+    if: "github.event_name == 'workflow_dispatch' || startsWith(github.event.action, 'Update')"
     steps:
-      - name: Concurrency limiter
-        uses: softprops/turnstyle@v1
-        with:
-          continue-after-seconds: 480
-          poll-interval-seconds: 10
+      # - name: Concurrency limiter
+      #   uses: softprops/turnstyle@v1
+      #   with:
+      #     continue-after-seconds: 480
+      #     poll-interval-seconds: 10
       - name: Checkout repository
         uses: actions/checkout@v2
         with:
@@ -428,9 +432,9 @@ jobs:
       - name: Deploy page
         uses: peaceiris/actions-gh-pages@v3
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
+          deploy_key: ${{ secrets.NIGHTLY_PRIVATE_KEY }}
           publish_dir: ./_site
-          cname: docs.altv.mp
+          external_repository: altmp/altv-docs-nightly
           full_commit_message: Deploying to gh-pages from @ ${{ github.sha }} 🚀
           force_orphan: false
       - name: Post Download artifacts

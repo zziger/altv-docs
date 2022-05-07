@@ -13,12 +13,20 @@ update.json file contains build number, file locations and sha1 hashes.
 </br>
 <div id="CDN_Link_Generator-links"> </div>
 
+<style>
+label {
+    display: block;
+}
+</style>
 <script>
     const branchArray = ["release", "rc", "dev"];
     const osArray = ["x64_win32", "x64_linux"];
 
     document.getElementById("CDN_Link_Generator-interface").innerHTML = generateInterface();
 
+    /**
+     * @returns {string}
+     */
     function generateInterface()
     {
         let interfaceStr = "";
@@ -42,6 +50,7 @@ update.json file contains build number, file locations and sha1 hashes.
         interfaceStr += "<div><input type='checkbox' id='voice' name='voice' value='voice'><label for='voice'>voice</label></div>";
         interfaceStr += "<div><input type='checkbox' id='csharp' name='csharp' value='csharp'><label for='csharp'>csharp-module</label></div>";
         interfaceStr += "<div><input type='checkbox' id='javascript' name='javascript' value='javascript'><label for='javascript'>js-module</label></div>";
+        interfaceStr += "<div><input type='checkbox' id='js-bytecode' name='js-bytecode' value='js-bytecode'><label for='js-bytecode'>js-bytecode-module</label></div>";
         interfaceStr += "<div><input type='checkbox' id='update' name='update' value='update'><label for='update'>update.json</label></div>";
 
         interfaceStr += "<div><button id='generate' onclick='generate()'>Generate Links</button></div>";
@@ -51,19 +60,30 @@ update.json file contains build number, file locations and sha1 hashes.
         return interfaceStr;
     }
 
+    /**
+     * @returns {void}
+     */
     function generate()
     {
-        let branch = document.getElementById("branch").value;
-        let os = document.getElementById("os").value;
+        let branch = Number.parseInt(document.getElementById("branch").value, 10);
+        let os = Number.parseInt(document.getElementById("os").value, 10);
         let update = document.getElementById("update").checked;
         let server = document.getElementById("server").checked;
         let voice = document.getElementById("voice").checked;
         let csharp = document.getElementById("csharp").checked;
         let javascript = document.getElementById("javascript").checked;
+        let bytecodeModule = document.getElementById("js-bytecode").checked;
 
-        document.getElementById("CDN_Link_Generator-links").innerHTML = generateLinks([server, voice, csharp, javascript],branch,os,update);
+        document.getElementById("CDN_Link_Generator-links").innerHTML = generateLinks([server, voice, csharp, javascript, bytecodeModule],branch,os,update);
     }
 
+    /**
+     * @param {boolean[]} selection
+     * @param {number} branchIndex
+     * @param {number} osIndex
+     * @param {boolean} listUpdate
+     * @returns {string}
+     */
     function generateLinks(selection, branchIndex, osIndex, listUpdate)
     {
         let returnStr = "";
@@ -81,7 +101,11 @@ update.json file contains build number, file locations and sha1 hashes.
         if(selection[3])
             returnStr += generateJSLinks(branchIndex, osIndex, listUpdate);
 
-        if(!selection[0] && !selection[1] && !selection[2] && !selection[3])
+        if (selection[4]) {
+            returnStr += generateJSBytecodeLinks(branchIndex, osIndex, listUpdate);
+        }
+
+        if(!selection[0] && !selection[1] && !selection[2] && !selection[3] && !selection[4])
             returnStr += "You didn't select any components :(";
 
         returnStr += "<\/pre>";
@@ -89,25 +113,38 @@ update.json file contains build number, file locations and sha1 hashes.
         return returnStr;
     }
 
+    /**
+     * @param {number} branchIndex
+     * @param {number} osIndex
+     * @param {boolean} listUpdate
+     * @returns {string}
+     */
     function generateServerLinks(branchIndex, osIndex, listUpdate)
     {
         let returnStr = "";
 
         if(listUpdate)
             returnStr += "https://cdn.altv.mp/server/" + branchArray[branchIndex] + "/" + osArray[osIndex] + "/update.json</br>"
+            returnStr += "https://cdn.altv.mp/data/" + branchArray[branchIndex] + "/update.json</br>"
 
-        if(osIndex == 0)
+        if(osIndex === 0)
             returnStr += "https://cdn.altv.mp/server/" + branchArray[branchIndex] + "/" + osArray[osIndex] + "/altv-server.exe</br>";
         else
             returnStr += "https://cdn.altv.mp/server/" + branchArray[branchIndex] + "/" + osArray[osIndex] + "/altv-server</br>";
 
-        returnStr += "https://cdn.altv.mp/server/" + branchArray[branchIndex] + "/" + osArray[osIndex] + "/data/vehmodels.bin</br>";
-        returnStr += "https://cdn.altv.mp/server/" + branchArray[branchIndex] + "/" + osArray[osIndex] + "/data/vehmods.bin</br>"
-        returnStr += "https://cdn.altv.mp/server/" + branchArray[branchIndex] + "/" + osArray[osIndex] + "/data/clothes.bin</br>"
+        returnStr += "https://cdn.altv.mp/data/" + branchArray[branchIndex] + "/data/vehmodels.bin</br>";
+        returnStr += "https://cdn.altv.mp/data/" + branchArray[branchIndex] + "/data/vehmods.bin</br>"
+        returnStr += "https://cdn.altv.mp/data/" + branchArray[branchIndex] + "/data/clothes.bin</br>"
 
         return returnStr;
     }
 
+    /**
+     * @param {number} branchIndex
+     * @param {number} osIndex
+     * @param {boolean} listUpdate
+     * @returns {string}
+     */
     function generateVoiceServerLinks(branchIndex, osIndex, listUpdate)
     {
         let returnStr = "";
@@ -115,7 +152,7 @@ update.json file contains build number, file locations and sha1 hashes.
         if(listUpdate)
             returnStr += "https://cdn.altv.mp/voice-server/" + branchArray[branchIndex] + "/" + osArray[osIndex] + "/update.json</br>";
 
-        if(osIndex == 0)
+        if(osIndex === 0)
             returnStr += "https://cdn.altv.mp/voice-server/" + branchArray[branchIndex] + "/" + osArray[osIndex] + "/altv-voice-server.exe</br>";
         else
             returnStr += "https://cdn.altv.mp/voice-server/" + branchArray[branchIndex] + "/" + osArray[osIndex] + "/altv-voice-server</br>";
@@ -123,6 +160,12 @@ update.json file contains build number, file locations and sha1 hashes.
         return returnStr;
     }
 
+    /**
+     * @param {number} branchIndex
+     * @param {number} osIndex
+     * @param {boolean} listUpdate
+     * @returns {string}
+     */
     function generateCSLinks(branchIndex, osIndex, listUpdate)
     {
         let returnStr = "";
@@ -133,7 +176,7 @@ update.json file contains build number, file locations and sha1 hashes.
         returnStr += "https://cdn.altv.mp/coreclr-module/" + branchArray[branchIndex] + "/" + osArray[osIndex] + "/AltV.Net.Host.dll</br>";
         returnStr += "https://cdn.altv.mp/coreclr-module/" + branchArray[branchIndex] + "/" + osArray[osIndex] + "/AltV.Net.Host.runtimeconfig.json</br>";
 
-        if(osIndex == 0)
+        if(osIndex === 0)
             returnStr += "https://cdn.altv.mp/coreclr-module/" + branchArray[branchIndex] + "/" + osArray[osIndex] + "/modules/csharp-module.dll</br>";
         else
             returnStr += "https://cdn.altv.mp/coreclr-module/" + branchArray[branchIndex] + "/" + osArray[osIndex] + "/modules/libcsharp-module.so</br>";
@@ -141,6 +184,12 @@ update.json file contains build number, file locations and sha1 hashes.
         return returnStr;
     }
 
+    /**
+     * @param {number} branchIndex
+     * @param {number} osIndex
+     * @param {boolean} listUpdate
+     * @returns {string}
+     */
     function generateJSLinks(branchIndex, osIndex, listUpdate)
     {
         let returnStr = "";
@@ -148,15 +197,38 @@ update.json file contains build number, file locations and sha1 hashes.
         if(listUpdate)
             returnStr += "https://cdn.altv.mp/js-module/" + branchArray[branchIndex] + "/" + osArray[osIndex] + "/update.json</br>";
 
-        if(osIndex == 0)
+        if(osIndex === 0)
             returnStr += "https://cdn.altv.mp/js-module/" + branchArray[branchIndex] + "/" + osArray[osIndex] + "/modules/js-module/libnode.dll</br>";
+        else if(branchArray.indexOf("dev") === branchIndex || branchArray.indexOf("rc") === branchIndex)
+            returnStr += "https://cdn.altv.mp/js-module/" + branchArray[branchIndex] + "/" + osArray[osIndex] + "/modules/js-module/libnode.so.102</br>";
         else
             returnStr += "https://cdn.altv.mp/js-module/" + branchArray[branchIndex] + "/" + osArray[osIndex] + "/modules/js-module/libnode.so.83</br>";
 
-        if(osIndex == 0)
+        if(osIndex === 0)
             returnStr += "https://cdn.altv.mp/js-module/" + branchArray[branchIndex] + "/" + osArray[osIndex] + "/modules/js-module/js-module.dll</br>";
         else
             returnStr += "https://cdn.altv.mp/js-module/" + branchArray[branchIndex] + "/" + osArray[osIndex] + "/modules/js-module/libjs-module.so</br>";
+
+        return returnStr;
+    }
+
+    /**
+     * @param {number} branchIndex
+     * @param {number} osIndex
+     * @param {boolean} listUpdate
+     * @returns {string}
+     */
+    function generateJSBytecodeLinks(branchIndex, osIndex, listUpdate)
+    {
+        let returnStr = "";
+
+        if(listUpdate)
+            returnStr += "https://cdn.altv.mp/js-bytecode-module/" + branchArray[branchIndex] + "/" + osArray[osIndex] + "/update.json</br>";
+
+        if(osIndex === 0)
+            returnStr += "https://cdn.altv.mp/js-bytecode-module/" + branchArray[branchIndex] + "/" + osArray[osIndex] + "/js-bytecode-module.dll</br>";
+        else
+            returnStr += "https://cdn.altv.mp/js-bytecode-module/" + branchArray[branchIndex] + "/" + osArray[osIndex] + "/libjs-bytecode-module.so</br>";
 
         return returnStr;
     }
@@ -177,7 +249,14 @@ JS Module
 >```yaml
 >https://cdn.altv.mp/js-module/${BRANCH}/x64_linux/update.json
 >https://cdn.altv.mp/js-module/${BRANCH}/x64_linux/modules/js-module/libjs-module.so
->https://cdn.altv.mp/js-module/${BRANCH}/x64_linux/modules/js-module/libnode.so.83
+>https://cdn.altv.mp/js-module/${BRANCH}/x64_linux/modules/js-module/libnode.so.102
+>```
+
+JS Bytecode Module
+> [!div class="nohljsln"]
+>```yaml
+>https://cdn.altv.mp/js-bytecode-module/${BRANCH}/x64_linux/update.json
+>https://cdn.altv.mp/js-bytecode-module/${BRANCH}/x64_linux/libjs-bytecode-module.so
 >```
 
 Voice Server
@@ -192,9 +271,10 @@ Server
 >```yaml
 >https://cdn.altv.mp/server/${BRANCH}/x64_linux/update.json
 >https://cdn.altv.mp/server/${BRANCH}/x64_linux/altv-server
->https://cdn.altv.mp/server/${BRANCH}/x64_linux/data/vehmodels.bin
->https://cdn.altv.mp/server/${BRANCH}/x64_linux/data/vehmods.bin
->https://cdn.altv.mp/server/${BRANCH}/x64_linux/data/clothes.bin
+>https://cdn.altv.mp/data/${BRANCH}/update.json
+>https://cdn.altv.mp/data/${BRANCH}/data/vehmodels.bin
+>https://cdn.altv.mp/data/${BRANCH}/data/vehmods.bin
+>https://cdn.altv.mp/data/${BRANCH}/data/clothes.bin
 >```
 
 Other Stuff
@@ -224,6 +304,13 @@ JS Module
 >https://cdn.altv.mp/js-module/${BRANCH}/x64_win32/modules/js-module/libnode.dll
 >```
 
+JS Bytecode Module
+> [!div class="nohljsln"]
+>```yaml
+>https://cdn.altv.mp/js-bytecode-module/${BRANCH}/x64_win32/update.json
+>https://cdn.altv.mp/js-bytecode-module/${BRANCH}/x64_win32/js-bytecode-module.dll
+>```
+
 Voice Server
 > [!div class="nohljsln"]
 >```yaml
@@ -236,9 +323,10 @@ Server
 >```yaml
 >https://cdn.altv.mp/server/${BRANCH}/x64_win32/update.json
 >https://cdn.altv.mp/server/${BRANCH}/x64_win32/altv-server.exe
->https://cdn.altv.mp/server/${BRANCH}/x64_win32/data/vehmodels.bin
->https://cdn.altv.mp/server/${BRANCH}/x64_win32/data/vehmods.bin
->https://cdn.altv.mp/server/${BRANCH}/x64_win32/data/clothes.bin
+>https://cdn.altv.mp/data/${BRANCH}/update.json
+>https://cdn.altv.mp/data/${BRANCH}/data/vehmodels.bin
+>https://cdn.altv.mp/data/${BRANCH}/data/vehmods.bin
+>https://cdn.altv.mp/data/${BRANCH}/data/clothes.bin
 >```
 
 Other Stuff

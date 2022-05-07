@@ -4,9 +4,6 @@
 - name: Changelogs
   href: changelogs/toc.yml
   topicHref: changelogs/index.md
-- name: Getting Started
-  href: getting-started/toc.yml
-  topicHref: getting-started/index.md
 - name: FAQ
   href: faq.md
 - name: Logging
@@ -54,3 +51,7 @@
   href: connection_queue.md
 - name: Auto Reconnect
   href: auto_reconnect.md
+- name: Bytecode module
+  href: bytecode_module.md
+- name: Discord OAuth2
+  href: discord_oauth.md
